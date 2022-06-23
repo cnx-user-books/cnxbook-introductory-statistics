@@ -45,7 +45,7 @@
 
 <para id="element-716">The <term>interquartile range</term> is a number that indicates the spread of the middle half or the middle 50% of the data. It is the difference between the third quartile (<emphasis effect="italics">Q</emphasis><sub>3</sub>) and the first quartile (<emphasis effect="italics">Q</emphasis><sub>1</sub>).</para>
 
-<para id="eip-8888"><emphasis effect="italics">IQR</emphasis> = <emphasis effect="italics">Q</emphasis><sub>3</sub> – <emphasis effect="italics">Q</emphasis><sub>1</sub></para><para id="element-847">The <emphasis effect="italics">IQR</emphasis> can help to determine potential <emphasis>outliers</emphasis>. <emphasis>A value is suspected to be a potential outlier if it is less than (1.5)(<emphasis effect="italics">IQR</emphasis>) below the first quartile or more than (1.5)(<emphasis effect="italics">IQR</emphasis>) above the third quartile</emphasis>. Potential outliers always require further investigation.</para>
+<para id="delete_me"><emphasis effect="italics">IQR</emphasis> = <emphasis effect="italics">Q</emphasis><sub>3</sub> – <emphasis effect="italics">Q</emphasis><sub>1</sub></para><para id="element-847">The <emphasis effect="italics">IQR</emphasis> can help to determine potential <emphasis>outliers</emphasis>. <emphasis>A value is suspected to be a potential outlier if it is less than (1.5)(<emphasis effect="italics">IQR</emphasis>) below the first quartile or more than (1.5)(<emphasis effect="italics">IQR</emphasis>) above the third quartile</emphasis>. Potential outliers always require further investigation.</para>
 
 <note id="fs-idm10803744"><label/><title>NOTE</title>
 <para id="fs-idp4345696">A potential outlier is a data point that is significantly different from the other data points. These special data points may be errors or some kind of abnormality or they may be a key to understanding the data.</para></note>
@@ -64,9 +64,9 @@
     <m:mtext>230,500 + 387,000</m:mtext>
    </m:mrow>
    <m:mn>2</m:mn>
-  </m:mfrac>
+  </m:mfrac>  
  </m:mrow>
-</m:math> = 308,750</para><para id="element-756"><emphasis effect="italics">Q</emphasis><sub>3</sub> =
+</m:math> = 308,750</para><para id="element-756"><emphasis effect="italics">Q</emphasis><sub>3</sub> = 
 <m:math>
  <m:mrow>
   <m:mfrac>
@@ -74,7 +74,7 @@
     <m:mtext>639,000 + 659,000</m:mtext>
    </m:mrow>
    <m:mn>2</m:mn>
-  </m:mfrac>
+  </m:mfrac>  
  </m:mrow>
 </m:math> = 649,000</para><para id="element-290"><emphasis effect="italics">IQR</emphasis> = 649,000 – 308,750 = 340,250</para><para id="element-166">(1.5)(<emphasis effect="italics">IQR</emphasis>) = (1.5)(340,250) = 510,375</para><para id="element-348"><emphasis effect="italics">Q</emphasis><sub>1</sub> – (1.5)(<emphasis effect="italics">IQR</emphasis>) = 308,750 – 510,375 = –201,625</para><para id="element-211"><emphasis effect="italics">Q</emphasis><sub>3</sub> + (1.5)(<emphasis effect="italics">IQR</emphasis>) = 649,000 + 510,375 = 1,159,375</para>
 <para id="element-109">No house price is less than –201,625. However, 5,500,000 is more than 1,159,375. Therefore, 5,500,000 is a potential <term>outlier</term>.</para></solution>
@@ -83,7 +83,8 @@
 
 <example id="element-17">
 <exercise id="element-889"><problem id="id45587381">
-<para id="element-880">For the two data sets in the <link document="m55672" target-id="element-583">test scores example</link>, find the following:</para><list id="element-971" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>The interquartile range. Compare the two interquartile ranges.</item>
+<para id="element-880">For the two data sets in the <link target-id="element-583">test scores example</link>, find the following:</para>
+<list id="element-971" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>The interquartile range. Compare the two interquartile ranges.</item>
 <item>Any outliers in either set.</item>
 </list></problem>
 <solution id="fs-idm13740032">
@@ -236,7 +237,7 @@
 </list></problem>
 <solution id="fs-idp60869984">
 <para id="fs-idp15042704">Using the data from the frequency table, we have:</para>
-<list id="fs-idm54301152" list-type="enumerated" number-style="lower-alpha"><item>The 80<sup>th</sup> percentile is between the last eight and the first nine in the table (between the 40<sup>th</sup> and 41<sup>st</sup> values). Therefore, we need to take the mean of the 40<sup>th</sup> and 41<sup>st</sup> values. The 80<sup>th</sup> percentile <m:math>
+<list id="fs-idm54301152" list-type="enumerated" number-style="lower-alpha"><item>The 80<sup>th</sup> percentile is between the last eight and the first nine in the table (between the 40<sup>th</sup> and 41<sup>st</sup> values). Therefore, we need to take the mean of the 40<sup>th</sup> an 41<sup>st</sup> values. The 80<sup>th</sup> percentile <m:math>
 <m:mrow>
 <m:mo>=</m:mo><m:mfrac>
 <m:mrow>
@@ -293,7 +294,7 @@
     <m:mn>100</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> (<emphasis effect="italics">n</emphasis> + 1) = (<m:math>
  <m:mrow>
@@ -305,7 +306,7 @@
     <m:mn>100</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>)(29 + 1) = 21. Twenty-one is an integer, and the data value in the 21<sup>st</sup> position in the ordered data set is 64. The 70<sup>th</sup> percentile is 64 years.</item>
 <item>
@@ -322,9 +323,9 @@
     <m:mn>100</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
-</m:math> (<emphasis effect="italics">n</emphasis> + 1) = (<m:math>
+</m:math> (<emphasis effect="italics">n</emphasis> + 1) = )<m:math>
  <m:mrow>
   <m:mfrac>
    <m:mrow>
@@ -334,7 +335,7 @@
     <m:mn>100</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>)(29 + 1) = 24.9, which is NOT an integer. Round it down to 24 and up to 25. The age in the 24<sup>th</sup> position is 71 and the age in the 25<sup>th</sup> position is 72. Average 71 and 72. The 83<sup>rd</sup> percentile is 71.5 years.</item>
 </list></solution>
@@ -362,7 +363,7 @@
     <m:mn>100</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>(29 + 1) = 6. The age in the sixth position is 27. The 20<sup>th</sup> percentile is 27 years.</para><para id="fs-idm12885232"><emphasis effect="italics">k</emphasis> = 55. Index = <emphasis effect="italics">i</emphasis> = <m:math>
  <m:mrow>
@@ -380,7 +381,7 @@
     <m:mn>100</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>(29 + 1) = 16.5. Round down to 16 and up to 17. The age in the 16<sup>th</sup> position is 52 and the age in the 17<sup>th</sup> position is 55. The average of 52 and 55 is 53.5. The 55<sup>th</sup> percentile is 53.5 years.</para></solution>
 </exercise></note></section><section id="fs-idp2972176">
@@ -413,7 +414,7 @@
    </m:mrow>
    <m:mi>n</m:mi>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>(100) = <m:math>
  <m:mrow>
@@ -424,7 +425,7 @@
    <m:mrow>
     <m:mn>29</m:mn>
    </m:mrow>
-  </m:mfrac>
+  </m:mfrac>  
  </m:mrow>
 </m:math>(100) = 63.80. 58 is the 64<sup>th</sup> percentile.</para>
 </item>
@@ -438,7 +439,7 @@ Counting from the bottom of the list, there are three data values less than 25. 
    </m:mrow>
    <m:mi>n</m:mi>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>(100) = <m:math>
  <m:mrow>
@@ -449,7 +450,7 @@ Counting from the bottom of the list, there are three data values less than 25. 
    <m:mrow>
     <m:mn>29</m:mn>
    </m:mrow>
-  </m:mfrac>
+  </m:mfrac>  
  </m:mrow>
 </m:math>(100) = 12.07. Twenty-five is the 12<sup>th</sup> percentile.</para>
 </item>
@@ -466,7 +467,7 @@ Counting from the bottom of the list, there are three data values less than 25. 
 <list id="eip-id1164310609380" list-type="bulleted" bullet-style="bullet"><item>Low percentiles always correspond to lower data values.</item>
 <item>High percentiles always correspond to higher data values.</item>
 </list><para id="fs-idp44902944">A percentile may or may not correspond to a value judgment about whether it is "good" or "bad." The interpretation of whether a certain percentile is "good" or "bad" depends on the context of the situation to which the data applies. In some situations, a low percentile would be considered "good;" in other contexts a high percentile might be considered "good". In many situations, there is no value judgment that applies.</para>
-<para id="fs-idm23920480">Understanding how to interpret percentiles properly is important not only when describing data, but also when calculating probabilities in later chapters of this text.</para>
+<para id="fs-idm23920480">Understanding how to interpret percentiles properly is important not only when describing data, but also when calculating probabilities in later chapters of this text.</para> 
 </section>
 
 <note id="fs-idm106923680"><label/><title>NOTE</title>
@@ -549,7 +550,7 @@ Counting from the bottom of the list, there are three data values less than 25. 
 <para id="fs-idm76887104">Data from the United States Department of Commerce: United States Census Bureau. Available online at http://www.census.gov/ (accessed April 3, 2013).</para>
 <para id="fs-idm76886560">“1990 Census.” United States Department of Commerce: United States Census Bureau. Available online at http://www.census.gov/main/www/cen1990.html (accessed April 3, 2013).</para>
 <para id="fs-idm76885984">Data from <emphasis effect="italics">San Jose Mercury News</emphasis>.</para><para id="fs-idm76885600">Data from <emphasis effect="italics">Time Magazine</emphasis>; survey by Yankelovich Partners, Inc.</para></section><section id="fs-idm13790128" class="summary">
-<title>Chapter Review</title><para id="fs-idp1397504">The values that divide a rank-ordered set of data into 100 equal parts are called percentiles. Percentiles are used to compare and interpret data. For example, an observation at the 50<sup>th</sup> percentile would be greater than 50 percent of the other observations in the set. Quartiles divide data into quarters. The first quartile (<emphasis effect="italics">Q</emphasis><sub>1</sub>) is the 25<sup>th</sup> percentile,the second quartile (<emphasis effect="italics">Q</emphasis><sub>2</sub> or median) is 50<sup>th</sup> percentile, and the third quartile (<emphasis effect="italics">Q</emphasis><sub>3</sub>) is the 75<sup>th</sup> percentile. The interquartile range, or <emphasis effect="italics">IQR</emphasis>, is the range of the middle 50 percent of the data values. The <emphasis effect="italics">IQR</emphasis> is found by subtracting <emphasis effect="italics">Q</emphasis><sub>1</sub> from <emphasis effect="italics">Q</emphasis><sub>3</sub>, and can help determine outliers by using the following two expressions.</para><list id="fs-idp12766560" list-type="bulleted"><item><emphasis effect="italics">Q</emphasis><sub>3</sub> + <emphasis effect="italics">IQR</emphasis>(1.5)</item>
+<title>Chapter Review</title><para id="fs-idp1397504">The values that divide a rank-ordered set of data into 100 equal parts are called percentiles. Percentiles are used to compare and interpret data. For example, an observation at the 50<sup>th</sup> percentile would be greater than 50 percent of the other obeservations in the set. Quartiles divide data into quarters. The first quartile (<emphasis effect="italics">Q</emphasis><sub>1</sub>) is the 25<sup>th</sup> percentile,the second quartile (<emphasis effect="italics">Q</emphasis><sub>2</sub> or median) is 50<sup>th</sup> percentile, and the third quartile (<emphasis effect="italics">Q</emphasis><sub>3</sub>) is the the 75<sup>th</sup> percentile. The interquartile range, or <emphasis effect="italics">IQR</emphasis>, is the range of the middle 50 percent of the data values. The <emphasis effect="italics">IQR</emphasis> is found by subtracting <emphasis effect="italics">Q</emphasis><sub>1</sub> from <emphasis effect="italics">Q</emphasis><sub>3</sub>, and can help determine outliers by using the following two expressions.</para><list id="fs-idp12766560" list-type="bulleted"><item><emphasis effect="italics">Q</emphasis><sub>3</sub> + <emphasis effect="italics">IQR</emphasis>(1.5)</item>
 <item><emphasis effect="italics">Q</emphasis><sub>1</sub> – <emphasis effect="italics">IQR</emphasis>(1.5)</item>
 </list></section>
 
@@ -565,7 +566,7 @@ Counting from the bottom of the list, there are three data values less than 25. 
       <m:mn>100</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -590,7 +591,7 @@ Counting from the bottom of the list, there are three data values less than 25. 
      </m:mrow>
      <m:mi>n</m:mi>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -641,7 +642,7 @@ Counting from the bottom of the list, there are three data values less than 25. 
    </m:mrow>
    <m:mi>n</m:mi>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>(100) = <m:math>
  <m:mrow>
@@ -653,7 +654,7 @@ Counting from the bottom of the list, there are three data values less than 25. 
     <m:mn>180</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>(100) = 79.72. Jesse’s rank of 37 puts him at the 80<sup>th</sup> percentile.</para>
 </solution>
@@ -771,12 +772,13 @@ Counting from the bottom of the list, there are three data values less than 25. 
 <title>Homework</title>
 <exercise id="fs-idp61512400">
 <problem id="fs-idp61512656">
-<para id="fs-idm5042080">The median age for U.S. Black people currently is 30.9 years; for U.S. White people it is 42.3 years.
+<para id="fs-idm5042080">The median age for U.S. blacks currently is 30.9 years; for U.S. whites it is 42.3 years.
 <list id="fs-idm33581296" list-type="enumerated" number-style="lower-alpha">
-<item>Based upon this information, give two reasons why the Black median age could be lower than the White median age.</item>
-<item>Does the lower median age for Black people necessarily mean that Black people die younger than White people? Why or why not?</item>
-<item>How might it be possible for Black people and White people to die at approximately the same age, but for the median age for White people to be higher?</item>
-</list></para></problem>
+<item>Based upon this information, give two reasons why the black median age could be lower than the white median age.</item>
+<item>Does the lower median age for blacks necessarily mean that blacks die younger than whites? Why or why not?</item>
+<item>How might it be possible for blacks and whites to die at approximately the same age, but for the median age for whites to be higher?</item>
+</list></para>
+</problem>
 </exercise>
 
 <exercise id="element-927"><problem id="id3483376">
@@ -847,7 +849,7 @@ Counting from the bottom of the list, there are three data values less than 25. 
 </solution></exercise>
 
 </section>
- </content>
+</content>
 
 <glossary>
 <definition id="iqr">

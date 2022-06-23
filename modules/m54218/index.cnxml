@@ -8,7 +8,7 @@
 </metadata>
 
 <content>
-<para id="eip-8888">Probability is a measure that is associated with how certain we are of outcomes of a particular experiment or activity. An <term>experiment</term> is a planned operation carried out under controlled conditions. If the result is not predetermined, then the experiment is said to be a <emphasis>chance</emphasis> experiment. Flipping one fair coin twice is an example of an experiment.</para>
+<para id="delete_me">Probability is a measure that is associated with how certain we are of outcomes of a particular experiment or activity. An <term>experiment</term> is a planned operation carried out under controlled conditions. If the result is not predetermined, then the experiment is said to be a <emphasis>chance</emphasis> experiment. Flipping one fair coin twice is an example of an experiment.</para>
 <para id="element-71">A result of an experiment is called an <term>outcome</term>. The <term>sample space</term> of an experiment is the set of all possible outcomes. Three ways to represent a sample space are: to list the possible outcomes, to create a tree diagram, or to create a Venn diagram. The uppercase letter <emphasis effect="italics">S</emphasis> is used to denote the sample space. For example, if you flip one fair coin, <emphasis effect="italics">S</emphasis> = {<emphasis effect="italics">H</emphasis>, <emphasis effect="italics">T</emphasis>} where <emphasis effect="italics">H</emphasis> = heads and <emphasis effect="italics">T</emphasis> = tails are the outcomes.</para><para id="element-214">An <term>event</term> is any combination of outcomes. Upper case letters like <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> represent events. For example, if the experiment is to flip one fair coin, event <emphasis effect="italics">A</emphasis> might be getting at most one head. The probability of an event <emphasis effect="italics">A</emphasis> is written <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>).</para>
 
 <para id="element-544">The <term>probability</term> of any outcome is the <term>long-term relative frequency</term> of that outcome. <emphasis>Probabilities are between zero and one, inclusive</emphasis> (that is, zero and one and all numbers between these values). <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) = 0 means the event <emphasis effect="italics">A</emphasis> can never happen. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) = 1 means the event <emphasis effect="italics">A</emphasis> always happens. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) = 0.5 means the event <emphasis effect="italics">A</emphasis> is equally likely to occur or not to occur. For example, if you flip one fair coin repeatedly (from 20 to 2,000 to 20,000 times) the relative frequency of heads approaches 0.5 (the probability of heads).</para>
@@ -91,24 +91,24 @@
      <m:mn>1</m:mn>
      <m:mn>6</m:mn>
     </m:mfrac>
-
+    
    </m:mrow>
    <m:mrow>
     <m:mfrac>
      <m:mn>3</m:mn>
      <m:mn>6</m:mn>
     </m:mfrac>
-
+    
    </m:mrow>
   </m:mfrac>
   <m:mo>=</m:mo><m:mfrac>
    <m:mn>1</m:mn>
    <m:mn>3</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
-</para><para id="eip-674"><title>Odds</title>The odds of an event presents the probability as a ratio of success to failure. This is common in various gambling formats. Mathematically, the odds of an event can be defined as:</para><equation id="fs-id1165082858741" class="unnumbered"><label/><m:math>
+</para><para id="eip-674"><title>Odds</title>The odds of an event presents the probability as a ratio of success to failure. This is common in various gambling formats. Mathematically, the odds of an event can be defined as:</para><equation id="fs-id1165082858741"><m:math>
 <m:mfrac>
 <m:mrow>
 <m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>)</m:mo>
@@ -137,13 +137,13 @@
 <solution id="fs-idm6734480">
 <list id="fs-idp17343632" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">S</emphasis> = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}</item>
 <item><emphasis effect="italics">A</emphasis> = {2, 4, 6, 8, 10, 12, 14, 16, 18}, <emphasis effect="italics">B</emphasis> = {14, 15, 16, 17, 18, 19}</item>
-<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) = <m:math><m:mrow><m:mfrac><m:mn>9</m:mn><m:mrow><m:mn>19</m:mn></m:mrow></m:mfrac>
+<item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) = <m:math><m:mrow><m:mfrac><m:mn>9</m:mn><m:mrow><m:mn>19</m:mn></m:mrow></m:mfrac>  
  </m:mrow></m:math>, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) = <m:math><m:mrow><m:mfrac>
    <m:mn>6</m:mn>
    <m:mrow>
     <m:mn>19</m:mn>
    </m:mrow>
-  </m:mfrac>
+  </m:mfrac>  
  </m:mrow>
 </m:math></item>
 <item><emphasis effect="italics">A</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">B</emphasis> = {14,16,18}, <emphasis effect="italics">A</emphasis> OR <emphasis effect="italics">B</emphasis> = {2, 4, 6, 8, 10, 12, 14, 15, 16, 17, 18, 19}</item>
@@ -154,7 +154,7 @@
    <m:mrow>
     <m:mn>19</m:mn>
    </m:mrow>
-  </m:mfrac>
+  </m:mfrac>  
  </m:mrow>
 </m:math></item>
 <item><emphasis effect="italics">A′</emphasis> = 1, 3, 5, 7, 9, 11, 13, 15, 17, 19; <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A′</emphasis>) = <m:math>
@@ -172,7 +172,7 @@
     <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>B</m:mi><m:mo stretchy="false">)</m:mo>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> = <m:math>
  <m:mrow>
@@ -180,7 +180,7 @@
    <m:mn>3</m:mn>
    <m:mn>6</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis><m:math><m:mo>|</m:mo></m:math><emphasis effect="italics">A</emphasis>) = <m:math>
  <m:mrow>
@@ -192,7 +192,7 @@
     <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>A</m:mi><m:mo stretchy="false">)</m:mo>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> = <m:math>
  <m:mrow>
@@ -200,7 +200,7 @@
    <m:mn>3</m:mn>
    <m:mn>9</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>, No</item></list></solution>
 </exercise>
@@ -224,7 +224,7 @@
 <label/>
 <list id="fs-idp18543008" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">S</emphasis> = {(1,1), (1,2), (1,3), (1,4), (2,1), (2,2), (2,3), (2,4), (3,1), (3,2), (3,3), (3,4)}</item>
 <item><emphasis effect="italics">A</emphasis> = {(1,1), (1,3), (2,2), (2,4), (3,1), (3,3)}
-<newline count="2"/><emphasis effect="italics">B</emphasis> = {(2,1), (2,2), (2,3), (2,4), (3,1), (3,2), (3,3), (3,4)}</item>
+<newline count="2"/><emphasis effect="italics">B</emphasis> = {(2,1), (2,2), (2,3), (2,4), (3,1), (3,2), (3,3), (3,4)}</item> 
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) = <m:math>
  <m:mrow>
   <m:mfrac>
@@ -273,7 +273,7 @@
    <m:mn>1</m:mn>
    <m:mn>2</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis><m:math><m:mo>|</m:mo></m:math><emphasis effect="italics">A</emphasis>) = <m:math>
  <m:mrow>
@@ -289,7 +289,7 @@
    <m:mn>2</m:mn>
    <m:mn>3</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>, No.</item>
 </list></solution>
@@ -337,7 +337,7 @@
 <entry>Right-handed</entry>
 <entry>Left-handed</entry>
 </row>
-</thead>
+</thead> 
 <tbody>
 <row>
 <entry>Males</entry>
@@ -444,11 +444,13 @@
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis>)</item></list></solution>
 </exercise>
 
-<para id="fs-idp38442640"><emphasis effect="italics">Use the following information to answer the next four exercises.</emphasis> A box is filled with several party favors. It contains 12 hats, 15 noisemakers, ten finger traps, and five bags of confetti.  One party favor is chosen from the box at random.
+<para id="fs-idp38442640"><emphasis effect="italics">Use the following information to answer the next four exercises.</emphasis> A box is filled with several party favors. It contains 12 hats, 15 noisemakers, ten finger traps, and five bags of confetti.
 <newline/>Let <emphasis effect="italics">H</emphasis> = the event of getting a hat.
 <newline/>Let <emphasis effect="italics">N</emphasis> = the event of getting a noisemaker.
 <newline/>Let <emphasis effect="italics">F</emphasis> = the event of getting a finger trap.
-<newline/>Let <emphasis effect="italics">C</emphasis> = the event of getting a bag of confetti.</para><exercise id="fs-idm23159776"><problem id="fs-idm49471840"><para id="fs-idm86433696">Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">H</emphasis>).</para></problem>
+<newline/>Let <emphasis effect="italics">C</emphasis> = the event of getting a bag of confetti.</para>
+
+<exercise id="fs-idm23159776"><problem id="fs-idm49471840"><para id="fs-idm86433696">Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">H</emphasis>).</para></problem>
 </exercise>
 
 <exercise id="fs-idm49682256">
@@ -496,7 +498,7 @@
   </m:math> = 0.12</para></solution>
 </exercise>
 
-<para id="fs-idm56753520"><newline/><emphasis effect="italics">Use the following information to answer the next six exercises.</emphasis> A jar of 150 jelly beans contains 22 red jelly beans, 38 yellow, 20 green, 28 purple, 26 blue, and the rest are orange. One jelly bean is chosen from the box at random.
+<para id="fs-idm56753520"><newline/><emphasis effect="italics">Use the following information to answer the next six exercises.</emphasis> A jar of 150 jelly beans contains 22 red jelly beans, 38 yellow, 20 green, 28 purple, 26 blue, and the rest are orange.
 <newline/>Let <emphasis effect="italics">B</emphasis> = the event of getting a blue jelly bean
 <newline/>Let <emphasis effect="italics">G</emphasis> = the event of getting a green jelly bean.
 <newline/>Let <emphasis effect="italics">O</emphasis> = the event of getting an orange jelly bean.
@@ -550,7 +552,7 @@
      <m:mn>150</m:mn>
     </m:mrow>
    </m:mfrac>
-
+   
   </m:mrow>
   </m:math> = <m:math>
    <m:mrow>
@@ -604,7 +606,7 @@
      <m:mn>75</m:mn>
     </m:mrow>
    </m:mfrac>
-
+   
   </m:mrow>
   </m:math> = 0.11</para></solution>
 </exercise>
@@ -725,7 +727,7 @@
     <m:mn>3</m:mn>
     <m:mn>6</m:mn>
    </m:mfrac>
-
+   
   </m:mrow>
   </m:math> = <m:math>
   <m:mrow>
@@ -740,7 +742,7 @@
 
 <para id="fs-idm83426832"><newline/><emphasis effect="italics">Use the following information to answer the next two exercises.</emphasis> You see a game at a local fair. You have to throw a dart at a color wheel. Each section on the color wheel is equal in area.
 <figure id="eip-idp31502288">
-<media id="fs-idm79611488" alt="Circle divided into 8 equal sections. From the top moving clockwise, the sections are colored blue, green, red, red, blue, yellow, red, red." display="block"><image mime-type="image/jpg" src="../../media/CNX_Stats_C03_M01_021.jpg" width="250"/></media></figure>
+<media id="fs-idm79611488" alt="" display="block"><image mime-type="image/jpg" src="../../media/CNX_Stats_C03_M01_021.jpg" width="250"/></media></figure>
 
 <newline count="1"/>Let <emphasis effect="italics">B</emphasis> = the event of landing on blue.
 <newline count="1"/>Let <emphasis effect="italics">R</emphasis> = the event of landing on red.
@@ -772,7 +774,7 @@
 </solution>
 </exercise>
 
-<para id="eip-321"><newline/><emphasis effect="italics">Use the following information to answer the next ten exercises.</emphasis> On a baseball team, there are infielders and outfielders. Some players are great hitters, and some players are not great hitters.
+<para id="eip-321"><newline/><emphasis effect="italics">Use the following information to answer the next ten exercises.</emphasis> On a baseball team, there are infielders and outfielders. Some players are great hitters, and some players are not great hitters. 
 <newline count="1"/>Let <emphasis effect="italics">I</emphasis> = the event that a player in an infielder.
 <newline count="1"/>Let <emphasis effect="italics">O</emphasis> = the event that a player is an outfielder.
 <newline count="1"/>Let <emphasis effect="italics">H</emphasis> = the event that a player is a great hitter.
@@ -851,7 +853,7 @@
 </exercise>
 
 <exercise id="eip-752"><problem id="eip-547">
-  <para id="eip-468">A shelf holds 12 books. Eight are fiction and the rest are nonfiction. Each is a different book with a unique title. The fiction books are numbered one to eight. The nonfiction books are numbered one to four. Randomly select one book
+  <para id="eip-468">A shelf holds 12 books. Eight are fiction and the rest are nonfiction. Each is a different book with a unique title. The fiction books are numbered one to eight. The nonfiction books are numbered one to four. Randomly select one book 
 <newline count="1"/>Let <emphasis effect="italics">F</emphasis> = event that book is fiction
 <newline count="1"/>Let <emphasis effect="italics">N</emphasis> = event that book is nonfiction
 <newline count="1"/>What is the sample space?</para></problem>
@@ -912,7 +914,7 @@
 <item>A home run by definition is a successful hit, so he has to have at least as many successful hits as home runs.</item>
 </list></solution>
 </exercise>
-</section> </content>
+</section></content>
 
 <glossary>
   <definition id="condprob">
@@ -941,12 +943,12 @@
 <term>Outcome</term>
 <meaning id="id3610906">a particular result of an experiment</meaning>
 </definition>
-
+ 
 <definition id="prob">
 <term>Probability</term>
 <meaning id="id17934331">a number between zero and one, inclusive, that gives the likelihood that a specific event will occur; the foundation of statistics is given by the following 3 axioms (by A.N. Kolmogorov, 1930’s): Let <emphasis effect="italics">S</emphasis> denote the sample space and <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> are two events in <emphasis effect="italics">S</emphasis>. Then:
-<list id="fs-id6987848" list-type="bulleted">
-<item>0 ≤ <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) ≤ 1</item>
+<list id="fs-id6987848" list-type="bulleted"> 
+<item>0 ≤ <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) ≤ 1</item> 
 <item>If <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> are any two mutually exclusive events, then <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> <m:math><m:mo>∪</m:mo></m:math>  <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) + <emphasis effect="italics">P</emphasis>(B).</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">S</emphasis>) = 1</item>
 </list>

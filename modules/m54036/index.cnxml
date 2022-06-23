@@ -38,7 +38,7 @@ machines. What type of data is this?</para>
 <title>Try It Solutions</title>
 <para id="fs-idm46308752">quantitative continuous data</para>
 </solution>
-</exercise></note><example id="fs-idm68548176"><para id="fs-idm35908224">You go to the supermarket and purchase three cans of soup (19 ounces tomato bisque, 14.1 ounces lentil, and 19 ounces Italian wedding), two packages of nuts (walnuts and peanuts), four different kinds of vegetable (broccoli, cauliflower, spinach, and carrots), and two desserts (16 ounces pistachio ice cream and 32 ounces chocolate chip cookies).</para><exercise id="eip-idm51320448">
+</exercise></note><example id="fs-idm68548176"><para id="fs-idm35908224">You go to the supermarket and purchase three cans of soup (19 ounces) tomato bisque, 14.1 ounces lentil, and 19 ounces Italian wedding), two packages of nuts (walnuts and peanuts), four different kinds of vegetable (broccoli, cauliflower, spinach, and carrots), and two desserts (16 ounces pistachio ice cream and 32 ounces chocolate chip cookies).</para><exercise id="eip-idm51320448">
 <problem id="eip-idm51320192">
 <para id="fs-idp7536032">Name data sets that are quantitative discrete, quantitative continuous, and qualitative(categorical).</para></problem>
 <solution id="eip-idp9281200">
@@ -168,15 +168,18 @@ What type of data does this graph show?</para></problem>
 
 
 </tgroup>
-</table><para id="eip-962">Tables are a good way of organizing and displaying data.  But graphs can be even more helpful in understanding the data. There are no strict rules concerning which graphs to use.  Two graphs that are used to display qualitative(categorical) data are pie charts and bar graphs.</para><para id="eip-884">In a <term>pie chart</term>, categories of data are represented by wedges in a circle and are proportional in size to the percent of individuals in each category.</para><para id="eip-317">In a <term>bar graph</term>, the length of the bar for each category is proportional to the number or percent of individuals in each category.  Bars may be vertical or horizontal.</para><para id="eip-60">A <term>Pareto chart</term> consists of bars that are sorted into order by category size (largest to smallest).</para><para id="eip-378">Look at <link target-id="ch01_mod02_fig003" document=""/> and <link target-id="ch01_mod02_fig004" document=""/> and determine which graph (pie or bar) you think displays the comparisons better.</para><para id="eip-510">It is a good idea to look at a variety of graphs to see which is the most helpful in displaying the data.  We might make different choices of what we think is the “best” graph depending on the data and the context.  Our choice also depends on what we are using the data for.</para>
-
-<figure id="ch01_mod02_fig003">
-<media id="eip-idp58600672" alt="Side-by-side pie charts showing the distribution of part time and full time students. The chart on the left is titled De Anza college. It is divided into two sections showing that part time students represent 59.1% of the population and full time students make up 40.9%. The chart on the right is titled Foothill college. It is divided into two sections showing that part time students represent 71.4% of the population and full time students make up 28.6%.">
-<image mime-type="image/jpg" src="../../media/OSX_Stats_Figure_01_98_college.jpg" width="300"/>
+</table><para id="eip-962">Tables are a good way of organizing and displaying data.  But graphs can be even more helpful in understanding the data. There are no strict rules concerning which graphs to use.  Two graphs that are used to display qualitative(categorical) data are pie charts and bar graphs.</para><para id="eip-884">In a <term>pie chart</term>, categories of data are represented by wedges in a circle and are proportional in size to the percent of individuals in each category.</para><para id="eip-317">In a <term>bar graph</term>, the length of the bar for each category is proportional to the number or percent of individuals in each category.  Bars may be vertical or horizontal.</para><para id="eip-60">A <term>Pareto chart</term> consists of bars that are sorted into order by category size (largest to smallest).</para><para id="eip-378">Look at <link target-id="ch01_mod02_fig003" document=""/> and <link target-id="ch01_mod02_fig004" document=""/> and determine which graph (pie or bar) you think displays the comparisons better.</para><para id="eip-510">It is a good idea to look at a variety of graphs to see which is the most helpful in displaying the data.  We might make different choices of what we think is the “best” graph depending on the data and the context.  Our choice also depends on what we are using the data for.</para><figure id="ch01_mod02_fig003" orient="horizontal"><subfigure id="eip-idp58600416">
+<media id="eip-idp58600672" alt="">
+<image mime-type="image/jpg" src="../../media/fig-ch01_patchfile_01.jpg" width="300"/>
 </media>
-</figure>
+</subfigure>
 
-<figure id="ch01_mod02_fig004"><media id="eip-idp50918176" alt="A bar graph. The vertical axis marks values from 0% to 100% in intervals of 20%. The horizontal axis categories are Under age 25 (height of bar shows 61.0%), Intend to transfer (height of bar shows 48.6%), Full-time (height of bar shows 40.9%), and All students (height of bar shows 100%).">
+<subfigure id="eip-idm57620352">
+<media id="eip-idm57620096" alt="">
+<image mime-type="image/jpg" src="../../media/fig-ch01_patchfile_02.jpg" width="300"/>
+</media>
+</subfigure>
+</figure><figure id="ch01_mod02_fig004"><media id="eip-idp50918176" alt="">
 <image mime-type="image/jpg" src="../../media/fig-ch01_patchfile_03.jpg" width="380"/>
 </media>
 </figure><section id="eip-558"><title>Percentages That Add to More (or Less) Than 100%</title><para id="eip-613">Sometimes percentages add up to be more than 100% (or less than 100%). In the graph, the percentages add to more than 100% because students can be in more than one category. A bar graph is appropriate to compare the relative size of the categories. A pie chart cannot be used.  It also could not be used if the percentages added to less than 100%.
@@ -211,7 +214,7 @@ What type of data does this graph show?</para></problem>
 
 </tgroup>
 </table><figure id="ch01_mod02_fig005">
-<media id="eip-idm13986336" alt="A bar graph. The vertical axis marks values from 0% to 100% in intervals of 20%. The horizontal axis categories are Under age 25 (height of bar shows 61.0%), Intend to transfer (height of bar shows 48.6%), Full-time (height of bar shows 40.9%), and All students (height of bar shows 100%).">
+<media id="eip-idm13986336" alt="">
 <image mime-type="image/jpg" src="../../media/fig-ch01_patchfile_04.jpg" width="380"/>
 </media>
 </figure></section><section id="eip-993"><title>Omitting Categories/Missing Data</title><para id="eip-145">The table displays Ethnicity of Students but is missing the "Other/Unknown" category.  This category contains people who did not feel they fit into any of the ethnicity categories or declined to respond.  Notice that the frequencies do not add up to the total number of students. In this situation, create a bar graph and not a pie chart.</para><table id="eip-251" summary="The table displays Ethnicity of Students"><title>Ethnicity of Students at De Anza College Fall Term 2007 (Census Day)</title>
@@ -266,7 +269,7 @@ What type of data does this graph show?</para></problem>
 </tbody>
 
 </tgroup>
-</table><figure id="ch01_mod02_fig006"><media id="eip-idm93533648" alt="A bar graph showing ethnicity of students. The vertical axis marks values from 0.0% to 40.0% in intervals of 5.0%. The horizontal axis categories are Asian (height of bar shows 36.1%), Black (height of bar shows 5.8%), Filipino (height of bar shows 5.3%), Hispanic (height of bar shows 17.1%), Native American (height of bar shows 0.6%), Pacific Islander (height of bar shows 1.0%),and White (height of bar shows 24.5%).">
+</table><figure id="ch01_mod02_fig006"><media id="eip-idm93533648" alt="">
 <image mime-type="image/jpg" src="../../media/fig-ch01_patchfile_05.jpg" width="480"/>
 </media>
 </figure><para id="eip-756">The following graph is the same as the previous graph but the “Other/Unknown” percent (9.6%) has been included. The “Other/Unknown” category is large compared to some of the other categories (Native American, 0.6%, Pacific Islander 1.0%). This is important to know when we think about what the data are telling us.</para><para id="eip-187">This particular bar graph in <link target-id="ch01_mod02_fig007" document=""/> can be difficult to understand visually. The graph in <link target-id="ch01_mod02_fig008" document=""/> is a Pareto chart. The Pareto chart has the bars sorted from largest to smallest and is easier to read and interpret.</para><figure id="ch01_mod02_fig007"><title>Bar Graph with Other/Unknown Category</title><media id="eip-idp18575104" alt="">
@@ -274,18 +277,23 @@ What type of data does this graph show?</para></problem>
 </media>
 </figure>
 
-<figure id="ch01_mod02_fig008"><title>Pareto Chart With Bars Sorted by Size</title><media id="eip-idp91563536" alt="A bar graph showing ethnicity of students. The vertical axis marks values from 0.0% to 40.0% in intervals of 5.0%. The horizontal axis categories are Asian (height of bar shows 36.1%), Black (height of bar shows 5.8%), Filipino (height of bar shows 5.3%), Hispanic (height of bar shows 17.1%), Native American (height of bar shows 0.6%), Pacific Islander (height of bar shows 1.0%),and White (height of bar shows 24.5%).">
+<figure id="ch01_mod02_fig008"><title>Pareto Chart With Bars Sorted by Size</title><media id="eip-idp91563536" alt="">
 <image mime-type="image/jpg" src="../../media/fig-ch01_patchfile_07.jpg" width="480"/>
 </media>
-</figure></section><section id="eip-47"><title>Pie Charts:  No Missing Data</title><para id="eip-7">The following pie charts have the “Other/Unknown” category included (since the percentages must add to 100%). The chart in <link target-id="ch01_mod02_fig009" document=""/>(b) is organized by the size of each wedge, which makes it a more visually informative graph than the unsorted, alphabetical graph in <link target-id="ch01_mod02_fig009" document=""/>(a).</para>
+</figure></section><section id="eip-47"><title>Pie Charts:  No Missing Data</title><para id="eip-7">The following pie charts have the “Other/Unknown” category included (since the percentages must add to 100%). The chart in <link target-id="ch01_mod02_fig009b" document=""/> is organized by the size of each wedge, which makes it a more visually informative graph than the unsorted, alphabetical graph in <link target-id="ch01_mod02_fig009a" document=""/>.</para>
 
-<figure id="ch01_mod02_fig009">
-<media id="eip-idm51653728" alt="Two pie charts are titled Ethnicity of Students. Chart (a) The sections of the chart are ordered alphabetically. Clockwise from the top, the sections show that Asian students make up 36.1% of students, Black 5.8%, Filipino 5.3%, Hispanic 17.1%, Native American 0.6%, Pacific Islander 1.0%, White 24.5%, and Other 9.6%. Chart (b) This is the same data as shown in chart (a), but the sections of the chart are now ordered from greatest area to least. Clockwise from the top, the sections show that Asian students make up 36.1% of students, White 24.5%, Hispanic 17.1%, Other 9.6%, Black 5.8%, Filipino 5.3%, Pacific Islander 1.0%, and Native American 0.6%.">
-<image mime-type="image/jpg" src="../../media/OSX_Stats_Figure_01_98_ethnicity.jpg" width="300"/>
+<figure id="ch01_mod02_fig009" orient="horizontal"><subfigure id="ch01_mod02_fig009a">
+<media id="eip-idm48032080" alt="">
+<image mime-type="image/jpg" src="../../media/fig-ch01_patchfile_08.jpg" width="300"/>
 </media>
-</figure>
-</section>
-</section><section id="eip-49"><title>Sampling</title>
+</subfigure>
+
+<subfigure id="ch01_mod02_fig009b">
+<media id="eip-idm51653728" alt="">
+<image mime-type="image/jpg" src="../../media/fig-ch01_patchfile_09.jpg" width="300"/>
+</media>
+</subfigure>
+</figure></section></section><section id="eip-49"><title>Sampling</title>
 <para id="id12361474">Gathering information about an entire population often costs too much or is virtually impossible. Instead, we use a sample of the population. <emphasis>A sample should have the same characteristics as the population it is representing.</emphasis> Most statisticians use various methods of random sampling in an attempt to achieve this goal. This section will describe a few of the most common methods. There are several different methods of <emphasis>random sampling</emphasis>. In each form of random sampling, each member of a population initially has an equal chance of being selected for the sample. Each method has pros and cons. The easiest method to describe is called a <emphasis>simple random sample</emphasis>. Any group of <emphasis effect="italics">n</emphasis> individuals is equally likely to be chosen as any other group of <emphasis effect="italics">n</emphasis> individuals if the simple random sampling technique is used. In other words, each sample of the same size has an equal chance of being selected. </para><para id="id11076554">Besides simple random sampling, there are other forms of sampling that involve a chance process for getting the sample. <emphasis>Other well-known random sampling methods are the stratified sample, the cluster sample, and the systematic sample.</emphasis></para>
 <para id="id12511076">To choose a <emphasis>stratified sample</emphasis>, divide the population into groups called strata and then take a <emphasis>proportionate</emphasis> number from each stratum. For example, you could stratify (group) your college population by department and then choose a proportionate simple random sample from each stratum (each department) to get a stratified random sample. To choose a simple random sample from each department, number each member of the first department, number each member of the second department, and do the same for the remaining departments. Then use simple random sampling to choose proportionate numbers from the first department and do the same for each of the remaining departments. Those numbers picked from the first department, picked from the second department, and so on represent the members who make up the stratified sample.</para><para id="id13017093">To choose a <emphasis>cluster sample</emphasis>, divide the population into clusters (groups) and then randomly select some of the clusters. All the members from these clusters are in the cluster sample. For example, if you randomly sample four departments from your college population, the four departments make up the cluster sample. Divide your college faculty by department. The departments are the clusters. Number each department, and then choose four different numbers using simple random sampling. All members of the four departments with those numbers are the cluster sample.</para><para id="id12769433">To choose a <emphasis>systematic sample</emphasis>, randomly select a starting point and take every <emphasis effect="italics">n</emphasis><sup>th</sup> piece of data from a listing of the population. For example, suppose you have to do a phone survey. Your phone book contains 20,000 residence listings. You must choose 400 names for the sample. Number the population 1–20,000 and then use a simple random sample to pick a number that represents the first name in the sample. Then choose every fiftieth name thereafter until you have a total of 400 names (you might have to go back to the beginning of your phone list). Systematic sampling is frequently chosen because it is a simple method.</para><para id="id12385449">A type of sampling that is non-random is convenience sampling. <emphasis>Convenience sampling</emphasis> involves using results that are readily available. For example, a computer software store conducts a marketing study by interviewing potential customers who happen to be in the store browsing through the available software. The results of convenience sampling may be very good in some cases and highly biased (favor certain outcomes) in others.</para><para id="id10814456">Sampling data should be done very carefully. Collecting data carelessly can have devastating results. Surveys mailed to households and then returned may be very biased (they may favor a certain group). It is better for the person conducting the survey to select the sample respondents.</para><para id="eip-781">True random sampling is done <emphasis>with replacement</emphasis>.  That is, once a member is picked, that member goes back into the population and thus may be chosen more than once. However for practical reasons, in most populations, simple random sampling is done <emphasis>without replacement</emphasis>. Surveys are typically done without replacement.  That is, a member of the population may be chosen only once.  Most samples are taken from large populations and the sample tends to be small in comparison to the population. Since this is the case, sampling without replacement is approximately the same as sampling with replacement because the chance of picking the same individual more than once with replacement is very low.</para><para id="eip-277">In a college population of 10,000 people, suppose you want to pick a sample of
 1,000 randomly for a survey. <emphasis>For any particular sample of 1,000</emphasis>, if you are sampling <emphasis>with replacement</emphasis>, </para><list id="eip-447" list-type="bulleted"><item>the chance of picking the first person is 1,000 out of 10,000 (0.1000);</item>
@@ -629,7 +637,7 @@ since 1971, the year the microprocessor was invented). It was reported that 48% 
       </list></problem>
 
 <!-- <solution id="eip-379">
-<list id="eip-idp46350368" list-type="enumerated" number-style="lower-alpha"><item>Yes, in polling, samples that are from 1,200 to 1,500 observations are considered large enough and good enough if the survey is random and is well done.</item>
+<list id="eip-idp46350368" list-type="enumerated" number-style="lower-alpha"><item>Yes, in polling, samples that are from 1,200 to 1,500 observations are considered large enough and good enough if the survey is random and is well done.</item> 
 <item>We do not have enough information to decide if this is a random sample from the U.S. population.</item>
 <item>No, this is a convenience sample taken from individuals who visited an exhibition in the Angeles Convention Center. This sample is not representative of the U.S. population.</item>
 <item>It is possible that the two sample statistics, 48% and 66% are larger than the true parameters in the population at large. In any event, no conclusion about the population proportions can be inferred from this convenience sample.</item>
@@ -655,7 +663,7 @@ since 1971, the year the microprocessor was invented). It was reported that 48% 
   <para id="eip-603">In advance of the 1936 Presidential Election, a magazine titled Literary Digest released the results of an opinion poll predicting that the republican candidate Alf Landon would win by a large margin. The magazine sent post cards to approximately 10,000,000 prospective voters. These prospective voters were selected from the subscription list of the magazine, from automobile registration lists, from phone lists, and from club membership lists. Approximately 2,300,000 people returned the postcards.</para>
 <list id="fs-idp4880096" list-type="enumerated" number-style="lower-alpha"><item>Think about the state of the United States in 1936. Explain why a sample chosen from magazine subscription lists, automobile registration lists, phone books, and club membership lists was not representative of the population of the United States at that time.</item>
 <item>What effect does the low response rate have on the reliability of the sample?</item>
-<item>Are these problems examples of sampling error or nonsampling error?</item>
+<item>Are these problems examples of sampling error or nonsampling error?</item> 
 <item>During the same year, George Gallup conducted his own poll of 30,000 prospective voters. These researchers used a method they called "quota sampling" to obtain survey answers from specific subsets of the population. Quota sampling is an example of which sampling method described in this module?</item>
 </list></problem>
 <!-- <solution id="eip-idp38427792">
@@ -670,7 +678,7 @@ since 1971, the year the microprocessor was invented). It was reported that 48% 
 <para id="fs-idm44919952">Which of the potential problems with samples discussed in <link document="m54036"/> could explain this connection?</para></problem>
 
 <solution id="eip-181">
-<para id="eip-idp73746752">Causality: The fact that two variables are related does not guarantee that one variable is influencing the other. We cannot assume that crime rate impacts education level or that education level impacts crime rate.</para>
+<para id="eip-idp73746752">Causality: The fact that two variables are related does not guarantee that one variable is influencing the other. We cannot assume that crime rate impacts education level or that education level impacts crime rate.</para> 
 <para id="eip-idp50769808">Confounding: There are many factors that define a community other than education level and crime rate. Communities with high crime rates and high education levels may have other lurking variables that distinguish them from communities with lower crime rates and lower education levels. Because we cannot isolate these variables of interest, we cannot draw valid conclusions about the connection between education and crime. Possible lurking variables include police expenditures, unemployment levels, region, average age, and size.</para>
 </solution>
 </exercise>
@@ -703,7 +711,7 @@ Self-Funded or Self-Interest Studies: This question was generated to support one
 </exercise>
 
 </section>
- </content>
+</content>
 
 <glossary>
 <definition id="fs-idp32623728">

@@ -8,9 +8,9 @@
 </metadata>
 
 <content>
-  <para id="fs-idm27402752">Earlier, we discussed sampling distributions. Particular distributions are associated with hypothesis testing.We will perform hypotheses tests of a population mean using a <term class="no-emphasis">normal distribution</term> or a <term class="no-emphasis">Student's <emphasis effect="italics">t</emphasis>-distribution</term>. (Remember, use a Student's <emphasis effect="italics">t</emphasis>-distribution when the population <term class="no-emphasis">standard deviation</term> is unknown and the sample size is small, where small is considered to be less than 30 observations.) We perform tests of a population proportion using a normal distribution when we can assume that the distribution is normally distributed. We consider this  to be true if the sample proportion, <m:math><m:mi>p</m:mi><m:mo>'</m:mo></m:math>, times the sample size is greater than 5 and 1-<m:math><m:mi>p</m:mi><m:mo>'</m:mo></m:math> times the sample size is also greater than 5. This is the same rule of thumb we used when developing the formula for the confidence interval for a population proportion.</para><section id="eip-162"><title>Hypothesis Test for the Mean</title><para id="eip-328">
-Going back to the standardizing formula we can derive the <term>test statistic</term> for testing hypotheses concerning means.
-</para><equation id="eip-255" class="unnumbered"><label/><m:math>
+  <para id="fs-idm27402752">Earlier, we discussed sampling distributions. Particular distributions are associated with hypothesis testing.We will perform hypotheses tests of a population mean using a <term class="no-emphasis">normal distribution</term> or a <term class="no-emphasis">Student's <emphasis effect="italics">t</emphasis>-distribution</term>. (Remember, use a Student's <emphasis effect="italics">t</emphasis>-distribution when the population <term class="no-emphasis">standard deviation</term> is unknown and the sample size is small, where small is considered to be less than 30 observations.) We perform tests of a population proportion using a normal distribution when we can assume that the distribution is normally distributed. We consider this  to be true if the sample proportion, <m:math><m:mi>p</m:mi><m:mo>'</m:mo></m:math>, times the sample size is greater than 5 and 1-<m:math><m:mi>p</m:mi><m:mo>'</m:mo></m:math> times the sample size is also greater then 5. This is the same rule of thumb we used when developing the formula for the confidence interval for a population proportion.</para><section id="eip-162"><title>Hypothesis Test for the Mean</title><para id="eip-328">
+Going back to the standardizing formula we can derive the <term>test statistic</term> for testing hypotheses concerning means. 
+</para><equation id="eip-255"><m:math>
 <m:msub><m:mi>Z</m:mi><m:mi>c</m:mi></m:msub>
 <m:mo>=</m:mo>
 <m:mfrac>
@@ -18,27 +18,27 @@ Going back to the standardizing formula we can derive the <term>test statistic</
 <m:mover><m:mi>x</m:mi><m:mo>–</m:mo></m:mover><m:mo>-</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow>
 <m:mrow>
 <m:mi>σ</m:mi><m:mo>/</m:mo><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mrow></m:mfrac>
-</m:math></equation><para id="eip-37">The standardizing formula cannot be solved as it is because we do not have μ, the population mean. However, if we substitute in the hypothesized value of the mean, μ<sub>0</sub> in the formula as above, we can compute a Z value. This is the test statistic for a test of hypothesis for a mean and is presented in <link target-id="eip-id7318150"/>. We interpret this Z value as the associated probability that a sample with a sample mean of <m:math><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover></m:math>  could have come from a distribution with a population mean of <emphasis effect="italics">H<sub>0</sub></emphasis> and we call this Z value Z<sub>c</sub> for “calculated”. <link target-id="eip-id7318150"/> and <link target-id="eip-idm376525904"/> show this process.  </para><figure id="eip-id7318150"><media id="eip-id1165937423808" alt="...">
-
+</m:math></equation><para id="eip-37">The standardizing formula can not be solved as it is because we do not have μ, the population mean. However, if we substitute in the hypothesized value of the mean, μ<sub>0</sub> in the formula as above, we can compute a Z value. This is the test statistic for a test of hypothesis for a mean and is presented in <link target-id="eip-id7318150"/>. We interpret this Z value as the associated probability that a sample with a sample mean of <m:math><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover></m:math>  could have come from a distribution with a population mean of <emphasis effect="italics">H<sub>0</sub></emphasis> and we call this Z value Z<sub>c</sub> for “calculated”. <link target-id="eip-id7318150"/> and <link target-id="eip-idm376525904"/> show this process.  </para><figure id="eip-id7318150"><media id="eip-id1165937423808" alt="...">
+	   
   <image mime-type="image/jpeg" src="../../media/fig-ch09_01_01n-36af.jpg" width="420"/>
-
+		 
 </media>
         </figure><para id="eip-541">In <link target-id="eip-id7318150"/> two of the three possible outcomes are presented.
 <m:math><m:msub><m:mrow><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover></m:mrow><m:mn>1</m:mn></m:msub></m:math> and <m:math><m:msub><m:mrow><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover></m:mrow><m:mn>3</m:mn></m:msub></m:math> are in the tails of the hypothesized distribution of <emphasis effect="italics">H<sub>0</sub></emphasis>. Notice that the horizontal axis in the top panel is labeled <m:math><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover></m:math>'s.  This is the same theoretical distribution of <m:math><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover></m:math>'s,   the sampling distribution, that the Central Limit Theorem tells us is normally distributed. This is why we can draw it with this shape. The horizontal axis of the bottom panel is labeled Z and is the standard normal distribution. <m:math><m:msub><m:mi>Z</m:mi><m:mrow><m:mfrac><m:mrow><m:mi>α</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:msub></m:math> and <m:math><m:msub><m:mi>-Z</m:mi><m:mrow><m:mfrac><m:mrow><m:mi>α</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:msub></m:math>, called the <term>critical values</term>, are marked on the bottom panel as the Z values associated with the probability the analyst has set as the level of significance in the test, (α). The probabilities in the tails of both panels are, therefore, the same.  </para><para id="eip-233">Notice that for each <m:math><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover></m:math>  there is an associated Z<sub>c</sub>, called the calculated Z, that comes from solving the equation above. This calculated Z is nothing more than the number of standard deviations that the <emphasis>hypothesized</emphasis> mean is from the sample mean. If the sample mean falls "too many" standard deviations from the hypothesized mean we conclude that the <emphasis>sample</emphasis> mean could not have come from the distribution with the hypothesized mean, given our pre-set required level of significance. It <emphasis>could</emphasis> have come from <emphasis effect="italics">H<sub>0</sub></emphasis>, but it is deemed just too unlikely. In <link target-id="eip-id7318150"/> both <m:math><m:msub><m:mrow><m:mover><m:mi>X</m:mi><m:mo>_</m:mo></m:mover></m:mrow><m:mn>1</m:mn></m:msub></m:math> and <m:math><m:msub><m:mrow><m:mover><m:mi>X</m:mi><m:mo>_</m:mo></m:mover></m:mrow><m:mn>3</m:mn></m:msub></m:math>  are in the tails of the distribution. They are deemed "too far" from the hypothesized value of the mean given the chosen level of alpha. If in fact this sample mean it did come from <emphasis effect="italics">H<sub>0</sub></emphasis>, but from in the tail, we have made a Type I error: we have rejected a good null. Our only real comfort is that we know the probability of making such an error, α, and we can control the size of α. </para><para id="eip-410"><link target-id="eip-idm376525904"/> shows the third possibility for the location of the  sample mean, <m:math><m:mover><m:mi>x</m:mi><m:mo>_</m:mo></m:mover></m:math>. Here the sample mean is within the two critical values. That is, within the probability of (1-α) and we cannot reject the null hypothesis. </para><figure id="eip-idm376525904"><media id="eip-idm342368352" alt="."><image mime-type="image/jpg" src="../../media/fig-ch09_01_09.jpg" width="420"/></media></figure><para id="eip-487">This gives us the decision rule for testing a hypothesis for a two-tailed test:</para><table id="eip-960" summary=". . ."><label/>
 <tgroup cols="1"><thead>
   <row>
     <entry align="center">Decision rule: two-tail test</entry>
-
+ 
   </row>
 </thead>
 <tbody>
   <row>
-    <entry>If <m:math><m:mo>|</m:mo><m:msub><m:mtext>Z</m:mtext><m:mi>c</m:mi></m:msub><m:mo>|</m:mo></m:math> &lt; <m:math><m:msub><m:mtext>Z</m:mtext><m:mrow><m:mfrac><m:mi>α</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow></m:msub></m:math>: then do not REJECT <emphasis effect="italics">H<sub>0</sub></emphasis></entry>
-
+    <entry>If <m:math><m:msub><m:mtext>Z</m:mtext><m:mi>c</m:mi></m:msub></m:math> &lt; <m:math><m:mo>|</m:mo><m:msub><m:mtext>Z</m:mtext><m:mrow><m:mfrac><m:mi>α</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow></m:msub><m:mo>|</m:mo></m:math>: then cannot REJECT <emphasis effect="italics">H<sub>0</sub></emphasis></entry>
+    
   </row>
   <row>
-    <entry>If  <m:math><m:mo>|</m:mo><m:msub><m:mtext>Z</m:mtext><m:mi>c</m:mi></m:msub><m:mo>|</m:mo></m:math> &gt; <m:math><m:msub><m:mtext>Z</m:mtext><m:mrow><m:mfrac><m:mi>α</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow></m:msub></m:math> : then REJECT <emphasis effect="italics">H<sub>0</sub></emphasis></entry>
-
+    <entry>If  <m:math><m:msub><m:mtext>Z</m:mtext><m:mi>c</m:mi></m:msub></m:math> &gt; <m:math><m:mo>|</m:mo><m:msub><m:mtext>Z</m:mtext><m:mrow><m:mfrac><m:mi>α</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow></m:msub><m:mo>|</m:mo></m:math> : then cannot ACCEPT <emphasis effect="italics">H<sub>0</sub></emphasis></entry>
+ 
   </row>
 </tbody>
 
@@ -62,9 +62,9 @@ Going back to the standardizing formula we can derive the <term>test statistic</
 
 </tgroup>
 </table><para id="eip-771">This rule will always be the same no matter what hypothesis we are testing or what formulas we are using to make the test. The only change will be to change the Z<sub>c</sub> to the appropriate symbol for the test statistic for the parameter being tested. Stating the decision rule another way: if the sample mean is unlikely to have come from the distribution with the hypothesized mean we cannot accept the null hypothesis. Here we define "unlikely" as having a probability less than alpha of occurring.</para></section><section id="fs-idm257750672"><title>P-Value Approach</title><para id="eip-470">An alternative decision rule can be developed by calculating the probability that a sample mean could be found that would give a test statistic larger than the test statistic found from the current sample data assuming that the null hypothesis is true. Here the notion of "likely" and "unlikely" is defined by the probability of drawing a sample with a mean from a population with the hypothesized mean that is either larger or smaller than that found in the sample data. Simply stated, the p-value approach compares the desired significance level, α, to the p-value which is the probability of drawing a sample mean further from the hypothesized value than the actual sample mean. A large <emphasis effect="italics">p</emphasis>-value calculated from the data indicates that we should not reject the <term>null hypothesis</term>. The smaller the <emphasis effect="italics">p</emphasis>-value, the more unlikely the outcome, and the stronger the evidence is against the null hypothesis. We would reject the null hypothesis if the evidence is strongly against it. The relationship between the decision rule of comparing the calculated test statistics, Z<sub>c</sub>, and the Critical Value, Z<sub>α</sub> , and using the <emphasis effect="italics">p</emphasis>-value can be seen in <link target-id="eip-id1169346631895"/>.</para><figure id="eip-id1169346631895"><media id="eip-id1169348081431" alt="...">
-
+	   
   <image mime-type="image/jpeg" src="../../media/fig-ch09_01_02m.jpg"/>
-
+		 
 </media>
         </figure><para id="eip-872">The calculated value of the test statistic is Z<sub>c</sub> in this example and is marked on the bottom graph of the standard normal distribution because it is a Z value. In this case the calculated value is in the tail and thus we cannot accept the null hypothesis, the associated <m:math><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover></m:math> is just too unusually large to believe that it came from the distribution with a mean of µ<sub>0</sub> with a significance level of α.  </para><para id="eip-15">If we use the <emphasis effect="italics">p</emphasis>-value decision rule we need one more step. We need to find in the standard normal table the probability associated with the calculated test statistic, Z<sub>c</sub>. We then compare that to the α associated with our selected level of confidence.  In <link target-id="eip-id1169346631895"/> we see that the <emphasis effect="italics">p</emphasis>-value is less than α and therefore we cannot accept the null. We know that the <emphasis effect="italics">p</emphasis>-value is less than α because the area under the p-value is smaller than α/2. It is important to note that two researchers drawing randomly from the same population may find two different P-values from their samples. This occurs because the P-value is calculated as the probability in the tail beyond the sample mean assuming that the null hypothesis is correct. Because the sample means will in all likelihood be different this will create two different P-values. Nevertheless, the conclusions as to the null hypothesis should be different with only the level of probability of α.  </para><para id="eip-825">Here is a systematic way to make a decision of whether you cannot accept or cannot reject a null <emphasis>hypothesis</emphasis> if using the <term><emphasis effect="italics">p</emphasis>-value</term> and a <term>preset or preconceived α</term> (the "<term>significance level</term>"). A preset <emphasis effect="italics">α</emphasis> is the probability of a <term>Type I</term> error (rejecting the null hypothesis when the null hypothesis is true). It may or may not be given to you at the beginning of the problem. In any case, the value of α is the decision of the analyst. When you make a decision to reject or not reject <emphasis effect="italics">H<sub>0</sub></emphasis>, do as follows:</para><list id="eip-526"><item>If α &gt; <emphasis effect="italics">p</emphasis>-value, cannot accept <emphasis effect="italics">H<sub>0</sub></emphasis>. The results of the sample data are significant. There is sufficient evidence to conclude that <emphasis effect="italics">H<sub>0</sub></emphasis> is an incorrect belief and that the <term>alternative hypothesis</term>,  <emphasis effect="italics">H<sub>a</sub></emphasis>, may be correct.</item>
 <item>If α ≤ <emphasis effect="italics">p</emphasis>-value, cannot reject <emphasis effect="italics">H<sub>0</sub></emphasis>. The results of the sample data are not significant. There is not sufficient evidence to conclude that the alternative hypothesis, <emphasis effect="italics">H<sub>a</sub></emphasis>, may be correct. In this case the status quo stands.</item>
@@ -72,12 +72,12 @@ Going back to the standardizing formula we can derive the <term>test statistic</
 </list><para id="eip-246">Both decision rules will result in the same decision and it is a matter of preference which one is used.</para></section><section id="eip-134"><title>One and Two-tailed Tests</title><para id="eip-803">The discussion of <link target-id="eip-id7318150"/>-<link target-id="eip-id1169346631895"/> was based on the null and alternative hypothesis presented in <link target-id="eip-id7318150"/>. This was called a two-tailed test because the alternative hypothesis allowed that the mean could have come from a population which was either larger or smaller than the hypothesized mean in the null hypothesis. This could be seen by the statement of the alternative hypothesis as μ ≠ 100, in this example.
 </para><para id="eip-725">It may be that the analyst has no concern about the value being "too" high or "too" low from the hypothesized value. If this is the case, it becomes a one-tailed test and all of the alpha probability is placed in just one tail and not split into α/2 as in the above case of a two-tailed test. Any test of a claim will be a one-tailed test. For example, a car manufacturer claims that their Model 17B provides gas mileage of greater than 25 miles per gallon. The null and alternative hypothesis would be:</para><list id="eip-828" list-type="labeled-item"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: µ ≤ 25</item>
 <item><emphasis effect="italics">H<sub>a</sub></emphasis>: µ &gt; 25</item>
-</list><para id="eip-669">The claim would be in the alternative hypothesis. The burden of proof in hypothesis testing is carried in the alternative. This is because failing to reject the null, the status quo, must be accomplished with 90 or 95 percent confidence that it cannot be maintained. Said another way, we want to have only a 5 or 10 percent probability of making a Type I error, rejecting a good null; overthrowing the status quo.</para><para id="eip-695">This is a one-tailed test and all of the alpha probability is placed in just one tail and not split into α/2 as in the above case of a two-tailed test. </para><para id="eip-344"><link target-id="eip-id1164402606956"/> shows the two possible cases and the form of the null and alternative hypothesis that give rise to them.</para>
+</list><para id="eip-669">The claim would be in the alternative hypothesis. The burden of proof in hypothesis testing is carried in the alternative. This is because failing to reject the null, the status quo, must be accomplished with 90 or 95 percent significance that it cannot be maintained. Said another way, we want to have only a 5 or 10 percent probability of making a Type I error, rejecting a good null; overthrowing the status quo.</para><para id="eip-695">This is a one-tailed test and all of the alpha probability is placed in just one tail and not split into α/2 as in the above case of a two-tailed test. </para><para id="eip-344"><link target-id="eip-id1164402606956"/> shows the two possible cases and the form of the null and alternative hypothesis that give rise to them.</para>
 
 <figure id="eip-id1164402606956"><media id="eip-id1164394376164" alt="...">
-
+	   
   <image mime-type="image/jpeg" src="../../media/fig-ch09_01_03m.jpg"/>
-
+		 
 </media>
         </figure><para id="eip-757">where μ<sub>0</sub> is the hypothesized value of the population mean.</para><table id="eip-210" summary="..."><title>Test Statistics for Test of Means, Varying Sample Size, Population Standard Deviation Known or Unknown</title>
 <tgroup cols="2"><thead>
@@ -113,14 +113,14 @@ Going back to the standardizing formula we can derive the <term>test statistic</
   </row>
   <row>
     <entry align="center">&gt; 30<newline/>(σ unknown)</entry>
-    <entry align="center">
+    <entry>
      <m:math>
       <m:msub><m:mi>Z</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo>
       <m:mfrac><m:mrow><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover>
       <m:mo>-</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow>
       <m:mrow><m:mi>s</m:mi><m:mo>/</m:mo><m:msqrt><m:mi>n</m:mi></m:msqrt>
       </m:mrow></m:mfrac>
-     </m:math>
+     </m:math>    
     </entry>
   </row>
 <row>
@@ -136,14 +136,28 @@ Going back to the standardizing formula we can derive the <term>test statistic</
     </entry>
   </row>
 </tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </tgroup>
-</table></section><section id="eip-145"><title>Effects of Sample Size on Test Statistic</title><para id="eip-848">In developing the confidence intervals for the mean from a sample, we found that most often we would not have the population standard deviation, σ. If the sample size were less than 30, we could simply substitute the point estimate for σ, the sample standard deviation, s, and use the student's <emphasis effect="italics">t</emphasis>-distribution to correct for this lack of information. </para><para id="eip-843">When testing hypotheses we are faced with this same problem and the solution is exactly the same. Namely: If the population standard deviation is unknown, and the sample size is less than 30, substitute s, the point estimate for the population standard deviation, σ, in the formula for the test statistic and use the student's <emphasis effect="italics">t</emphasis>-distribution. All the formulas and figures above are unchanged except for this substitution and changing the Z distribution to the student's <emphasis effect="italics">t</emphasis>-distribution on the graph. Remember that the student's <emphasis effect="italics">t</emphasis>-distribution can only be computed knowing the proper degrees of freedom for the problem. In this case, the degrees of freedom is computed as before with confidence intervals: df = (n-1). The calculated t-value is compared to the t-value associated with the pre-set level of confidence required in the test, t<sub>α</sub>, <sub>df</sub> found in the student's t tables. If we do not know σ, but the sample size is 30 or more, we simply substitute s for σ and use the normal distribution.
-</para><para id="eip-904"><link target-id="eip-210"/> summarizes these rules.</para></section><section id="eip-242"><title>A Systematic Approach for Testing A Hypothesis</title><para id="eip-813">A systematic approach to hypothesis testing follows the following steps and in this order. This template will work for all hypotheses that you will ever test.</para><list id="eip-126"><item>Set up the null and alternative hypothesis. This is typically the hardest part of the process. Here the question being asked is reviewed. What parameter is being tested, a mean, a proportion, differences in means, etc. Is this a one-tailed test or two-tailed test?</item>
-<item><para id="eip-id1169328045413">Decide the level of significance required for this particular case and determine the critical value. These can be found in the appropriate statistical table. The levels of confidence typical for businesses are 80, 90, 95, 98, and 99. However, the level of significance is a policy decision and should be based upon the risk of making a Type I error, rejecting a good null. Consider the consequences of making a Type I error. </para><para id="eip-id1169354153672">Next, on the basis of the hypotheses and sample size, select the appropriate test statistic and find the relevant critical value: Z<sub>α</sub>, t<sub>α</sub>, etc. Drawing the relevant probability distribution and marking the critical value is always big help. Be sure to match the graph with the hypothesis, especially if it is a one-tailed test.</para></item>
+</table></section><section id="eip-145"><title>Effects of Sample Size on Test Statistic</title><para id="eip-848">In developing the confidence intervals for the mean from a sample, we found that most often we would not have the population standard deviation, σ. If the sample size were larger than 30, we could simply substitute the point estimate for σ, the sample standard deviation, s, and use the student's t distribution to correct for this lack of information. </para><para id="eip-843">When testing hypotheses we are faced with this same problem and the solution is exactly the same. Namely: If the population standard deviation is unknown, and the sample size is less than 30, substitute s, the point estimate for the population standard deviation, σ, in the formula for the test statistic and use the student's t distribution. All the formulas and figures above are unchanged except for this substitution and changing the Z distribution to the student's t distribution on the graph. Remember that the student's t distribution can only be computed knowing the proper degrees of freedom for the problem. In this case, the degrees of freedom is computed as before with confidence intervals: df = (n-1). The calculated t-value is compared to the t-value associated with the pre-set level of confidence required in the test, t<sub>α</sub>, <sub>df</sub> found in the student's t tables. If we do not know σ, but the sample size is 30 or more, we simply substitute s for σ and use the normal distribution.
+</para><para id="eip-904"><link target-id="eip-210"/> summarizes these rules.</para></section><section id="eip-242"><title>A Systematic Approach for Testing A Hypothesis</title><para id="eip-813">A systematic approach to hypothesis testing follows the following steps and in this order. This template will work for all hypotheses that you will ever test.</para><list id="eip-126"><item>Set up the null and alternative hypothesis. This is typically the hardest part of the process. Here the question being asked is reviewed. What parameter is being tested, a mean, a proportion, differences in means, etc. Is this a one-tailed test or two-tailed test? Remember, if someone is making a claim it will always be a one-tailed test.</item>
+<item><para id="eip-id1169328045413">Decide the level of significance required for this particular case and determine the critical value. These can be found in the appropriate statistical table. The levels of confidence typical for the social sciences are 90, 95 and 99. However, the level of significance is a policy decision and should be based upon the risk of making a Type I error, rejecting a good null. Consider the consequences of making a Type I error. </para><para id="eip-id1169354153672">Next, on the basis of the hypotheses and sample size, select the appropriate test statistic and find the relevant critical value: Z<sub>α</sub>, t<sub>α</sub>, etc. Drawing the relevant probability distribution and marking the critical value is always big help. Be sure to match the graph with the hypothesis, especially if it is a one-tailed test.</para></item>
 <item>Take a sample(s) and calculate the relevant parameters: sample mean, standard deviation, or proportion. Using the formula for the test statistic from above in step 2, now calculate the test statistic for this particular case using the parameters you have just calculated.</item>
 <item>Compare the calculated test statistic and the critical value. Marking these on the graph will give a good visual picture of the situation. There are now only two situations:<list id="eip-id1169343384190" list-type="enumerated" number-style="lower-alpha"><item>The test statistic is in the tail: Cannot Accept the null, the probability that this sample mean (proportion) came from the hypothesized distribution is too small to believe that it is the real home of these sample data. </item>
 <item>The test statistic is not in the tail: Cannot Reject the null, the sample data are compatible with the hypothesized population parameter.  </item></list></item>
-<item>Reach a conclusion. It is best to articulate the conclusion two different ways. First a formal statistical conclusion such as “With a 5 % level of significance we cannot accept the null hypotheses that the population mean is equal to XX (units of measurement)”. The second statement of the conclusion is less formal and states the action, or lack of action, required. If the formal conclusion was that above, then the informal one might be, “The machine is broken and we need to shut it down and call for repairs”.</item>
+<item>Reach a conclusion. It is best to articulate the conclusion two different ways. First a formal statistical conclusion such as “With a 95 % level of significance we cannot accept the null hypotheses that the population mean is equal to XX (units of measurement)”. The second statement of the conclusion is less formal and states the action, or lack of action, required. If the formal conclusion was that above, then the informal one might be, “The machine is broken and we need to shut it down and call for repairs”.</item>
 </list><para id="eip-559">All hypotheses tested will go through this same process. The only changes are the relevant formulas and those are determined by the hypothesis required to answer the original question.</para></section><section id="eip-952" class="summary">
   <title>Chapter Review</title>
   <para id="eip-948">In order for a hypothesis test’s results to be generalized to a population, certain requirements must be satisfied. </para>
@@ -151,7 +165,7 @@ Going back to the standardizing formula we can derive the <term>test statistic</
   <list id="eip-idp106869104" mark-suffix="." list-type="enumerated" number-style="arabic"><item>A Student's <emphasis effect="italics">t</emphasis>-test should be used if the data come from a simple, random sample and the population is approximately normally distributed, or the sample size is large, with an unknown standard deviation.</item>
     <item>The normal test will work if the data come from a simple, random sample and the population
       is approximately normally distributed, or the sample size is large.</item>
-  </list><para id="fs-idp12045392">When testing a single population proportion use a normal test for a single population proportion if the data comes from a simple, random sample, fill the requirements for a binomial distribution, and the mean number of success and the mean number of failures satisfy the conditions: <emphasis effect="italics">np</emphasis> &gt; 5 and <emphasis effect="italics">nq</emphasis> &gt; 5 where <emphasis effect="italics">n</emphasis> is the sample size, <emphasis effect="italics">p</emphasis> is the probability of a success, and <emphasis effect="italics">q</emphasis> is the probability of a failure.</para>
+  </list><para id="fs-idp12045392">When testing a single population proportion use a normal test for a single population proportion if the data comes from a simple, random sample, fill the requirements for a binomial distribution, and the mean number of success and the mean number of failures satisfy the conditions: <emphasis effect="italics">np</emphasis> &gt; 5 and <emphasis effect="italics">nq</emphasis> &gt; <emphasis effect="italics">n</emphasis> where <emphasis effect="italics">n</emphasis> is the sample size, <emphasis effect="italics">p</emphasis> is the probability of a success, and <emphasis effect="italics">q</emphasis> is the probability of a failure.</para>
 </section>
 
 
@@ -189,14 +203,14 @@ Going back to the standardizing formula we can derive the <term>test statistic</
   </row>
   <row>
     <entry align="center">&gt; 30<newline/>(σ unknown)</entry>
-    <entry align="center">
+    <entry>
      <m:math>
       <m:msub><m:mi>Z</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo>
       <m:mfrac><m:mrow><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover>
       <m:mo>-</m:mo><m:msub><m:mi>μ</m:mi><m:mn>0</m:mn></m:msub></m:mrow>
       <m:mrow><m:mi>s</m:mi><m:mo>/</m:mo><m:msqrt><m:mi>n</m:mi></m:msqrt>
       </m:mrow></m:mfrac>
-     </m:math>
+     </m:math>    
     </entry>
   </row>
 <row>
@@ -212,6 +226,19 @@ Going back to the standardizing formula we can derive the <term>test statistic</
     </entry>
   </row>
 </tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
 </tgroup>
 </table></section><section id="eip-496" class="practice">
   <exercise id="eip-176"><problem id="eip-548">
@@ -221,7 +248,7 @@ Going back to the standardizing formula we can derive the <term>test statistic</
 <solution id="eip-482">
   <para id="eip-665">A normal distribution or a Student’s <emphasis effect="italics">t</emphasis>-distribution</para></solution>
 </exercise><exercise id="eip-492"><problem id="eip-819">
-  <para id="eip-696">Which distribution do you use when you are testing a population mean and the population standard deviation is known? Assume sample size is large. Assume a normal distribution with n ≥ 30.
+  <para id="eip-696">Which distribution do you use when you are testing a population mean and the population standard deviation is known? Assume sample size is large. Assume a normal distribution with n ≥ 30. 
   </para></problem></exercise><exercise id="eip-579">
     <problem id="eip-177">
   <para id="eip-756">Which distribution do you use when the standard deviation is not known and you are testing one population mean? Assume a normal distribution, with n ≥ 30.</para></problem>
@@ -281,7 +308,7 @@ Going back to the standardizing formula we can derive the <term>test statistic</
       <m:mi>X</m:mi>
       <m:mo>–</m:mo>
     </m:mover>
-
+    
   </m:math> ~ ________________</para><list id="fs-idm141858480" list-type="enumerated" number-style="lower-alpha">
       <item><m:math>
         <m:mrow>
@@ -295,7 +322,7 @@ Going back to the standardizing formula we can derive the <term>test statistic</
                   <m:mn>22</m:mn>
                 </m:mrow>
               </m:msqrt>
-
+              
             </m:mrow>
           </m:mfrac>
           <m:mo stretchy="false">)</m:mo>
@@ -309,7 +336,7 @@ Going back to the standardizing formula we can derive the <term>test statistic</
       <item><emphasis effect="italics">t</emphasis><sub>22</sub></item>
       <item><emphasis effect="italics">t</emphasis><sub>21</sub></item>
     </list>
-
+    
   </problem>
 
 <solution id="fs-idp8543664">
@@ -319,7 +346,7 @@ Going back to the standardizing formula we can derive the <term>test statistic</
 
 </section>
 
- </content>
+</content>
 
 <glossary>
 <definition id="bidist">
@@ -331,7 +358,7 @@ Going back to the standardizing formula we can derive the <term>test statistic</
     <m:mi>n</m:mi><m:mi>p</m:mi><m:mi>q</m:mi>
    </m:mrow>
   </m:msqrt>
-
+  
  </m:mrow>
     </m:math>. The probability of exactly <emphasis effect="italics">x</emphasis> successes in <emphasis effect="italics">n</emphasis> trials is <m:math>
       <m:mrow>
@@ -348,7 +375,7 @@ Going back to the standardizing formula we can derive the <term>test statistic</
                   <m:mi>x</m:mi>
                 </m:mtd>
               </m:mtr>
-
+              
             </m:mtable>
           </m:mrow>
           <m:mo>)</m:mo></m:mrow><m:msup>
@@ -361,7 +388,7 @@ Going back to the standardizing formula we can derive the <term>test statistic</
             <m:mi>n</m:mi><m:mo>−</m:mo><m:mi>x</m:mi>
           </m:mrow>
         </m:msup>
-
+        
       </m:mrow>
     </m:math>.
 </meaning>
@@ -380,7 +407,7 @@ Going back to the standardizing formula we can derive the <term>test statistic</
               <m:mn>2</m:mn><m:mi>π</m:mi>
             </m:mrow>
           </m:msqrt>
-
+          
         </m:mrow>
       </m:mfrac>
       <m:msup>
@@ -394,20 +421,20 @@ Going back to the standardizing formula we can derive the <term>test statistic</
                 </m:mrow>
                 <m:mn>2</m:mn>
               </m:msup>
-
+              
             </m:mrow>
             <m:mrow>
               <m:mn>2</m:mn><m:msup>
                 <m:mi>σ</m:mi>
                 <m:mn>2</m:mn>
               </m:msup>
-
+              
             </m:mrow>
           </m:mfrac>
-
+          
         </m:mrow>
       </m:msup>
-
+      
     </m:mrow>
   </m:math>, where <emphasis effect="italics">μ</emphasis> is the mean of the distribution, and <emphasis effect="italics">σ</emphasis> is the standard deviation, notation: <emphasis effect="italics">X ~ N</emphasis>(<emphasis effect="italics">μ</emphasis>, <emphasis effect="italics">σ</emphasis>). If <emphasis effect="italics">μ</emphasis> = 0 and <emphasis effect="italics">σ</emphasis> = 1, the RV is called <emphasis>the standard normal distribution</emphasis>.</meaning>
   </definition>
@@ -419,12 +446,12 @@ Going back to the standardizing formula we can derive the <term>test statistic</
 
 <definition id="studenttdist">
     <term>Student's <emphasis effect="italics">t</emphasis>-Distribution</term>
-    <meaning id="id8759760">investigated and reported by William S. Gossett in 1908 and published under the pseudonym Student. The major characteristics of the random variable (RV) are:
+    <meaning id="id8759760">investigated and reported by William S. Gossett in 1908 and published under the pseudonym Student. The major characteristics of the random variable (RV) are: 
 <list id="tdist1" list-type="bulleted">
   <item>It is continuous and assumes any real values.</item>
   <item>The pdf is symmetrical about its mean of zero. However, it is more spread out and flatter at the apex than the normal distribution.</item>
   <item>It approaches the standard normal distribution as <emphasis effect="italics">n</emphasis> gets larger.</item>
-  <item>There is a "family" of <emphasis effect="italics">t</emphasis>-distributions: every representative of the family is completely defined by the number of degrees of freedom which is one less than the number of data items.</item></list></meaning>
+  <item>There is a "family" of t distributions: every representative of the family is completely defined by the number of degrees of freedom which is one less than the number of data items.</item></list></meaning>
   </definition>
 
 <definition id="teststatistic">

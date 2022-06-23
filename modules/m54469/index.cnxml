@@ -16,6 +16,6 @@
 <title>Note</title>
 <para id="fs-idm83037888">The values of discrete and continuous random variables can be ambiguous. For example, if <emphasis effect="italics">X</emphasis> is equal to the number of miles (to the nearest mile) you drive to work, then <emphasis effect="italics">X</emphasis> is a discrete random variable. You count the miles. If <emphasis effect="italics">X</emphasis> is the distance you drive to work, then you measure values of <emphasis effect="italics">X</emphasis> and <emphasis effect="italics">X</emphasis> is a continuous random variable. For a second example, if <emphasis effect="italics">X</emphasis> is equal to the number of books in a backpack, then <emphasis effect="italics">X</emphasis> is a discrete random variable. If <emphasis effect="italics">X</emphasis> is the weight of a book, then <emphasis effect="italics">X</emphasis> is a continuous random variable because weights are measured. How the random variable is defined is very important.</para>
 </note>
- </content>
+</content>
 
 </document>

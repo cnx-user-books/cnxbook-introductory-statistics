@@ -8,7 +8,7 @@
 </metadata>
 
 <content>
-    <para id="element-364">The notation for the <term>chi-square distribution</term> is:</para><equation class="unnumbered" id="eip-171"><label/><m:math display="block">
+    <para id="element-364">The notation for the <term>chi-square distribution</term> is:</para><equation id="eip-171"><m:math display="block">
  <m:mrow>
   <m:mi>χ</m:mi><m:mo>∼</m:mo><m:msubsup>
    <m:mi>χ</m:mi>
@@ -143,5 +143,5 @@ chi-square distribution random variable</para><para id="eip-800"><emphasis effec
 </solution>
 </exercise>
 </section>
- </content>
+</content>
 </document>

@@ -598,7 +598,7 @@ the sample standard deviation in <link document="m53786"/>.</para><para id="eip-
 </m:math> 
 </equation>
 
-<para id="eip-idp15158384">where <emphasis effect="italics">n</emphasis><sub>1</sub> = 4, <emphasis effect="italics">n</emphasis><sub>2</sub> = 3, <emphasis effect="italics">n</emphasis><sub>3</sub> = 3  and  <emphasis effect="italics">n</emphasis> = <emphasis effect="italics">n</emphasis><sub>1</sub> + <emphasis effect="italics">n</emphasis><sub>2</sub> + <emphasis effect="italics">n</emphasis><sub>3</sub> = 10</para><equation class="unnumbered" id="fs-idp1558352"><label/><m:math>
+<para id="eip-idp15158384">where <emphasis effect="italics">n</emphasis><sub>1</sub> = 4, <emphasis effect="italics">n</emphasis><sub>2</sub> = 3, <emphasis effect="italics">n</emphasis><sub>3</sub> = 3  and  <emphasis effect="italics">n</emphasis> = <emphasis effect="italics">n</emphasis><sub>1</sub> + <emphasis effect="italics">n</emphasis><sub>2</sub> + <emphasis effect="italics">n</emphasis><sub>3</sub> = 10</para><equation id="fs-idp1558352"><m:math>
 <m:mrow>
 <m:mo> </m:mo><m:mo> </m:mo><m:mo>=</m:mo><m:mfrac>
 <m:mrow>
@@ -2070,6 +2070,6 @@ Suppose that the following data are randomly collected from five teenagers in ea
 <para id="element-677"><emphasis effect="italics">F</emphasis> statistic = ________</para></problem>
 </exercise>
 
-</section> </content>
+</section></content>
 
 </document>

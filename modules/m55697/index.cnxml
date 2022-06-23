@@ -9,7 +9,7 @@
 
 <content>
 <para id="element-834">Tests of independence involve using a <term>contingency table</term> of observed (data) values.</para>
-<para id="element-230">The test statistic for a <term>test of independence</term> is similar to that of a goodness-of-fit test:</para><equation class="unnumbered" id="element-164"><label/><m:math>
+<para id="element-230">The test statistic for a <term>test of independence</term> is similar to that of a goodness-of-fit test:</para><equation id="element-164"><m:math>
  <m:mrow>
   <m:munder>
    <m:mi fontsize="2">Σ</m:mi>
@@ -165,7 +165,7 @@
 </problem>
 <solution id="id8698856">
 <para id="element-8768798723">The <emphasis>observed table</emphasis> and the question at the end of the problem, "Is the number of hours volunteered independent of the type of volunteer?" tell you this is a test of independence. The two factors are <emphasis>number of hours volunteered</emphasis> and <emphasis>type of volunteer</emphasis>. This test is always right-tailed.</para>
-<para id="element-945"><emphasis effect="italics">H<sub>0</sub></emphasis>: The number of hours volunteered is <emphasis>independent</emphasis> of the type of volunteer.</para><para id="element-255"><emphasis effect="italics">H<sub>a</sub></emphasis>: The number of hours volunteered is <emphasis>dependent</emphasis> on the type of volunteer.</para><para id="element-455">The expected results are in <link target-id="table-73248a"/>.
+<para id="element-945"><emphasis effect="italics">H<sub>0</sub></emphasis>: The number of hours volunteered is <emphasis>independent</emphasis> of the type of volunteer.</para><para id="element-255"><emphasis effect="italics">H<sub>a</sub></emphasis>: The number of hours volunteered is <emphasis>dependent</emphasis> on the type of volunteer.</para><para id="element-455">The expected result are in <link target-id="table-73248a"/>.
  <table id="table-73248a" summary="This table presents the expected hours per week volunteered by type of volunteer. The first row represents community-college students, the second row represents four-year college students, and the third row represents non-students. The second column is 1-3 hours per week, the third column is 4-6 hours per week, and the fourth column is 7-9 hours per week."><title>Number of Hours Worked Per Week by Volunteer Type (Expected)</title>
 <tgroup cols="4"><colspec colnum="1" colname="header_c1"/>
    <colspec colnum="2" colname="c2"/>
@@ -530,7 +530,7 @@ the table.
 </exercise><exercise id="eip-629"><problem id="eip-818">
  <para id="eip-788">What can you conclude at the 5% level of significance?</para>
  </problem>
-</exercise><para id="element-538"><newline/><emphasis effect="italics">Use the following information to answer the next eight exercises:</emphasis> An article in the New England Journal of Medicine, discussed a study on smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 African American people, 2,745 Native Hawaiian people, 12,831 Latino people, 8,378 Japanese American people and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 African American people, 3,062 Native Hawaiian people, 4,932 Latino people, 10,680 Japanese American people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 African American people, 1,419 Native Hawaiian people, 1,406 Latino people, 4,715 Japanese American people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 African American people, 788 Native Hawaiian people, 800 Latino people, 2,305 Japanese American people, and 3,970 White people.</para><exercise id="fs-idm12518016"><problem id="fs-idp16845632">
+</exercise><para id="element-538"><newline/><emphasis effect="italics">Use the following information to answer the next eight exercises:</emphasis> An article in the New England Journal of Medicine, discussed a study on smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 African Americans, 2,745 Native Hawaiians, 12,831 Latinos, 8,378 Japanese Americans and 7,650 whites. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 African Americans, 3,062 Native Hawaiians, 4,932 Latinos, 10,680 Japanese Americans, and 9,877 whites. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 African Americans, 1,419 Native Hawaiians, 1,406 Latinos, 4,715 Japanese Americans, and 6,062 whites. Of the people smoking at least 31 cigarettes per day, there were 759 African Americans, 788 Native Hawaiians, 800 Latinos, 2,305 Japanese Americans, and 3,970 whites.</para><exercise id="fs-idm12518016"><problem id="fs-idp16845632">
 <para id="eip-idp205148416">Complete the table.</para><table id="element-894" summary="This is a partially filled observation table with Ethnicity for the columns (2nd to 6th) and Total for the seventh column. The smoking level (4 rows) and the total constitute the rows of the table. 30 blank cells are available."><title>Smoking Levels by Ethnicity (Observed)</title>
 <tgroup cols="7"><colspec colnum="1" colname="header_c1" colwidth="150"/>
 <colspec colnum="2" colname="c2" colwidth="120"/>
@@ -545,7 +545,7 @@ the table.
 <entry>African American</entry>
 <entry>Native Hawaiian</entry>
 <entry>Latino</entry>
-<entry>Japanese American</entry>
+<entry>Japanese Americans</entry>
 <entry>White</entry>
 <entry>Totals</entry>
 </row>
@@ -742,7 +742,7 @@ the table.
      <entry>2365.49</entry>
     </row>
    </tbody>
-
+  
 </tgroup>
 </table></solution>
  </exercise><exercise id="element-180"><problem id="id13657036">
@@ -1160,7 +1160,7 @@ the table.
  <entry>10</entry>
  </row>
  </tbody>
-
+ 
 </tgroup>
 </table></problem>
 </exercise><exercise id="element-619"><problem id="id21086869">
@@ -1217,7 +1217,7 @@ the table.
  <entry>150</entry>
  </row>
  </tbody>
-
+ 
 </tgroup>
 </table></problem>
 <solution id="eip-idm117790352">
@@ -1317,7 +1317,7 @@ the table.
 <entry>391</entry>
 </row>
 </tbody>
-
+   
 
 </tgroup>
 </table></problem>
@@ -1356,7 +1356,7 @@ the table.
       <entry>40</entry>
      </row>
     </tbody>
-
+   
 </tgroup>
 </table></problem>
 
@@ -1422,12 +1422,12 @@ the table.
 <entry>1235</entry>
 </row>
 </tbody>
-
+   
 
 </tgroup>
 </table></problem>
  </exercise></section>
-  </content>
+ </content>
 <glossary>
  <definition id="contintable">
  <term>Contingency Table</term>
