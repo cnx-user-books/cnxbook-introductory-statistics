@@ -11,8 +11,8 @@
 <para id="fs-idp70908880">When calculating probability, there are two rules to consider when determining if two events are independent or dependent and if they are mutually exclusive or not.</para>
 <section id="element-860">
 <title>The Multiplication Rule</title>
-<para id="element-288">If <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> are two events defined on a <term>sample space</term>, then:
-<m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi> <m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi> <m:mo>|</m:mo> <m:mi>B</m:mi><m:mo>)</m:mo></m:math>. We can think of the intersection symbol as substituting for the word "and".   </para><para id="element-423">This rule may also be written as: <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>|</m:mo> <m:mi>B</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo>
+<para id="element-288">If <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> are two events defined on a <term>sample space</term>, then: 
+<m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi> <m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo> <m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi> <m:mo>|</m:mo> <m:mi>B</m:mi><m:mo>)</m:mo></m:math>. We can think of the intersection symbol as substituting for the word "and".   </para><para id="element-423">This rule may also be written as: <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>|</m:mo> <m:mi>B</m:mi><m:mo>)</m:mo> <m:mo>=</m:mo> 
 <m:mrow>
 <m:mfrac>
 <m:mrow>
@@ -195,35 +195,50 @@ We can think of the union symbol substituting for the word "or". The reason we s
 <example id="element-83">
 <para id="element-230">Carlos plays college soccer. He makes a goal 65% of the time he shoots. Carlos is going to attempt two goals in a row in the next game. <emphasis effect="italics">A</emphasis> = the event Carlos is successful on his first attempt. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) = 0.65. <emphasis effect="italics">B</emphasis> = the event Carlos is successful on his second attempt. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) = 0.65. Carlos tends to shoot in streaks. The probability that he makes the second goal <m:math><m:mo>|</m:mo></m:math> that he made the first goal is 0.90.<newline count="2"/></para><exercise id="element-639">
 <problem id="id20946894">
-  <list id="id209468943" list-type="enumerated" number-style="lower-alpha">
-    <item>What is the probability that he makes both goals?</item>
-    <item>What is the probability that Carlos makes either the first goal or the second goal?</item>
-    <item>Are <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> independent?</item>
-    <item>Are <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> mutually exclusive?</item>
-  </list>
+<para id="element-639p">a. What is the probability that he makes both goals?</para>
 </problem>
 <solution id="id20946912">
-  <list id="id209468942" list-type="enumerated" number-style="lower-alpha">
-    <item><para id="element-639s">a. The problem is asking you to find <m:math>
-    	<m:mi>P</m:mi>
-    	<m:mo>(</m:mo>
-    	<m:mi>A</m:mi>
-    	<m:mo>∩</m:mo>
-    	<m:mi>B</m:mi>
-    	<m:mo>)</m:mo>
-    	<m:mo>=</m:mo>
-    	<m:mi>P</m:mi>
-    	<m:mo>(</m:mo>
-    	<m:mi>B</m:mi>
-    	<m:mo>∩</m:mo>
-    	<m:mi>A</m:mi>
-    	<m:mo>)</m:mo>
-    </m:math>. Since <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis><m:math><m:mo>|</m:mo></m:math><emphasis effect="italics">A</emphasis>) = 0.90: <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">A</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis><m:math><m:mo>|</m:mo></m:math><emphasis effect="italics">A</emphasis>) <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) = (0.90)(0.65) = 0.585</para><para id="fs-idm26792640">Carlos makes the first and second goals with probability 0.585.<newline count="2"/></para></item>
-    <item><para id="element-101s">b. The problem is asking you to find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> <m:math><m:mo>∪</m:mo></m:math> <emphasis effect="italics">B</emphasis>).</para><para id="fs-idm17573264"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> <m:math><m:mo>∪</m:mo></m:math> <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) - <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">B</emphasis>) = 0.65 + 0.65 - 0.585 = 0.715</para><para id="element-101s2">Carlos makes either the first goal or the second goal with probability 0.715.<newline count="2"/></para></item>
-    <item><para id="element-471">c. No, they are not, because <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">A</emphasis>) = 0.585.</para><para id="fs-idm36249792"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) = (0.65)(0.65) = 0.423</para><para id="fs-idp6892608">0.423 ≠ 0.585 = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">A</emphasis>)</para><para id="element-990">So, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">A</emphasis>) is <emphasis>not</emphasis> equal to <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>).<newline count="2"/></para></item>
-    <item><para id="element-102s">d. No, they are not because <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">B</emphasis>) = 0.585.</para><para id="element-102s2">To be mutually exclusive, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">B</emphasis>) must equal zero.</para></item>
-  </list>
+<para id="element-639s">a. The problem is asking you to find <m:math>
+	<m:mi>P</m:mi>
+	<m:mo>(</m:mo>
+	<m:mi>A</m:mi>
+	<m:mo>∩</m:mo>
+	<m:mi>B</m:mi>
+	<m:mo>)</m:mo>
+	<m:mo>=</m:mo>
+	<m:mi>P</m:mi>
+	<m:mo>(</m:mo>
+	<m:mi>B</m:mi>
+	<m:mo>∩</m:mo>
+	<m:mi>A</m:mi>
+	<m:mo>)</m:mo>
+</m:math>. Since <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis><m:math><m:mo>|</m:mo></m:math><emphasis effect="italics">A</emphasis>) = 0.90: <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">A</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis><m:math><m:mo>|</m:mo></m:math><emphasis effect="italics">A</emphasis>) <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) = (0.90)(0.65) = 0.585</para><para id="fs-idm26792640">Carlos makes the first and second goals with probability 0.585.<newline count="2"/></para>
 </solution>
+</exercise>
+
+<exercise id="element-101">
+<problem id="id20947019">
+<para id="element-101p">b. What is the probability that Carlos makes either the first goal or the second goal?</para>
+</problem>
+<solution id="id20947037">
+<para id="element-101s">b. The problem is asking you to find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> <m:math><m:mo>∪</m:mo></m:math> <emphasis effect="italics">B</emphasis>).</para><para id="fs-idm17573264"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> <m:math><m:mo>∪</m:mo></m:math> <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) - <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">B</emphasis>) = 0.65 + 0.65 - 0.585 = 0.715</para><para id="element-101s2">Carlos makes either the first goal or the second goal with probability 0.715.<newline count="2"/></para>
+</solution>
+</exercise>
+
+<exercise id="element-444">
+<problem id="id20946309">
+<para id="element-356">c. Are <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> independent?</para>
+</problem>
+<solution id="id20946336">
+<para id="element-471">c. No, they are not, because <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">A</emphasis>) = 0.585.</para><para id="fs-idm36249792"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>) = (0.65)(0.65) = 0.423</para><para id="fs-idp6892608">0.423 ≠ 0.585 = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">A</emphasis>)</para><para id="element-990">So, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">A</emphasis>) is <emphasis>not</emphasis> equal to <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>).<newline count="2"/></para></solution>
+</exercise>
+
+<exercise id="element-102">
+<problem id="id20946487">
+<para id="element-102p">d. Are <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis> mutually exclusive?</para>
+</problem>
+<solution id="id20946514">
+<para id="element-102s">d. No, they are not because <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">B</emphasis>) = 0.585.</para><para id="element-102s2">To be mutually exclusive, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">B</emphasis>) must equal zero.</para></solution>
 </exercise>
 </example>
 
@@ -244,27 +259,47 @@ We can think of the union symbol substituting for the word "or". The reason we s
 <example id="element-572">
 <para id="element-699">A community swim team has <emphasis>150</emphasis> members. <emphasis>Seventy-five</emphasis> of the members are advanced swimmers. <emphasis>Forty-seven</emphasis> of the members are intermediate swimmers. The remainder are novice swimmers. <emphasis>Forty</emphasis> of the advanced swimmers practice four times a week. <emphasis>Thirty</emphasis> of the intermediate swimmers practice four times a week. <emphasis>Ten</emphasis> of the novice swimmers practice four times a week. Suppose one member of the swim team is chosen randomly.<newline count="2"/></para>
 <exercise id="element-201">
-<problem id="id21150090">
-  <list id="id211500902" list-type="enumerated" number-style="lower-alpha">
-    <item>What is the probability that the member is a novice swimmer?</item>
-    <item>What is the probability that the member practices four times a week?</item>
-    <item>What is the probability that the member is an advanced swimmer and practices four times a week?</item>
-    <item>What is the probability that a member is an advanced swimmer and an intermediate swimmer? Are being an advanced swimmer and an intermediate swimmer mutually exclusive? Why or why not?</item>
-    <item>Are being a novice swimmer and practicing four times a week independent events? Why or why not?</item>
-  </list>
+<problem id="id21150090"> 
+<para id="element-201p">a. What is the probability that the member is a novice swimmer?</para>
 </problem>
 <solution id="id21150108">
-  <list id="id211500903" list-type="enumerated" number-style="lower-alpha">
-    <item><m:math><m:mfrac><m:mn>28</m:mn><m:mn>150</m:mn></m:mfrac></m:math></item>
-    <item><m:math><m:mfrac><m:mn>80</m:mn><m:mn>150</m:mn></m:mfrac></m:math></item>
-    <item><m:math><m:mfrac><m:mn>40</m:mn><m:mn>150</m:mn></m:mfrac></m:math></item>
-    <item><emphasis effect="italics">P</emphasis>(advanced <m:math><m:mo>∩</m:mo></m:math> intermediate) = 0, so these are mutually exclusive events. A swimmer cannot be an advanced swimmer and an intermediate swimmer at the same time.</item>
-    <item>No, these are not independent events.
-    <newline/><emphasis effect="italics">P</emphasis>(novice <m:math><m:mo>∩</m:mo></m:math> practices four times per week) = 0.0667
-    <newline/><emphasis effect="italics">P</emphasis>(novice)<emphasis effect="italics">P</emphasis>(practices four times per week) = 0.0996
-    <newline/>0.0667 ≠ 0.0996</item>
-  </list>
+<para id="element-201s">a. <m:math><m:mfrac><m:mn>28</m:mn><m:mn>150</m:mn></m:mfrac></m:math><newline count="2"/></para>
 </solution>
+</exercise>
+
+<exercise id="element-202">
+<problem id="id21150144"> 
+<para id="element-202p">b. What is the probability that the member practices four times a week?</para>
+</problem>
+<solution id="id21150162">
+<para id="element-202s">b. <m:math><m:mfrac><m:mn>80</m:mn><m:mn>150</m:mn></m:mfrac></m:math><newline count="2"/></para>
+</solution>
+</exercise>
+
+<exercise id="element-203">
+<problem id="id21150198"> 
+<para id="element-203p">c. What is the probability that the member is an advanced swimmer and practices four times a week?</para>
+</problem>
+<solution id="id21150218">
+<para id="element-203s">c. <m:math><m:mfrac><m:mn>40</m:mn><m:mn>150</m:mn></m:mfrac></m:math><newline count="2"/>
+</para></solution>
+</exercise>
+
+<exercise id="element-204">
+<problem id="id21150254"> 
+<para id="element-204p">d. What is the probability that a member is an advanced swimmer and an intermediate swimmer? Are being an advanced swimmer and an intermediate swimmer mutually exclusive? Why or why not?</para></problem>
+<solution id="id21150274">
+<para id="element-204s">d. <emphasis effect="italics">P</emphasis>(advanced <m:math><m:mo>∩</m:mo></m:math> intermediate) = 0, so these are mutually exclusive events. A swimmer cannot be an advanced swimmer and an intermediate swimmer at the same time.<newline count="2"/></para></solution>
+</exercise>
+
+<exercise id="element-205"><problem id="id21163993"> 
+<para id="eip-idm154998256">e. Are being a novice swimmer and practicing four times a week independent events? Why or why not?</para>
+</problem>
+<solution id="id21164012">
+<para id="element-205s">e. No, these are not independent events.
+<newline/><emphasis effect="italics">P</emphasis>(novice <m:math><m:mo>∩</m:mo></m:math> practices four times per week) = 0.0667
+<newline/><emphasis effect="italics">P</emphasis>(novice)<emphasis effect="italics">P</emphasis>(practices four times per week) = 0.0996
+<newline/>0.0667 ≠ 0.0996</para></solution>
 </exercise>
 </example>
 
@@ -304,7 +339,7 @@ We can think of the union symbol substituting for the word "or". The reason we s
 <example id="fs-idm15085168">
 <para id="fs-idm37045312">Felicity attends Modesto JC in Modesto, CA. The probability that Felicity enrolls in a math class is 0.2 and the probability that she enrolls in a speech class is 0.65. The probability that she enrolls in a math class <m:math><m:mo>|</m:mo></m:math> that she enrolls in speech class is 0.25.</para><para id="fs-idm57022736">Let: <emphasis effect="italics">M</emphasis> = math class, <emphasis effect="italics">S</emphasis> = speech class, <emphasis effect="italics">M</emphasis><m:math><m:mo>|</m:mo></m:math><emphasis effect="italics">S</emphasis> = math given speech</para><exercise id="fs-idp38089552">
 <problem id="fs-idm12150000">
-<list id="fs-idm41716768" list-type="enumerated" number-style="lower-alpha"><item>What is the probability that Felicity enrolls in math and speech?
+<list id="fs-idm41716768" list-type="enumerated" number-style="lower-alpha"><item>What is the probability that Felicity enrolls in math and speech? 
 <newline count="1"/>Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">M</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">S</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">M</emphasis><m:math><m:mo>|</m:mo></m:math><emphasis effect="italics">S</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">S</emphasis>).</item>
 <item>What is the probability that Felicity enrolls in math or speech classes?
 <newline count="1"/>Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">M</emphasis> <m:math><m:mo>∪</m:mo></m:math> <emphasis effect="italics">S</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">M</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">S</emphasis>) - <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">M</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">S</emphasis>).</item>
@@ -334,28 +369,46 @@ We can think of the union symbol substituting for the word "or". The reason we s
 <example id="example5">
 <para id="element-472">Studies show that about one woman in seven (approximately 14.3%) who live to be 90 will develop breast cancer. Suppose that of those women who develop breast cancer, a test is negative 2% of the time. Also suppose that in the general population of women, the test for breast cancer is negative about 85% of the time. Let <emphasis effect="italics">B</emphasis> = woman develops breast cancer and let <emphasis effect="italics">N</emphasis> = tests negative. Suppose one woman is selected at random.<newline count="2"/></para>
 <exercise id="element-301">
-<problem id="id21164154">
-  <list id="id2094689432" list-type="enumerated" number-style="lower-alpha">
-    <item>What is the probability that the woman develops breast cancer? What is the probability that woman tests negative?</item>
-    <item>Given that the woman has breast cancer, what is the probability that she tests negative?</item>
-    <item>What is the probability that the woman has breast cancer AND tests negative?</item>
-    <item>What is the probability that the woman has breast cancer or tests negative?</item>
-    <item>Are having breast cancer and testing negative independent events?</item>
-    <item>Are having breast cancer and testing negative mutually exclusive?</item>
-  </list>
+<problem id="id21164153"> 
+<para id="element-301p">a. What is the probability that the woman develops breast cancer? What is the probability that woman tests negative?</para>
 </problem>
 <solution id="id21164172">
-  <list id="id209468944" list-type="enumerated" number-style="lower-alpha">
-    <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) = 0.143; <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">N</emphasis>) = 0.85</item>
-    <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">N</emphasis><m:math><m:mo>|</m:mo></m:math><emphasis effect="italics">B</emphasis>) = 0.02</item>
-    <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">N</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">N</emphasis><m:math><m:mo>|</m:mo></m:math><emphasis effect="italics">B</emphasis>) = (0.143)(0.02) = 0.0029</item>
-    <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> <m:math><m:mo>∪</m:mo></m:math> <emphasis effect="italics">N</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">N</emphasis>) - <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">N</emphasis>) = 0.143 + 0.85 - 0.0029 = 0.9901</item>
-    <item>No. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">N</emphasis>) = 0.85; <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">N</emphasis><m:math><m:mo>|</m:mo></m:math><emphasis effect="italics">B</emphasis>) = 0.02. So, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">N</emphasis><m:math><m:mo>|</m:mo></m:math><emphasis effect="italics">B</emphasis>) does not equal <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">N</emphasis>).</item>
-    <item>No. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">N</emphasis>) = 0.0029. For <emphasis effect="italics">B</emphasis> and <emphasis effect="italics">N</emphasis> to be mutually exclusive, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">N</emphasis>) must be zero.</item>
-  </list>
+<para id="element-301s">a. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) = 0.143; <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">N</emphasis>) = 0.85<newline count="2"/></para>
 </solution>
 </exercise>
-</example>
+
+<exercise id="element-302">
+<problem id="id21164224"> 
+<para id="element-302p">b. Given that the woman has breast cancer, what is the probability that she tests negative?</para>
+</problem>
+<solution id="id21164243">
+<para id="element-302s">b. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">N</emphasis><m:math><m:mo>|</m:mo></m:math><emphasis effect="italics">B</emphasis>) = 0.02<newline count="2"/></para></solution>
+</exercise>
+
+<exercise id="element-307">
+<problem id="id21164283"> 
+<para id="element-307p">c. What is the probability that the woman has breast cancer AND tests negative?</para></problem>
+<solution id="id21164302">
+<para id="element-307s">c. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">N</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">N</emphasis><m:math><m:mo>|</m:mo></m:math><emphasis effect="italics">B</emphasis>) = (0.143)(0.02) = 0.0029<newline count="2"/></para></solution>
+</exercise>
+
+<exercise id="element-303"><problem id="id21164367"> 
+<para id="element-303p">d. What is the probability that the woman has breast cancer or tests negative?</para>
+</problem>
+<solution id="id21164385">
+<para id="element-303s">d. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> <m:math><m:mo>∪</m:mo></m:math> <emphasis effect="italics">N</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">N</emphasis>) - <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">N</emphasis>) = 0.143 + 0.85 - 0.0029 = 0.9901<newline count="2"/></para></solution></exercise><exercise id="element-304">
+<problem id="id21164462"> 
+<para id="element-304p">e. Are having breast cancer and testing negative independent events?</para></problem>
+<solution id="id21164481">
+<para id="element-304s">e. No. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">N</emphasis>) = 0.85; <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">N</emphasis><m:math><m:mo>|</m:mo></m:math><emphasis effect="italics">B</emphasis>) = 0.02. So, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">N</emphasis><m:math><m:mo>|</m:mo></m:math><emphasis effect="italics">B</emphasis>) does not equal <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">N</emphasis>).<newline count="2"/></para></solution>
+</exercise>
+<exercise id="element-305">
+<problem id="id21001185"> 
+<para id="element-305p">f. Are having breast cancer and testing negative mutually exclusive?</para>
+</problem>
+<solution id="id21001204">
+<para id="element-305s">f. No. <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">N</emphasis>) = 0.0029. For <emphasis effect="italics">B</emphasis> and <emphasis effect="italics">N</emphasis> to be mutually exclusive, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">N</emphasis>) must be zero.</para></solution>
+</exercise></example>   
 <note id="fs-idp45632144" class="statistics try"><label/><title>Try It</title>
 <exercise id="fs-idm57543872">
 <problem id="fs-idm69233152">
@@ -384,7 +437,7 @@ We can think of the union symbol substituting for the word "or". The reason we s
 <m:mrow>
 <m:mn>140</m:mn>
 </m:mrow>
-</m:mfrac>
+</m:mfrac> 
 </m:mrow>
 </m:math></para><para id="fs-idm35836544"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">B</emphasis>) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">B</emphasis><m:math><m:mo>|</m:mo></m:math><emphasis effect="italics">A</emphasis>)<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis>)</para><para id="fs-idm78240768"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">A</emphasis> <m:math><m:mo>∩</m:mo></m:math> <emphasis effect="italics">B</emphasis>) = <m:math>
 <m:mrow>
@@ -655,7 +708,7 @@ We can think of the union symbol substituting for the word "or". The reason we s
 </m:mrow>
 </m:math>
 </item>
-<item><emphasis effect="italics">P</emphasis>(Betting on one number) = <m:math>
+<item><emphasis effect="italics">P</emphasis>(Bettting on one number) = <m:math>
 <m:mrow>
 <m:mfrac>
 <m:mn>1</m:mn>
@@ -984,49 +1037,49 @@ We can think of the union symbol substituting for the word "or". The reason we s
 <entry>Name</entry>
 <entry>Single</entry>
 <entry>Double</entry>
-<entry>Triple</entry>
-<entry>Home run</entry>
+<entry>Triple</entry> 
+<entry>Home run</entry> 
 <entry>Total hits</entry></row>
 </thead>
 <tbody>
 <row>
 <entry>Babe Ruth</entry>
-<entry>1,517</entry>
-<entry>506</entry>
-<entry>136</entry>
-<entry>714</entry>
+<entry>1,517</entry> 
+<entry>506</entry> 
+<entry>136</entry> 
+<entry>714</entry> 
 <entry>2,873</entry>
 </row>
 <row>
 <entry>Jackie Robinson</entry>
-<entry>1,054</entry>
-<entry>273</entry>
-<entry>54</entry>
-<entry>137</entry>
+<entry>1,054</entry> 
+<entry>273</entry> 
+<entry>54</entry> 
+<entry>137</entry> 
 <entry>1,518</entry>
 </row>
 <row>
-<entry>Ty Cobb</entry>
-<entry>3,603</entry>
-<entry>174</entry>
-<entry>295</entry>
-<entry>114</entry>
+<entry>Ty Cobb</entry> 
+<entry>3,603</entry> 
+<entry>174</entry> 
+<entry>295</entry> 
+<entry>114</entry> 
 <entry>4,189</entry>
 </row>
 <row>
-<entry>Hank Aaron</entry>
-<entry>2,294</entry>
-<entry>624</entry>
-<entry>98</entry>
-<entry>755</entry>
+<entry>Hank Aaron</entry> 
+<entry>2,294</entry> 
+<entry>624</entry> 
+<entry>98</entry> 
+<entry>755</entry> 
 <entry>3,771</entry>
 </row>
 <row>
-<entry>Total</entry>
-<entry>8,471</entry>
-<entry>1,577</entry>
-<entry>583</entry>
-<entry>1,720</entry>
+<entry>Total</entry> 
+<entry>8,471</entry> 
+<entry>1,577</entry> 
+<entry>583</entry> 
+<entry>1,720</entry> 
 <entry>12,351</entry>
 </row>
 </tbody>
@@ -1064,7 +1117,8 @@ We can think of the union symbol substituting for the word "or". The reason we s
 </list>
 </problem>
 </exercise><exercise id="eip-913"><problem id="eip-id1164887148050">
-<para id="eip-id1164882729280">In a box of assorted cookies, 36% contain chocolate and 12% contain nuts. In the box, 8% contain both chocolate and nuts. Sean is allergic to both chocolate and nuts.</para><list id="eip-id1164895994519" list-type="enumerated" number-style="lower-alpha">
+<para id="eip-id1164882729280">In a box of assorted cookies, 36% contain chocolate and 12% contain nuts. Of those, 8% contain both chocolate and nuts. Sean is allergic to both chocolate and nuts.</para>
+<list id="eip-id1164895994519" list-type="enumerated" number-style="lower-alpha">
 <item>Find the probability that a cookie contains chocolate or nuts (he can't eat it).</item>
 <item>Find the probability that a cookie does not contain chocolate or nuts (he can eat it).</item></list>
 </problem>
@@ -1083,7 +1137,7 @@ We can think of the union symbol substituting for the word "or". The reason we s
 <item>Using an appropriate test, show whether <emphasis effect="italics">D</emphasis> and <emphasis effect="italics">E</emphasis> are mutually exclusive.</item>
 </list></problem>
 </exercise>
-</section> </content>
+</section></content>
 
 <glossary>
 <definition id="indevents">

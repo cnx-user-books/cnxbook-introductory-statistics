@@ -45,117 +45,129 @@
 
 </tgroup>
 </table></para><para id="element-42">The total number of people in the sample is 755. The row totals are 305 and 450. The column totals are 70 and 685. Notice that 305 + 450 = 755 and 70 + 685 = 755.</para>
-<para id="element-818">Calculate the following probabilities using the table.<newline count="2"/></para>
-<exercise id="element-101">
+<para id="element-818">Calculate the following probabilities using the table.<newline count="2"/></para><exercise id="element-101">
 <problem id="id41663171">
-  <list id="id41663172" list-type="enumerated" number-style="lower-alpha">
-    <item>Find <emphasis effect="italics">P</emphasis>(Driver is a cell phone user).</item>
-    <item>Find <emphasis effect="italics">P</emphasis>(Driver had no violation in the last year).</item>
-    <item>Find <emphasis effect="italics">P</emphasis>(Driver had no violation in the last year <m:math><m:mo>∩</m:mo></m:math> was a cell phone user).</item>
-    <item>Find <emphasis effect="italics">P</emphasis>(Driver is a cell phone user <m:math><m:mo>∪</m:mo></m:math> driver had no violation in the last year).</item>
-    <item>Find <emphasis effect="italics">P</emphasis>(Driver is a cell phone user <m:math><m:mo>|</m:mo></m:math> driver had a violation in the last year).</item>
-    <item>Find <emphasis effect="italics">P</emphasis>(Driver had no violation last year <m:math><m:mo>|</m:mo></m:math> driver was not a cell phone user)</item>
-  </list>
-</problem>
+<para id="element-101p">a. Find <emphasis effect="italics">P</emphasis>(Driver is a cell phone user).</para></problem>
 <solution id="id41663194">
-  <list id="id41663173" list-type="enumerated" number-style="lower-alpha">
-    <item><m:math>
-    <m:mrow>
-    <m:mfrac>
-    <m:mrow>
-    <m:mtext>number of cell phone users</m:mtext>
-    </m:mrow>
-    <m:mrow>
-    <m:mtext>total number in study</m:mtext>
-    </m:mrow>
-    </m:mfrac>
-    <m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mfrac>
-    <m:mrow>
-    <m:mn>305</m:mn>
-    </m:mrow>
-    <m:mrow>
-    <m:mn>755</m:mn>
-    </m:mrow>
-    </m:mfrac>
+<para id="element-101s">a. <m:math>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mtext>number of cell phone users</m:mtext>
+</m:mrow>
+<m:mrow>
+<m:mtext>total number in study</m:mtext>
+</m:mrow>
+</m:mfrac>
+<m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mfrac>
+<m:mrow>
+<m:mn>305</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>755</m:mn>
+</m:mrow>
+</m:mfrac>
 
-    </m:mrow>
-    </m:math></item>
-    <item><m:math>
-    <m:mrow>
-    <m:mfrac>
-    <m:mrow>
-    <m:mtext>number that had no violation</m:mtext>
-    </m:mrow>
-    <m:mrow>
-    <m:mtext>total number in study</m:mtext>
-    </m:mrow>
-    </m:mfrac>
-    <m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mfrac>
-    <m:mrow>
-    <m:mn>685</m:mn>
-    </m:mrow>
-    <m:mrow>
-    <m:mn>755</m:mn>
-    </m:mrow>
-    </m:mfrac>
+</m:mrow>
+</m:math><newline count="2"/></para></solution>
+</exercise>
+<exercise id="element-102"><problem id="id41663249">
+<para id="element-102p">b. Find <emphasis effect="italics">P</emphasis>(Driver had no violation in the last year).</para></problem>
+<solution id="id41663273">
+<para id="element-102s">b. <m:math>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mtext>number that had no violation</m:mtext>
+</m:mrow>
+<m:mrow>
+<m:mtext>total number in study</m:mtext>
+</m:mrow>
+</m:mfrac>
+<m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mfrac>
+<m:mrow>
+<m:mn>685</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>755</m:mn>
+</m:mrow>
+</m:mfrac>
 
-    </m:mrow>
-    </m:math></item>
-    <item><m:math><m:mfrac>
-    <m:mn>280</m:mn>
-    <m:mn>755</m:mn>
-    </m:mfrac></m:math></item>
-    <item><m:math>
-    <m:mrow>
-    <m:mrow><m:mo>(</m:mo>
-    <m:mrow>
-    <m:mfrac>
-    <m:mrow>
-    <m:mn>305</m:mn>
-    </m:mrow>
-    <m:mrow>
-    <m:mn>755</m:mn>
-    </m:mrow>
-    </m:mfrac>
-    <m:mtext> </m:mtext><m:mo>+</m:mo><m:mtext> </m:mtext><m:mfrac>
-    <m:mrow>
-    <m:mn>685</m:mn>
-    </m:mrow>
-    <m:mrow>
-    <m:mn>755</m:mn>
-    </m:mrow>
-    </m:mfrac>
+</m:mrow>
+</m:math><newline count="2"/></para></solution>
+</exercise>
+<exercise id="element-103">
+<problem id="id41525516">
+<para id="element-103p">c. Find <emphasis effect="italics">P</emphasis>(Driver had no violation in the last year <m:math><m:mo>∩</m:mo></m:math> was a cell phone user).</para></problem>
+<solution id="id41525540">
+<para id="element-103s">c. <m:math><m:mfrac>
+<m:mn>280</m:mn>
+<m:mn>755</m:mn>
+</m:mfrac></m:math><newline count="2"/>
+</para></solution>
+</exercise>
+<exercise id="element-104">
+<problem id="id41525579">
+<para id="element-104p">d. Find <emphasis effect="italics">P</emphasis>(Driver is a cell phone user <m:math><m:mo>∪</m:mo></m:math> driver had no violation in the last year).</para></problem>
+<solution id="id41525604">
+<para id="element-104s">d. <m:math>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mn>305</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>755</m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mtext> </m:mtext><m:mo>+</m:mo><m:mtext> </m:mtext><m:mfrac>
+<m:mrow>
+<m:mn>685</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>755</m:mn>
+</m:mrow>
+</m:mfrac>
 
-    </m:mrow>
-    <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext><m:mo>−</m:mo><m:mtext> </m:mtext><m:mfrac>
-    <m:mrow>
-    <m:mn>280</m:mn>
-    </m:mrow>
-    <m:mrow>
-    <m:mn>755</m:mn>
-    </m:mrow>
-    </m:mfrac>
-    <m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mfrac>
-    <m:mrow>
-    <m:mn>710</m:mn>
-    </m:mrow>
-    <m:mrow>
-    <m:mn>755</m:mn>
-    </m:mrow>
-    </m:mfrac>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext><m:mo>−</m:mo><m:mtext> </m:mtext><m:mfrac>
+<m:mrow>
+<m:mn>280</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>755</m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mfrac>
+<m:mrow>
+<m:mn>710</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>755</m:mn>
+</m:mrow>
+</m:mfrac>
 
-    </m:mrow>
-    </m:math></item>
-    <item><m:math><m:mfrac>
-    <m:mn>25</m:mn>
-    <m:mn>70</m:mn>
-    </m:mfrac></m:math> (The sample space is reduced to the number of drivers who had a violation.)</item>
-    <item><m:math><m:mfrac>
-    <m:mn>405</m:mn>
-    <m:mn>450</m:mn>
-    </m:mfrac></m:math> (The sample space is reduced to the number of drivers who were not cell phone users.)</item>
-  </list>
-</solution>
+</m:mrow>
+</m:math><newline count="2"/></para></solution>
+</exercise>
+<exercise id="element-105">
+<problem id="id41525686">
+<para id="element-105p">e. Find <emphasis effect="italics">P</emphasis>(Driver is a cell phone user <m:math><m:mo>|</m:mo></m:math> driver had a violation in the last year).</para></problem>
+<solution id="id41525710"><para id="element-105s">e. <m:math><m:mfrac>
+<m:mn>25</m:mn>
+<m:mn>70</m:mn>
+</m:mfrac></m:math> (The sample space is reduced to the number of drivers who had a violation.)<newline count="2"/></para></solution>
+</exercise>
+<exercise id="element-107">
+<problem id="id41525752">
+<para id="element-107p">f. Find <emphasis effect="italics">P</emphasis>(Driver had no violation last year <m:math><m:mo>|</m:mo></m:math> driver was not a cell phone user)</para></problem>
+<solution id="id41525776">
+<para id="element-107s">f. <m:math><m:mfrac>
+<m:mn>405</m:mn>
+<m:mn>450</m:mn>
+</m:mfrac></m:math> (The sample space is reduced to the number of drivers who were not cell phone users.)</para></solution>
 </exercise>
 </example>
 <note id="fs-idm8469088" class="statistics try"><label/><title>Try it</title>
@@ -391,7 +403,7 @@
 </exercise><exercise id="element-402">
 <problem id="id41525358">
 <para id="element-715">d. Find the probability that a person is female or prefers hiking on mountain peaks. Let <emphasis effect="italics">F</emphasis> = being female, and let <emphasis effect="italics">P</emphasis> = prefers mountain peaks.</para>
-<list id="list1213" list-type="enumerated"><item>Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis>).</item>
+<list id="list1213" list-type="enumerated"><item>Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">F</emphasis>).</item>     
 <item>Find <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">P</emphasis>).</item>
 <item>Find <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>F</m:mi><m:mo>∩</m:mo><m:mi>P</m:mi><m:mo>)</m:mo></m:math>.</item>
 <item>Find <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>F</m:mi><m:mo>∪</m:mo><m:mi>P</m:mi><m:mo>)</m:mo></m:math>.</item>
@@ -611,7 +623,7 @@
 </thead>
 <tbody>
 <row>
-<entry>Caught</entry>
+<entry>Caught</entry> 
 <entry><m:math>
 <m:mfrac>
 <m:mn>1</m:mn>
@@ -721,7 +733,7 @@
 </thead>
 <tbody>
 <row>
-<entry>Caught</entry>
+<entry>Caught</entry> 
 <entry><m:math>
 <m:mfrac>
 <m:mn>1</m:mn>
@@ -792,7 +804,7 @@
 <para id="element-63">c. <m:math><m:mfrac><m:mn>9</m:mn><m:mn>19</m:mn></m:mfrac></m:math></para>
 </solution>
 </exercise>
-</example>
+</example>   
 <example id="fs-idm73418960">
 <para id="fs-idm37807440"><link target-id="Ch03_M04_tbl007"/> contains the number of crimes per 100,000 inhabitants from 2008 to 2011 in the U.S.</para><table id="Ch03_M04_tbl007" summary="United States Crime Index Rates Per 100,000 Inhabitants 2008 – 2011"><title>United States Crime Index Rates Per 100,000 Inhabitants 2008–2011</title>
 <tgroup cols="6">
@@ -811,7 +823,7 @@
 <entry>Vehicle</entry>
 <entry>Total</entry>
 </row>
-</thead>
+</thead> 
 <tbody>
 <row>
 <entry>2008</entry>
@@ -922,7 +934,7 @@
 <item>Find the total for each row and column</item>
 <item>Find the probability that a randomly chosen individual from this group is Tall.</item>
 <item>Find the probability that a randomly chosen individual from this group is Obese and Tall.</item>
-<item>Find the probability that a randomly chosen individual from this group is Tall given that the individual is Obese.</item>
+<item>Find the probability that a randomly chosen individual from this group is Tall given that the idividual is Obese.</item>
 <item>Find the probability that a randomly chosen individual from this group is Obese given that the individual is Tall.</item>
 <item>Find the probability a randomly chosen individual from this group is Tall and Underweight.</item>
 <item>Are the events Obese and Tall independent?</item>
@@ -1100,7 +1112,7 @@
       <m:mn>11</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1110,7 +1122,7 @@
       <m:mn>11</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -1122,7 +1134,7 @@
     <m:mn>121</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math><newline count="2"/></para></solution>
 </exercise>
@@ -1140,7 +1152,7 @@
       <m:mn>11</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1150,7 +1162,7 @@
       <m:mn>11</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -1164,7 +1176,7 @@
       <m:mn>11</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1174,7 +1186,7 @@
       <m:mn>11</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -1188,7 +1200,7 @@
     <m:mn>121</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math><newline count="2"/></para></solution>
 </exercise>
@@ -1206,7 +1218,7 @@
       <m:mn>11</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1216,7 +1228,7 @@
       <m:mn>11</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -1230,7 +1242,7 @@
     <m:mn>121</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math><newline count="2"/>
 </para></solution>
@@ -1249,7 +1261,7 @@
     <m:mn>88</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
  = <m:math>
@@ -1262,7 +1274,7 @@
     <m:mn>11</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </para><para id="element-307">This problem is a conditional one. The sample space has been reduced to those outcomes that already have a blue on the first draw. There are  24 + 64 = 88 possible outcomes (24 <emphasis effect="italics">BR</emphasis> and 64 <emphasis effect="italics">BB</emphasis>). Twenty-four of the 88 possible outcomes are <emphasis effect="italics">BR</emphasis>. <m:math>
@@ -1275,7 +1287,7 @@
     <m:mn>88</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> = <m:math>
  <m:mrow>
@@ -1287,7 +1299,7 @@
     <m:mn>11</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>.<newline count="2"/></para></solution>
 </exercise>
@@ -1306,7 +1318,7 @@
     <m:mn>121</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math><newline count="2"/>
 </para></solution>
@@ -1364,7 +1376,7 @@
     <m:mn>169</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math></para></solution>
 </exercise></note>
@@ -1378,7 +1390,7 @@
       <m:mn>11</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1388,7 +1400,7 @@
       <m:mn>10</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
    <m:mn>6</m:mn>
@@ -1396,7 +1408,7 @@
     <m:mn>110</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>.</para>
 <figure id="element-325a"><media id="id47078287" alt="This is a tree diagram with branches showing probabilities of each draw. The first branch shows 2 lines: B 8/11 and R 3/11. The second branch has a set of 2 lines for each first branch line. Below B 8/11 are B 7/10 and R 3/10. Below R 3/11 are B 8/10 and R 2/10. Multiply along each line to find BB 56/110, BR 24/110, RB 24/110, and RR 6/110."><image src="../../media/fig-ch03_07_02.jpg" mime-type="image/jpg" width="400"/></media>
@@ -1440,7 +1452,7 @@
       <m:mn>11</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1450,7 +1462,7 @@
       <m:mn>10</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mfrac>
    <m:mn>6</m:mn>
@@ -1458,7 +1470,7 @@
     <m:mn>110</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math><newline count="2"/></para></solution>
 </exercise>
@@ -1475,7 +1487,7 @@
       <m:mn>11</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1485,7 +1497,7 @@
       <m:mn>10</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext><m:mo>+</m:mo><m:mtext> (___)(___) </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mfrac>
    <m:mrow>
@@ -1495,7 +1507,7 @@
     <m:mn>110</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math></para></problem>
 <solution id="id47078597" print-placement="end">
@@ -1509,7 +1521,7 @@
       <m:mn>11</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1519,7 +1531,7 @@
       <m:mn>10</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -1533,7 +1545,7 @@
       <m:mn>11</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1543,7 +1555,7 @@
       <m:mn>10</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -1557,7 +1569,7 @@
     <m:mn>110</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math><newline count="2"/></para></solution>
 </exercise>
@@ -1573,7 +1585,7 @@
     <m:mn>10</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math><newline count="2"/></para></solution>
 </exercise>
@@ -1587,10 +1599,10 @@
     <m:mn>24</m:mn>
    </m:mrow>
    <m:mrow>
-    <m:mn>110</m:mn>
+    <m:mn>100</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </para></problem>
@@ -1605,7 +1617,7 @@
       <m:mn>11</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1615,7 +1627,7 @@
       <m:mn>10</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -1626,10 +1638,10 @@
     <m:mn>24</m:mn>
    </m:mrow>
    <m:mrow>
-    <m:mn>110</m:mn>
+    <m:mn>100</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math><newline count="2"/>
  </para></solution>
@@ -1658,7 +1670,7 @@
       <m:mn>10</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -1676,7 +1688,7 @@
     <m:mn>10</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>.</para></solution>
 </exercise>
@@ -1734,7 +1746,7 @@
     <m:mtext>221</m:mtext>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math></item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">N</emphasis><m:math><m:mo>|</m:mo></m:math><emphasis effect="italics">F</emphasis>) = <m:math>
@@ -1747,7 +1759,7 @@
     <m:mn>51</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math></item>
 <item><emphasis effect="italics">P</emphasis>(at most one face card) = <m:math>
@@ -1760,7 +1772,7 @@
     <m:mtext>2,652</m:mtext>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> = <m:math>
  <m:mrow>
@@ -1772,7 +1784,7 @@
     <m:mn>2</m:mn><m:mo>,</m:mo><m:mn>652</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math></item>
 <item><emphasis effect="italics">P</emphasis>(at least one face card) = <m:math>
@@ -1785,7 +1797,7 @@
     <m:mtext>2,652</m:mtext>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> = <m:math>
  <m:mrow>
@@ -1797,7 +1809,7 @@
     <m:mtext>2,652</m:mtext>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math></item>
 </list></solution>
@@ -1817,7 +1829,7 @@
      <m:mn>1</m:mn>
      <m:mn>2</m:mn>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -1825,7 +1837,7 @@
      <m:mn>1</m:mn>
      <m:mn>2</m:mn>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -1839,7 +1851,7 @@
        <m:mn>9</m:mn>
       </m:mfrac>
      </m:mstyle>
-
+     
     </m:mrow>
    <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
     <m:mrow>
@@ -1849,7 +1861,7 @@
        <m:mn>9</m:mn>
       </m:mfrac>
      </m:mstyle>
-
+     
     </m:mrow>
    <m:mo>)</m:mo></m:mrow>
   </m:mrow>
@@ -1864,7 +1876,7 @@
        <m:mn>9</m:mn>
       </m:mfrac>
      </m:mstyle>
-
+     
     </m:mrow>
    <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
     <m:mrow>
@@ -1874,7 +1886,7 @@
        <m:mn>8</m:mn>
       </m:mfrac>
      </m:mstyle>
-
+     
     </m:mrow>
    <m:mo>)</m:mo></m:mrow>
   </m:mrow>
@@ -1890,7 +1902,7 @@
        <m:mn>9</m:mn>
       </m:mfrac>
      </m:mstyle>
-
+     
     </m:mrow>
    <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
     <m:mrow>
@@ -1900,7 +1912,7 @@
        <m:mn>9</m:mn>
       </m:mfrac>
      </m:mstyle>
-
+     
     </m:mrow>
    <m:mo>)</m:mo></m:mrow>
   </m:mrow>
@@ -1917,7 +1929,7 @@
        <m:mn>9</m:mn>
       </m:mfrac>
      </m:mstyle>
-
+     
     </m:mrow>
    <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
     <m:mrow>
@@ -1927,7 +1939,7 @@
        <m:mn>9</m:mn>
       </m:mfrac>
      </m:mstyle>
-
+     
     </m:mrow>
    <m:mo>)</m:mo></m:mrow>
   </m:mrow>
@@ -1941,7 +1953,7 @@
        <m:mn>9</m:mn>
       </m:mfrac>
      </m:mstyle>
-
+     
     </m:mrow>
    <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
     <m:mrow>
@@ -1951,7 +1963,7 @@
        <m:mn>8</m:mn>
       </m:mfrac>
      </m:mstyle>
-
+     
     </m:mrow>
    <m:mo>)</m:mo></m:mrow>
   </m:mrow>
@@ -1965,7 +1977,7 @@
        <m:mn>9</m:mn>
       </m:mfrac>
      </m:mstyle>
-
+     
     </m:mrow>
    <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
     <m:mrow>
@@ -1975,7 +1987,7 @@
        <m:mn>9</m:mn>
       </m:mfrac>
      </m:mstyle>
-
+     
     </m:mrow>
    <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo>
     <m:mrow>
@@ -1985,7 +1997,7 @@
        <m:mn>9</m:mn>
       </m:mfrac>
      </m:mstyle>
-
+     
     </m:mrow>
    <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
     <m:mrow>
@@ -1995,11 +2007,11 @@
        <m:mn>9</m:mn>
       </m:mfrac>
      </m:mstyle>
-
+     
     </m:mrow>
    <m:mo>)</m:mo></m:mrow>
   </m:mrow>
-
+   
 </m:math>	d.<m:math>
    <m:mrow>
    <m:mrow><m:mo>(</m:mo>
@@ -2010,7 +2022,7 @@
        <m:mn>9</m:mn>
       </m:mfrac>
      </m:mstyle>
-
+     
     </m:mrow>
    <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
     <m:mrow>
@@ -2020,7 +2032,7 @@
        <m:mn>8</m:mn>
       </m:mfrac>
      </m:mstyle>
-
+     
     </m:mrow>
    <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo>
     <m:mrow>
@@ -2030,7 +2042,7 @@
        <m:mn>9</m:mn>
       </m:mfrac>
      </m:mstyle>
-
+     
     </m:mrow>
    <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
     <m:mrow>
@@ -2040,7 +2052,7 @@
        <m:mn>8</m:mn>
       </m:mfrac>
      </m:mstyle>
-
+     
     </m:mrow>
    <m:mo>)</m:mo></m:mrow>
   </m:mrow>
@@ -2055,7 +2067,7 @@
    <m:mn>4</m:mn>
    <m:mn>8</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>, d. <m:math>
  <m:mrow>
@@ -2067,7 +2079,7 @@
     <m:mn>72</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </para>
@@ -2089,7 +2101,7 @@
      <m:mn>4</m:mn>
      <m:mn>7</m:mn>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -2097,7 +2109,7 @@
      <m:mn>3</m:mn>
      <m:mn>6</m:mn>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -2109,7 +2121,7 @@
      <m:mn>3</m:mn>
      <m:mn>7</m:mn>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -2117,7 +2129,7 @@
      <m:mn>4</m:mn>
      <m:mn>6</m:mn>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -2128,7 +2140,7 @@
 <para id="fs-idm90987472">Data from the National Center for Health Statistics, part of the United States Department of Health and Human Services.</para>
 <para id="fs-idm79839440">Data from United States Senate. Available online at www.senate.gov (accessed May 2, 2013).</para>
 <para id="eip-29">“Human Blood Types.” Unite Blood Services, 2011. Available online at http://www.unitedbloodservices.org/learnMore.aspx (accessed May 2, 2013).</para>
-<para id="fs-idm90988000">Haiman, Christopher A., Daniel O. Stram, Lynn R. Wilkens, Malcolm C. Pike, Laurence N. Kolonel, Brien E. Henderson, and Loīc Le Marchand. “Ethnic and Racial Differences in the Smoking-Related Risk of Lung Cancer.” The New England Journal of Medicine, 2013. Available online at http://www.nejm.org/doi/full/10.1056/NEJMoa033250 (accessed May 2, 2013).</para>
+<para id="fs-idm90988000">Haiman, Christopher A., Daniel O. Stram, Lynn R. Wilkens, Malcom C. Pike, Laurence N. Kolonel, Brien E. Henderson, and Loīc Le Marchand. “Ethnic and Racial Differences in the Smoking-Related Risk of Lung Cancer.” The New England Journal of Medicine, 2013. Available online at http://www.nejm.org/doi/full/10.1056/NEJMoa033250 (accessed May 2, 2013).</para>
 <para id="fs-idm7900000">Samuel, T. M. “Strange Facts about RH Negative Blood.” eHow Health, 2013. Available online at  http://www.ehow.com/facts_5552003_strange-rh-negative-blood.html (accessed May 2, 2013).</para><para id="eip-293">“United States: Uniform Crime Report – State Statistics from 1960–2011.” The Disaster Center. Available online at http://www.disastercenter.com/crime/ (accessed May 2, 2013).</para>
 
 <para id="fs-idm13822272">Data from Clara County Public H.D.</para>
@@ -2137,9 +2149,9 @@
 <para id="fs-idp46541952">Data from the Federal Highway Administration, part of the United States Department of Transportation.</para>
 <para id="fs-idp46542448">Data from the United States Census Bureau, part of the United States Department of Commerce.</para>
 <para id="fs-idp46541568">Data from USA Today.</para>
-<para id="eip-478">“Environment.” The World Bank, 2013. Available online at http://data.worldbank.org/topic/environment (accessed May 2, 2013).</para><para id="eip-363">“Search for Datasets.” Roper Center: Public Opinion Archives, University of Connecticut., 2013. Available online at https://ropercenter.cornell.edu/?s=Search+for+Datasets (accessed February 6, 2019).</para></section><section id="eip-347" class="summary"><title>Chapter Review</title><para id="fs-idp35891312">There are several tools you can use to help organize and sort data when calculating probabilities. Contingency tables help display data and are particularly useful when calculating probabilities that have multiple dependent variables.</para>
+<para id="eip-478">“Environment.” The World Bank, 2013. Available online at http://data.worldbank.org/topic/environment (accessed May 2, 2013).</para><para id="eip-363">“Search for Datasets.” Roper Center: Public Opinion Archives, University of Connecticut., 2013. Available online at https://ropercenter.cornell.edu/?s=Search+for+Datasets (accessed February 6, 2019).</para></section><section id="eip-347" class="summary"><title>Chapter Review</title><para id="fs-idp35891312">There are several tools you can use to help organize and sort data when calculating probabilities. Contingency tables help display data and are particularly useful when calculating probabilites that have multiple dependent variables.</para>
 
-<para id="fs-idp59827120">A tree diagram use branches to show the different outcomes of experiments and makes complex probability questions easy to visualize.</para></section> </content>
+<para id="fs-idp59827120">A tree diagram use branches to show the different outcomes of experiments and makes complex probability questions easy to visualize.</para></section></content>
 
 <glossary>
 <definition id="treediagram">

@@ -39,7 +39,7 @@
   <m:mi>x</m:mi>
   <m:mo>–</m:mo>
  </m:mover></m:msub>
-</m:math>, is equal to the mean of the population of the original data which is what we are interested in estimating from the sample we took. We have already inserted this conclusion of the Central Limit Theorem into the formula we use for standardizing from the sampling distribution to the standard normal distribution.
+</m:math>, is equal to the mean of the population of the original data which is what we are interested in estimating from the sample we took. We have already inserted this conclusion of the Central Limit Theorem into the formula we use for standardizing from the sampling distribution to the standard normal distribution. 
 And finally, the Central Limit Theorem has also provided the standard deviation of the sampling distribution, <m:math><m:msub><m:mi>σ</m:mi><m:mover>
   <m:mi>x</m:mi>
   <m:mo>–</m:mo>
@@ -53,7 +53,7 @@ And finally, the Central Limit Theorem has also provided the standard deviation 
   <m:mi>x</m:mi>
   <m:mo>–</m:mo>
  </m:mover>
-</m:math>'s and the standard deviation has been written to the right above the distribution. Notice that the standard deviation of the sampling distribution is the original standard deviation of the population, divided by the sample size. We have already seen that as the sample size increases the sampling distribution becomes closer and closer to the normal distribution. As this happens, the standard deviation of the sampling distribution changes in another way; the standard deviation decreases as n increases. At very large n, the standard deviation of the sampling distribution becomes very small and at infinity it collapses on top of the population mean. This is what it means that the expected value of  <m:math><m:msub><m:mi>µ</m:mi><m:mrow><m:mover>
+</m:math>'s and the standard deviation has been written to the right above the distribution. Notice that the standard deviation of the sampling distribution is the original standard deviation of the population, divided by the sample size. We have already seen that as the sample size increases the sampling distribution becomes closer and closer to the normal distribution. As this happens, the standard deviation of the sampling distribution changes in another way; the standard deviation decreases as n increases. At very very large n, the standard deviation of the sampling distribution becomes very small and at infinity it collapses on top of the population mean. This is what it means that the expected value of  <m:math><m:msub><m:mi>µ</m:mi><m:mrow><m:mover>
   <m:mi>x</m:mi>
   <m:mo>–</m:mo>
  </m:mover></m:mrow></m:msub>
@@ -65,7 +65,7 @@ And finally, the Central Limit Theorem has also provided the standard deviation 
   <m:mi>x</m:mi>
   <m:mo>–</m:mo>
  </m:mover>
-
+ 
 </m:math> gets to <emphasis effect="italics">μ</emphasis>.</para></section>
 
 <section id="fs-idm65344016" class="practice"><para id="fs-idp5239552"><emphasis effect="italics">Use the following information to answer the next ten exercises:</emphasis> A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken.</para>
@@ -73,7 +73,7 @@ And finally, the Central Limit Theorem has also provided the standard deviation 
 <exercise id="exercise4">
 <problem id="fs-idm108112736">
 <list id="fs-idm44419104" list-type="enumerated" number-style="lower-alpha">
-<item>What is the distribution for the weights of one 25-pound lifting weight? What is the mean and standard deviation?</item>
+<item>What is the distribution for the weights of one 25-pound lifting weight? What is the mean and standard deivation?</item>
 <item>What is the distribution for the mean weight of 100 25-pound lifting weights?</item>
 <item>Find the probability that the mean actual weight for the 100 weights is less than 24.9.</item>
 </list>
@@ -191,7 +191,7 @@ And finally, the Central Limit Theorem has also provided the standard deviation 
     <m:mn>10</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math></item>
 </list>
@@ -213,7 +213,7 @@ And finally, the Central Limit Theorem has also provided the standard deviation 
       <m:mn>10</m:mn>
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -232,7 +232,7 @@ And finally, the Central Limit Theorem has also provided the standard deviation 
      </m:mrow>
      <m:mn>8</m:mn>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -336,7 +336,7 @@ And finally, the Central Limit Theorem has also provided the standard deviation 
 
 <exercise id="eip-idm1750045488"><problem id="eip-idm1752321840"><para id="eip-idm203069456">A population has a mean of 14 and a standard deviation of 5. If it is sampled repeatedly with samples of size 60, what is the expected value and standard deviation of the sample means?</para></problem>
 
-<solution id="eip-idm1733727664"><para id="eip-idm183670752">Expected value = 14, standard deviation = 0.65</para></solution></exercise></section><section id="eip-94" class="free-response"><title>Homework</title><exercise id="eip-idm1669069152"><problem id="eip-idm1359885776"><para id="eip-idm1515823152">A large population of 5,000 students take a practice test to prepare for a standardized test. The population mean is 140 questions correct, and the standard deviation is 80. What size samples should a researcher take to get a distribution of means of the samples with a standard deviation of 10?</para></problem>
+<solution id="eip-idm1733727664"><para id="eip-idm183670752">Expected value = 14, standard deviation = 0.65</para></solution></exercise><section id="eip-94" class="free-response"><title>Homework</title><exercise id="eip-idm1669069152"><problem id="eip-idm1359885776"><para id="eip-idm1515823152">A large population of 5,000 students take a practice test to prepare for a standardized test. The population mean is 140 questions correct, and the standard deviation is 80. What size samples should a researcher take to get a distribution of means of the samples with a standard deviation of 10?</para></problem>
 <solution id="eip-idm1333857104"><para id="eip-idm1553049248">64</para></solution></exercise>
 
 <exercise id="eip-idm1520522960"><problem id="eip-idm1422709648"><para id="eip-idm313216400">A large population has skewed data with a mean of 70 and a
@@ -358,10 +358,10 @@ distribution of the means of these samples is analyzed.</para>
 
 <exercise id="eip-idm344765376"><problem id="eip-idm1361343792"><para id="eip-idm1312241968">A population has a standard deviation of 50. It is sampled with samples of size 100. What is the variance of the means of the samples?</para></problem>
 <solution id="eip-idm1669855520"><para id="eip-idm343155568">25</para></solution></exercise></section>
- </content>
+</section></content>
 
 <glossary>
-
+ 
 
 <definition id="mean">
     <term>Mean</term>
@@ -370,7 +370,7 @@ distribution of the means of these samples is analyzed.</para>
   <m:mi>x</m:mi>
   <m:mo>–</m:mo>
  </m:mover>
-
+ 
 </m:math>) is <m:math>
  <m:mrow>
   <m:mover accent="true">
@@ -385,7 +385,7 @@ distribution of the means of these samples is analyzed.</para>
     <m:mtext>Number of values in the sample</m:mtext>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>, and the mean for a population (denoted by <emphasis effect="italics">μ</emphasis>) is <m:math>
  <m:mrow>
@@ -397,12 +397,12 @@ distribution of the means of these samples is analyzed.</para>
     <m:mtext>Number of values in the population</m:mtext>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>.</meaning>
   </definition>
 <definition id="fs-id1194328">
-<term>Finite Population Correction Factor</term>
+<term>Finite Population Correction Factor</term> 
 <meaning id="fs-id1227360">adjusts the variance of the sampling distribution if the population is known and more than 5% of the population is being sampled.</meaning>
 </definition>
 
@@ -418,7 +418,7 @@ distribution of the means of these samples is analyzed.</para>
       <m:mn>2</m:mn><m:mi>π</m:mi>
      </m:mrow>
     </m:msqrt>
-
+    
    </m:mrow>
   </m:mfrac>
   <m:mo> </m:mo><m:msup>
@@ -432,20 +432,20 @@ distribution of the means of these samples is analyzed.</para>
        </m:mrow>
        <m:mn>2</m:mn>
       </m:msup>
-
+      
      </m:mrow>
      <m:mrow>
       <m:mn>2</m:mn><m:msup>
        <m:mi>σ</m:mi>
        <m:mn>2</m:mn>
       </m:msup>
-
+      
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   </m:msup>
-
+  
  </m:mrow>
 </m:math>, where <emphasis effect="italics">μ</emphasis> is the mean of the distribution and <emphasis effect="italics">σ</emphasis> is the standard deviation.; notation: <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(<emphasis effect="italics">μ</emphasis>, <emphasis effect="italics">σ</emphasis>). If <emphasis effect="italics">μ</emphasis> = 0 and <emphasis effect="italics">σ</emphasis> = 1, the random variable, Z, is called the <emphasis>standard normal distribution</emphasis>.</meaning>
 </definition>

@@ -1,11 +1,11 @@
 <col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">
   <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
-    <md:content-id>col11776</md:content-id>
-    <md:title>Introductory Business Statistics</md:title>
+    <md:content-id>col12064</md:content-id>
+    <md:title>Introductory Statistics -- Sheridan College - MATH29875 -- Version 2016 Revision A</md:title>
     <md:language>en</md:language>
     <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</md:license>
-    <md:uuid>b56bb9e9-5eb8-48ef-9939-88b1b12ce22f</md:uuid>
-<md:slug>introductory-statistics</md:slug>
+    <md:uuid>18cfe9b1-45f4-4d71-b44f-2c133b206260</md:uuid>
+<md:slug>introductory-statistics-sheridan-college-math29875-version-2016-revision-a</md:slug>
 </metadata>
   <col:content>
     <col:module document="m53808"/>
@@ -27,7 +27,7 @@
         <col:module document="m53795"/>
         <col:module document="m53802"/>
         <col:module document="m53799"/>
-        <col:module document="m62299"/>
+        <col:module document="m62143"/>
         <col:module document="m53804"/>
         <col:module document="m53806"/>
       </col:content>
@@ -78,7 +78,6 @@
         <col:module document="m54534"/>
         <col:module document="m54537"/>
         <col:module document="m62151"/>
-        <col:module document="m62557"/>
       </col:content>
     </col:subcollection>
     <col:subcollection>
@@ -99,6 +98,7 @@
         <col:module document="m55607"/>
         <col:module document="m55608"/>
         <col:module document="m55610"/>
+        <col:module document="m55611"/>
       </col:content>
     </col:subcollection>
     <col:subcollection>
@@ -106,8 +106,6 @@
       <col:content>
         <col:module document="m55613"/>
         <col:module document="m55671"/>
-        <col:module document="m64420"/>
-        <col:module document="m64421"/>
         <col:module document="m55672"/>
         <col:module document="m55673"/>
         <col:module document="m55674"/>
@@ -143,7 +141,6 @@
         <col:module document="m55726"/>
         <col:module document="m55718"/>
         <col:module document="m55838"/>
-        <col:module document="m64846"/>
         <col:module document="m56649"/>
         <col:module document="m55852"/>
       </col:content>

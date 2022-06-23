@@ -9,7 +9,7 @@
 </metadata>
 
 <content>
- <section id="eip-39"><title>Venn Diagrams</title><para id="eip-8888">A <term>Venn diagram</term> is a picture that represents the outcomes of an experiment. It generally consists of a box that represents the sample space S together with circles or ovals. The circles or ovals represent events. Venn diagrams also help us to convert common English words into mathematical terms that help add precision.</para><para id="eip-842">Venn diagrams are named for their inventor, John Venn, a mathematics professor at Cambridge and an Anglican minister. His main work was conducted during the late 1870's and gave rise to a whole branch of mathematics and a new way to approach issues of logic. We will develop the probability rules just covered using this powerful way to demonstrate the probability postulates including the Addition Rule, Multiplication Rule, Complement Rule, Independence, and Conditional Probability.</para><example id="element-513"><para id="element-756">Suppose an experiment has the outcomes 1, 2, 3, ... , 12 where each outcome has an equal chance of occurring. Let event <emphasis effect="italics">A</emphasis> = {1, 2, 3, 4, 5, 6} and event <emphasis effect="italics">B</emphasis> = {6, 7, 8, 9}. Then <emphasis effect="italics">A</emphasis> intersect <emphasis effect="italics">B</emphasis> = <m:math><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>=</m:mo><m:mtext>{6}</m:mtext></m:math> and <emphasis effect="italics">A</emphasis> union <emphasis effect="italics">B</emphasis> = <m:math><m:mi>A</m:mi><m:mo>∪</m:mo><m:mi>B</m:mi><m:mo>=</m:mo><m:mtext>{1, 2, 3, 4, 5, 6, 7, 8, 9}.</m:mtext></m:math>. The Venn diagram is as follows:</para><figure id="eip-idm17287840"><media id="id18119489" alt="A Venn diagram. An oval representing set A contains the values 1, 2, 3, 4, 5, and 6. An oval representing set B also contains the 6, along with 7, 8, and 9. The values 10, 11, and 12 are present but not contained in either set." display="block"><image src="../../media/fig-ch03_06_01.jpg" mime-type="image/png" width="380"/></media>
+ <section id="eip-39"><title>Venn Diagrams</title><para id="delete_me">A <term>Venn diagram</term> is a picture that represents the outcomes of an experiment. It generally consists of a box that represents the sample space S together with circles or ovals. The circles or ovals represent events. Venn diagrams also help us to convert common English words into mathematical terms that help add precision.</para><para id="eip-842">Venn diagrams are named for their inventor, John Venn, a mathematics professor at Cambridge and an Anglican minister. His main work was conducted during the late 1870's and gave rise to a whole branch of mathematics and a new way to approach issues of logic. We will develop the probability rules just covered using this powerful way to demonstrate the probability postulates including the Addition Rule, Multiplication Rule, Complement Rule, Independence, and Conditional Probability.</para><example id="element-513"><para id="element-756">Suppose an experiment has the outcomes 1, 2, 3, ... , 12 where each outcome has an equal chance of occurring. Let event <emphasis effect="italics">A</emphasis> = {1, 2, 3, 4, 5, 6} and event <emphasis effect="italics">B</emphasis> = {6, 7, 8, 9}. Then <emphasis effect="italics">A</emphasis> intersect <emphasis effect="italics">B</emphasis> = <m:math><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>=</m:mo><m:mtext>{6}</m:mtext></m:math> and <emphasis effect="italics">A</emphasis> union <emphasis effect="italics">B</emphasis> = <m:math><m:mi>A</m:mi><m:mo>∪</m:mo><m:mi>B</m:mi><m:mo>=</m:mo><m:mtext>{1, 2, 3, 4, 5, 6, 7, 8, 9}.</m:mtext></m:math>. The Venn diagram is as follows:</para><figure id="eip-idm17287840"><media id="id18119489" alt="A Venn diagram. An oval representing set A contains the values 1, 2, 3, 4, 5, and 6. An oval representing set B also contains the 6, along with 7, 8, and 9. The values 10, 11, and 12 are present but not contained in either set." display="block"><image src="../../media/fig-ch03_06_01.jpg" mime-type="image/png" width="380"/></media>
 </figure></example><para id="eip-968"><link target-id="eip-idm17287840"/> shows the most basic relationship among these numbers. First, the numbers are in groups called sets; set A and set B. Some number are in both sets; we say in set A <m:math><m:mo>∩</m:mo></m:math> in set B. The English word "and" means inclusive, meaning having the characteristics of both A and B, or in this case, being a part of both A and B. This condition is called the INTERSECTION of the two sets. All members that are part of both sets constitute the intersection of the two sets. The intersection is written as <m:math><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi></m:math> where <m:math><m:mo>∩</m:mo></m:math> is the mathematical symbol for intersection. The statement <m:math><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi></m:math> is read as "A intersect B." You can remember this by thinking of the intersection of two streets.</para><para id="eip-540">There are also those numbers that form a group that, for membership, the number must be in either one or the other group. The number does not have to be in BOTH groups, but instead only in either one of the two. These numbers are called the UNION of the two sets and in this case they are the numbers 1-5 (from A exclusively), 7-9 (from set B exclusively) and also 6, which is in both sets A and B. The symbol for the UNION is <m:math><m:mo>∪</m:mo></m:math>, thus <m:math><m:mi>A</m:mi><m:mo>∪</m:mo><m:mi>B</m:mi><m:mo>=</m:mo></m:math> numbers 1-9, but excludes number 10, 11, and 12. The values 10, 11, and 12 are part of the universe, but are not in either of the two sets.</para><para id="eip-73">Translating the English word "AND" into the mathematical logic symbol <m:math><m:mo>∩</m:mo></m:math>, intersection, and the word "OR" into the mathematical symbol <m:math><m:mo>∪</m:mo></m:math>, union, provides a very precise way to discuss the issues of probability and logic. The general terminology for the three areas of the Venn diagram in <link target-id="eip-idm17287840"/> is shown in <link target-id="eip-idm154602320"/>.</para><note id="fs-idp42923984" class="statistics try"><label/><title>Try It</title>
 <exercise id="fs-idp129832272"><problem id="fs-idp89658416">
 <para id="fs-idp136729728">Suppose an experiment has outcomes black, white, red, orange, yellow, green, blue, and purple, where each outcome has an equal chance of occurring. Let event <emphasis effect="italics">C</emphasis> = {green, blue, purple} and event <emphasis effect="italics">P</emphasis> = {red, yellow, blue}. Then <m:math><m:mi>C</m:mi><m:mo>∩</m:mo><m:mi>P</m:mi><m:mo>=</m:mo><m:mtext>{blue}</m:mtext></m:math> and <m:math><m:mi>C</m:mi><m:mo>∪</m:mo><m:mi>P</m:mi><m:mo>=</m:mo><m:mtext>{green, blue, purple, red, yellow}</m:mtext></m:math>. Draw a Venn diagram representing this situation.</para></problem>
@@ -120,7 +120,7 @@
 
 </problem>
 <solution id="eip-id1172117493319">
-<para id="eip-id8742606">The Venn diagram below demonstrates the situation of mutually exclusive events where the outcomes are independent events. If a dog cannot be both male and female, then there is no intersection. Being male precludes being female and being female precludes being male: in this case, the characteristic gender is therefore mutually exclusive. A Venn diagram shows this as two sets with no intersection. The intersection is said to be the null set using the mathematical symbol ∅.</para><figure id="eip-id1165656136482"><media id="eip-id1165656136483" alt="This is a Venn diagram, two circles inside a rectangle. The circles do not intersect or overlap. One circle is labeled Male. The other circle is labeled Female."><image src="../../media/fig-ch03_11_02.jpg" mime-type="image/png"/></media></figure></solution>
+<para id="eip-id8742606">The Venn diagram below demonstrates the situation of mutually exclusive events where the outcomes are independent events. If a dog cannot be both male and female, then there is no intersection. Being male precludes being female and being female precludes being male: in this case, the characteristic gender is therefore mutually exclusive. A Venn diagram shows this as two sets with no intersection. The intersection is said to be the null set using the mathematical symbol ∅.</para><figure id="eip-id1165656136482"><media id="eip-id1165656136483" alt=""><image src="../../media/fig-ch03_11_02.jpg" mime-type="image/png"/></media></figure></solution>
 </exercise>
 
 
@@ -130,17 +130,17 @@
 <para id="eip-id3923323"> Draw a second Venn diagram illustrating that 10 of the male dogs have brown coloring.</para>
 </problem>
 <solution id="eip-id3167637">
-<para id="eip-id3873436">The Venn diagram below shows the overlap between male and brown where the number 10 is placed in it. This represents <m:math><m:mtext>Male</m:mtext><m:mo>∩</m:mo><m:mtext>Brown</m:mtext></m:math>: both male and brown. This is the intersection of these two characteristics. To get the union of Male and Brown, then it is simply the two circled areas minus the overlap. In proper terms, <m:math><m:mtext>Male</m:mtext><m:mo>∪</m:mo><m:mtext>Brown</m:mtext><m:mo>=</m:mo><m:mtext>Male</m:mtext><m:mo>+</m:mo><m:mtext>Brown</m:mtext><m:mo>−</m:mo><m:mtext>Male</m:mtext><m:mo>∩</m:mo><m:mtext>Brown</m:mtext></m:math> will give us the number of dogs in the union of these two sets. If we did not subtract the intersection, we would have double counted some of the dogs.</para><figure id="eip-id3278288"><media id="eip-id3278289" alt="This is a Venn diagram, two overlapping circles inside a rectangle. The left circle is labeled Male. The right circle is labeled Brown. The overlapping section shows the number 10."><image src="../../media/fig-ch03_11_03.jpg" mime-type="image/png"/></media></figure></solution>
+<para id="eip-id3873436">The Venn diagram below shows the overlap between male and brown where the number 10 is placed in it. This represents <m:math><m:mtext>Male</m:mtext><m:mo>∩</m:mo><m:mtext>Brown</m:mtext></m:math>: both male and brown. This is the intersection of these two characteristics. To get the union of Male and Brown, then it is simply the two circled areas minus the overlap. In proper terms, <m:math><m:mtext>Male</m:mtext><m:mo>∪</m:mo><m:mtext>Brown</m:mtext><m:mo>=</m:mo><m:mtext>Male</m:mtext><m:mo>+</m:mo><m:mtext>Brown</m:mtext><m:mo>−</m:mo><m:mtext>Male</m:mtext><m:mo>∩</m:mo><m:mtext>Brown</m:mtext></m:math> will give us the number of dogs in the union of these two sets. If we did not subtract the intersection, we would have double counted some of the dogs.</para><figure id="eip-id3278288"><media id="eip-id3278289" alt=""><image src="../../media/fig-ch03_11_03.jpg" mime-type="image/png"/></media></figure></solution>
 </exercise>
 <exercise id="eip-id4457985">
 <problem id="eip-id4471067">
 <para id="eip-id3720552">Now draw a situation depicting a scenario in which the non-shaded region represents "No white fur and female," or <emphasis effect="italics">White fur′ <m:math><m:mo>∩</m:mo></m:math> Female.</emphasis> the prime above "fur" indicates "not white fur." The prime above a set means not in that set, e.g. <m:math><m:mn>A</m:mn><m:mo>′</m:mo></m:math> means not <m:math><m:mn>A</m:mn></m:math>. Sometimes, the notation used is a line above the letter. For example, <m:math><m:mover><m:mi>A</m:mi><m:mo>¯</m:mo></m:mover></m:math> = <m:math><m:mn>A</m:mn><m:mo>′</m:mo></m:math>.</para></problem>
 <solution id="eip-id3692208">
-<figure id="eip-id4576864"><media id="eip-id4576865" alt="This is a Venn diagram, two overlapping circles inside a rectangle. The left circle is labeled Female. The right circle is labeled White Fur. The section of the left Female circle that lies outside the White Fur circle is shaded."><image src="../../media/fig-ch03_11_04.jpg" mime-type="image/png"/></media></figure></solution>
+<figure id="eip-id4576864"><media id="eip-id4576865" alt=""><image src="../../media/fig-ch03_11_04.jpg" mime-type="image/png"/></media></figure></solution>
 </exercise></example><section id="eip-89"><title>The Addition Rule of Probability</title><para id="eip-456">
 We met the addition rule earlier but without the help of Venn diagrams. Venn diagrams help visualize the counting process that is inherent in the calculation of probability. To restate the Addition Rule of Probability:
 </para>
-<equation id="eip-id1170394007631" class="unnumbered"><label/><m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∪</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mn>A</m:mn><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>−</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>)</m:mo></m:math></equation><para id="eip-id5140127">Remember that probability is simply the proportion of the objects we are interested in relative to the total number of objects. This is why we can see the usefulness of the Venn diagrams. <link target-id="eip-715"/> shows how we can use Venn diagrams to count the number of dogs in the union of brown and male by reminding us to subtract the intersection of brown and male. We can see the effect of this directly on probabilities in the addition rule.</para>
+<equation id="eip-id1170394007631"><m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∪</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mn>A</m:mn><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>−</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>)</m:mo></m:math></equation><para id="eip-id5140127">Remember that probability is simply the proportion of the objects we are interested in relative to the total number of objects. This is why we can see the usefulness of the Venn diagrams. <link target-id="eip-715"/> shows how we can use Venn diagrams to count the number of dogs in the union of brown and male by reminding us to subtract the intersection of brown and male. We can see the effect of this directly on probabilities in the addition rule.</para>
 
 <example id="eip-id6560162">
 <para id="eip-id6089332">Let's sample 50 students who are in a statistics class. 20 are freshmen and 30 are sophomores. 15 students get a "B" in the course, and 5 students both get a "B" and are freshmen. </para>
@@ -155,16 +155,16 @@ We met the addition rule earlier but without the help of Venn diagrams. Venn dia
 
 <para id="eip-id6553201">Therefore, <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>0.40</m:mn><m:mo>+</m:mo><m:mn>0.30</m:mn><m:mo>−</m:mo><m:mn>0.10</m:mn><m:mo>=</m:mo><m:mn>0.60</m:mn></m:math>.</para>
 
-<figure id="eip-id4231146"><media id="eip-id4110364" alt="Venn diagrams model the formula for P(A and B). The first Venn diagram shows two overlapping circles inside a rectangle. The left circle is labeled A, the right circle is labeled B, and the overlapping section is labeled A intersect B. This diagram is labeled P(A union B). After this diagram is an equal sign. Below the first diagram is a series of diagrams. Each shows the same arrangement: overlapping circles A and B. The first diagram shows circle A completely shaded. The second diagram shows circle B completely shaded. The third diagram shows the overlapping portion of circles A and B shaded. The expression is first diagram plus second diagram – third diagram."><image src="../../media/fig-ch03_11_05.jpg" mime-type="image/png"/></media></figure><para id="eip-id5944124">If two events are mutually exclusive, then, like the example where we diagram the male and female dogs, the addition rule is simplified to just <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∪</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mn>A</m:mn><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>−</m:mo><m:mn>0</m:mn></m:math>. This is true because, as we saw earlier, the union of mutually exclusive events is the null set, ∅. The diagrams below demonstrate this.</para>
+<figure id="eip-id4231146"><media id="eip-id4110364" alt=""><image src="../../media/fig-ch03_11_05.jpg" mime-type="image/png"/></media></figure><para id="eip-id5944124">If two events are mutually exclusive, then, like the example where we diagram the male and female dogs, the addition rule is simplified to just <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∪</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mn>A</m:mn><m:mo>)</m:mo><m:mo>+</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>−</m:mo><m:mn>0</m:mn></m:math>. This is true because, as we saw earlier, the union of mutually exclusive events is the null set, ∅. The diagrams below demonstrate this.</para>
 
-<figure id="eip-id5553528"><media id="eip-id6443441" alt="Venn diagrams model the formula for P(A and B) in the special case where A and B do not overlap. P(A union B) is represented by two separate (non-overlapping) circles inside a rectangle. The left circle is labeled Male. The right circle is labeled Female. To the right of this diagram is an equal sign. A sum of diagrams is on the line below. The left diagram shows only the Male circle inside the rectangle and is labeled P(A). Between the diagrams is a plus sign. The right diagram shows only the Female circle inside the rectangle and is labeled P(B)."><image src="../../media/fig-ch03_11_06.jpg" mime-type="image/png"/></media></figure></solution></exercise></example>
+<figure id="eip-id5553528"><media id="eip-id6443441" alt=""><image src="../../media/fig-ch03_11_06.jpg" mime-type="image/png"/></media></figure></solution></exercise></example>
 </section><section id="eip-432"><title>The Multiplication Rule of Probability</title><para id="eip-304">Restating the Multiplication Rule of Probability using the notation of Venn diagrams, we have:</para>
-<equation id="eip-id1166521862820" class="unnumbered"><label/><m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>|</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>⋅</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo></m:math></equation>
+<equation id="eip-id1166521862820"><m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>|</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>⋅</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo></m:math></equation>
 <para id="eip-id6627769">The multiplication rule can be modified with a bit of algebra into the following conditional rule. Then Venn diagrams can then be used to demonstrate the process.</para>
 <para id="eip-id5737284">The conditional rule: <m:math><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>A</m:mi><m:mo stretchy="false">|</m:mo><m:mi>B</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>)</m:mo></m:mrow><m:mrow><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo></m:mrow></m:mfrac></m:math></para>
 <para id="eip-id5495026">Using the same facts from <link target-id="eip-id6560162"/> above, find the probability that someone will earn a "B" if they are a "freshman."</para>
-<equation id="eip-id1166533204187" class="unnumbered"><label/><m:math><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>A</m:mi><m:mo stretchy="false">|</m:mo><m:mi>B</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>0.10</m:mn><m:mn>0.30</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:math></equation><figure id="eip-id2323853"><media id="eip-id4491502" alt="Venn diagrams model the formula for P(A given B). The diagrams used show overlapping circles A (on the left) and B (on the right) inside a rectangle. The equation is P(A | B) = Venn diagram showing P(A intersect B) as the shaded section where left circle A intersects right circle B divided by Venn diagram showing P(B) by shading right circle B completely."><image src="../../media/fig-ch03_11_07.jpg" mime-type="image/png"/></media></figure><para id="eip-id6093052">The multiplication rule must also be altered if the two events are independent. Independent events are defined as a situation where the conditional probability is simply the probability of the event of interest. Formally, independence of events is defined as <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>|</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>)</m:mo></m:math> or <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>|</m:mo><m:mi>A</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo></m:math>. When flipping coins, the outcome of the second flip is independent of the outcome of the first flip; coins do not have memory. The Multiplication Rule of Probability for independent events thus becomes:</para>
-<equation id="eip-id1166515670546" class="unnumbered"><label/><m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>)</m:mo><m:mo>⋅</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo></m:math></equation>
+<equation id="eip-id1166533204187"><m:math><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>A</m:mi><m:mo stretchy="false">|</m:mo><m:mi>B</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>0.10</m:mn><m:mn>0.30</m:mn></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:math></equation><figure id="eip-id2323853"><media id="eip-id4491502" alt=""><image src="../../media/fig-ch03_11_07.jpg" mime-type="image/png"/></media></figure><para id="eip-id6093052">The multiplication rule must also be altered if the two events are independent. Independent events are defined as a situation where the conditional probability is simply the probability of the event of interest. Formally, independence of events is defined as <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>|</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>)</m:mo></m:math> or <m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>|</m:mo><m:mi>A</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo></m:math>. When flipping coins, the outcome of the second flip is independent of the outcome of the first flip; coins do not have memory. The Multiplication Rule of Probability for independent events thus becomes:</para>
+<equation id="eip-id1166515670546"><m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>∩</m:mo><m:mi>B</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>)</m:mo><m:mo>⋅</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>B</m:mi><m:mo>)</m:mo></m:math></equation>
 <para id="eip-id4129512">One easy way to remember this is to consider what we mean by the word "and." We see that the Multiplication Rule has translated the word "and" to the Venn notation for intersection. Therefore, the outcome must meet the two conditions of freshmen and grade of "B" in the above example. It is harder, less probable, to meet two conditions than just one or some other one. We can attempt to see the logic of the Multiplication Rule of probability due to the fact that fractions multiplied times each other become smaller.</para>
 <para id="eip-id4894389">The development of the Rules of Probability with the use of Venn diagrams can be shown to help as we wish to calculate probabilities from data arranged in a contingency table.</para><example id="eip-524"><para id="eip-881"><link target-id="eip-95"/> is from a sample of 200 people who were asked how much education they completed. The columns represent the highest education they completed, and the rows separate the individuals by male and female.
 </para><table id="eip-95" summary="Table of education complete vs. gender">
@@ -335,7 +335,83 @@ We met the addition rule earlier but without the help of Venn diagrams. Venn dia
 <para id="eip-197">Are the events “being a female musician” and “learning music in school” mutually exclusive events?</para>
 </problem>
 <solution id="eip-649">
-<para id="eip-609">The events are not mutually exclusive. It is possible to be a female musician who learned music in school.</para></solution>
+<para id="eip-609"><emphasis effect="italics">P</emphasis>(being a female musician <m:math><m:mo>∩</m:mo></m:math> learning music in school) = <m:math>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mn>38</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>130</m:mn>
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+</m:math> = <m:math>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mn>19</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>65</m:mn>
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+</m:math> = 0.29</para><para id="eip-610"><emphasis effect="italics">P</emphasis>(being a female musician)<emphasis effect="italics">P</emphasis>(learning music in school) = <m:math>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mn>72</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>130</m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mn>62</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>130</m:mn>
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow>
+</m:math> = <m:math display="block">
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mn>4</m:mn><m:mo>,</m:mo><m:mn>464</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>16</m:mn><m:mo>,</m:mo><m:mn>900</m:mn>
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+</m:math> = <m:math>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mn>1</m:mn><m:mo>,</m:mo><m:mn>116</m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn>4</m:mn><m:mo>,</m:mo><m:mn>225</m:mn>
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+</m:math> = 0.26</para>
+<para id="eip-611">No, they are not independent because <emphasis effect="italics">P</emphasis>(being a female musician <m:math><m:mo>∩</m:mo></m:math> learning music in school) is not equal to <emphasis effect="italics">P</emphasis>(being a female musician)<emphasis effect="italics">P</emphasis>(learning music in school).</para></solution>
 </exercise>
 
 <exercise id="element-750"><problem id="id43570745">
@@ -350,8 +426,8 @@ We met the addition rule earlier but without the help of Venn diagrams. Venn dia
 </exercise>
 
 
-</section><section id="fs-idm32828224" class="bring-together-exercises"><title>Bringing It Together</title><para id="element-12">Use the following information to answer the next seven exercises. An article in the <cite><cite-title>New England Journal of Medicine</cite-title></cite>, reported about a study of smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 African American people, 2,745 Native Hawaiian people, 12,831 Latino people, 8,378 Japanese American people, and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 African American people, 3,062 Native Hawaiian people, 4,932 Latino people, 10,680 Japanese American people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 African American people, 1,419 Native Hawaiian people, 1,406 Latino people, 4,715 Japanese American people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 African American people, 788 Native Hawaiian people, 800 Latino people, 2,305 Japanese American people, and 3,970 White people.</para><exercise id="element-841"><problem id="id24840283">
-<para id="element-2314">Complete the table using the data provided.</para><table id="element-762" summary="Partially filled ethnicity by smoking level table with the first column listing the smoking levels (4 rows plus the total), the blank second column lists African American people values, blank third column for Native Hawaiian people, blank fourth column for Latino people, blank fifth column for Japanese American people, blank sixth column for White people, and blank seventh column for the Total."><title>Smoking Levels by Ethnicity</title>
+</section><section id="fs-idm32828224" class="bring-together-exercises"><title>Bringing It Together</title><para id="element-12">Use the following information to answer the next seven exercises. An article in the <cite><cite-title>New England Journal of Medicine</cite-title></cite>, reported about a study of smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 African Americans, 2,745 Native Hawaiians, 12,831 Latinos, 8,378 Japanese Americans, and 7,650 Whites. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 African Americans, 3,062 Native Hawaiians, 4,932 Latinos, 10,680 Japanese Americans, and 9,877 Whites. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 African Americans, 1,419 Native Hawaiians, 1,406 Latinos, 4,715 Japanese Americans, and 6,062 Whites. Of the people smoking at least 31 cigarettes per day, there were 759 African Americans, 788 Native Hawaiians, 800 Latinos, 2,305 Japanese Americans, and 3,970 Whites.</para><exercise id="element-841"><problem id="id24840283">
+<para id="element-2314">Complete the table using the data provided. Suppose that one person from the study is randomly selected. Find the probability that person smoked 11 to 20 cigarettes per day.</para><table id="element-762" summary="Partially filled ethnicity by smoking level table with the first column listing the smoking levels (4 rows plus the total), the blank second column lists African American values, blank third column for Native Hawaiians, blank fourth column for Latinos, blank fifth column for Japanese Americans, blank sixth column for Whites, and blank seventh column for the Total."><title>Smoking Levels by Ethnicity</title>
 <tgroup cols="7"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -365,7 +441,7 @@ We met the addition rule earlier but without the help of Venn diagrams. Venn dia
 <entry>African American</entry>
 <entry>Native Hawaiian</entry>
 <entry>Latino</entry>
-<entry>Japanese American</entry>
+<entry>Japanese Americans</entry>
 <entry>White</entry>
 <entry>TOTALS</entry>
 </row>
@@ -470,7 +546,7 @@ We met the addition rule earlier but without the help of Venn diagrams. Venn dia
      <m:mn>5</m:mn>
      <m:mn>8</m:mn>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -478,7 +554,7 @@ We met the addition rule earlier but without the help of Venn diagrams. Venn dia
      <m:mn>5</m:mn>
      <m:mn>8</m:mn>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -492,7 +568,7 @@ We met the addition rule earlier but without the help of Venn diagrams. Venn dia
     <m:mn>64</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math></item>
 <item><emphasis effect="italics">P</emphasis>(at least one green) = <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">GG</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">GY</emphasis>) + <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">YG</emphasis>) = <m:math>
@@ -505,7 +581,7 @@ We met the addition rule earlier but without the help of Venn diagrams. Venn dia
     <m:mn>64</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> + <m:math>
  <m:mrow>
@@ -517,7 +593,7 @@ We met the addition rule earlier but without the help of Venn diagrams. Venn dia
     <m:mn>64</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> + <m:math>
  <m:mrow>
@@ -529,7 +605,7 @@ We met the addition rule earlier but without the help of Venn diagrams. Venn dia
     <m:mn>64</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> = <m:math>
  <m:mrow>
@@ -541,7 +617,7 @@ We met the addition rule earlier but without the help of Venn diagrams. Venn dia
     <m:mn>64</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>
 </item>
@@ -551,7 +627,7 @@ We met the addition rule earlier but without the help of Venn diagrams. Venn dia
    <m:mn>5</m:mn>
    <m:mn>8</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math></item>
 <item>Yes, they are independent because the first card is placed back in the bag before the second card is drawn; the composition of cards in the bag remains the same from draw one to draw two.</item>
@@ -809,8 +885,8 @@ We met the addition rule earlier but without the help of Venn diagrams. Venn dia
 </problem>
 </exercise><exercise id="tablular-ex">
 <problem id="id43571370">
-<para id="element-563"><link target-id="M05_ch03-tbl020"/> gives the number of participants in the recent National Health Interview Survey who had been treated for cancer in the previous 12 months. The results are sorted by age, race (Black or White), and sex. We are interested in possible relationships between age, race, and sex. We will let suicide victims be our population.
-<table id="M05_ch03-tbl020" summary="This partially filled table presents the data of suicides by age and race and sex. The first column lists the race and sex, the second column lists ages 1-14, third column lists 15-24, fourth column lists 25-64, blank fifth column lists over 64, and the sixth column lists the totals. The first row lists White, male, the second row is White, female, the third row is Black, male, the fourth row is Black, female, the blank fifth row is all others, and the total is on the sixth row.">
+<para id="element-563"><link target-id="M05_ch03-tbl020"/> gives the number of suicides estimated in the U.S. for a recent year by age, race (black or white), and sex. We are interested in possible relationships between age, race, and sex. We will let suicide victims be our population.
+<table id="M05_ch03-tbl020" summary="This partially filled table presents the data of suicides by age and race and sex. The first column lists the race and sex, the second column lists ages 1-14, third column lists 15-24, fourth column lists 25-64, blank fifth column lists over 64, and the sixth column lists the totals. The first row lists white, male, the second row is white, female, the third row is black, male, the fourth row is black, female, the blank fifth row is all others, and the total is on the sixth row.">
 <tgroup cols="6"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
 <colspec colnum="3" colname="c3"/>
@@ -820,10 +896,10 @@ We met the addition rule earlier but without the help of Venn diagrams. Venn dia
 <thead>
 <row>
 <entry>Race and sex</entry>
+<entry>1–14</entry>
 <entry>15–24</entry>
-<entry>25–40</entry>
-<entry>41–65</entry>
-<entry>Over 65</entry>
+<entry>25–64</entry>
+<entry>Over 64</entry>
 <entry>TOTALS</entry>
 </row>
 </thead>
@@ -831,35 +907,35 @@ We met the addition rule earlier but without the help of Venn diagrams. Venn dia
 
 <row>
 <entry>White, male</entry>
-<entry>1,165</entry>
-<entry>2,036</entry>
-<entry>3,703</entry>
+<entry>210</entry>
+<entry>3,360</entry>
+<entry>13,610</entry>
 <entry/>
-<entry>8,395</entry>
+<entry>22,050</entry>
 </row>
 <row>
 <entry>White, female</entry>
-<entry>1,076</entry>
-<entry>2,242</entry>
-<entry>4,060</entry>
+<entry>80</entry>
+<entry>580</entry>
+<entry>3,380</entry>
 <entry/>
-<entry>9,129</entry>
+<entry>4,930</entry>
 </row>
 <row>
 <entry>Black, male</entry>
-<entry>142</entry>
-<entry>194</entry>
-<entry>384</entry>
+<entry>10</entry>
+<entry>460</entry>
+<entry>1,060</entry>
 <entry/>
-<entry>824</entry>
+<entry>1,670</entry>
 </row>
 <row>
 <entry>Black, female</entry>
-<entry>131</entry>
-<entry>290</entry>
-<entry>486</entry>
+<entry>0</entry>
+<entry>40</entry>
+<entry>270</entry>
 <entry/>
-<entry>1,061</entry>
+<entry>330</entry>
 </row>
 <row>
 <entry>All others</entry>
@@ -871,11 +947,11 @@ We met the addition rule earlier but without the help of Venn diagrams. Venn dia
 </row>
 <row>
 <entry>TOTALS</entry>
-<entry>2,792</entry>
-<entry>5,279</entry>
-<entry>9,354</entry>
+<entry>310</entry>
+<entry>4,650</entry>
+<entry>18,780</entry>
 <entry/>
-<entry>21,081</entry>
+<entry>29,760</entry>
 </row>
 </tbody>
 
@@ -884,16 +960,17 @@ We met the addition rule earlier but without the help of Venn diagrams. Venn dia
 </table></para>
 <para id="eip-idp27013472">Do not include "all others" for parts f and g.
 <list id="element-956" list-type="enumerated" number-style="lower-alpha">
-<item>Fill in the column for cancer treatment for individuals over age 65.</item>
+<item>Fill in the column for the suicides for individuals over age 64.</item>
 <item>Fill in the row for all other races.</item>
-<item>Find the probability that a randomly selected individual was a White male.</item>
-<item>Find the probability that a randomly selected individual was a Black female.</item>
-<item>Find the probability that a randomly selected individual was Black</item>
+<item>Find the probability that a randomly selected individual was a white male.</item>
+<item>Find the probability that a randomly selected individual was a black female.</item>
+<item>Find the probability that a randomly selected individual was black</item>
 <item>Find the probability that a randomly selected individual was male.</item>
-<item>Out of the individuals over age 65, find the probability that a randomly selected individual was a Black or White male.</item>
+<item>Out of the individuals over age 64, find the probability that a randomly selected individual was a black or white male.</item>
 </list></para></problem>
 <solution id="id43572030">
-<list id="element-271" list-type="enumerated" number-style="lower-alpha"><item>
+<list id="element-271" list-type="enumerated" number-style="lower-alpha">
+<item>
 <table id="fs-idm9443200" summary="---">
 <tgroup cols="6"><colspec colnum="1" colname="c1"/>
 <colspec colnum="2" colname="c2"/>
@@ -914,54 +991,53 @@ We met the addition rule earlier but without the help of Venn diagrams. Venn dia
 <tbody>
 <row>
 <entry>White, male</entry>
-<entry>1,165</entry>
-<entry>2,036</entry>
-<entry>3,703</entry>
-<entry>1,491</entry>
-<entry>8,395</entry>
+<entry>210</entry>
+<entry>3,360</entry>
+<entry>13,610</entry>
+<entry>4,870</entry>
+<entry>22,050</entry>
 </row>
 <row>
 <entry>White, female</entry>
-<entry>1,076</entry>
-<entry>2,242</entry>
-<entry>4,060</entry>
-<entry>1,751</entry>
-<entry>9,129</entry>
+<entry>80</entry>
+<entry>580</entry>
+<entry>3,380</entry>
+<entry>890</entry>
+<entry>4,930</entry>
 </row>
 <row>
 <entry>Black, male</entry>
-<entry>142</entry>
-<entry>194</entry>
-<entry>384</entry>
-<entry>104</entry>
-<entry>824</entry>
+<entry>10</entry>
+<entry>460</entry>
+<entry>1,060</entry>
+<entry>140</entry>
+<entry>1,670</entry>
 </row>
 <row>
 <entry>Black, female</entry>
-<entry>131</entry>
-<entry>290</entry>
-<entry>486</entry>
-<entry>154</entry>
-<entry>1,061</entry>
+<entry>0</entry>
+<entry>40</entry>
+<entry>270</entry>
+<entry>20</entry>
+<entry>330</entry>
 </row>
 <row>
 <entry>All others</entry>
 <entry/>
 <entry/>
 <entry/>
-<entry>156</entry>
+<entry>100</entry>
 <entry/>
 </row>
 <row>
 <entry>TOTALS</entry>
-<entry>2,792</entry>
-<entry>5,279</entry>
-<entry>9,354</entry>
-<entry>3,656</entry>
-<entry>21,081</entry>
+<entry>310</entry>
+<entry>4,650</entry>
+<entry>18,780</entry>
+<entry>6,020</entry>
+<entry>29,760</entry>
 </row>
 </tbody>
-
 
 </tgroup>
 </table></item>
@@ -984,57 +1060,56 @@ We met the addition rule earlier but without the help of Venn diagrams. Venn dia
 </row>
 </thead>
 <tbody>
+
 <row>
 <entry>White, male</entry>
-<entry>1,165</entry>
-<entry>2,036</entry>
-<entry>3,703</entry>
-<entry>1,491</entry>
-<entry>8,395</entry>
+<entry>210</entry>
+<entry>3,360</entry>
+<entry>13,610</entry>
+<entry>4,870</entry>
+<entry>22,050</entry>
 </row>
 <row>
 <entry>White, female</entry>
-<entry>1,076</entry>
-<entry>2,242</entry>
-<entry>4,060</entry>
-<entry>1,751</entry>
-<entry>9,129</entry>
+<entry>80</entry>
+<entry>580</entry>
+<entry>3,380</entry>
+<entry>890</entry>
+<entry>4,930</entry>
 </row>
 <row>
 <entry>Black, male</entry>
-<entry>142</entry>
-<entry>194</entry>
-<entry>384</entry>
-<entry>104</entry>
-<entry>824</entry>
+<entry>10</entry>
+<entry>460</entry>
+<entry>1,060</entry>
+<entry>140</entry>
+<entry>1,670</entry>
 </row>
 <row>
 <entry>Black, female</entry>
-<entry>131</entry>
-<entry>290</entry>
-<entry>486</entry>
-<entry>154</entry>
-<entry>1,061</entry>
+<entry>0</entry>
+<entry>40</entry>
+<entry>270</entry>
+<entry>20</entry>
+<entry>330</entry>
 </row>
 <row>
 <entry>All others</entry>
-<entry>278</entry>
-<entry>517</entry>
-<entry>721</entry>
-<entry>156</entry>
-<entry>1672</entry>
+<entry>10</entry>
+<entry>210</entry>
+<entry>460</entry>
+<entry>100</entry>
+<entry>780</entry>
 </row>
 <row>
 <entry>TOTALS</entry>
-<entry>2,792</entry>
-<entry>5,279</entry>
-<entry>9,354</entry>
-<entry>3,656</entry>
-<entry>21,081</entry>
+<entry>310</entry>
+<entry>4,650</entry>
+<entry>18,780</entry>
+<entry>6,020</entry>
+<entry>29,760</entry>
 </row>
 </tbody>
-
-
 
 </tgroup>
 </table></item>
@@ -1042,73 +1117,69 @@ We met the addition rule earlier but without the help of Venn diagrams. Venn dia
 <m:mrow>
 <m:mfrac>
 <m:mrow>
-<m:mtext>8,395</m:mtext>
+<m:mtext>22,050</m:mtext>
 </m:mrow>
 <m:mrow>
-<m:mtext>21,081</m:mtext>
+<m:mtext>29,760</m:mtext>
 </m:mrow>
 </m:mfrac>
-<m:mo>≈</m:mo>
-<m:mn>0.3982</m:mn>
+
 </m:mrow>
 </m:math></item>
 <item><m:math>
 <m:mrow>
 <m:mfrac>
 <m:mrow>
-<m:mtext>1,061</m:mtext>
+<m:mtext>330</m:mtext>
 </m:mrow>
 <m:mrow>
-<m:mtext>21,081</m:mtext>
+<m:mtext>29,760</m:mtext>
 </m:mrow>
 </m:mfrac>
-<m:mo>≈</m:mo>
-<m:mn>0.0503</m:mn>
+
 </m:mrow>
 </m:math></item>
 <item><m:math>
 <m:mrow>
 <m:mfrac>
 <m:mrow>
-<m:mtext>1,885</m:mtext>
+<m:mtext>2,000</m:mtext>
 </m:mrow>
 <m:mrow>
-<m:mtext>21,081</m:mtext>
+<m:mtext>29,760</m:mtext>
 </m:mrow>
 </m:mfrac>
-<m:mo>≈</m:mo>
-<m:mn>0.0894</m:mn>
+
 </m:mrow>
 </m:math></item>
 <item><m:math>
 <m:mrow>
 <m:mfrac>
 <m:mrow>
-<m:mtext>9,219</m:mtext>
+<m:mtext>23,720</m:mtext>
 </m:mrow>
 <m:mrow>
-<m:mtext>21,081</m:mtext>
+<m:mtext>29,760</m:mtext>
 </m:mrow>
 </m:mfrac>
-<m:mo>≈</m:mo>
-<m:mn>0.4373</m:mn>
+
 </m:mrow>
 </m:math></item>
 <item><m:math>
 <m:mrow>
 <m:mfrac>
 <m:mrow>
-<m:mtext>1,595</m:mtext>
+<m:mtext>5,010</m:mtext>
 </m:mrow>
 <m:mrow>
-<m:mtext>3,656</m:mtext>
+<m:mtext>6,020</m:mtext>
 </m:mrow>
 </m:mfrac>
-<m:mo>≈</m:mo>
-<m:mn>0.4363</m:mn>
+
 </m:mrow>
 </m:math></item>
-</list></solution>
+</list>
+</solution>
 </exercise>
 <para id="element-686"><emphasis effect="italics">Use the following information to answer the next two exercises.</emphasis> The table of data obtained from <cite><cite-title>www.baseball-almanac.com</cite-title></cite> shows hit information for four well known baseball players. Suppose that one hit from the table is randomly selected.</para>
 <table id="element-695" summary="This table presents data based on type of hit by baseball player. The first column lists the names of the baseball player, second column lists single hits, third column lists double, fourth column is triple, fifth column is home run, and sixth column is total hits. The first row is Babe Ruth, the second row is Jackie Robinson, third row is Ty Cobb, fourth row is Hank Aaron, and Total is in the fifth row.">
@@ -1530,7 +1601,7 @@ We met the addition rule earlier but without the help of Venn diagrams. Venn dia
    <m:mn>2</m:mn>
    <m:mn>3</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> and <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis>) = <m:math>
  <m:mrow>
@@ -1538,7 +1609,7 @@ We met the addition rule earlier but without the help of Venn diagrams. Venn dia
    <m:mn>1</m:mn>
    <m:mn>3</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> where <emphasis effect="italics">H</emphasis> is heads and <emphasis effect="italics">T</emphasis> is tails.</para><figure id="id43573084"><media id="id43573089" alt="Tree diagram with 2 branches. The first branch consists of 2 lines of H=2/3 and T=1/3. The second branch consists of 2 sets of 3 lines each with the both sets containing R=3/12, Y=4/12, and B=5/12."><image src="../../media/fig-ch03_11_01_new.jpg" mime-type="image/jpg" width="180"/></media></figure><exercise id="element-92"><problem id="id43573133">
   <para id="element-4">Find <emphasis effect="italics">P</emphasis>(tossing a Head on the coin AND a Red bead)</para>
@@ -1557,7 +1628,7 @@ We met the addition rule earlier but without the help of Venn diagrams. Venn dia
    <m:mn>5</m:mn>
    <m:mn>15</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math></item>
 <item><m:math>
@@ -1566,7 +1637,7 @@ We met the addition rule earlier but without the help of Venn diagrams. Venn dia
    <m:mn>6</m:mn>
    <m:mn>36</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math></item>
 <item><m:math>
@@ -1575,7 +1646,7 @@ We met the addition rule earlier but without the help of Venn diagrams. Venn dia
    <m:mn>5</m:mn>
    <m:mn>36</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math></item>
 </list>
@@ -1593,7 +1664,7 @@ We met the addition rule earlier but without the help of Venn diagrams. Venn dia
     <m:mn>36</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math></item>
 <item><m:math>
@@ -1606,7 +1677,7 @@ We met the addition rule earlier but without the help of Venn diagrams. Venn dia
     <m:mn>36</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math></item>
 <item><m:math>
@@ -1619,7 +1690,7 @@ We met the addition rule earlier but without the help of Venn diagrams. Venn dia
     <m:mn>12</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math></item>
 <item><m:math>
@@ -1632,7 +1703,7 @@ We met the addition rule earlier but without the help of Venn diagrams. Venn dia
     <m:mn>36</m:mn>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math></item></list>
 </problem>
@@ -1656,7 +1727,7 @@ We met the addition rule earlier but without the help of Venn diagrams. Venn dia
 </section>
 
 
- </content>
+</content>
 <glossary>
 <definition id="vendiagram">
     <term>Venn Diagram</term>

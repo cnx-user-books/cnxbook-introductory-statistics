@@ -11,32 +11,32 @@
 <figure id="fs-idp38862000" class="splash"><media id="fs-idm31074784" alt="This is a photo of M&amp;Ms piled together. The M&amp;Ms are red, blue, green, yellow, orange and brown.">
 <image src="../../media/CNX_Stats_C08_CO.jpg" width="500" mime-type="image/jpeg"/></media>
 
-<caption>Have you ever wondered what the average number of M&amp;Ms in a bag at the grocery store is? You can use confidence intervals to answer this question. (credit: comedy_nose/flickr)</caption></figure><para id="eip-8888">Suppose you were trying to determine the mean rent of a two-bedroom apartment in your town. You might look in the classified section of the newspaper, write down several rents listed, and average them together. You would have obtained a point estimate of the true mean. If you are trying to determine the percentage of times you make a basket when shooting a basketball, you might count the number of shots you make and divide that by the number of shots you attempted. In this case, you would have obtained a point estimate for the true proportion the parameter p in the binomial probability density function.</para><para id="element-550">We use sample data to make generalizations about an unknown population. This part of statistics is called <term>inferential statistics</term>.  <emphasis>The sample data help us to make an estimate of a population <term>parameter</term></emphasis>. We realize that the point estimate is most likely not the exact value of the population parameter, but close to it. After calculating point estimates, we construct interval estimates, called confidence intervals. What statistics provides us beyond a simple average, or point estimate, is an estimate to which we can attach a probability of accuracy, what we will call a confidence level. We make inferences with a known level of probability.</para><para id="element-667">In this chapter, you will learn to construct and interpret confidence intervals. You will also learn a new distribution, the Student's-t, and how it is used with these intervals. Throughout the chapter, it is important to keep in mind that the confidence interval is a random variable. It is the population parameter that is fixed.</para>
+<caption>Have you ever wondered what the average number of M&amp;Ms in a bag at the grocery store is? You can use confidence intervals to answer this question. (credit: comedy_nose/flickr)</caption></figure><para id="delete_me">Suppose you were trying to determine the mean rent of a two-bedroom apartment in your town. You might look in the classified section of the newspaper, write down several rents listed, and average them together. You would have obtained a point estimate of the true mean. If you are trying to determine the percentage of times you make a basket when shooting a basketball, you might count the number of shots you make and divide that by the number of shots you attempted. In this case, you would have obtained a point estimate for the true proportion the parameter p in the binomial probability density function.</para><para id="element-550">We use sample data to make generalizations about an unknown population. This part of statistics is called <term>inferential statistics</term>.  <emphasis>The sample data help us to make an estimate of a population <term>parameter</term></emphasis>. We realize that the point estimate is most likely not the exact value of the population parameter, but close to it. After calculating point estimates, we construct interval estimates, called confidence intervals. What statistics provides us beyond a simple average, or point estimate, is an estimate to which we can attach a probability of accuracy, what we will call a confidence level. We make inferences with a known level of probability.</para><para id="element-667">In this chapter, you will learn to construct and interpret confidence intervals. You will also learn a new distribution, the Student's-t, and how it is used with these intervals. Throughout the chapter, it is important to keep in mind that the confidence interval is a random variable. It is the population parameter that is fixed.</para>
 <para id="element-560">If you worked in the marketing department of an entertainment company, you might be interested in the mean number of songs a consumer downloads a month from iTunes. If so, you could conduct a survey and calculate the sample mean, <m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>–</m:mo>
  </m:mover>
-
+ 
 </m:math>, and the sample standard deviation, <emphasis effect="italics">s</emphasis>. You would use <m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>–</m:mo>
  </m:mover>
-
+ 
 </m:math> to estimate the population mean and <emphasis effect="italics">s</emphasis> to estimate the population standard deviation. The sample mean, <m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>–</m:mo>
  </m:mover>
-
+ 
 </m:math>, is the <term>point estimate</term> for the population mean, <emphasis effect="italics">μ</emphasis>. The sample standard deviation, <emphasis effect="italics">s</emphasis>, is the point estimate for the population standard deviation, <emphasis effect="italics">σ</emphasis>.</para>
 <para id="eip-65"><m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>–</m:mo>
  </m:mover>
-
+ 
 </m:math> and <emphasis effect="italics">s</emphasis> are each called a statistic.</para><para id="element-510">A <term>confidence interval</term> is another type of estimate but, instead of being just one number, it is an interval of numbers. The interval of numbers is a range of values calculated from a given set of sample data. The confidence interval is likely to include the unknown population parameter.</para><para id="element-53">Suppose, for the iTunes example, we do not know the population mean <emphasis effect="italics">μ</emphasis>, but we do know that the population standard deviation is <emphasis effect="italics">σ</emphasis> = 1 and our sample size is 100. Then, by the central limit theorem, the standard deviation of the sampling distribution of the sample means is</para><para id="element-624"><m:math>
  <m:mrow>
   <m:mfrac>
@@ -45,7 +45,7 @@
     <m:msqrt>
      <m:mi>n</m:mi>
     </m:msqrt>
-
+    
    </m:mrow>
   </m:mfrac>
   <m:mo>=</m:mo><m:mfrac>
@@ -56,37 +56,37 @@
       <m:mn>100</m:mn>
      </m:mrow>
     </m:msqrt>
-
+    
    </m:mrow>
   </m:mfrac>
   <m:mo>=</m:mo><m:mn>0.1</m:mn>
  </m:mrow>
 </m:math>.</para>
-<para id="element-730">The <term>Empirical Rule</term>, which applies to the normal distribution, says that in approximately 95% of the samples, the sample mean, <m:math>
+<para id="element-730">The <term>empirical rule</term>, which applies to the normal distribution, says that in approximately 95% of the samples, the sample mean, <m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>–</m:mo>
  </m:mover>
-
+ 
 </m:math>, will be within two standard deviations of the population mean <emphasis effect="italics">μ</emphasis>. For our iTunes example, two standard deviations is (2)(0.1) = 0.2. The sample mean <m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>–</m:mo>
  </m:mover>
-
+ 
 </m:math> is likely to be within 0.2 units of <emphasis effect="italics">μ</emphasis>.</para><para id="element-457">Because <m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>-</m:mo>
  </m:mover>
-
+ 
 </m:math> is within 0.2 units of <emphasis effect="italics">μ</emphasis>, which is unknown, then <emphasis effect="italics">μ</emphasis> is likely to be within 0.2 units
 of <m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>–</m:mo>
  </m:mover>
-
+ 
 </m:math> with 95% probability. The population mean <emphasis effect="italics">μ</emphasis> is contained in an interval whose lower number is calculated by taking the sample mean and subtracting two standard deviations (2)(0.1) and whose upper number is calculated by taking the sample mean and adding two standard deviations. In other words, <emphasis effect="italics">μ</emphasis> is between <m:math>
  <m:mrow>
   <m:mover accent="true">
@@ -133,17 +133,17 @@ of <m:math>
   <m:mi>x</m:mi>
   <m:mo>–</m:mo>
  </m:mover>
-
-</m:math> that is not within 0.2 units of the true mean <emphasis effect="italics">μ</emphasis>. The second possibility happens for only 5% of all the samples (95% minus 100% = 5%).</para><para id="element-39">Remember that a confidence interval is created for an unknown population parameter like the population mean, <emphasis effect="italics">μ</emphasis>. </para><para id="eip-332">For the confidence interval for a mean the formula would be: </para><equation class="unnumbered" id="eip-905"><m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover><m:mo>±</m:mo><m:msub><m:mi>Z</m:mi><m:mn>α</m:mn></m:msub><m:mfrac bevelled="true"><m:mi>σ</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac></m:math></equation><para id="eip-127">Or written another way as:</para><equation id="eip-694"><label/><m:math><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover><m:mo>−</m:mo><m:msub><m:mi>Z</m:mi><m:mi>α</m:mi></m:msub><m:mfrac bevelled="true"><m:mi>σ</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac>
+ 
+</m:math> that is not within 0.2 units of the true mean <emphasis effect="italics">μ</emphasis>. The second possibility happens for only 5% of all the samples (95% minus 100% = 5%).</para><para id="element-39">Remember that a confidence interval is created for an unknown population parameter like the population mean, <emphasis effect="italics">μ</emphasis>. </para><para id="eip-332">For the confidence interval for a mean the formula would be: </para><equation id="eip-905"><m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover><m:mo>±</m:mo><m:msub><m:mi>Z</m:mi><m:mn>α</m:mn></m:msub><m:mfrac bevelled="true"><m:mi>σ</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac></m:math></equation><para id="eip-127">Or written another way as:</para><equation id="eip-694"><m:math><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover><m:mo>−</m:mo><m:msub><m:mi>Z</m:mi><m:mi>α</m:mi></m:msub><m:mfrac bevelled="true"><m:mi>σ</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac>
 <m:mo>≤</m:mo><m:mi>μ</m:mi><m:mo>≤</m:mo><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover><m:mo>+</m:mo><m:msub><m:mi>Z</m:mi><m:mi>α</m:mi></m:msub><m:mfrac bevelled="true"><m:mi>σ</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac>
-</m:math></equation><para id="eip-753">Where <m:math><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover></m:math> is the sample mean. <m:math><m:msub><m:mi>Z</m:mi><m:mi>α</m:mi></m:msub></m:math> is determined by the level of confidence desired by the analyst, and <m:math><m:mfrac bevelled="true"><m:mi>σ</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac></m:math> is the standard deviation of the sampling distribution for means given to us by the Central Limit Theorem.  </para> </content>
+</m:math></equation><para id="eip-753">Where <m:math><m:mover><m:mi>X</m:mi><m:mo>–</m:mo></m:mover></m:math> is the sample mean. <m:math><m:msub><m:mi>Z</m:mi><m:mi>α</m:mi></m:msub></m:math> is determined by the level of confidence desired by the analyst, and <m:math><m:mfrac bevelled="true"><m:mi>σ</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac></m:math> is the standard deviation of the sampling distribution for means given to us by the Central Limit Theorem.  </para></content>
 
 
 
 <glossary>
 <definition id="coninter">
 <term>Confidence Interval (CI)</term>
-<meaning id="id20495395">an interval estimate for an unknown population parameter. This depends on:
+<meaning id="id20495395">an interval estimate for an unknown population parameter. This depends on: 
 <list id="confint1" list-type="bulleted">
 <item>the desired confidence level,</item>
 <item>information that is known about the  distribution (for example, known standard deviation),</item>

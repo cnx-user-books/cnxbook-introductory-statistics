@@ -1,0 +1,249 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<title>Rare Events, the Sample, Decision and Conclusion</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m55611</md:content-id>
+  <md:title>Rare Events, the Sample, Decision and Conclusion</md:title>
+  <md:abstract/>
+  <md:uuid>f254379c-2b89-4a0a-b7dc-349d5921af1f</md:uuid>
+</metadata>
+
+<content>
+<para id="fs-idm39235328">Establishing the type of distribution, sample size, and known or unknown standard deviation can help you figure out how to go about a hypothesis test. However, there are several other factors you should consider when working out a hypothesis test.</para>
+<section id="fs-idm88599200">
+<title>Rare Events</title>
+<para id="fs-idp23331840">Suppose you make an assumption about a property of the population (this assumption is the <term>null hypothesis</term>). Then you gather sample data randomly. If the sample has properties that would be very <emphasis>unlikely</emphasis> to occur if the assumption is true, then you would conclude that your assumption about the population is probably incorrect. (Remember that your assumption is just an <term>assumption</term>—it is not a fact and it may or may not be true. But your sample data are real and the data are showing you a fact that seems to contradict your assumption.)</para><para id="element-969">For example, Didi and Ali are at a birthday party of a very wealthy friend. They hurry to be first in line to grab a prize from a tall basket that they cannot see inside because they will be blindfolded. There are 200 plastic bubbles in the basket and Didi and Ali have been told that there is only one with a $100 bill. Didi is the first person to reach into the basket and pull out a bubble. Her bubble contains a $100 bill. The probability of this happening is <m:math><m:mfrac><m:mn>1</m:mn><m:mn>200</m:mn></m:mfrac></m:math> = 0.005. Because this is so unlikely, Ali is hoping that what the two of them were told is wrong and there are more $100 bills in the basket. A "rare event" has occurred (Didi getting the $100 bill) so Ali doubts the assumption about only one $100 bill being in the basket.</para>   
+</section>  
+
+<section id="fs-idp139727500433008" class="summary">
+
+<title>Chapter Review</title>
+
+<para id="fs-idp139727500433648">When the probability of an event occurring is low, and it happens, it is called a rare event. Rare events are important to consider in hypothesis testing because they can inform your willingness not to reject or to reject a null hypothesis. To test a null hypothesis, find the <emphasis effect="italics">p</emphasis>-value for the sample data and graph the results. </para></section>
+
+
+<section id="fs-idp139727500224832" class="practice">
+<exercise id="fs-idp139727497512736"><problem id="fs-idp139727497512992">
+<para id="fs-idp139727497513248">When do you reject the null hypothesis?</para>
+</problem></exercise><exercise id="fs-idp139727506576944">
+<problem id="fs-idp139727506577200">
+<para id="fs-idp139727497559584">The probability of winning the grand prize at a particular carnival game is 0.005. Is the outcome of winning very likely or very unlikely?</para>
+</problem>
+<solution id="fs-idp139727497560256">
+<para id="fs-idp139727497560512">The outcome of winning is very unlikely.</para>
+</solution>
+</exercise>
+
+<exercise id="fs-idp139727500342720"><problem id="fs-idp139727500342976">
+<para id="fs-idp139727500343232">The probability of winning the grand prize at a particular carnival game is 0.005. Michele wins the grand prize. Is this considered a rare or common event? Why?</para>
+</problem></exercise><exercise id="fs-idp139727500456320">
+<problem id="fs-idp139727500456576">
+<para id="fs-idp139727500456832">It is believed that the mean height of high school students who play basketball on the school team is 73 inches with a standard deviation of 1.8 inches. A random sample of 40 players is chosen. The sample mean was 71 inches, and the sample standard deviation was 1.5 years. Do the data support the claim that the mean height is less than 73 inches? The <emphasis effect="italics">p</emphasis>-value is almost zero. State the null and alternative hypotheses and interpret the <emphasis effect="italics">p</emphasis>-value.</para>
+</problem>
+<solution id="fs-idp139727500328080">
+<para id="eip-idp77616272"><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &gt; = 73
+<newline/><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">μ</emphasis> &lt; 73
+<newline/>The <emphasis effect="italics">p</emphasis>-value is almost zero, which means there is sufficient data to conclude that the mean height of high school students who play basketball on the school team is less than 73 inches at the 5% level.  The data do support the claim.</para>
+</solution>
+</exercise>
+<exercise id="fs-idp139727497515136"><problem id="fs-idp139727497515392">
+<para id="fs-idp139727497515648">The mean age of graduate students at a University is at most 31 y ears with a standard deviation of two years. A random sample of 15 graduate students is taken. The sample mean is 32 years and the sample standard deviation is three years. Are the data significant at the 1% level? The <emphasis effect="italics">p</emphasis>-value is 0.0264. State the null and alternative hypotheses and interpret the <emphasis effect="italics">p</emphasis>-value.</para></problem></exercise><exercise id="fs-idp139727497492608"><problem id="fs-idp139727500337904">
+<para id="fs-idp139727500338160">Does the shaded region represent a low or a high <emphasis effect="italics">p</emphasis>-value compared to a level of significance of 1%?</para>
+<figure id="fs-idp44994304"><media id="fs-idp139727500338544" alt="" display="block">
+<image mime-type="image/jpeg" src="../../media/fig-ch09_07_01N.jpg" width="380"/>
+</media></figure></problem>
+<solution id="fs-idp139727500212304">
+<para id="fs-idp139727500212560">The shaded region shows a low <emphasis effect="italics">p</emphasis>-value.</para>
+</solution>
+</exercise>
+<exercise id="fs-idp139727500213504"><problem id="fs-idp139727500319104">
+<para id="fs-idp139727500319360">What should you do when <emphasis effect="italics">α</emphasis> &gt; <emphasis effect="italics">p</emphasis>-value?</para></problem></exercise><exercise id="fs-idp139727500288288">
+<problem id="fs-idp139727500288544">
+<para id="fs-idp139727506518704">What should you do if <emphasis effect="italics">α</emphasis> = <emphasis effect="italics">p</emphasis>-value?</para></problem>
+<solution id="fs-idp139727506519216">
+<para id="fs-idp139727506519472">Do not reject <emphasis effect="italics">H<sub>0</sub></emphasis>.
+</para></solution>
+</exercise>
+
+<exercise id="fs-idp139727500315024"><problem id="fs-idp139727500315280">
+<para id="fs-idp139727500315536">If you do not reject the null hypothesis, then it must be true. Is this statement correct? State why or why not in complete sentences.</para>
+</problem></exercise><para id="eip-972"><emphasis effect="italics">Use the following information to answer the next seven exercises:</emphasis> Suppose that a recent article stated that the mean time spent in jail by a first-time convicted burglar is 2.5 years. A study was then done to see if the mean time has increased in the new century. A random sample of 26 first-time convicted burglars in a recent year was picked. The mean length of time in jail from the survey was three years with a standard deviation of 1.8 years. Suppose that it is somehow known that the population standard deviation is 1.5. Conduct a hypothesis test to determine if the mean length of jail time has increased. Assume the distribution of the jail times is approximately normal.</para><exercise id="eip-714">
+<problem id="fs-idm64220592">
+<para id="fs-idp26378528">Is this a test of means or proportions?</para>
+</problem>
+<solution id="fs-idm27491088">
+<para id="fs-idp37854496">means</para>
+</solution>
+</exercise>
+<!--moved from 9.3, 32-41-->
+  <exercise id="element-173"><problem id="id13277236">
+  <para id="element-732">What symbol represents the random variable for this test?</para>
+</problem></exercise><exercise id="element-126"><problem id="id9153115">
+  <para id="element-504">In words, define the random variable for this test.</para>
+</problem>
+
+<solution id="id9153134">
+  <para id="element-663">the mean time spent in jail for 26 first time convicted burglars</para>
+</solution>
+</exercise>
+  <exercise id="element-797"><problem id="id9153163">
+  <para id="element-922">Is the population standard deviation known and, if so, what is it?</para></problem></exercise><exercise id="element-877">
+    <problem id="id9153210">
+    <para id="element-235235">Calculate the following:
+      <list id="list-8276387645" list-type="enumerated" number-style="lower-alpha"><item><m:math>
+          <m:mover accent="true">
+            <m:mi>x</m:mi>
+            <m:mo>¯</m:mo>
+          </m:mover>
+          
+        </m:math> _______</item>
+        <item><emphasis effect="italics">σ</emphasis> _______</item>
+        <item><emphasis effect="italics">s<sub>x</sub></emphasis> _______</item>
+        <item><emphasis effect="italics">n</emphasis> _______</item>
+      </list></para>
+</problem>
+
+<solution id="id13779592">
+  <list id="list-23512532" list-type="enumerated" number-style="lower-alpha">
+    <item>3</item>
+    <item>1.5</item>
+    <item>1.8</item>
+    <item>26</item>
+  </list>  
+</solution>
+</exercise><exercise id="element-95"><problem id="id13779679">
+  <para id="element-88">Since both σ and <m:math>
+      <m:mrow>
+        <m:msub>
+          <m:mi>s</m:mi>
+          <m:mi>x</m:mi>
+        </m:msub>
+        
+      </m:mrow>
+    </m:math> are given, which should be used? In one to two complete sentences, explain why.</para>
+</problem></exercise><exercise id="element-121">
+  <problem id="id13779798">
+  <para id="element-136">State the distribution to use for the hypothesis test.</para>
+</problem>
+
+<solution id="id13779818">
+  <para id="element-1000"><m:math>
+    <m:mrow>
+      <m:mover accent="true">
+        <m:mi>X</m:mi>
+        <m:mo>¯</m:mo>
+      </m:mover>
+      <m:mo>~</m:mo><m:mi>N</m:mi><m:mrow><m:mo>(</m:mo>
+        <m:mrow>
+          <m:mn>2.5</m:mn><m:mo>,</m:mo><m:mfrac>
+            <m:mrow>
+              <m:mn>1.5</m:mn>
+            </m:mrow>
+            <m:mrow>
+              <m:msqrt>
+                <m:mrow>
+                  <m:mn>26</m:mn>
+                </m:mrow>
+              </m:msqrt>
+              
+            </m:mrow>
+          </m:mfrac>
+          
+        </m:mrow>
+        <m:mo>)</m:mo></m:mrow>
+    </m:mrow>
+  </m:math><newline/></para>
+</solution>
+</exercise>
+  
+  <!--exercise 65-->
+<!--up her..double check-->
+
+<exercise id="fs-idm67684880"><problem id="fs-idp79923936">
+<para id="eip-idp59803264">A random survey of 75 death row inmates revealed that the mean length of time on death row is 17.4 years with a standard deviation of 6.3 years. Conduct a hypothesis test to determine if the population mean time on death row could likely be 15 years.</para>
+<list id="fs-idp120951904" list-type="enumerated" number-style="lower-alpha">
+<item>Is this a test of one mean or proportion?</item>
+<item>State the null and alternative hypotheses.
+    <newline/><emphasis effect="italics">H<sub>0</sub></emphasis>: ____________________ <emphasis effect="italics">H<sub>a</sub></emphasis> :  ____________________</item>
+<item>Is this a right-tailed, left-tailed, or two-tailed test?</item>
+<item>What symbol represents the random variable for this test?</item>
+<item>In words, define the random variable for this test.</item>
+<item>Is the population standard deviation known and, if so, what is it? </item>
+<item>Calculate the following:
+<list id="fs-idp42891616" list-type="enumerated" number-style="lower-roman">
+<item><m:math>
+ <m:mover accent="true">
+  <m:mi>x</m:mi>
+  <m:mo>¯</m:mo>
+ </m:mover>
+ 
+</m:math> = _____________   </item>
+<item><emphasis effect="italics">s</emphasis> = ____________  </item>
+<item><emphasis effect="italics">n</emphasis> = ____________</item>
+</list>
+</item>
+<item>Which test should be used?</item>
+<item>State the distribution to use for the hypothesis test.</item>
+<item>Find the <emphasis effect="italics">p</emphasis>-value.</item>
+<item>At a pre-conceived <emphasis effect="italics">α</emphasis> = 0.05, what is your:
+<list id="fs-idp14952416" list-type="enumerated" number-style="lower-roman">
+<item>Decision:</item>
+<item>Reason for the decision:</item>
+<item>Conclusion (write out in a complete sentence):</item>
+</list>
+</item>
+</list>
+</problem></exercise>
+</section>
+
+<section id="fs-idp78752032" class="free-response">
+<title>Homework</title>
+<exercise id="fs-idp20135424"><problem id="fs-idp185700128">
+<para id="eip-idm15690000">The National Institute of Mental Health published an article stating that in any one-year period, approximately 9.5 percent of American adults suffer from depression or a depressive illness. Suppose that in a survey of 100 people in a certain town, seven of them suffered from depression or a depressive illness. Conduct a hypothesis test to determine if the true proportion of people in that town suffering from depression or a depressive illness is lower than the percent in the general adult American population.</para>
+<list id="fs-idp190659504" list-type="enumerated" number-style="lower-alpha">
+<item>Is this a test of one mean or proportion? </item>
+<item>State the null and alternative hypotheses. 
+<newline/><emphasis effect="italics">H<sub>0</sub></emphasis>: ____________________  <emphasis effect="italics">H<sub>a</sub></emphasis>:  ____________________</item>
+<item>Is this a right-tailed, left-tailed, or two-tailed test?</item>
+<item>What symbol represents the random variable for this test? </item>
+<item>In words, define the random variable for this test.</item>
+<item>Calculate the following:
+<list id="fs-idp150758080" list-type="enumerated" number-style="lower-roman">
+<item><emphasis effect="italics">x</emphasis> = ________________</item>
+<item><emphasis effect="italics">n</emphasis> = ________________</item>
+<item><m:math>
+ <m:msup>
+  <m:mi>p</m:mi>
+  <m:mo>′</m:mo>
+ </m:msup>
+ 
+</m:math> = _____________</item>
+</list>
+</item>
+<item>Calculate <emphasis effect="italics">σ<sub>x</sub></emphasis> =  __________. Show the formula set-up.</item>
+<item>State the distribution to use for the hypothesis test.</item>
+<item>Find the <emphasis effect="italics">p</emphasis>-value.</item>
+<item>At a pre-conceived <emphasis effect="italics">α</emphasis> = 0.05, what is your:
+<list id="fs-idp70896592" list-type="enumerated" number-style="lower-roman">
+<item>Decision:</item>
+<item>Reason for the decision:</item>
+<item>Conclusion (write out in a complete sentence):</item>
+</list>
+</item>
+</list>
+</problem>
+</exercise></section>
+</content>
+
+<glossary>
+
+<definition id="fs-idm2388928">
+<term>Level of Significance of the Test </term>
+<meaning id="id18705874">
+probability of a Type I error (reject the null hypothesis when it is true).  Notation: α. In hypothesis testing, the Level of Significance is called the preconceived α or the preset α. The Confidence level is (1-α).
+</meaning>
+</definition>
+
+
+
+</glossary>
+</document>
