@@ -8,9 +8,9 @@
 </metadata>
 
 <content>
-    <para id="eip-351">A confidence interval for a population mean, when the population standard deviation is known based on the conclusion of the Central Limit Theorem that the sampling distribution of the sample means follow an approximately normal distribution. </para><section id="eip-845"><title>Calculating the Confidence Interval</title><para id="eip-150">
+    <para id="eip-351">A confidence interval for a population mean with a known population standard deviation is based on the conclusion of the Central Limit Theorem that the sampling distribution of the sample means follow an approximately normal distribution. </para><section id="eip-845"><title>Calculating the Confidence Interval</title><para id="eip-150">
 Consider the standardizing formula for the sampling distribution developed in the discussion of the Central Limit Theorem:
-</para><equation id="eip-651" class="unnumbered"><label/><m:math><m:msub><m:mi>Z</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo>
+</para><equation id="eip-651"><m:math><m:msub><m:mi>Z</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo>
 
 <m:mfrac>
 <m:mrow><m:mover><m:mi>X</m:mi><m:mo>−</m:mo></m:mover><m:mo>−</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mover><m:mi>X</m:mi><m:mo>−</m:mo></m:mover></m:mrow></m:msub></m:mrow>
@@ -24,14 +24,14 @@ Consider the standardizing formula for the sampling distribution developed in th
 <m:mrow><m:mfrac bevelled="true"><m:mi>σ</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac></m:mrow>
 </m:mfrac>
 </m:math></equation><para id="eip-883">Notice that µ is substituted for <m:math><m:msub><m:mi>µ</m:mi><m:mrow><m:mover><m:mi>x</m:mi><m:mo>−</m:mo></m:mover></m:mrow></m:msub></m:math> because we know that the expected value of <m:math><m:msub><m:mi>µ</m:mi><m:mrow><m:mover><m:mi>x</m:mi><m:mo>−</m:mo></m:mover></m:mrow></m:msub></m:math> is µ from the Central Limit theorem and <m:math><m:msub><m:mi>σ</m:mi><m:mrow><m:mover><m:mi>x</m:mi><m:mo>−</m:mo></m:mover></m:mrow></m:msub></m:math> is replaced with <m:math><m:mfrac bevelled="true"><m:mi>σ</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt>
-</m:mfrac></m:math>, also from the Central Limit Theorem.  </para><para id="eip-276">In this formula we know <m:math><m:mover><m:mi>X</m:mi><m:mo>−</m:mo></m:mover></m:math>, <m:math><m:msub><m:mi>σ</m:mi><m:mrow><m:mover><m:mi>x</m:mi><m:mo>−</m:mo></m:mover></m:mrow></m:msub></m:math> and n, the sample size. (In actuality we do not know the population standard deviation, but we do have a point estimate for it, s, from the sample we took. More on this later.) What we do not know is μ or Z<sub>1</sub>. We can solve for either one of these in terms of the other. Solving for μ in terms of Z<sub>1</sub> gives:</para><equation id="eip-107" class="unnumbered"><label/><m:math><m:mi>μ</m:mi><m:mo>=</m:mo>
+</m:mfrac></m:math>, also from the Central Limit Theorem.  </para><para id="eip-276">In this formula we know <m:math><m:mover><m:mi>X</m:mi><m:mo>−</m:mo></m:mover></m:math>, <m:math><m:msub><m:mi>σ</m:mi><m:mrow><m:mover><m:mi>x</m:mi><m:mo>−</m:mo></m:mover></m:mrow></m:msub></m:math> and n, the sample size. (In actuality we do not know the population standard deviation, but we do have a point estimate for it, s, from the sample we took. More on this later.) What we do not know is μ or Z<sub>1</sub>. We can solve for either one of these in terms of the other. Solving for μ in terms of Z<sub>1</sub> gives:</para><equation id="eip-107"><m:math><m:mi>μ</m:mi><m:mo>=</m:mo>
 <m:mover><m:mi>X</m:mi><m:mo>−</m:mo></m:mover>
 <m:mo>±</m:mo>
 <m:msub><m:mi>Z</m:mi><m:mn>1</m:mn></m:msub>
 <m:mfrac bevelled="true"><m:mi>σ</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac>
 </m:math></equation><para id="eip-747">Remembering that the Central Limit Theorem tells us that the
 distribution of the <m:math><m:mover><m:mi>X</m:mi><m:mo>-</m:mo></m:mover></m:math>'s, the sampling distribution for means,  is normal, and that the normal distribution is symmetrical, we can rearrange terms thus:
-</para><equation id="eip-758" class="unnumbered"><label/><m:math><m:mover><m:mi>X</m:mi><m:mo>-</m:mo></m:mover><m:mo>−</m:mo>
+</para><equation id="eip-758"><m:math><m:mover><m:mi>X</m:mi><m:mo>-</m:mo></m:mover><m:mo>−</m:mo>
 <m:msub><m:mi>Z</m:mi><m:mi>α</m:mi></m:msub>
 <m:mo>(</m:mo><m:mfrac bevelled="true"><m:mi>σ</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac><m:mo>)</m:mo>
 <m:mo>≤</m:mo>
@@ -44,21 +44,21 @@ distribution of the <m:math><m:mover><m:mi>X</m:mi><m:mo>-</m:mo></m:mover></m:m
     </media>
     </figure><para id="eip-189">For this example, let's say we know that the actual population mean number of iTunes downloads is 2.1. The true population mean falls within the range of the 95% confidence interval. There is absolutely nothing to guarantee that this will happen. <emphasis>Further, if the true mean falls outside of the interval we will never know it. We must always remember that we will never ever know the true mean.</emphasis> Statistics simply allows us, with a given level of probability (confidence), to say that the true mean is within the range calculated. This is what was called in the introduction, the "level of ignorance admitted".</para></section><section id="eip-169"><title>Changing the Confidence Level or Sample Size</title><para id="eip-264">
 Here again is the formula for a confidence interval for an unknown population mean assuming we know the population standard deviation:
-</para><equation id="eip-431" class="unnumbered"><label/><m:math><m:mover><m:mi>X</m:mi><m:mo>-</m:mo></m:mover><m:mo>−</m:mo><m:msub><m:mi>Z</m:mi><m:mi>α</m:mi></m:msub>
+</para><equation id="eip-431"><m:math><m:mover><m:mi>X</m:mi><m:mo>-</m:mo></m:mover><m:mo>−</m:mo><m:msub><m:mi>Z</m:mi><m:mi>α</m:mi></m:msub>
 <m:mo>(</m:mo><m:mfrac bevelled="true"><m:mi>σ</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac><m:mo>)</m:mo>
 <m:mo>≤</m:mo>
 <m:mi>μ</m:mi>
 <m:mo>≤</m:mo>
 <m:mover><m:mi>X</m:mi><m:mo>-</m:mo></m:mover><m:mo>+</m:mo><m:msub><m:mi>Z</m:mi><m:mi>α</m:mi></m:msub>
 <m:mo>(</m:mo><m:mfrac bevelled="true"><m:mi>σ</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac><m:mo>)</m:mo>
-</m:math></equation><para id="eip-405">It is clear that the confidence interval is driven by two things, the chosen level of confidence, <m:math><m:msub><m:mi>Z</m:mi><m:mi>α</m:mi></m:msub></m:math>, and the standard deviation of the sampling distribution. The Standard deviation of the sampling distribution is further affected by two things, the standard deviation of the population and the sample size we chose for our data. Here we wish to examine the effects of each of the choices we have made on the calculated confidence interval, the confidence level and the sample size.</para><para id="eip-640">For a moment we should ask just what we desire in a confidence interval. Our goal was to estimate the population mean from a sample. We have forsaken the hope that we will ever find the true population mean, and population standard deviation for that matter, for any case except where we have an extremely small population and the cost of gathering the data of interest is very small. In all other cases we must rely on samples. With the Central Limit Theorem we have the tools to provide a meaningful confidence interval with a given level of confidence, meaning a known probability of being wrong. By meaningful confidence interval we mean one that is useful. Imagine that you are asked for a confidence interval for the ages of your classmates. You have taken a sample and find a mean of 19.8 years. You wish to be very confident so you report an interval between 9.8 years and 29.8 years. This interval would certainly contain the true population mean and have a very high confidence level. However, it hardly qualifies as meaningful. The very best confidence interval is narrow while having high confidence. There is a natural tension between these two goals. The higher the level of confidence the wider the confidence interval as the case of the students' ages above. We can see this tension in the equation for the confidence interval.</para><equation id="eip-886" class="unnumbered"><label/><m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mover><m:mi>x</m:mi><m:mo>_</m:mo></m:mover><m:mo>±</m:mo><m:msub><m:mi>Z</m:mi><m:mi>α</m:mi></m:msub><m:mo>(</m:mo><m:mfrac><m:mi>σ</m:mi><m:mrow><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mrow></m:mfrac><m:mo>)</m:mo></m:math></equation><para id="eip-637">The confidence interval will increase in width as <m:math><m:mi>Z</m:mi><m:mi>α</m:mi></m:math> increases, <m:math><m:mi>Z</m:mi><m:mi>α</m:mi></m:math> increases as the level of confidence increases. There is a tradeoff between the level of confidence and the width of the interval. Now let's look at the formula again and we see that the sample size also plays an important role in the width of the confidence interval. The sample size, <m:math><m:mi>n</m:mi></m:math>, shows up in the denominator of the standard deviation of the sampling distribution. As the sample size increases, the standard deviation of the sampling distribution decreases and thus the width of the confidence interval, while holding constant the level of confidence. This relationship was demonstrated in <link document="m54537" target-id="fs-id8850305"/>. Again we see the importance of having large samples for our analysis although we then face a second constraint, the cost of gathering data.
+</m:math></equation><para id="eip-405">It is clear that the confidence interval is driven by two things, the chosen level of confidence, <m:math><m:msub><m:mi>Z</m:mi><m:mi>α</m:mi></m:msub></m:math>, and the standard deviation of the sampling distribution. The Standard deviation of the sampling distribution is further affected by two things, the standard deviation of the population and the sample size we chose for our data. Here we wish to examine the effects of each of the choices we have made on the calculated confidence interval, the confidence level and the sample size.</para><para id="eip-640">For a moment we should ask just what we desire in a confidence interval. Our goal was to estimate the population mean from a sample. We have forsaken the hope that we will ever find the true population mean, and population standard deviation for that matter, for any case except where we have an extremely small population and the cost of gathering the data of interest is very small. In all other cases we must rely on samples. With the Central Limit Theorem we have the tools to provide a meaningful confidence interval with a given level of confidence, meaning a known probability of being wrong. By meaningful confidence interval we mean one that is useful. Imagine that you are asked for a confidence interval for the ages of your classmates. You have taken a sample and find a mean of 19.8 years. You wish to be very confident so you report an interval between 9.8 years and 29.8 years. This interval would certainly contain the true population mean and have a very high confidence level. However, it hardly qualifies as meaningful. The very best confidence interval is narrow while having high confidence. There is a natural tension between these two goals. The higher the level of confidence the wider the confidence interval as the case of the students' ages above. We can see this tension in the equation for the confidence interval.</para><equation id="eip-886"><m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mover><m:mi>x</m:mi><m:mo>_</m:mo></m:mover><m:mo>±</m:mo><m:msub><m:mi>Z</m:mi><m:mi>α</m:mi></m:msub><m:mo>(</m:mo><m:mfrac><m:mi>σ</m:mi><m:mrow><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mrow></m:mfrac><m:mo>)</m:mo></m:math></equation><para id="eip-637">The confidence interval will increase in width as <m:math><m:mi>Z</m:mi><m:mi>α</m:mi></m:math> increases, <m:math><m:mi>Z</m:mi><m:mi>α</m:mi></m:math> increases as the level of confidence increases. There is a tradeoff between the level of confidence and the width of the interval. Now let's look at the formula again and we see that the sample size also plays an important role in the width of the confidence interval. The sample sized, <m:math><m:mi>n</m:mi></m:math>, shows up in the denominator of the standard deviation of the sampling distribution. As the sample size increases, the standard deviation of the sampling distribution decreases and thus the width of the confidence interval, while holding constant the level of confidence. This relationship was demonstrated in <link document="m54537" target-id="fs-id8850305"/>. Again we see the importance of having large samples for our analysis although we then face a second constraint, the cost of gathering data. 
 </para></section><section id="eip-548"><title>Calculating the Confidence Interval: An Alternative Approach</title><para id="eip-896">Another way to approach confidence intervals is through the use of something called the Error Bound. The Error Bound gets its name from the recognition that it provides the boundary of the interval derived from the standard error of the sampling distribution. In the equations above it is seen that the interval is simply the estimated mean, sample mean, plus or minus something. That something is the Error Bound and is driven by the probability we desire to maintain in our estimate, <m:math><m:msub><m:mi>Z</m:mi><m:mi>α</m:mi></m:msub></m:math>,
 times the standard deviation of the sampling distribution. The Error Bound for a mean is given the name, <term>Error Bound Mean</term>, or <emphasis effect="italics">EBM</emphasis>.</para><para id="eip-id1171249700620">To construct a confidence interval for a single unknown population mean <emphasis effect="italics">μ</emphasis>, <emphasis>where the population standard deviation is known</emphasis>, we need <m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>-</m:mo>
  </m:mover>
-
+ 
 </m:math> as an estimate for <emphasis effect="italics">μ</emphasis> and we need the margin of error. Here, the margin of error (<emphasis effect="italics">EBM</emphasis>) is called the error bound for a population mean (abbreviated <emphasis><emphasis effect="italics">EBM</emphasis></emphasis>). The sample mean <m:math>
 <m:mover accent="true">
 <m:mi>x</m:mi>
@@ -78,7 +78,7 @@ times the standard deviation of the sampling distribution. The Error Bound for a
   </m:mover>
   <m:mtext>+</m:mtext><m:mi>E</m:mi><m:mi>B</m:mi><m:mi>M</m:mi>
  </m:mrow>
-</m:math>)</para><para id="eip-257">The mathematical formula for this confidence interval is: </para><equation id="eip-271" class="unnumbered"><label/><m:math><m:mover><m:mi>X</m:mi><m:mo>-</m:mo></m:mover><m:mo>−</m:mo><m:msub><m:mi>Z</m:mi><m:mi>α</m:mi></m:msub>
+</m:math>)</para><para id="eip-257">The mathematical formula for this confidence interval is: </para><equation id="eip-271"><m:math><m:mover><m:mi>X</m:mi><m:mo>-</m:mo></m:mover><m:mo>−</m:mo><m:msub><m:mi>Z</m:mi><m:mi>α</m:mi></m:msub>
 <m:mo>(</m:mo><m:mfrac bevelled="true"><m:mi>σ</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac><m:mo>)</m:mo>
 <m:mo>≤</m:mo>
 <m:mi>μ</m:mi>
@@ -86,14 +86,14 @@ times the standard deviation of the sampling distribution. The Error Bound for a
 <m:mover><m:mi>X</m:mi><m:mo>-</m:mo></m:mover><m:mo>+</m:mo><m:msub><m:mi>Z</m:mi><m:mi>α</m:mi></m:msub>
 <m:mo>(</m:mo><m:mfrac bevelled="true"><m:mi>σ</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac><m:mo>)</m:mo>
 </m:math></equation><para id="eip-id1171253180187">The margin of error (<emphasis effect="italics">EBM</emphasis>) depends on the <term>confidence level</term> (abbreviated <emphasis><emphasis effect="italics">CL</emphasis></emphasis>). The confidence level is often considered the probability that the calculated confidence interval estimate will contain the true population parameter. However, it is more accurate to state that the confidence level is the percent of confidence intervals that contain the true population parameter when repeated samples are taken. Most often, it is the choice of the person constructing the confidence interval to choose a confidence level of 90% or higher because that person wants to be reasonably certain of his or her conclusions.</para>
-
+    
     <para id="eip-id1171259743972">There is another probability called alpha (<emphasis effect="italics">α</emphasis>). <emphasis effect="italics">α</emphasis> is related to the confidence level, <emphasis effect="italics">CL</emphasis>. <emphasis effect="italics">α</emphasis> is the probability that the interval does not contain the unknown population parameter.
     <newline/>Mathematically, 1 - <emphasis effect="italics">α</emphasis> = <emphasis effect="italics">CL</emphasis>.</para><para id="eip-id1171249556158">A confidence interval for a population mean with a <emphasis effect="bold">known</emphasis> standard deviation is based on the fact that the sampling distribution of the sample means follow an approximately normal distribution. Suppose that our sample has a mean of <m:math>
  <m:mover accent="true">
   <m:mi>x</m:mi>
   <m:mo>-</m:mo>
  </m:mover>
-
+ 
 </m:math> = 10, and we have constructed the 90% confidence interval (5, 15) where <emphasis effect="italics">EBM</emphasis> = 5.</para><para id="eip-id1171249132425">To get a 90% confidence interval, we must include the central 90% of the probability of the normal distribution. If we include the central 90%, we leave out a total of <emphasis effect="italics">α</emphasis> = 10% in both tails, or 5% in each tail, of the normal distribution.</para>
       <figure id="fs-idm23539888"><media id="id1164459043434" alt="This is a normal distribution curve. The peak of the curve coincides with the point 10 on the horizontal axis. The points 5 and 15 are labeled on the axis. Vertical lines are drawn from these points to the curve, and the region between the lines is shaded. The shaded region has area equal to 0.90.">
     <image src="../../media/fig-ch08_02_01n.jpg" mime-type="image/jpg" width="380"/>
@@ -106,18 +106,18 @@ times the standard deviation of the sampling distribution. The Error Bound for a
         <m:msqrt>
          <m:mi>n</m:mi>
         </m:msqrt>
-
+        
        </m:mrow>
       </m:mfrac>
-
+      
      </m:mrow>
-   </m:math>. </para><section id="fs-idm57905968"><title>Calculating the Confidence Interval Using EBM</title><para id="fs-idp100429424">To construct a confidence interval estimate for an unknown population mean, we need data from a random sample.  The steps to construct and interpret the confidence interval are:</para>
+    </m:math>. </para><section id="fs-idm57905968"><title>Calculating the Confidence Interval Using EMB</title><para id="fs-idp100429424">To construct a confidence interval estimate for an unknown population mean, we need data from a random sample.  The steps to construct and interpret the confidence interval are:</para>
 <list id="eip-id1171253322089" list-type="bulleted"><item> Calculate the sample mean <m:math>
      <m:mover accent="true">
       <m:mi>x</m:mi>
       <m:mo>-</m:mo>
      </m:mover>
-
+     
     </m:math> from the sample data. Remember, in this section we know the population standard deviation  <emphasis effect="italics">σ</emphasis>.</item>
     <item>Find the <emphasis effect="italics">z</emphasis>-score from the standard normal table that corresponds to the confidence level desired.</item>
     <item>Calculate the error bound <emphasis effect="italics">EBM</emphasis>.</item>
@@ -132,7 +132,7 @@ times the standard deviation of the sampling distribution. The Error Bound for a
        <m:mi>α</m:mi>
        <m:mn>2</m:mn>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:math>.</para>
 <para id="eip-id1171266449435">The z-score that has an area to the right of <m:math>
@@ -141,7 +141,7 @@ times the standard deviation of the sampling distribution. The Error Bound for a
        <m:mi>α</m:mi>
        <m:mn>2</m:mn>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:math> is denoted by <m:math>
      <m:mrow>
@@ -152,10 +152,10 @@ times the standard deviation of the sampling distribution. The Error Bound for a
          <m:mi>α</m:mi>
          <m:mn>2</m:mn>
         </m:mfrac>
-
+        
        </m:mrow>
       </m:msub>
-
+      
      </m:mrow>
     </m:math>.</para>
 <para id="eip-id1171258387350">For example, when <emphasis effect="italics">CL</emphasis> = 0.95, <emphasis effect="italics">α</emphasis> = 0.05 and <m:math>
@@ -164,7 +164,7 @@ times the standard deviation of the sampling distribution. The Error Bound for a
        <m:mi>α</m:mi>
        <m:mn>2</m:mn>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:math> = 0.025; we write <m:math>
      <m:mrow>
@@ -175,13 +175,13 @@ times the standard deviation of the sampling distribution. The Error Bound for a
          <m:mi>α</m:mi>
          <m:mn>2</m:mn>
         </m:mfrac>
-
+        
        </m:mrow>
       </m:msub>
-
+      
      </m:mrow>
     </m:math> = <m:math><m:msub><m:mi>Z</m:mi><m:mn>0.025</m:mn></m:msub></m:math>.</para>
-
+    
     <para id="eip-id1171262711575">The area to the right of <m:math><m:msub><m:mi>Z</m:mi><m:mn>0.025</m:mn></m:msub></m:math> is 0.025 and the area to the left of <m:math><m:msub><m:mi>Z</m:mi><m:mn>0.025</m:mn></m:msub></m:math> is 1 – 0.025 = 0.975.</para>
     <para id="eip-id1171249206094"><m:math>
  <m:mrow>
@@ -192,7 +192,7 @@ times the standard deviation of the sampling distribution. The Error Bound for a
      <m:mi>α</m:mi>
      <m:mn>2</m:mn>
     </m:mfrac>
-
+    
    </m:mrow>
   </m:msub>
   <m:mtext> = </m:mtext><m:msub>
@@ -217,10 +217,10 @@ times the standard deviation of the sampling distribution. The Error Bound for a
        <m:mi>α</m:mi>
        <m:mn>2</m:mn>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:msub>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
    <m:mrow>
@@ -230,10 +230,10 @@ times the standard deviation of the sampling distribution. The Error Bound for a
       <m:msqrt>
        <m:mi>n</m:mi>
       </m:msqrt>
-
+      
      </m:mrow>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -241,7 +241,7 @@ times the standard deviation of the sampling distribution. The Error Bound for a
     </list></section>
 <section id="fs-idm53546816">
 <title>Constructing the Confidence Interval</title>
-<list id="fs-idm73276912" list-type="bulleted"><item>The confidence interval estimate has the format
+<list id="fs-idm73276912" list-type="bulleted"><item>The confidence interval estimate has the format 
     <m:math>
  <m:mrow>
   <m:mo stretchy="false">(</m:mo><m:mover accent="true">
@@ -268,7 +268,7 @@ times the standard deviation of the sampling distribution. The Error Bound for a
        <m:mi>α</m:mi>
        <m:mn>2</m:mn>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:math> + <m:math>
      <m:mrow>
@@ -276,7 +276,7 @@ times the standard deviation of the sampling distribution. The Error Bound for a
        <m:mi>α</m:mi>
        <m:mn>2</m:mn>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:math> = <emphasis effect="italics">CL</emphasis> + <emphasis effect="italics">α</emphasis> = 1.</para>
 <figure id="fs-idp113086400"><media id="id1164466599913" alt="This is a normal distribution curve. The peak of the curve coincides with the point x-bar on the horizontal axis. The points x-bar - EBM and x-bar + EBM are labeled on the axis. Vertical lines are drawn from these points to the curve, and the region between the lines is shaded. The shaded region has area equal to 1 - a and represents the confidence level. Each unshaded tail has area a/2.">
@@ -286,7 +286,7 @@ times the standard deviation of the sampling distribution. The Error Bound for a
 
 <example id="eip-id1171257291379"><para id="eip-id1171249543224">Suppose we are interested in the mean scores on an exam. A random sample of 36 scores is taken and gives a sample mean (sample mean score) of 68 (<m:math><m:mover><m:mi>X</m:mi><m:mo>-</m:mo></m:mover></m:math> = 68). In this example we have the unusual knowledge that the population standard deviation is 3 points. Do not count on knowing the population parameters outside of textbook examples. Find a confidence interval estimate for the population mean exam score (the mean score on all exams).</para><exercise id="eip-id1171264272125"><problem id="id1164450499992">
 <para id="eip-id1171254920718">Find a 90% confidence interval for the true (population) mean of statistics exam scores.
-
+    
     </para></problem>
     <solution id="id1164449849393">
     <list id="eip-id1170665387344"><item>The solution is shown step-by-step.</item>
@@ -296,7 +296,7 @@ times the standard deviation of the sampling distribution. The Error Bound for a
   <m:mi>x</m:mi>
   <m:mo>-</m:mo>
  </m:mover>
-
+ 
 </m:math>, and the <emphasis effect="italics">EBM</emphasis>.</para>
     <para id="eip-id1171259684785">
     <list id="eip-id1171249631187" list-type="labeled-item"><item><m:math>
@@ -304,7 +304,7 @@ times the standard deviation of the sampling distribution. The Error Bound for a
       <m:mi>x</m:mi>
       <m:mo>-</m:mo>
      </m:mover>
-
+     
     </m:math> = 68</item>
     <item>
     <emphasis effect="italics">EBM</emphasis> = <m:math>
@@ -318,10 +318,10 @@ times the standard deviation of the sampling distribution. The Error Bound for a
            <m:mi>α</m:mi>
            <m:mn>2</m:mn>
           </m:mfrac>
-
+          
          </m:mrow>
         </m:msub>
-
+        
        </m:mrow>
       <m:mo>)</m:mo></m:mrow>
      </m:mrow>
@@ -335,17 +335,17 @@ times the standard deviation of the sampling distribution. The Error Bound for a
           <m:msqrt>
            <m:mi>n</m:mi>
           </m:msqrt>
-
+          
          </m:mrow>
         </m:mfrac>
-
+        
        </m:mrow>
       <m:mo>)</m:mo></m:mrow>
      </m:mrow>
     </m:math></item>
     <item><emphasis effect="italics">σ</emphasis> = 3; <emphasis effect="italics">n</emphasis> = 36; The confidence level is 90% (<emphasis effect="italics">CL</emphasis> = 0.90)</item>
     </list></para>
-
+    
     <para id="eip-id1171269290538"><emphasis effect="italics">CL</emphasis> = 0.90 so <emphasis effect="italics">α</emphasis> = 1 – <emphasis effect="italics">CL</emphasis> = 1 – 0.90 = 0.10</para>
     <para id="eip-id1171249664419"><m:math>
      <m:mrow>
@@ -353,7 +353,7 @@ times the standard deviation of the sampling distribution. The Error Bound for a
        <m:mi>α</m:mi>
        <m:mn>2</m:mn>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:math> = 0.05 <m:math>
      <m:mrow>
@@ -364,7 +364,7 @@ times the standard deviation of the sampling distribution. The Error Bound for a
          <m:mi>α</m:mi>
          <m:mn>2</m:mn>
         </m:mfrac>
-
+        
        </m:mrow>
       </m:msub>
       <m:mo>=</m:mo><m:msub>
@@ -373,7 +373,7 @@ times the standard deviation of the sampling distribution. The Error Bound for a
         <m:mn>0.05</m:mn>
        </m:mrow>
       </m:msub>
-
+      
      </m:mrow>
     </m:math></para><para id="eip-id1171249710090">The area to the right of <emphasis effect="italics">Z</emphasis><sub>0.05</sub> is 0.05 and the area to the left of <emphasis effect="italics">Z</emphasis><sub>0.05</sub> is 1 – 0.05 = 0.95.</para><para id="element-55"><m:math>
      <m:mrow>
@@ -384,7 +384,7 @@ times the standard deviation of the sampling distribution. The Error Bound for a
          <m:mi>α</m:mi>
          <m:mn>2</m:mn>
         </m:mfrac>
-
+        
        </m:mrow>
       </m:msub>
       <m:mtext> = </m:mtext><m:msub>
@@ -407,10 +407,10 @@ times the standard deviation of the sampling distribution. The Error Bound for a
             <m:mn>36</m:mn>
            </m:mrow>
           </m:msqrt>
-
+          
          </m:mrow>
         </m:mfrac>
-
+        
        </m:mrow>
       <m:mo>)</m:mo></m:mrow>
      </m:mrow>
@@ -419,7 +419,7 @@ times the standard deviation of the sampling distribution. The Error Bound for a
       <m:mi>x</m:mi>
       <m:mo>-</m:mo>
      </m:mover>
-
+     
     </m:math> - <emphasis effect="italics">EBM</emphasis> = 68 - 0.8225 = 67.1775</para>
     <para id="eip-id1171247927262">
     <m:math>
@@ -427,16 +427,16 @@ times the standard deviation of the sampling distribution. The Error Bound for a
       <m:mi>x</m:mi>
       <m:mo>-</m:mo>
      </m:mover>
-
+     
     </m:math> + <emphasis effect="italics">EBM</emphasis> = 68 + 0.8225 = 68.8225</para>
     <para id="eip-id1171262340763">The 90% confidence interval is <emphasis>(67.1775, 68.8225).</emphasis><newline/></para>
+    
 
-
-
-
+    
+    
     <para id="eip-id1171248950887">
     <title>Interpretation</title>We estimate with 90% confidence that the true population mean exam score for all statistics students is between 67.18 and 68.82.</para>
-
+    
     </solution>
     </exercise></example>
 <example id="element-1217"><exercise id="element-971"><problem id="id1164450104012">
@@ -446,7 +446,7 @@ times the standard deviation of the sampling distribution. The Error Bound for a
     <image src="../../media/fig-ch08_02_06.jpg" mime-type="image/jpg"/>
     </media>
     </figure>
-<equation id="eip-429" class="unnumbered"><label/><m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mover><m:mi>x</m:mi><m:mo>_</m:mo></m:mover><m:mo>±</m:mo><m:msub><m:mi>Z</m:mi><m:mi>α</m:mi></m:msub><m:mo>(</m:mo><m:mfrac><m:mi>σ</m:mi><m:mrow><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mrow></m:mfrac><m:mo>)</m:mo></m:math></equation><equation id="eip-2"><m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>68</m:mn><m:mo>±</m:mo><m:mn>1.96</m:mn><m:mo>(</m:mo><m:mfrac><m:mn>3</m:mn><m:mrow><m:msqrt><m:mn>36</m:mn></m:msqrt></m:mrow></m:mfrac><m:mo>)</m:mo></m:math></equation><equation id="eip-215"><m:math><m:mn>67.02</m:mn><m:mo>≤</m:mo><m:mi>μ</m:mi><m:mo>≤</m:mo><m:mn>68.98</m:mn></m:math></equation><para id="element-547"><emphasis effect="italics">σ</emphasis> = 3; <emphasis effect="italics">n</emphasis> = 36; The confidence level is 95% (<emphasis effect="italics">CL</emphasis> = 0.95).</para><para id="element-769"><emphasis effect="italics">CL</emphasis> = 0.95 so <emphasis effect="italics">α</emphasis> = 1 – <emphasis effect="italics">CL</emphasis> = 1 – 0.95 = 0.05</para><para id="element-669"><m:math>
+<equation id="eip-429"><m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mover><m:mi>x</m:mi><m:mo>_</m:mo></m:mover><m:mo>±</m:mo><m:msub><m:mi>Z</m:mi><m:mi>α</m:mi></m:msub><m:mo>(</m:mo><m:mfrac><m:mi>σ</m:mi><m:mrow><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mrow></m:mfrac><m:mo>)</m:mo></m:math></equation><equation id="eip-2"><m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>68</m:mn><m:mo>±</m:mo><m:mn>1.96</m:mn><m:mo>(</m:mo><m:mfrac><m:mn>3</m:mn><m:mrow><m:msqrt><m:mn>36</m:mn></m:msqrt></m:mrow></m:mfrac><m:mo>)</m:mo></m:math></equation><equation id="eip-215"><m:math><m:mn>67.02</m:mn><m:mo>≤</m:mo><m:mi>μ</m:mi><m:mo>≤</m:mo><m:mn>68.98</m:mn></m:math></equation><para id="element-547"><emphasis effect="italics">σ</emphasis> = 3; <emphasis effect="italics">n</emphasis> = 36; The confidence level is 95% (<emphasis effect="italics">CL</emphasis> = 0.95).</para><para id="element-769"><emphasis effect="italics">CL</emphasis> = 0.95 so <emphasis effect="italics">α</emphasis> = 1 – <emphasis effect="italics">CL</emphasis> = 1 – 0.95 = 0.05</para><para id="element-669"><m:math>
      <m:mrow>
       <m:msub>
        <m:mi>Z</m:mi>
@@ -455,7 +455,7 @@ times the standard deviation of the sampling distribution. The Error Bound for a
          <m:mi>α</m:mi>
          <m:mn>2</m:mn>
         </m:mfrac>
-
+        
        </m:mrow>
       </m:msub>
       <m:mo>=</m:mo><m:msub>
@@ -471,27 +471,27 @@ times the standard deviation of the sampling distribution. The Error Bound for a
     <image src="../../media/fig-ch08_02_03-66bc.jpg" mime-type="image/jpg" width="450"/>
     </media>
     </figure>
-
+    
     <list id="eip-703" list-type="bulleted"><title><emphasis>Summary: Effect of Changing the Confidence Level</emphasis></title><item>Increasing the confidence level makes the confidence interval wider.</item>
     <item>Decreasing the confidence level makes the confidence interval narrower.</item>
     </list></solution>
-    </exercise><para id="eip-824">And again here is the formula for a confidence interval for an  unknown mean assuming we have the population standard deviation:</para><equation id="eip-401" class="unnumbered"><label/><m:math><m:mover><m:mi>X</m:mi><m:mo>-</m:mo></m:mover><m:mo>−</m:mo><m:msub><m:mi>Z</m:mi><m:mi>α</m:mi></m:msub>
+    </exercise><para id="eip-824">And again here is the formula for a confidence interval for an  unknown mean assuming we have the population standard deviation:</para><equation id="eip-401"><m:math><m:mover><m:mi>X</m:mi><m:mo>-</m:mo></m:mover><m:mo>−</m:mo><m:msub><m:mi>Z</m:mi><m:mi>α</m:mi></m:msub>
 <m:mo>(</m:mo><m:mfrac bevelled="true"><m:mi>σ</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac><m:mo>)</m:mo>
 <m:mo>≤</m:mo>
 <m:mi>μ</m:mi>
 <m:mo>≤</m:mo>
 <m:mover><m:mi>X</m:mi><m:mo>-</m:mo></m:mover><m:mo>+</m:mo><m:msub><m:mi>Z</m:mi><m:mi>α</m:mi></m:msub>
 <m:mo>(</m:mo><m:mfrac bevelled="true"><m:mi>σ</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac><m:mo>)</m:mo>
-</m:math></equation><para id="eip-396">The standard deviation of the sampling distribution was provided by the Central Limit Theorem as <m:math><m:mfrac bevelled="true"><m:mi>σ</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac></m:math>. While we infrequently get to choose the sample size it plays an important role in the confidence interval. Because the sample size is in the denominator of the equation, as <m:math><m:mi>n</m:mi></m:math> increases it causes the standard deviation of the sampling distribution to decrease and thus the width of the confidence interval to decrease. We have met this before as we reviewed the effects of sample size on the Central Limit Theorem. There we saw that as <m:math><m:mi>n</m:mi></m:math> increases the sampling distribution narrows until in the limit it collapses on the true population mean.</para></example><example id="element-542"><para id="element-338">Suppose we change the original problem in <link target-id="eip-id1171257291379"/> to see what happens to the confidence interval if the sample size is changed.</para><exercise id="element-442"><problem id="id1164455008611">
+</m:math></equation><para id="eip-396">The standard deviation of the sampling distribution was provided by the Central Limit Theorem as <m:math><m:mfrac bevelled="true"><m:mi>σ</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac></m:math>. While we infrequently get to choose the sample size it plays an important role in the confidence interval. Because the sample size is in the denominator of the equation, as <m:math><m:mi>n</m:mi></m:math> increases it causes the standard deviation of the sampling distribution to idecrease and thus the width of the confidence interval to decrease. We have met this before as we reviewed the effects of sample size on the Central Limit Theorem. There we saw that as <m:math><m:mi>n</m:mi></m:math> increases the sampling distribution narrows until in the limit it collapses on the true population mean.</para></example><example id="element-542"><para id="element-338">Suppose we change the original problem in <link target-id="eip-id1171257291379"/> to see what happens to the confidence interval if the sample size is changed.</para><exercise id="element-442"><problem id="id1164455008611">
     <para id="element-98">Leave everything the same except the sample size.  Use the original 90% confidence level. What happens to the confidence interval if we increase the sample size and use <emphasis effect="italics">n</emphasis> = 100 instead of <emphasis effect="italics">n</emphasis> = 36?  What happens if we decrease the sample size to <emphasis effect="italics">n</emphasis> = 25 instead of <emphasis effect="italics">n</emphasis> = 36? </para></problem>
     <solution id="id5851674">
     <label/>
-    <para id="element-124"><m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mover><m:mi>x</m:mi><m:mo>_</m:mo></m:mover><m:mo>±</m:mo><m:msub><m:mi>Z</m:mi><m:mi>α</m:mi></m:msub><m:mo>(</m:mo><m:mfrac><m:mi>σ</m:mi><m:mrow><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mrow></m:mfrac><m:mo>)</m:mo></m:math><newline/>
+    <para id="element-124"><title>Solution A</title><m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mover><m:mi>x</m:mi><m:mo>_</m:mo></m:mover><m:mo>±</m:mo><m:msub><m:mi>Z</m:mi><m:mi>α</m:mi></m:msub><m:mo>(</m:mo><m:mfrac><m:mi>σ</m:mi><m:mrow><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mrow></m:mfrac><m:mo>)</m:mo></m:math><newline/>
 <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>68</m:mn><m:mo>±</m:mo><m:mn>1.645</m:mn><m:mo>(</m:mo><m:mfrac><m:mn>3</m:mn><m:mrow><m:msqrt><m:mn>100</m:mn></m:msqrt></m:mrow></m:mfrac><m:mo>)</m:mo></m:math><newline/><m:math><m:mn>67.5065</m:mn><m:mo>≤</m:mo><m:mi>μ</m:mi><m:mo>≤</m:mo><m:mn>68.4935</m:mn></m:math><newline/>If we <emphasis>increase</emphasis> the sample size <emphasis effect="italics">n</emphasis> to 100, we <emphasis>decrease</emphasis> the width of the confidence interval relative to the original sample size of 36 observations.</para></solution>
     <solution id="id1164463763522">
     <label/>
-
-    <para id="element-125"><m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mover><m:mi>x</m:mi><m:mo>_</m:mo></m:mover><m:mo>±</m:mo><m:msub><m:mi>Z</m:mi><m:mi>α</m:mi></m:msub><m:mo>(</m:mo><m:mfrac><m:mi>σ</m:mi><m:mrow><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mrow></m:mfrac><m:mo>)</m:mo></m:math><newline/>
+    
+    <para id="element-125"><title>Solution B</title><m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mover><m:mi>x</m:mi><m:mo>_</m:mo></m:mover><m:mo>±</m:mo><m:msub><m:mi>Z</m:mi><m:mi>α</m:mi></m:msub><m:mo>(</m:mo><m:mfrac><m:mi>σ</m:mi><m:mrow><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mrow></m:mfrac><m:mo>)</m:mo></m:math><newline/>
 <m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>68</m:mn><m:mo>±</m:mo><m:mn>1.645</m:mn><m:mo>(</m:mo><m:mfrac><m:mn>3</m:mn><m:mrow><m:msqrt><m:mn>25</m:mn></m:msqrt></m:mrow></m:mfrac><m:mo>)</m:mo></m:math><newline/><m:math><m:mn>67.013</m:mn><m:mo>≤</m:mo><m:mi>μ</m:mi><m:mo>≤</m:mo><m:mn>68.987</m:mn></m:math><newline/>If we <emphasis>decrease</emphasis> the sample size <emphasis effect="italics">n</emphasis> to 25, we <emphasis>increase</emphasis> the width of the confidence interval by comparison to the original sample size of 36 observations.
     </para></solution>
     </exercise><list id="element-364" list-type="bulleted"><title>Summary: Effect of Changing the Sample Size</title><item>Increasing the sample size makes the confidence interval narrower.</item>
@@ -504,20 +504,20 @@ times the standard deviation of the sampling distribution. The Error Bound for a
 <para id="eip-id1171272793525">Construct a 92% confidence interval for the population mean amount of money spent by spring breakers.</para>
 </problem>
 <solution id="eip-id1171272780952">
-<para id="eip-id1171276170440">We begin with the confidence interval for a mean. We use the formula for a mean because the random variable is dollars spent and this is a continuous random variable. The point estimate for the population standard deviation, <emphasis effect="italics">s</emphasis>, has been substituted for the true population standard deviation because with 80 observations there is no concern for bias in the estimate of the confidence interval. </para><equation id="eip-id1172209151796" class="unnumbered"><label/><m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>±</m:mo><m:mo>[</m:mo><m:msub><m:mi>Z</m:mi><m:mrow><m:mo>(</m:mo><m:mi>a /</m:mi><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:msub><m:mfrac><m:mrow><m:mi>s</m:mi></m:mrow><m:mrow><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mrow></m:mfrac><m:mo>]</m:mo></m:math>
-</equation><para id="eip-id1171271976841">Substituting the values into the formula, we have:</para><equation id="eip-id1172209160685" class="unnumbered"><label/><m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>593.84</m:mn><m:mo>±</m:mo><m:mo>[</m:mo><m:mn>1.75</m:mn><m:mfrac><m:mn>369.34</m:mn><m:mrow><m:msqrt><m:mn>80</m:mn></m:msqrt></m:mrow></m:mfrac><m:mo>]</m:mo></m:math></equation>
+<para id="eip-id1171276170440">We begin with the confidence interval for a mean. We use the formula for a mean because the random variable is dollars spent and this is a continuous random variable. The point estimate for the population standard deviation, <emphasis effect="italics">s</emphasis>, has been substituted for the true population standard deviation because with 80 observations there is no concern for bias in the estimate of the confidence interval. </para><equation id="eip-id1172209151796"><m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>±</m:mo><m:mo>[</m:mo><m:msub><m:mi>Z</m:mi><m:mrow><m:mo>(</m:mo><m:mi>a /</m:mi><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:msub><m:mfrac><m:mrow><m:mi>s</m:mi></m:mrow><m:mrow><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mrow></m:mfrac><m:mo>]</m:mo></m:math>
+</equation><para id="eip-id1171271976841">Substituting the values into the formula, we have:</para><equation id="eip-id1172209160685"><m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>593.84</m:mn><m:mo>±</m:mo><m:mo>[</m:mo><m:mn>1.75</m:mn><m:mfrac><m:mn>369.34</m:mn><m:mrow><m:msqrt><m:mn>80</m:mn></m:msqrt></m:mrow></m:mfrac><m:mo>]</m:mo></m:math></equation>
 
 <para id="eip-id1171269427461"><m:math><m:msub><m:mi>Z</m:mi><m:mrow><m:mo>(</m:mo><m:mi>a</m:mi><m:mo>/</m:mo><m:mn>2</m:mn><m:mo>)</m:mo></m:mrow></m:msub></m:math> is found on the standard normal table by looking up 0.46 in the body of the table and finding the number of standard deviations on the side and top of the table; 1.75. The solution for the interval is thus:</para>
-<equation id="eip-id4668626" class="unnumbered"><label/><m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>593.84</m:mn><m:mo>±</m:mo><m:mn>72.2636</m:mn><m:mo>=</m:mo><m:mo>(</m:mo><m:mn>521.57</m:mn><m:mo>,</m:mo><m:mn>666.10</m:mn><m:mo>)</m:mo></m:math></equation>
-<equation id="eip-id1172209000261" class="unnumbered"><label/><m:math><m:mo>$</m:mo><m:mn>521.58</m:mn><m:mo>≤</m:mo><m:mi>μ</m:mi><m:mo>≤</m:mo><m:mo>$</m:mo><m:mn>666.10</m:mn></m:math></equation><figure id="eip-id2862705"><media id="eip-id2880186" alt=""><image src="../../media/fig-ch08_02_05.jpg" mime-type="image/png"/></media></figure></solution>
+<equation id="eip-id4668626"><m:math><m:mi>μ</m:mi><m:mo>=</m:mo><m:mn>593.84</m:mn><m:mo>±</m:mo><m:mn>72.2636</m:mn><m:mo>=</m:mo><m:mo>(</m:mo><m:mn>521.57</m:mn><m:mo>,</m:mo><m:mn>666.10</m:mn><m:mo>)</m:mo></m:math></equation>
+<equation id="eip-id1172209000261"><m:math><m:mo>$</m:mo><m:mn>521.58</m:mn><m:mo>≤</m:mo><m:mi>μ</m:mi><m:mo>≤</m:mo><m:mo>$</m:mo><m:mn>666.10</m:mn></m:math></equation><figure id="eip-id2862705"><media id="eip-id2880186" alt=""><image src="../../media/fig-ch08_02_05.jpg" mime-type="image/png"/></media></figure></solution>
 </exercise></example></section><section id="eip-493" class="references"><title>References</title><para id="eip-idp49185344">“American Fact Finder.” U.S. Census Bureau. Available online at  http://factfinder2.census.gov/faces/nav/jsf/pages/searchresults.xhtml?refresh=t (accessed July 2, 2013).</para>
 <para id="eip-idp49186128">“Disclosure Data Catalog: Candidate Summary Report 2012.” U.S. Federal Election Commission. Available online at http://www.fec.gov/data/index.jsp (accessed July 2, 2013).</para>
 <para id="eip-idp131915104">“Headcount Enrollment Trends by Student Demographics Ten-Year Fall Trends to Most Recently Completed Fall.” Foothill De Anza Community College District. Available online at http://research.fhda.edu/factbook/FH_Demo_Trends/FoothillDemographicTrends.htm (accessed September 30,2013).</para>
 <para id="eip-idp131915488">Kuczmarski, Robert J., Cynthia L. Ogden, Shumei S. Guo, Laurence M. Grummer-Strawn, Katherine M. Flegal, Zuguo Mei, Rong Wei, Lester R. Curtin, Alex F. Roche, Clifford L. Johnson. “2000 CDC Growth Charts for the United States: Methods and Development.” Centers for Disease Control and Prevention. Available online at http://www.cdc.gov/growthcharts/2000growthchart-us.pdf (accessed July 2, 2013).</para>
 <para id="eip-idp131915872">La, Lynn, Kent German. "Cell Phone Radiation Levels." c|net part of CBX Interactive Inc. Available online at http://reviews.cnet.com/cell-phone-radiation-levels/ (accessed July 2, 2013).</para>
-<para id="eip-idp55624496">“Mean Income in the Past 12 Months (in 2011 Inflation-Adjusted Dollars): 2011 American Community Survey 1-Year Estimates.” American Fact Finder, U.S. Census Bureau. Available online at  http://factfinder2.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=ACS_11_1YR_S1902&amp;prodType=table (accessed July 2, 2013).</para>
+<para id="eip-idp55624496">“Mean Income in the Past 12 Months (in 2011 Inflaction-Adjusted Dollars): 2011 American Community Survey 1-Year Estimates.” American Fact Finder, U.S. Census Bureau. Available online at  http://factfinder2.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=ACS_11_1YR_S1902&amp;prodType=table (accessed July 2, 2013).</para>
 <para id="eip-idp158475920">“Metadata Description of Candidate Summary File.” U.S. Federal Election Commission. Available online at http://www.fec.gov/finance/disclosure/metadata/metadataforcandidatesummary.shtml (accessed July 2, 2013).</para>
-<para id="eip-idp158476848">“National Health and Nutrition Examination Survey.” Centers for Disease Control and Prevention. Available online at http://www.cdc.gov/nchs/nhanes.htm (accessed July 2, 2013).</para></section><section id="eip-802"><title>Formula Review</title><para id="eip-397">The general form for a confidence interval for a single population mean, known standard deviation, normal distribution is given by
+<para id="eip-idp158476848">“National Health and Nutrition Examination Survey.” Centers for Disease Control and Prevention. Available online at http://www.cdc.gov/nchs/nhanes.htm (accessed July 2, 2013).</para></section><section id="eip-802"><title>Formula Review</title><para id="eip-397">The general form for a confidence interval for a single population mean, known standard deviation, normal distribution is given by 
     <m:math><m:mover><m:mi>X</m:mi><m:mo>-</m:mo></m:mover><m:mo>−</m:mo><m:msub><m:mi>Z</m:mi><m:mi>α</m:mi></m:msub>
 <m:mo>(</m:mo><m:mfrac bevelled="true"><m:mi>σ</m:mi><m:msqrt><m:mi>n</m:mi></m:msqrt></m:mfrac><m:mo>)</m:mo>
 <m:mo>≤</m:mo>
@@ -534,10 +534,10 @@ times the standard deviation of the sampling distribution. The Error Bound for a
          <m:mi>α</m:mi>
          <m:mn>2</m:mn>
         </m:mfrac>
-
+        
        </m:mrow>
       </m:msub>
-
+      
      </m:mrow>
     </m:math> = the <emphasis effect="italics">z</emphasis>-score with the property that the area to the right of the z-score is <m:math>
      <m:mrow>
@@ -545,13 +545,13 @@ times the standard deviation of the sampling distribution. The Error Bound for a
        <m:mo>∝</m:mo>
        <m:mn>2</m:mn>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:math> this is the <emphasis effect="italics">z</emphasis>-score used in the calculation of <emphasis effect="italics">"EBM</emphasis> where α = 1 – <emphasis effect="italics">CL</emphasis>.</para></section>
+    
 
-
-    </content>
-
+   </content>
+    
     <glossary>
     <definition id="conflevel">
     <term>Confidence Level (CL)</term>

@@ -8,7 +8,7 @@
 </metadata>
 
 <content>
-<para id="eip-858">Thus far our interest has been exclusively on the population parameter μ or it's counterpart in the binomial, p. Surely the mean of a population is the most critical piece of information to have, but in some cases we are interested in the variability of the outcomes of some distribution. In almost all production processes quality is measured not only by how closely the machine matches the target, but also the variability of the process. If one were filling bags with potato chips not only would there be interest in the average weight of the bag, but also how much variation there was in the weights. No one wants to be assured that the average weight is accurate when their bag has no chips. Electricity voltage may meet some average level, but great variability, spikes, can cause serious damage to electrical machines, especially computers. I would not only like to have a high mean grade in my classes, but also low variation about this mean. In short, statistical tests concerning the variance of a distribution have great value and many applications.</para><para id="element-194">A <term>test of a single variance</term> assumes that the underlying distribution is <emphasis>normal</emphasis>. The null and alternative hypotheses are stated in terms of the <term>population variance</term>. The test statistic is:</para><equation class="unnumbered" id="element-740"><label/><m:math>
+<para id="eip-858">Thus far our interest has been exclusively on the population parameter μ or it's counterpart in the binomial, p. Surely the mean of a population is the most critical piece of information to have, but in some cases we are interested in the variability of the outcomes of some distribution. In almost all production processes quality is measured not only by how closely the machine matches the target, but also the variability of the process. If one were filling bags with potato chips not only would there be interest in the average weight of the bag, but also how much variation there was in the weights. No one wants to be assured that the average weight is accurate when their bag has no chips. Electricity voltage may meet some average level, but great variability, spikes, can cause serious damage to electrical machines, especially computers. I would not only like to have a high mean grade in my classes, but also low variation about this mean. In short, statistical tests concerning the variance of a distribution have great value and many applications.</para><para id="element-194">A <term>test of a single variance</term> assumes that the underlying distribution is <emphasis>normal</emphasis>. The null and alternative hypotheses are stated in terms of the <term>population variance</term>. The test statistic is:</para><equation id="element-740"><m:math>
 <m:msubsup><m:mi>χ</m:mi><m:mi>c</m:mi><m:mn>2</m:mn></m:msubsup>
 <m:mo>=</m:mo>
 <m:mfrac>
@@ -22,7 +22,7 @@
 <list id="element-706l" list-type="bulleted"><item> <emphasis effect="italics">n</emphasis> = the total number of observations in the sample data </item>
  <item id="element-646"><emphasis effect="italics">s</emphasis><sup>2</sup> = sample variance </item>
  <item id="element-502"><m:math><m:msubsup><m:mi>σ</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:math> = hypothesized value of the population variance</item>
-<item><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msup><m:mi>σ</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msubsup><m:mi>σ</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:math></item>
+<item><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo><m:msup><m:mi>σ</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msubsup><m:mi>σ</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:math></item> 
 <item><m:math><m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub><m:mo>:</m:mo><m:msup><m:mi>σ</m:mi><m:mn>2</m:mn></m:msup><m:mo>≠</m:mo><m:msubsup><m:mi>σ</m:mi><m:mn>0</m:mn><m:mn>2</m:mn></m:msubsup></m:math></item> </list><para id="element-416">You may think of <emphasis effect="italics">s</emphasis> as the random variable in this test. The number of degrees of freedom is <emphasis effect="italics">df</emphasis> = <emphasis effect="italics">n</emphasis> - 1. A test of a single variance may be right-tailed, left-tailed, or two-tailed. <link target-id="element-174"/> will show you how to set up the null and alternative hypotheses. The null and alternative hypotheses contain statements about the population variance.</para><example id="element-174">
   <exercise id="element-514">
    <problem id="id1168324983513">
@@ -101,7 +101,7 @@ Let <emphasis effect="italics">s</emphasis> = standard deviation for the waiting
   <m:mo>=</m:mo><m:mn>5.67</m:mn>
  </m:mrow>
 </m:math></para><para id="element-801">where <emphasis effect="italics">n</emphasis> = 25, <emphasis effect="italics">s</emphasis> = 3.5, and <emphasis effect="italics">σ</emphasis> = 7.2.</para>
- <figure id="fs-idp135015696"><media id="id1168325355960" alt="This is a nonsymmetrical chi-square curve with values of 0 and 5.67 labeled on the horizontal axis. The point 5.67 lies to the left of the peak of the curve. A vertical upward line extends from 5.67 to the curve and the region to the left of this line is shaded. The shaded area is equal to the p-value." display="block"><image src="../../media/fig-ch11_04_02m.jpg" mime-type="image/jpg" width="380"/></media></figure><para id="element-970">The graph of the Chi-square shows the distribution and marks the critical value with 24 degrees of freedom at 95% level of confidence, α = 0.05, 13.85. The critical value of 13.85 came from the Chi squared table which is read very much like the students t table. The difference is that the students <emphasis effect="italics">t</emphasis>-distribution is symmetrical and the Chi squared distribution is not. At the top of the Chi squared table we see not only the familiar 0.05, 0.10, etc. but also 0.95, 0.975, etc. These are the columns used to find the left hand critical value. The graph also marks the calculated <emphasis effect="italics">χ</emphasis><sup>2</sup> test statistic of 5.67. Comparing the test statistic with the critical value, as we have done with all other hypothesis tests, we reach the conclusion.</para><para id="element-726"><emphasis>Make a decision:</emphasis> Because the calculated test statistic is in the tail we cannot accept <emphasis effect="italics">H<sub>0</sub></emphasis>. This means that you reject <emphasis effect="italics">σ</emphasis><sup>2</sup> ≥ 7.2<sup>2</sup>. In other words, you do not think the variation in waiting times is 7.2 minutes or more; you think the variation in waiting times is less.</para><para id="element-952"><emphasis>Conclusion:</emphasis> At a 5% level of significance, from the data, there is sufficient evidence to
+ <figure id="fs-idp135015696"><media id="id1168325355960" alt="This is a nonsymmetrical chi-square curve with values of 0 and 5.67 labeled on the horizontal axis. The point 5.67 lies to the left of the peak of the curve. A vertical upward line extends from 5.67 to the curve and the region to the left of this line is shaded. The shaded area is equal to the p-value." display="block"><image src="../../media/fig-ch11_04_02m.jpg" mime-type="image/jpg" width="380"/></media></figure><para id="element-970">The graph of the Chi-square shows the distribution and marks the critical value with 24 degrees of freedom at 95% level of confidence, α = 0.05, 13.85. The critical value of 13.85 came from the Chi squared table which is read very much like the students t table. The difference is that the students t distribution is symmetrical and the Chi squared distribution is not. At the top of the Chi squared table we see not only the familiar 0.05, 0.10, etc. but also 0.95, 0.975, etc. These are the columns used to find the left hand critical value. The graph also marks the calculated <emphasis effect="italics">χ</emphasis><sup>2</sup> test statistic of 5.67. Comparing the test statistic with the critical value, as we have done with all other hypothesis tests, we reach the conclusion.</para><para id="element-726"><emphasis>Make a decision:</emphasis> Because the calculated test statistic is in the tail we cannot accept <emphasis effect="italics">H<sub>0</sub></emphasis>. This means that you reject <emphasis effect="italics">σ</emphasis><sup>2</sup> ≥ 7.2<sup>2</sup>. In other words, you do not think the variation in waiting times is 7.2 minutes or more; you think the variation in waiting times is less.</para><para id="element-952"><emphasis>Conclusion:</emphasis> At a 5% level of significance, from the data, there is sufficient evidence to
 conclude that a single line causes a lower variation among the waiting times <emphasis>or</emphasis> with a single
 line, the customer waiting times vary less than 7.2 minutes.</para>
  </solution>
@@ -126,14 +126,14 @@ from the average amount of filling.
 
 <solution id="eip-682">
   <para id="eip-311">This is clearly a problem dealing with variances. In this case we are testing a single sample rather than comparing two samples from different populations. The null and alternative hypotheses are thus:
-<equation class="unnumbered" id="eip-id1170359587783"><label/><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo>
+<equation id="eip-id1170359587783"><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo> 
 <m:msup><m:mi>σ</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>0.04</m:mn></m:math>
 </equation>
-<equation class="unnumbered" id="eip-id1170361384669"><label/><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo>
+<equation id="eip-id1170361384669"><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub><m:mo>:</m:mo> 
 <m:msup><m:mi>σ</m:mi><m:mn>2</m:mn></m:msup><m:mo>≠</m:mo><m:mn>0.04</m:mn></m:math>
 </equation>
-The test is set up as a two-tailed test because Professor Hadley has shown concern with too much variation in filling as well as too little: his dislike of a surprise is any level of filling outside the expected average of 0.04 cups. The test statistic is calculated to be:
-<equation class="unnumbered" id="eip-id1164614336450"><label/><m:math>
+The test is set up as a two-tailed test because Professor Hadley has shown concern with too much variation in filling as well as too little: his dislike of a surprise is any level of filling outside the expected average of 0.04 cups. The test statistic is calculated to be: 
+<equation id="eip-id1164614336450"><m:math>
 <m:mi>χ</m:mi><m:mover><m:mi>c</m:mi><m:mn>2</m:mn></m:mover>
 <m:mo>=</m:mo>
 <m:mfrac><m:mrow><m:mo>(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>)</m:mo><m:msup><m:mi>s</m:mi><m:mn>2</m:mn></m:msup></m:mrow>
@@ -423,7 +423,7 @@ The calculated <m:math><m:msup><m:mi>χ</m:mi><m:mn>2</m:mn></m:msup></m:math> t
    <list id="fs-idp70912512" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">H<sub>0</sub></emphasis>: <emphasis effect="italics">σ</emphasis> = 2</item>
     <item><emphasis effect="italics">H<sub>a</sub></emphasis>: <emphasis effect="italics">σ</emphasis> ≠ 2</item>
     <item><emphasis effect="italics">df</emphasis> = 14</item>
-    <item>chi-square distribution with <emphasis effect="italics">df</emphasis> = 14</item>
+    <item>chi-square distiribution with <emphasis effect="italics">df</emphasis> = 14</item>
     <item>chi-square test statistic = 5.2094</item>
 
     <item>Check student’s solution.</item>
@@ -500,5 +500,5 @@ The calculated <m:math><m:msup><m:mi>χ</m:mi><m:mn>2</m:mn></m:msup></m:math> t
    <para id="eip-idm53488240">Weights in selected apple batch (in grams): 158; 167; 149; 169; 164; 139; 154; 150; 157; 171; 152; 161; 141; 166; 172;</para>
   </problem>
   </exercise></section>
- </content>
+</content>
 </document>
