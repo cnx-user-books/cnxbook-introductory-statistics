@@ -14,13 +14,13 @@
 <item>Differences are calculated from the matched or paired samples.</item>
 <item>The differences form the sample that is used for the hypothesis test.</item>
 <item>Either the matched pairs have differences that come from a population that is normal or the number of differences is sufficiently large so that distribution of the sample mean of differences is approximately normal.</item>
-</list><para id="eip-8888">In a hypothesis test for matched or paired samples, subjects are matched in pairs and differences are calculated. The differences are the data. The population mean for the differences, <emphasis effect="italics">μ<sub>d</sub></emphasis>, is then tested using a Student's-t test for a single population mean with <emphasis effect="italics">n</emphasis> – 1 degrees of freedom, where <emphasis effect="italics">n</emphasis> is the number of differences, that is, the number of pairs not the number of observations.</para><equation class="unnumbered" id="eip-467"><label/><title>The null and alternative hypotheses for this test are:</title><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub>
+</list><para id="delete_me">In a hypothesis test for matched or paired samples, subjects are matched in pairs and differences are calculated. The differences are the data. The population mean for the differences, <emphasis effect="italics">μ<sub>d</sub></emphasis>, is then tested using a Student's-t test for a single population mean with <emphasis effect="italics">n</emphasis> – 1 degrees of freedom, where <emphasis effect="italics">n</emphasis> is the number of differences, that is, the number of pairs not the number of observations.</para><equation id="eip-467"><title>The null and alternative hypotheses for this test are:</title><m:math><m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub>
 <m:mo>:</m:mo> 
 <m:msub><m:mi>µ</m:mi><m:mi>d</m:mi></m:msub><m:mo>=</m:mo><m:mn>0</m:mn>
-</m:math></equation><equation class="unnumbered" id="eip-724"><label/><m:math>
+</m:math></equation><equation id="eip-724"><m:math>
 <m:msub><m:mi>H</m:mi><m:mi>a</m:mi></m:msub>
 <m:mo>:</m:mo> 
-<m:msub><m:mi>µ</m:mi><m:mi>d</m:mi></m:msub><m:mo>≠</m:mo><m:mn>0</m:mn></m:math></equation><equation class="unnumbered" id="element-403"><label/><title>The test statistic is:</title><m:math>
+<m:msub><m:mi>µ</m:mi><m:mi>d</m:mi></m:msub><m:mo>≠</m:mo><m:mn>0</m:mn></m:math></equation><equation id="element-403"><title>The test statistic is:</title><m:math>
 <m:mrow>
 <m:msub><m:mi>t</m:mi><m:mi>c</m:mi></m:msub><m:mo>=</m:mo><m:mfrac>
 <m:mrow>
@@ -88,7 +88,7 @@
 </equation>
 This form reflects the implied claim that the training course improves scores; the test is one-tailed and the claim is in the alternative hypothesis. 
 Because the experiment was conducted as a matched paired sample rather than simply taking scores from people who took the training course those who didn't, we use the matched pair test statistic:
-<equation class="unnumbered" id="eip-id1476519"><label/><m:math><m:mtext>Test Statistic: </m:mtext><m:mspace width="0.2em"/>
+<equation id="eip-id1476519"><m:math><m:mtext>Test Statistic: </m:mtext><m:mspace width="0.2em"/>
 <m:msub><m:mi>t</m:mi><m:mi>c</m:mi></m:msub>
 <m:mo>=</m:mo>
 <m:mfrac><m:mrow><m:msub><m:mover><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mi>d</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mi>µ</m:mi><m:mi>d</m:mi></m:msub></m:mrow>
@@ -105,7 +105,7 @@ In order to solve this equation, the individual scores, pre-training course and 
 <m:math><m:msub><m:mover><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mi>d</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mn>1</m:mn></m:msub><m:mo>−</m:mo><m:msub><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mn>2</m:mn></m:msub></m:math>
 </equation>
 From these differences we can calculate the standard deviation across the individual differences:
-<equation class="unnumbered" id="eip-id4727950"><label/><m:math><m:msub><m:mi>S</m:mi><m:mi>d</m:mi></m:msub><m:mo>=</m:mo>
+<equation id="eip-id4727950"><m:math><m:msub><m:mi>S</m:mi><m:mi>d</m:mi></m:msub><m:mo>=</m:mo>
 <m:mfrac><m:mrow><m:mi>Σ</m:mi><m:mo>(</m:mo><m:msub><m:mi>d</m:mi><m:mi>i</m:mi></m:msub><m:mo>−</m:mo><m:msub><m:mover><m:mi>X</m:mi><m:mo>¯</m:mo></m:mover><m:mi>d</m:mi></m:msub><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup></m:mrow>
 <m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac>
 <m:mtext> where </m:mtext><m:mspace width="0.2em"/>
@@ -273,7 +273,7 @@ Verify these values.</para><para id="element-700">Let <m:math>
 
 <para id="element-543"><emphasis>Distribution for the test:</emphasis> The distribution is a Student's <emphasis effect="italics">t</emphasis> with <emphasis effect="italics">df</emphasis> = <emphasis effect="italics">n</emphasis> – 1 = 8 – 1 = 7. Use <emphasis effect="italics">t</emphasis><sub>7</sub>. <emphasis>(Notice that the test is for a single population mean.)</emphasis></para>
 
-<para id="element-94"><emphasis>Calculate the test statistic and look up the critical value using the Student's-t distribution:</emphasis> The calculated value of the test statistic is 3.06 and the critical value of the <emphasis effect="italics">t</emphasis>-distribution with 7 degrees of freedom at the 5% level of confidence is  1.895 with a one-tailed test.</para>
+<para id="element-94"><emphasis>Calculate the test statistic and look up the critical value using the Student's-t distribution:</emphasis> The calculated value of the test statistic is 3.06 and the critical value of the t distribution with 7 degrees of freedom at the 5% level of confidence is  1.895 with a one-tailed test.</para>
 
 
 <figure id="hyptest22_samp1"><media id="id11476386" alt="Normal distribution curve of the average difference of sensory measurements with values of -3.13 and 0. A vertical upward line extends from -3.13 to the curve, and the p-value is indicated in the area to the left of this value.">
@@ -1312,5 +1312,5 @@ The correct decision is:
 <para id="eip-idm32992400">a</para></solution>
 </exercise>
 </section>
- </content>
+</content>
 </document>

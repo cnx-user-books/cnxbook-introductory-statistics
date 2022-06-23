@@ -1184,7 +1184,7 @@
   <row>
     <entry align="center"><m:math><m:mi>n</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msubsup><m:mi>Z</m:mi><m:mrow><m:mo>(</m:mo><m:mfrac><m:mi>a</m:mi><m:mn>2</m:mn></m:mfrac><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msubsup><m:msup><m:mi>σ</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mi>E</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:math> <newline/><emphasis effect="italics">Use when sigma is known</emphasis><newline/> <m:math><m:mi>E</m:mi><m:mo>=</m:mo><m:mover><m:mi>x</m:mi><m:mo>¯</m:mo></m:mover><m:mo>−</m:mo><m:mi>μ</m:mi></m:math></entry>
     <entry align="center"><m:math><m:mi>n</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msubsup><m:mi>Z</m:mi><m:mrow><m:mo>(</m:mo><m:mfrac><m:mi>a</m:mi><m:mn>2</m:mn></m:mfrac><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msubsup><m:mo stretchy="false">(</m:mo><m:mn>0.25</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:msup><m:mi>E</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:math> <newline/><emphasis effect="italics">Use when <m:math><m:mi>p</m:mi><m:mo>′</m:mo></m:math> is unknown</emphasis><newline/> <m:math><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>p</m:mi><m:mo>′</m:mo><m:mo>−</m:mo><m:mi>p</m:mi></m:math></entry>
-    <entry align="center"><m:math><m:mi>n</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msubsup><m:mi>Z</m:mi><m:mrow><m:mo>(</m:mo><m:mfrac><m:mi>a</m:mi><m:mn>2</m:mn></m:mfrac><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msubsup><m:mo stretchy="false">[</m:mo><m:mi>p</m:mi><m:mo>′</m:mo><m:mo stretchy="false">(</m:mo><m:mi>q</m:mi><m:mo>′</m:mo><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">]</m:mo></m:mrow><m:mrow><m:msup><m:mi>E</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:math> <newline/><emphasis effect="italics">Use when <m:math><m:mi>p</m:mi><m:mo>′</m:mo></m:math> is unknown</emphasis><newline/> <m:math><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>p</m:mi><m:mo>′</m:mo><m:mo>−</m:mo><m:mi>p</m:mi></m:math></entry>
+    <entry align="center"><m:math><m:mi>n</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:msubsup><m:mi>Z</m:mi><m:mrow><m:mo>(</m:mo><m:mfrac><m:mi>a</m:mi><m:mn>2</m:mn></m:mfrac><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msubsup><m:mo stretchy="false">[</m:mo><m:mi>p</m:mi><m:mo>′</m:mo><m:mo stretchy="false">(</m:mo><m:mi>q</m:mi><m:mo>′</m:mo><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">]</m:mo></m:mrow><m:mrow><m:msup><m:mi>E</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:math> <newline/><emphasis effect="italics">Use when <m:math><m:mi>p</m:mi><m:mo>′</m:mo></m:math> is uknown</emphasis><newline/> <m:math><m:mi>E</m:mi><m:mo>=</m:mo><m:mi>p</m:mi><m:mo>′</m:mo><m:mo>−</m:mo><m:mi>p</m:mi></m:math></entry>
   </row>
 </tbody>
 
@@ -1293,5 +1293,5 @@
   </row>
 </tbody>
 </tgroup>
-</table></section> </content>
+</table></section></content>
 </document>
