@@ -8,12 +8,7 @@
 </metadata>
 
 <content>
-<para id="fs-idm32858512">The <term>exponential distribution</term> is often concerned with the amount of time until some specific event occurs. For example, the amount of time (beginning now) until an earthquake occurs has an exponential distribution. Other examples include the length of time, in minutes, of long distance business telephone calls, and the amount of time, in months, a car battery lasts. It can be shown, too, that the value of the change that you have in your pocket or purse approximately follows an exponential distribution.</para>
-<para id="fs-idp21035296">Values for an exponential random variable occur in the following way. There are fewer large values and more small values. For example, marketing studies have shown that the amount of money customers spend in one trip to the supermarket follows an exponential distribution. There are more people who spend small amounts of money and fewer people who spend large amounts of money.</para><para id="fs-idp25761408">Exponential distributions are commonly used in calculations of product reliability, or the length of time a product lasts.</para>
-<para id="eip-128">The random variable for the exponential distribution is continuous and often measures a passage of time, although it can be used in other applications. Typical questions may be, “what is the probability that some event will occur within the next <m:math><m:mi>x</m:mi></m:math> hours or days, or what is the probability that some event will occur between <m:math><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:math> hours and <m:math><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:math> hours, or what is the probability that the event will take more than <m:math><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:math> hours to perform?” In short, the random variable <emphasis effect="italics">X</emphasis> equals (<emphasis effect="italics">a</emphasis>) the time between events or (<emphasis effect="italics">b</emphasis>) the passage of time to complete an action, e.g. wait on a customer. The probability density function is given by:</para><equation class="unnumbered" id="eip-164"><m:math> <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac><m:msup><m:mi>e</m:mi><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac><m:mi>x</m:mi></m:mrow></m:msup></m:math></equation>
-<para id="eip-825">where μ is the historical average waiting time.</para><para id="eip-5">and has a mean and standard deviation of 1/μ.</para><para id="eip-36">An alternative form of the exponential distribution formula recognizes what is often called the decay factor. The decay factor simply measures how rapidly the probability of an event declines as the random variable <emphasis effect="italics">X</emphasis> increases. When the notation using the decay parameter <emphasis effect="italics">m</emphasis> is used, the probability density function is presented as:</para>
-<equation class="unnumbered" id="eip-955"><label/><m:math><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mi>m</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mo>−</m:mo><m:mi>m</m:mi><m:mi>x</m:mi></m:mrow></m:msup></m:math></equation><para id="eip-786">where <m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac></m:math></para><para id="eip-551">In order to calculate probabilities for specific probability density functions, the cumulative density function is used. The cumulative density function (cdf) is simply the integral of the pdf and is:</para><equation id="eip-649"><m:math><m:mi>F</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msubsup><m:mi>∫</m:mi><m:mn>0</m:mn><m:mo>∞</m:mo></m:msubsup><m:mo>[</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac><m:msup><m:mrow><m:mi>e</m:mi></m:mrow><m:mrow><m:mo>-</m:mo><m:mfrac><m:mi>x</m:mi><m:mi>μ</m:mi></m:mfrac></m:mrow></m:msup><m:mo>]</m:mo><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:msup><m:mrow><m:mi>e</m:mi></m:mrow><m:mrow><m:mo>-</m:mo><m:mfrac><m:mi>x</m:mi><m:mi>μ</m:mi></m:mfrac></m:mrow></m:msup></m:math></equation><example id="eip-887"><para id="eip-532">Let <emphasis effect="italics">X</emphasis> = amount of time (in minutes) a postal clerk spends with a customer. The time is known from historical data to have an average amount of time equal to four minutes.</para><para id="eip-id1167603858490">It is given that <emphasis effect="italics">μ</emphasis> = 4 minutes, that is, the average time the clerk spends with a customer is 4 minutes. Remember that we are still doing probability and thus we have to be told the population parameters such as the mean. To do any calculations, we need to know the mean of the distribution: the historical time to provide a service, for example. Knowing the historical mean allows the calculation of the decay parameter, <emphasis effect="italics">m</emphasis>.</para>
-<para id="eip-id2830062"><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac></m:math>. Therefore, <m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>0.25</m:mn></m:math>.</para>
+<para id="fs-idm32858512">The <term>exponential distribution</term> is often concerned with the amount of time until some specific event occurs. For example, the amount of time (beginning now) until an earthquake occurs has an exponential distribution. Other examples include the length of time, in minutes, of long distance business telephone calls, and the amount of time, in months, a car battery lasts. It can be shown, too, that the value of the change that you have in your pocket or purse approximately follows an exponential distribution.</para><para id="fs-idp21035296">Values for an exponential random variable occur in the following way. There are fewer large values and more small values. For example, marketing studies have shown that the amount of money customers spend in one trip to the supermarket follows an exponential distribution. There are more people who spend small amounts of money and fewer people who spend large amounts of money.</para><para id="fs-idp25761408">Exponential distributions are commonly used in calculations of product reliability, or the length of time a product lasts.</para><para id="eip-128">The random variable for the exponential distribution is continuous and often measures a passage of time, although it can be used in other applications. Typical questions may be, “what is the probability that some event will occur within the next <m:math><m:mi>x</m:mi></m:math> hours or days, or what is the probability that some event will occur between <m:math><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:math> hours and <m:math><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub></m:math> hours, or what is the probability that the event will take more than <m:math><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:math> hours to perform?” In short, the random variable <emphasis effect="italics">X</emphasis> equals (<emphasis effect="italics">a</emphasis>) the time between events or (<emphasis effect="italics">b</emphasis>) the passage of time to complete an action, e.g. wait on a customer. The probability density function is given by:</para><equation id="eip-164"><m:math> <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac><m:msup><m:mi>e</m:mi><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac><m:mi>x</m:mi></m:mrow></m:msup></m:math></equation><para id="eip-825">where μ is the historical average waiting time.</para><para id="eip-5">and has a mean and standard deviation of 1/μ.</para><para id="eip-36">An alternative form of the exponential distribution formula recognizes what is often called the decay factor. The decay factor simply measures how rapidly the probability of an event declines as the random variable <emphasis effect="italics">X</emphasis> increases. When the notation using the decay parameter <emphasis effect="italics">m</emphasis> is used, the probability density function is presented as:</para><equation id="eip-955"><m:math><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mi>m</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mo>−</m:mo><m:mi>m</m:mi><m:mi>x</m:mi></m:mrow></m:msup></m:math></equation><para id="eip-786">where <m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac></m:math></para><para id="eip-551">In order to calculate probabilities for specific probability density functions, the cumulative density function is used. The cumulative density function (cdf) is simply the integral of the pdf and is:</para><equation id="eip-649"><m:math><m:mi>F</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msubsup><m:mi>∫</m:mi><m:mn>0</m:mn><m:mo>∞</m:mo></m:msubsup><m:mo>[</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac><m:msup><m:mrow><m:mi>e</m:mi></m:mrow><m:mrow><m:mo>-</m:mo><m:mfrac><m:mi>x</m:mi><m:mi>μ</m:mi></m:mfrac></m:mrow></m:msup><m:mo>]</m:mo><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:msup><m:mrow><m:mi>e</m:mi></m:mrow><m:mrow><m:mo>-</m:mo><m:mfrac><m:mi>x</m:mi><m:mi>μ</m:mi></m:mfrac></m:mrow></m:msup></m:math></equation><example id="eip-887"><para id="eip-532">Let <emphasis effect="italics">X</emphasis> = amount of time (in minutes) a postal clerk spends with a customer. The time is known from historical data to have an average amount of time equal to four minutes.</para><para id="eip-id1167603858490">It is given that <emphasis effect="italics">μ</emphasis> = 4 minutes, that is, the average time the clerk spends with a customer is 4 minutes. Remember that we are still doing probability and thus we have to be told the population parameters such as the mean. To do any calculations, we need to know the mean of the distribution: the historical time to provide a service, for example. Knowing the historical mean allows the calculation of the decay parameter, <emphasis effect="italics">m</emphasis>.</para><para id="eip-id2830062"><m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac></m:math>. Therefore, <m:math><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>0.25</m:mn></m:math>.</para>
 <para id="fs-idm18148336" class="finger">When the notation used the decay parameter, <emphasis effect="italics">m</emphasis>, the probability density function is presented as <m:math><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mi>m</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mo>−</m:mo><m:mi>m</m:mi><m:mi>x</m:mi></m:mrow></m:msup></m:math>, which is simply the original formula with <emphasis effect="italics">m</emphasis> substituted for <m:math><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac></m:math>, or <m:math> <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac><m:msup><m:mi>e</m:mi><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac><m:mi>x</m:mi></m:mrow></m:msup></m:math>.</para><para id="fs-idm74833712">To calculate probabilities for an exponential probability density function, we need to use the cumulative density function. As shown below, the curve for the cumulative density function is:</para><para id="fs-idp44233136"><emphasis effect="italics">f</emphasis>(<emphasis effect="italics">x</emphasis>) = 0.25<emphasis effect="italics">e</emphasis><sup>–0.25<emphasis effect="italics">x</emphasis></sup> where <emphasis effect="italics">x</emphasis> is at least zero and <emphasis effect="italics">m</emphasis> = 0.25.</para><para id="fs-idp127275616">For example, <emphasis effect="italics">f</emphasis>(5) = 0.25<emphasis effect="italics">e</emphasis><sup>(-0.25)(5)</sup> = 0.072. In other words, the function has a value of .072 when <emphasis effect="italics">x</emphasis> = 5.</para><para id="fs-idm23774336">The graph is as follows:</para>
 <figure id="fs-idp49716608">
 <media id="fs-idp114542640" alt="Exponential graph with increments of 2 from 0-20 on the x-axis of μ = 4 and increments of 0.05 from 0.05-0.25 on the y-axis of m = 0.25. The curved line begins at the top at point (0, 0.25) and curves down to point (20, 0). The x-axis is equal to a continuous random variable.">
@@ -191,14 +186,14 @@
 <newline/><emphasis>Therefore</emphasis> <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; 1) = 1 – e<sup>(–0.5)(1)</sup> = 0.3935.
 
 <figure id="fs-idp55682592">
-<media id="fs-idm58409472" alt="Exponential graph with the graph beginning at point (0, 0.5) and curving down towards the horizontal axis which is an asymptote. A vertical line segment extends from the horizontal axis to the curve at x = 1. The area under the curve between the y-axis and this segment is shaded. Text states “Shaded area represents probability 0.3935.”">
-<image src="../../media/CNX_Stats_C05_M04_001.jpg" mime-type="image/jpg" width="380"/>
+<media id="fs-idm58409472" alt="">
+<image src="../../media/CNX_Stats_C05_M04_001.jpg" mime-type="image/jpg" width="380"/> 
 </media>
 </figure>
 </item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; 5) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &lt; 5) = 1 – (1 – <emphasis effect="italics">e</emphasis><sup>(-0.5)(5)</sup>) = e<sup>–2.5</sup> ≈ 0.0821.
 <figure id="fs-idm13320960">
-<media id="fs-idp101415248" alt="Exponential graph with the graph beginning at point (0, 0.5) and curving down towards the horizontal axis which is an asymptote. A vertical line segment extends from the horizontal axis to the curve at x = 2.41. The area under the curve between the y-axis and this segment is shaded. Text states “Shaded area represents probability 0.70.”">
+<media id="fs-idp101415248" alt="">
 <image src="../../media/CNX_Stats_C05_M04_002N.jpg" mime-type="image/jpg" width="380"/>
 </media>
 </figure>
@@ -278,7 +273,7 @@
 A visual way to show both the similarities and differences between these two distributions is with a time line.
 </para>
 <figure id="eip-id1164266974561"><media id="eip-id1164266596773" alt=""><image src="../../media/fig-ch05_04_07.jpg" mime-type="image/png"/></media>
-</figure><para id="eip-863">The random variable for the Poisson distribution is discrete and thus counts events during a given time period, <emphasis effect="italics">t</emphasis><sub>1</sub> to <emphasis effect="italics">t</emphasis><sub>2</sub> on <link target-id="eip-id1164266974561"/>, and calculates the probability of that number occurring. The number of events, four in the graph, is measured in counting numbers; therefore, the random variable of the Poisson is a discrete random variable.</para><para id="eip-961">The exponential probability distribution calculates probabilities of the passage of time, a continuous random variable. In <link target-id="eip-id1164266974561"/> this is shown as the bracket from <emphasis effect="italics">t</emphasis><sub>1</sub> to the next occurrence of the event marked with a triangle.</para></section><para id="eip-376">Classic Poisson distribution questions are "how many people will arrive at my checkout window in the next hour?".</para><para id="eip-977">Classic exponential distribution questions are "how long it will be until the next person arrives," or a variant, "how long will the person remain here once they have arrived?".</para><para id="eip-715">Again, the formula for the exponential distribution is:</para><para id="eip-273"><equation class="unnumbered" id="eip-id1169799851331"><m:math><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>m</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mo>-</m:mo><m:mi>m</m:mi><m:mi>x</m:mi></m:mrow></m:msup><m:mo> </m:mo><m:mtext> or </m:mtext><m:mo> </m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac><m:msup><m:mi>e</m:mi><m:mrow><m:mo>-</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac><m:mi>x</m:mi></m:mrow></m:msup></m:math></equation></para><para id="eip-818">We see immediately the similarity between the exponential formula and the Poisson formula.</para><para id="eip-859"><equation id="eip-id1167209109201"><label/><m:math><m:mi>P</m:mi><m:mo maxsize="100%">(</m:mo><m:mi>x</m:mi><m:mo maxsize="100%">)</m:mo> <m:mo>=</m:mo><m:mfrac>
+</figure><para id="eip-863">The random variable for the Poisson distribution is discrete and thus counts events during a given time period, <emphasis effect="italics">t</emphasis><sub>1</sub> to <emphasis effect="italics">t</emphasis><sub>2</sub> on <link target-id="eip-id1164266974561"/>, and calculates the probability of that number occurring. The number of events, four in the graph, is measured in counting numbers; therefore, the random variable of the Poisson is a discrete random variable.</para><para id="eip-961">The exponential probability distribution calculates probabilities of the passage of time, a continuous random variable. In <link target-id="eip-id1164266974561"/> this is shown as the bracket from <emphasis effect="italics">t</emphasis><sub>1</sub> to the next occurrence of the event marked with a triangle.</para></section><para id="eip-376">Classic Poisson distribution questions are "how many people will arrive at my checkout window in the next hour?".</para><para id="eip-977">Classic exponential distribution questions are "how long it will be until the next person arrives," or a variant, "how long will the person remain here once they have arrived?".</para><para id="eip-715">Again, the formula for the exponential distribution is:</para><para id="eip-273"><equation id="eip-id1169799851331"><m:math><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>m</m:mi><m:msup><m:mi>e</m:mi><m:mrow><m:mo>-</m:mo><m:mi>m</m:mi><m:mi>x</m:mi></m:mrow></m:msup><m:mo> </m:mo><m:mtext> or </m:mtext><m:mo> </m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac><m:msup><m:mi>e</m:mi><m:mrow><m:mo>-</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>μ</m:mi></m:mfrac><m:mi>x</m:mi></m:mrow></m:msup></m:math></equation></para><para id="eip-818">We see immediately the similarity between the exponential formula and the Poisson formula.</para><para id="eip-859"><equation id="eip-id1167209109201"><m:math><m:mi>P</m:mi><m:mo maxsize="100%">(</m:mo><m:mi>x</m:mi><m:mo maxsize="100%">)</m:mo> <m:mo>=</m:mo><m:mfrac>
 <m:mrow>
 <m:msup>
 <m:mi>μ</m:mi>
@@ -298,7 +293,7 @@ A visual way to show both the similarities and differences between these two dis
 </m:mfrac>
 
 
-</m:math></equation></para><para id="eip-386">Both probability density functions are based upon the relationship between time and exponential growth or decay. The “e” in the formula is a constant with the approximate value  of 2.71828 and is the base of the natural logarithmic exponential growth formula. When people say that something has grown exponentially this is what they are talking about. </para><para id="eip-474">An example of the exponential and the Poisson will make clear the differences been the two. It will also show the interesting applications they have. </para><section id="eip-464"><para id="eip-656"/></section><para id="eip-725"><title>Poisson Distribution</title>Suppose that historically 10 customers arrive at the checkout lines each hour. Remember that this is still probability so we have to be told these historical values. We see this is a Poisson probability problem.</para><para id="eip-603">We can put this information into the Poisson probability density function and get a general formula that will calculate the probability of <emphasis effect="bold">any</emphasis> specific number of customers arriving in the next hour. </para><para id="eip-65">The formula is for any value of the random variable we chose, and so the x is put into the formula. This is the formula: </para><equation class="unnumbered" id="eip-202"><label/><m:math>
+</m:math></equation></para><para id="eip-386">Both probability density functions are based upon the relationship between time and exponential growth or decay. The “e” in the formula is a constant with the approximate value  of 2.71828 and is the base of the natural logarithmic exponential growth formula. When people say that something has grown exponentially this is what they are talking about. </para><para id="eip-474">An example of the exponential and the Poisson will make clear the differences been the two. It will also show the interesting applications they have. </para><section id="eip-464"><para id="eip-656"/></section><para id="eip-725"><title>Poisson Distribution</title>Suppose that historically 10 customers arrive at the checkout lines each hour. Remember that this is still probability so we have to be told these historical values. We see this is a Poisson probability problem.</para><para id="eip-603">We can put this information into the Poisson probability density function and get a general formula that will calculate the probability of <emphasis effect="bold">any</emphasis> specific number of customers arriving in the next hour. </para><para id="eip-65">The formula is for any value of the random variable we chose, and so the x is put into the formula. This is the formula: </para><equation id="eip-202"><m:math>
   <m:mi>f</m:mi>
     <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
   <m:mo>=</m:mo>
@@ -311,7 +306,7 @@ A visual way to show both the similarities and differences between these two dis
       <m:mi>x</m:mi><m:mo>!</m:mo>
     </m:mrow>
   </m:mfrac>
-</m:math></equation><para id="eip-723">As an example, the probability of  15 people arriving at the checkout counter in the next hour would be</para><para id="eip-989"><equation class="unnumbered" id="eip-id1166615293026"><label/><m:math>
+</m:math></equation><para id="eip-723">As an example, the probability of  15 people arriving at the checkout counter in the next hour would be</para><para id="eip-989"><equation id="eip-id1166615293026"><m:math>
   <m:mi>P</m:mi>
     <m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>15</m:mn><m:mo stretchy="false">)</m:mo>
   <m:mo>=</m:mo>
@@ -328,7 +323,7 @@ A visual way to show both the similarities and differences between these two dis
    <m:mn>0.0611</m:mn>
 
 </m:math>
-</equation></para><para id="eip-616">Here we have inserted x = 15 and calculated the probability that in the next hour 15 people will arrive is .061. </para><para id="eip-173"><title>Exponential Distribution</title>If we keep the same historical facts that 10 customers arrive each hour, but we now are interested in the service time a person spends at the counter, then we would use the exponential distribution. The exponential probability function for any value of x, the random variable, for this particular checkout counter historical data is:</para><para id="eip-374"><equation class="unnumbered" id="eip-id1166613604051"><label/><m:math>
+</equation></para><para id="eip-616">Here we have inserted x = 15 and calculated the probability that in the next hour 15 people will arrive is .061. </para><para id="eip-173"><title>Exponential Distribution</title>If we keep the same historical facts that 10 customers arrive each hour, but we now are interested in the service time a person spends at the counter, then we would use the exponential distribution. The exponential probability function for any value of x, the random variable, for this particular checkout counter historical data is:</para><para id="eip-374"><equation id="eip-id1166613604051"><m:math>
   <m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo>
   <m:mo>=</m:mo>
   <m:mfrac>
@@ -350,7 +345,7 @@ A visual way to show both the similarities and differences between these two dis
     </m:mrow>
   </m:msup>
 </m:math>
-</equation></para><para id="eip-968">To calculate <emphasis effect="italics">µ</emphasis>, the historical average service time, we simply divide the number of people that arrive per hour, 10 , into the time period, one hour, and have <emphasis effect="italics">µ</emphasis> = 0.1. Historically, people spend 0.1 of an hour at the checkout counter, or 6 minutes. This explains the .1 in the formula.</para><para id="eip-246">There is a natural confusion with <emphasis effect="italics">µ</emphasis> in both the Poisson and exponential formulas. They have different meanings, although they have the same symbol. The mean of the exponential is one divided by the mean of the Poisson. If you are given the historical number of arrivals you have the mean of the Poisson. If you are given an historical length of time between events you have the mean of an exponential.  </para><para id="eip-739">Continuing with our example at the checkout clerk; if we wanted to know the probability that a person would spend 9 minutes or less checking out, then we use this formula. First, we convert to the same time units which are parts of one hour.  Nine minutes is 0.15 of one hour. Next we note that we are asking for a range of values. This is always the case for a continuous random variable. We write the probability question as: </para><equation class="unnumbered" id="eip-710"><label/><m:math>
+</equation></para><para id="eip-968">To calculate <emphasis effect="italics">µ</emphasis>, the historical average service time, we simply divide the number of people that arrive per hour, 10 , into the time period, one hour, and have <emphasis effect="italics">µ</emphasis> = 0.1. Historically, people spend 0.1 of an hour at the checkout counter, or 6 minutes. This explains the .1 in the formula.</para><para id="eip-246">There is a natural confusion with <emphasis effect="italics">µ</emphasis> in both the Poisson and exponential formulas. They have different meanings, although they have the same symbol. The mean of the exponential is one divided by the mean of the Poisson. If you are given the historical number of arrivals you have the mean of the Poisson. If you are given an historical length of time between events you have the mean of an exponential.  </para><para id="eip-739">Continuing with our example at the checkout clerk; if we wanted to know the probability that a person would spend 9 minutes or less checking out, then we use this formula. First, we convert to the same time units which are parts of one hour.  Nine minutes is 0.15 of one hour. Next we note that we are asking for a range of values. This is always the case for a continuous random variable. We write the probability question as: </para><equation id="eip-710"><m:math>
 <m:mi>p</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>9</m:mn><m:mo>)</m:mo>
 <m:mo>=</m:mo>
 <m:mn>1</m:mn>
@@ -363,7 +358,7 @@ A visual way to show both the similarities and differences between these two dis
     <m:mi>x</m:mi>
   </m:mrow>
 </m:msup>
-</m:math></equation><para id="eip-976">We can now put the numbers into the formula and we have our result. </para><para id="eip-196"><equation class="unnumbered" id="eip-id1172202714086"><label/><m:math>
+</m:math></equation><para id="eip-976">We can now put the numbers into the formula and we have our result. </para><para id="eip-196"><equation id="eip-id1172202714086"><m:math>
 <m:mi>p</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>.15</m:mn><m:mo stretchy="false">)</m:mo>
 <m:mo>=</m:mo>
 <m:mn>1</m:mn><m:mo>-</m:mo><m:mn>10</m:mn>
@@ -373,7 +368,7 @@ A visual way to show both the similarities and differences between these two dis
 <m:mo>=</m:mo>
 <m:mn>0.7769</m:mn>
 </m:math>
-</equation></para><para id="eip-83">The probability that a customer will spend 9 minutes or less checking out is 0.7769. </para><para id="eip-461">We see that we have a high probability of getting out in less than nine minutes and a tiny probability of having 15 customers arriving in the next hour.
+</equation></para><para id="eip-83">The probability that a customer will spend 9 minutes or less checking out is 0.7769. </para><para id="eip-461">We see that we have a high probability of getting out in less than nine minutes and a tiny probability of having 15 customers arriving in the next hour. 	
 </para></section>
 <section id="fs-idp72211680" class="summary">
 <title>Chapter Review</title>
@@ -746,7 +741,7 @@ A visual way to show both the similarities and differences between these two dis
 <item>Find the probability that the percent is between eight and 14.</item>
 <item>The percent of all individuals living in the United States who speak a language at home other than English is 13.8.
 <list id="fs-idm34527280" list-type="enumerated" number-style="lower-roman">
-<item>Why is this number different from 9.848%?</item>
+<item>Why is this number different from 9.848%?</item> 
 <item>What would make this number higher than 9.848%?</item></list>
 </item>
 </list></problem>
@@ -871,13 +866,13 @@ A visual way to show both the similarities and differences between these two dis
       <m:mo>–</m:mo><m:mn>3</m:mn>
      </m:mrow>
     </m:msup>
-
+    
    </m:mrow>
    <m:mrow>
     <m:mn>0</m:mn><m:mtext>!</m:mtext>
    </m:mrow>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> = e<sup>–3</sup> ≈ 0.0498
 </para><note id="fs-idm21296544"><title>NOTE</title><para id="fs-idm30929792">You could let <emphasis effect="italics">T</emphasis> = duration of time between no-hitters. Since the time is exponential and there are 3 no-hitters per season, then the time between no-hitters is <m:math>
@@ -886,7 +881,7 @@ A visual way to show both the similarities and differences between these two dis
    <m:mn>1</m:mn>
    <m:mn>3</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> season. For the exponential, <emphasis effect="italics">µ</emphasis> = <m:math>
  <m:mrow>
@@ -894,7 +889,7 @@ A visual way to show both the similarities and differences between these two dis
    <m:mn>1</m:mn>
    <m:mn>3</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>.
 <newline/>Therefore, <emphasis effect="italics">m</emphasis> = <m:math>
@@ -903,7 +898,7 @@ A visual way to show both the similarities and differences between these two dis
    <m:mn>1</m:mn>
    <m:mi>μ</m:mi>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> = 3 and <emphasis effect="italics">T</emphasis> ∼ <emphasis effect="italics">Exp</emphasis>(3).</para>
 </note><list id="fs-idm50334880" list-type="enumerated" number-style="lower-alpha"><item>The desired probability is <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis> &gt; 1) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis> &lt; 1) = 1 – (1 – e<sup>–3</sup>) = e<sup>–3</sup> ≈ 0.0498.</item>
@@ -942,7 +937,7 @@ A visual way to show both the similarities and differences between these two dis
    </m:mrow>
    <m:mn>9</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math> = 11.11</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; 10) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ 10) = 1 – Poissoncdf(11.11, 10) ≈ 0.5532.</item>
@@ -952,7 +947,7 @@ A visual way to show both the similarities and differences between these two dis
    <m:mn>1</m:mn>
    <m:mn>9</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>. The cumulative distribution function of <emphasis effect="italics">X</emphasis> is <m:math>
  <m:mrow>
@@ -967,10 +962,10 @@ A visual way to show both the similarities and differences between these two dis
      <m:mi>x</m:mi>
      <m:mn>9</m:mn>
     </m:mfrac>
-
+    
    </m:mrow>
   </m:msup>
-
+  
  </m:mrow>
 </m:math>. Thus hus, <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> &gt; 20) = 1 - <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">X</emphasis> ≤ 20) = <m:math>
  <m:mrow>
@@ -985,10 +980,10 @@ A visual way to show both the similarities and differences between these two dis
        </m:mrow>
        <m:mn>9</m:mn>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:msup>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mo>≈</m:mo><m:mn>0.1084.</m:mn>
  </m:mrow>
@@ -1004,7 +999,7 @@ A visual way to show both the similarities and differences between these two dis
        <m:mn>8</m:mn>
        <m:mn>9</m:mn>
       </m:mfrac>
-
+      
      </m:mrow>
     <m:mo>)</m:mo></m:mrow>
    </m:mrow>
@@ -1046,7 +1041,7 @@ A visual way to show both the similarities and differences between these two dis
    <m:mn>1</m:mn>
    <m:mn>7</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>. The cdf is <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis> &lt; <emphasis effect="italics">t</emphasis>) = <m:math>
  <m:mrow>
@@ -1057,10 +1052,10 @@ A visual way to show both the similarities and differences between these two dis
      <m:mi>t</m:mi>
      <m:mn>7</m:mn>
     </m:mfrac>
-
+    
    </m:mrow>
   </m:msup>
-
+  
  </m:mrow>
 </m:math></para>
 <list id="fs-idp33483200" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis> &lt; 2) = 1 - <m:math>
@@ -1072,10 +1067,10 @@ A visual way to show both the similarities and differences between these two dis
      <m:mn>2</m:mn>
      <m:mn>7</m:mn>
     </m:mfrac>
-
+    
    </m:mrow>
   </m:msup>
-
+  
  </m:mrow>
 </m:math> ≈ 0.2485.</item>
 <item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">T</emphasis> &gt; 15) = <m:math>
@@ -1095,10 +1090,10 @@ A visual way to show both the similarities and differences between these two dis
        </m:mrow>
        <m:mn>7</m:mn>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:msup>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mo>≈</m:mo><m:msup>
    <m:mi>e</m:mi>
@@ -1109,7 +1104,7 @@ A visual way to show both the similarities and differences between these two dis
      </m:mrow>
      <m:mn>7</m:mn>
     </m:mfrac>
-
+    
    </m:mrow>
   </m:msup>
   <m:mo>≈</m:mo><m:mn>0.1173</m:mn>
@@ -1126,10 +1121,10 @@ A visual way to show both the similarities and differences between these two dis
        <m:mn>5</m:mn>
        <m:mn>7</m:mn>
       </m:mfrac>
-
+      
      </m:mrow>
     </m:msup>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup>
    <m:mi>e</m:mi>
@@ -1138,7 +1133,7 @@ A visual way to show both the similarities and differences between these two dis
      <m:mn>5</m:mn>
      <m:mn>7</m:mn>
     </m:mfrac>
-
+    
    </m:mrow>
   </m:msup>
   <m:mo>≈</m:mo><m:mn>0.4895</m:mn>
@@ -1152,7 +1147,7 @@ A visual way to show both the similarities and differences between these two dis
    </m:mrow>
    <m:mn>7</m:mn>
   </m:mfrac>
-
+  
  </m:mrow>
 </m:math>, <emphasis effect="italics">X</emphasis> ∼ Poisson<m:math>
  <m:mrow>
@@ -1164,7 +1159,7 @@ A visual way to show both the similarities and differences between these two dis
      </m:mrow>
      <m:mn>7</m:mn>
     </m:mfrac>
-
+    
    </m:mrow>
   <m:mo>)</m:mo></m:mrow>
  </m:mrow>
@@ -1172,7 +1167,7 @@ A visual way to show both the similarities and differences between these two dis
 </exercise>
 
 </section>
- </content>
+</content>
 <glossary>
 <definition id="fs-idp71683472">
 <term>decay parameter</term>
@@ -1184,7 +1179,7 @@ A visual way to show both the similarities and differences between these two dis
      <m:mn>1</m:mn>
      <m:mi>μ</m:mi>
     </m:mfrac>
-
+    
    </m:mrow>
   </m:mrow>
  </m:mrow>

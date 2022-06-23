@@ -1,0 +1,114 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>The Correlation Coefficient r -- BSTA 200 -- Humber College -- Version 2016RevA</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m62019</md:content-id>
+  <md:title>The Correlation Coefficient r -- BSTA 200 -- Humber College -- Version 2016RevA</md:title>
+  <md:abstract/>
+  <md:uuid>441a9e20-36ed-4e09-b438-8319ac02b8b7</md:uuid>
+</metadata>
+
+<content>
+  <para id="delete_me">As we begin this section we note that the type of data we will be working with has changed. Perhaps unnoticed, all the data we have been using is for a single variable. It may be from two samples, but it is still a univariate variable. The type of data described in the examples above and for any model of cause and effect is <term>bivariate</term> data — "bi" for two variables. In reality, statisticians use <term>multivariate</term> data, meaning many variables. </para><para id="eip-398">For example, a researcher might be interested in the consumption habits of individuals.  For a particular period of time they could gather the price paid for a certain item, amount purchased, and income of many individual people. They could then investigate the relationship between the variables.</para><para id="eip-80"><title>Relationship between variables</title>Beginning with a set of data with two independent variables we ask the question: are these related? One way to visually answer this question is to create a scatter plot of the data. We could not do that before when we were doing descriptive statistics because those data were univariate. Now we have bivariate data so we can plot in two dimensions. Three dimensions are possible on a flat piece of paper, but become very hard to fully conceptualize. Of course, more than three dimensions cannot be graphed although the relationships can be measured mathematically.  </para><para id="eip-158"><title>Example of the relationship between two variables</title>A professor is interested in investigating whether there is a relationship between the number of hours of sleep a student gets the night before a test, and their grade on the test.  She collects information from 10 students:
+
+</para><table id="eip-798" summary="Hours slept and test grade">
+<tgroup cols="11"><tbody>
+  <row>
+    <entry><term>Hours slept</term></entry>
+    <entry align="center"> 7 </entry>
+    <entry align="center">4</entry>
+    <entry align="center">9</entry>
+    <entry align="center">5</entry>
+    <entry align="center">8</entry>
+    <entry align="center">6</entry>
+    <entry align="center">10</entry>
+    <entry align="center">7</entry>
+    <entry align="center">5</entry>
+    <entry align="center">8</entry>
+  </row>
+  <row>
+    <entry><term>Test grade (%) </term></entry>
+    <entry align="center">65</entry>
+    <entry align="center">45</entry>
+    <entry align="center">85</entry>
+    <entry align="center">62</entry>
+    <entry align="center">71</entry>
+    <entry align="center">68</entry>
+    <entry align="center">91</entry>
+    <entry align="center">87</entry>
+    <entry align="center">58</entry>
+    <entry align="center"> 75 </entry>
+  </row>
+</tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+</tgroup>
+</table><para id="eip-853">By plotting the data in a scatter diagram, we can start to examine the relationship between the two variables. 
+</para><para id="eip-976"><figure id="eip-id2157318"><media id="eip-id7613882" alt="...">
+<image mime-type="image/jpeg" src="../../media/scatter3.PNG" print-width="5in" width="700"/></media>
+</figure></para><para id="eip-321"><title>Dependent and Independent Variables</title>When examining the relationship between two or more variables, we will have one dependent variable and one or more independent variables.  We investigate how the dependent variable changes as the independent variable (or variables) change.  If we observe a relationship between the dependent and independent variables, we can make predictions about the dependent variable based upon the independent variable(s).
+
+
+
+</para><para id="eip-37">In the example above, the dependent variable is the test grade, because we are examining how the test grade varies as the hours of sleep varies.  The hours slept is the independent variable.</para><para id="eip-51">On a scatter diagram showing the relationship between two variables, the independent variable is plotted on the x axis and the dependent variable is plotted on the y axis.</para><para id="eip-629"><title>Coefficient of Correlation, <m:math><m:mi>r</m:mi></m:math></title>To provide mathematical precision to the measurement of what we see we use the correlation coefficient.  The correlation tells us something about the co-movement of two variables, but <emphasis>nothing</emphasis> about why this movement occurred. Formally, correlation analysis assumes that both variables being analyzed are <emphasis>independent</emphasis> variables. This means that neither one causes the movement in the other. Further, it means that neither variable is dependent on the other, or for that matter, on any other variable. Even with these limitations, correlation analysis can yield some interesting results.</para><para id="eip-113">The correlation coefficient, ρ (pronounced rho), is the mathematical statistic for a population that provides us with a measurement of the strength of a linear relationship between the two variables. For a sample of data, the statistic, <m:math><m:mi>r</m:mi></m:math>, developed by Karl Pearson in the early 1900s, is an estimate of the population correlation and, for two variables,  x and y, is defined mathematically as:</para><equation id="eip-495"><m:math><m:mi>r</m:mi><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mfrac><m:mrow><m:mi>n</m:mi><m:mo>∑</m:mo><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>-</m:mo><m:mo>(</m:mo><m:mo>∑</m:mo><m:mi>x</m:mi><m:mo>)</m:mo><m:mo>(</m:mo><m:mo>∑</m:mo><m:mi>y</m:mi><m:mo>)</m:mo></m:mrow><m:msqrt><m:mo>[</m:mo><m:mi>n</m:mi><m:mo>(</m:mo><m:mo>∑</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>)</m:mo><m:mo>-</m:mo><m:mo>(</m:mo><m:mo>∑</m:mo><m:mi>x</m:mi><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup><m:mo>]</m:mo><m:mo>[</m:mo><m:mi>n</m:mi><m:mo>(</m:mo><m:mo>∑</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>)</m:mo><m:mo>-</m:mo><m:mo>(</m:mo><m:mo>∑</m:mo><m:mi>y</m:mi><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup><m:mo>]</m:mo></m:msqrt></m:mfrac></m:math></equation><para id="eip-441">where n is the number of observations, and x and y represent the values of the individual observations.
+
+</para><para id="eip-385">The correlation coefficient r ranges in value from -1 to 1. </para><para id="eip-688">In practice all correlation and regression analysis will be provided through computer software designed for these purposes. Anything more than perhaps one-half a dozen observations creates immense computational problems. It was because of this fact that correlation, and even more so, regression, were not widely used research tools until after the advent of “computing machines”. Now the computing power required to analyze data using regression packages is deemed almost trivial by comparison to just a decade ago. </para><para id="eip-869"><title>Visualization of correlation coefficient with scatter diagrams</title>To visualize any <emphasis>linear</emphasis> relationship that may exist review the plot of a scatter diagrams of the standardized data. <link target-id="fs-id1170044566105"/> presents several scatter diagrams and the calculated value of r. In panels (a) and (b) notice that the data generally trend together, (a) upward and (b) downward. Panel (a) is an example of a positive correlation and panel (b) is an example of a negative correlation, or relationship. The sign of the correlation coefficient tells us if the relationship is a positive or negative (inverse) one. If all the values of x and y are on a straight line the correlation coefficient will be either 1 or -1 depending on whether the line has a positive or negative slope and the closer to one or negative one the stronger the relationship between the two variables.</para><figure id="fs-id1170044566105"><media id="fs-id1170042278554" alt="...">
+<image mime-type="image/jpeg" src="../../media/correlation.PNG" print-width="4in" width="550"/></media></figure><para id="eip-783">Remember, all the correlation coefficient tells us is whether or not the data are linearly related. In panel (d) the variables obviously have some type of very specific relationship to each other, but the correlation coefficient is zero, indicating no <emphasis>linear</emphasis> relationship exists. </para><para id="eip-523">If you suspect a linear relationship between x and y then <emphasis effect="italics">r</emphasis> can measure how strong the linear relationship is.</para><list id="eip-781"><title>What the VALUE of <emphasis effect="italics">r</emphasis> tells us:</title><item>The value of <emphasis effect="italics">r</emphasis> is always between –1 and +1: –1 ≤ r ≤ 1.</item>
+<item>The value of the correlation <emphasis effect="italics">r</emphasis> indicates the strength of the <emphasis>linear</emphasis> relationship between x and y. Values of <emphasis effect="italics">r</emphasis> close to –1 or
+to +1 indicate a <emphasis>stronger linear relationship </emphasis>between  x and y.
+</item>
+<item>If <emphasis effect="italics">r</emphasis> = 0, there is absolutely no linear relationship between x and y <emphasis>(no linear correlation)</emphasis>.</item>
+<item>If <emphasis effect="italics">r</emphasis> = 1, there is perfect positive correlation. If <emphasis effect="italics">r</emphasis> = –1, there is perfect negative    correlation. In both these cases, all of the original data points lie on a straight line: ANY straight line no matter what the slope. Of course, in the real world, this will not generally happen.</item></list><list id="eip-88"><title>What the SIGN of <emphasis effect="italics">r</emphasis> tells us</title><item>A positive value of <emphasis effect="italics">r</emphasis> means that when  x increases, y tends to increase and when x decreases, y  tends to decrease <emphasis>(positive correlation)</emphasis>.</item>
+<item>A negative value of <emphasis effect="italics">r</emphasis> means that when x increases, y tends to decrease and when x decreases, y tends to increase <emphasis>(negative correlation)</emphasis>.</item>
+</list><note id="fs-id1170798796487" class="finger">Strong correlation does not suggest that x causes y or y causes x. We say <emphasis>"correlation does not imply causation."</emphasis></note><para id="eip-955"><title>Coefficient of Determination, <m:math><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:math></title>The coefficient of determination, <m:math><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:math>, allows us to be more precise in determining the strength of a relationship. It is found by squaring r. That is, <m:math><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mfenced><m:mi>r</m:mi></m:mfenced><m:mn>2</m:mn></m:msup></m:math>
+</para><para id="eip-917">The coefficient of determination measures the amount of variation in the dependent variable, y, that is explained by the variation in the independent variable, x.</para><example id="eip-256"><title>Coefficient of Determination</title><para id="eip-50">Suppose the coefficient of correlation between two variables, x and y, is <m:math><m:mo> </m:mo><m:mi>r</m:mi><m:mo> </m:mo><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>85</m:mn>
+</m:math>.  </para><exercise id="eip-483"><problem id="eip-212">
+  <para id="eip-207">
+Interpret the meaning of the coefficient of correlation.
+  </para>
+</problem>
+
+<solution id="eip-263">
+  <para id="eip-478"><m:math><m:mo> </m:mo><m:mi>r</m:mi><m:mo> </m:mo><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>85</m:mn></m:math>   indicates a strong, negative relationship between the independent and dependent variables.
+  </para></solution>
+</exercise><exercise id="eip-104"><problem id="eip-534">
+  <para id="eip-790">
+    Find the coefficient of determination and interpret its meaning.
+  </para>
+</problem>
+
+<solution id="eip-187">
+  <para id="eip-id1167938952044">Coefficient of Determination
+
+<m:math><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mo>(</m:mo><m:mn>-0</m:mn><m:mo>.</m:mo><m:mn>85</m:mn><m:msup><m:mo>)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mo> </m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>7225</m:mn><m:mspace linebreak="newline"/></m:math>
+  </para><para id="eip-id1167938947545">This tells us that 72.25% of the variation in the dependent variable, y, is explained by the variation in the independent variable, x.</para></solution>
+</exercise></example></content>
+<glossary>
+<definition id="fs-id1167000519824"><term>Bivariate</term>
+<meaning id="fs-id1167002660617">two variables are present in the model where one is the “cause” or independent variable and the other is the “effect” of dependent variable.
+</meaning>
+</definition>
+<definition id="fs-id1167006613095"><term>Multivariate</term>
+<meaning id="fs-id1167004847070">a system or model where more than one independent variable is being used to predict an outcome.  There can only ever be one dependent variable, but there is no limit to the number of independent variables.
+</meaning>
+</definition>
+<definition id="fs-id4305412"><term><m:math><m:mi>r</m:mi></m:math> – Correlation Coefficient</term>
+<meaning id="fs-id1167001806914">A number between −1 and 1 that represents the strength and direction of the relationship between “X” and “Y.”  The value for “<emphasis effect="italics">r</emphasis>” will equal 1 or −1 only if all the plotted points form a perfectly straight line.
+</meaning>
+</definition>
+
+<definition id="fs-id2011324"><term>Linear</term>
+<meaning id="fs-id2343270">a model that takes data and regresses it into a straight line equation.
+</meaning>
+</definition></glossary>
+</document>

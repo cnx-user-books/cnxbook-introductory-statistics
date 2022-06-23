@@ -1,0 +1,542 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Frequency Distributions and Graphs  - BSTA 200 - Humber College - Version 2016RevA</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m62672</md:content-id>
+  <md:title>Frequency Distributions and Graphs  - BSTA 200 - Humber College - Version 2016RevA</md:title>
+  <md:abstract>This module shows how to summarize and interpret data using tables and graphs; how to construct frequency distributions, relative frequency distributions, and cumulative frequency distributions, histograms, frequency polygons, and ogives.</md:abstract>
+  <md:uuid>a4de38f1-b595-4937-92d3-0a46f7da1dca</md:uuid>
+</metadata>
+
+<content>
+  <section id="eip-418"><title>FREQUENCY DISTRIBUTIONS OF DATA</title><para id="eip-399">
+A <emphasis>frequency distribution</emphasis> lists categories (or intervals) and the number of times each occurs (frequency). 
+<newline/>
+A <emphasis>relative frequency distribution</emphasis> lists categories (or intervals) and the proportion of times each occurs. 
+</para><equation id="eip-599"><m:math display="block">
+ <m:mrow>
+  <m:mtext>Relative Frequency</m:mtext><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>c</m:mi><m:mi>l</m:mi><m:mi>a</m:mi><m:mi>s</m:mi><m:mi>s</m:mi><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mi>f</m:mi><m:mi>r</m:mi><m:mi>e</m:mi><m:mi>q</m:mi><m:mi>u</m:mi><m:mi>e</m:mi><m:mi>n</m:mi><m:mi>c</m:mi><m:mi>y</m:mi></m:mrow>
+   <m:mrow>
+    <m:mi>t</m:mi><m:mi>o</m:mi><m:mi>t</m:mi><m:mi>a</m:mi><m:mi>l</m:mi><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mi>f</m:mi><m:mi>r</m:mi><m:mi>e</m:mi><m:mi>q</m:mi><m:mi>u</m:mi><m:mi>e</m:mi><m:mi>n</m:mi><m:mi>c</m:mi><m:mi>y</m:mi></m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mi>f</m:mi>
+   <m:mi>n</m:mi>
+  </m:mfrac>
+  </m:mrow>
+</m:math>
+</equation></section><section id="eip-658"><title>Frequency Distribution for Qualitative Data</title><example id="eip-722"><title>Letter Grades</title><para id="eip-797">The letter grades in a statistics class are given as follows (raw data):
+
+
+</para><table id="eip-808" summary="Table of Letter Grades for 40 students"><title>Letter Grades for 40 statistics students</title>
+<tgroup cols="20" colsep="0" rowsep="2"><tbody>
+<row>
+
+<entry>C</entry>
+
+
+<entry>C</entry>
+
+
+<entry>A</entry>
+
+
+<entry>A</entry>
+
+
+<entry>C</entry>
+
+
+<entry>A</entry>
+
+
+<entry>A</entry>
+
+
+<entry>A</entry>
+
+
+<entry>B</entry>
+
+
+<entry>C</entry>
+
+
+<entry>A</entry>
+
+
+<entry>F</entry>
+
+
+<entry>C</entry>
+
+
+<entry>D</entry>
+
+
+<entry>D</entry>
+
+
+<entry>B</entry>
+
+
+<entry>A</entry>
+
+
+<entry>C</entry>
+
+
+<entry>B</entry>
+
+
+<entry>B</entry>
+
+</row>
+
+<row>
+
+<entry>A</entry>
+
+
+<entry>A</entry>
+
+
+<entry>D</entry>
+
+
+<entry>C</entry>
+
+
+<entry>A</entry>
+
+
+<entry>C</entry>
+
+
+<entry>C</entry>
+
+
+<entry>B</entry>
+
+
+<entry>B</entry>
+
+
+<entry>B</entry>
+
+
+<entry>D</entry>
+
+
+<entry>D</entry>
+
+
+<entry>D</entry>
+
+
+<entry>C</entry>
+
+
+<entry>B</entry>
+
+
+<entry>C</entry>
+
+
+<entry>C</entry>
+
+
+<entry>C</entry>
+
+
+<entry>F</entry>
+
+
+<entry>C</entry>
+
+</row>
+</tbody>
+ 
+
+</tgroup>
+</table><para id="eip-265">Construct a frequency distribution table.<newline/>
+Construct a relative frequency distribution table.<newline/><newline/>
+a) How many students scored a B or better?<newline/>
+b) What percent of students scored a D?<newline/>
+c) What proportion of students scored a C or worse?
+ </para><para id="eip-145"><title>Solution</title>The following is a frequency distribution table that helps summarize the data in <link target-id="eip-808"/> above.</para>
+
+<table id="eip-575" summary="Frequency distribution of the grades"><title>Frequency distribution of the grades</title>
+<tgroup cols="2" align="center"><colspec colnum="1" colname="header_c1"/>
+       
+<thead>
+<row><entry>Grade</entry><entry>Number of Students, f</entry></row>
+</thead>
+<tbody>
+<row><entry>A</entry><entry>10</entry></row>
+<row><entry>B</entry><entry>8</entry></row>
+<row><entry>C</entry><entry>14</entry></row>
+<row><entry>D</entry><entry>6</entry></row>
+<row><entry>F</entry><entry>2</entry></row>
+<row><entry>Total</entry><entry><emphasis>n = 40</emphasis></entry></row>
+</tbody>
+</tgroup>
+</table>
+
+<table id="rel01" summary="Relative Frequency Distribution of the Grades"><title>Relative Frequency Distribution of Letter Grades</title>
+<tgroup cols="3" align="center"><colspec colname="header_c1" colnum="1"/><thead>
+<row><entry>Grade</entry><entry>Frequency</entry><entry>Relative Frequency</entry></row>
+</thead>
+<tbody>
+<row><entry>A</entry><entry>10</entry><entry>10/40 = 25%</entry></row>
+<row><entry>B</entry><entry>8</entry><entry>8/40 = 20%</entry></row>
+<row><entry>C</entry><entry>14</entry><entry>14/40 = 35%</entry></row>
+<row><entry>D</entry><entry>6</entry><entry>6/40 = 15%</entry></row>
+<row><entry>F</entry><entry>2</entry><entry>2/40 = 5%</entry></row>
+<row><entry>Total</entry><entry><emphasis>n = 40</emphasis></entry><entry><emphasis>100%</emphasis></entry></row>
+</tbody>
+
+</tgroup>
+</table><para id="eip-747">a) 18 students scored a B or higher. (A or B)<newline/>
+b) 15% scored a D.<newline/>
+c) 55% scored a C or worse.
+</para></example><para id="eip-779"><title>Graphical Representation of Qualitative Data </title><emphasis>Bar Chart </emphasis>- consists of rectangular bars showing the frequencies of each category of a distribution.
+The <emphasis>bar chart</emphasis> for the frequency distribution in <link target-id="eip-575"/> is seen below:
+<figure id="eip-id3380094"><media id="eip-id1241919" alt="This is a bar chart for letter grades.">
+<image print-width="4.5in" width="420" mime-type="image/png" src="../../media/01bar.png"/>
+</media>
+<caption>Bar Chart for Letter Grades</caption></figure><emphasis>Pie Chart</emphasis> - a circle divided into sections reflecting the percentage of frequencies in each category of the distribution.  The Pie Chart for <link target-id="rel01"/> is seen below.
+
+<figure id="eip-id1166023233916"><media id="eip-id1166023233917" alt="This is a pie chart for letter grades.">
+<image print-width="3.5in" width="280" mime-type="image/png" src="../../media/02pie.png"/>
+</media>
+<caption>Pie Chart for Letter Grades</caption></figure></para></section><section id="eip-250"><title>Frequency Distribution for Quantitative Data</title><example id="eip-465"><title>Age of Patients</title><para id="eip-769">The following are ages of the 25 patients on the 6th floor of a hospital. Construct a frequency distribution and a relative frequency distribution for these data: <emphasis>12, 21, 51, 53, 26, 21, 21, 38, 55, 52, 38, 37, 40, 13, 38, 55, 31, 54, 48, 49, 54, 42, 56, 26, 54</emphasis>.
+</para><table id="eip-977" summary="Frequency and Relative Frequency Distribution for Age">
+<tgroup cols="3" align="center"><colspec colnum="1" colname="header_c1"/>
+<thead>
+<row><entry>Age Class</entry><entry>Frequency</entry><entry>Relative Frequency</entry></row>
+</thead>
+<tbody>
+<row><entry>10 to under 20</entry><entry>2</entry><entry>2/25 = 8%</entry></row>
+<row><entry>20 to under 30</entry><entry>5</entry><entry>5/25 = 20%</entry></row>
+<row><entry>30 to under 40</entry><entry>5</entry><entry>5/25 = 20%</entry></row>
+<row><entry>40 to under 50</entry><entry>4</entry><entry>4/25 = 16%</entry></row>
+<row><entry>50 to under 60</entry><entry>9</entry><entry>9/25 = 36%</entry></row>
+<row><entry>Total</entry><entry><emphasis>n = 25</emphasis></entry><entry><emphasis>100%</emphasis></entry></row>
+</tbody>
+
+
+
+
+
+</tgroup>
+</table><para id="eip-334">The numbers <emphasis>10, 20, 30, 40, 50</emphasis> are <emphasis>lower limits</emphasis>. <newline/>
+The numbers <emphasis>20, 30, 40, 50, 60</emphasis> are <emphasis>upper limits</emphasis>.
+<newline/>
+The difference between two consecutive lower (or upper) limits is called <emphasis>Class Width</emphasis>.
+<newline/>
+<emphasis>Class Width</emphasis> = 20 - 10 = 10 or 30 – 20 = 10 …
+<newline/>
+Note that it is more convenient to use classes with intervals widths that are multiples of 5.
+</para><note id="eip-236">The range that captures all the data values is partitioned into five non-overlapping intervals or classes. The endpoints of each class are called class limits, lower and upper respectively, or class boundaries.</note></example><para id="eip-693"><title>Class Midpoint</title>Class midpoints represent the value in the middle of the class intervals.</para><equation id="eip-673"><m:math display="block">
+ <m:semantics>
+  <m:mrow>
+   <m:mi mathvariant="italic">Class</m:mi>
+   <m:mrow>
+    <m:mi mathvariant="italic">Midpoint</m:mi>
+    <m:mo stretchy="false">=</m:mo>
+    <m:mfrac>
+     <m:mrow>
+      <m:mi mathvariant="italic">Lower</m:mi>
+      <m:mrow>
+       <m:mi mathvariant="italic">Limit</m:mi>
+       <m:mo stretchy="false">+</m:mo>
+       <m:mi mathvariant="italic">Upper</m:mi>
+      </m:mrow>
+      <m:mi mathvariant="italic">Limit</m:mi>
+     </m:mrow>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+   </m:mrow>
+  </m:mrow>
+  <m:annotation encoding="StarMath 5.0">Class Midpoint = {Lower Limit+Upper Limit} over {2} </m:annotation>
+ </m:semantics>
+</m:math></equation><table id="eip-16" summary="Table showing midpoints">
+<tgroup cols="3" align="center"><colspec colnum="1" colname="header_c1"/>
+<thead>
+<row><entry>Age Class</entry><entry>Frequency</entry><entry>Class Midpoint</entry></row>
+</thead>
+<tbody>
+<row><entry>10 to under 20</entry><entry>2</entry><entry>(10 + 20)/2 = 15</entry></row>
+<row><entry>20 to under 30</entry><entry>5</entry><entry>(20 + 30)/2 = 25</entry></row>
+<row><entry>30 to under 40</entry><entry>5</entry><entry>(30 + 40)/2 = 35</entry></row>
+<row><entry>40 to under 50</entry><entry>4</entry><entry>(40 + 50)/2 = 45</entry></row>
+<row><entry>50 to under 60</entry><entry>9</entry><entry>(50 + 60)/2 = 55</entry></row>
+<row><entry>Total</entry><entry><emphasis>n = 25</emphasis></entry><entry><emphasis> </emphasis></entry></row>
+</tbody>
+
+
+
+
+
+</tgroup>
+</table></section><section id="eip-584"><title>Steps to constructing classes for a frequency distribution</title><para id="eip-831"><emphasis>Step 1: </emphasis>Determine the appropriate number of classes
+<newline/>
+We can use the  
+
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mn>2</m:mn>
+    <m:mi>k</m:mi>
+   </m:msup>
+   <m:mo stretchy="false">&gt;</m:mo>
+   <m:mi>n</m:mi>
+  </m:mrow>
+  <m:annotation encoding="StarMath 5.0">2^k &gt; n</m:annotation>
+ </m:semantics>
+</m:math> rule to determine the number of classes, where <emphasis effect="italics">k</emphasis> equals the number of classes and <emphasis effect="italics">n</emphasis> equals the number of data points.</para><table id="eip-138" summary="Powers of 2">
+<tgroup cols="9"><tbody>
+  <row>
+    <entry><m:math>
+ <m:mi>k</m:mi>
+</m:math>
+</entry>
+<entry>	3	</entry>
+<entry>	4	</entry>
+<entry>	5	</entry>
+<entry>	6	</entry>
+<entry>	7	</entry>
+<entry>	8	</entry>
+<entry>	9	</entry>
+<entry>	10	</entry>
+
+  </row>
+  <row>
+   <entry>	<m:math>
+ <m:mrow>
+  <m:msup>
+   <m:mn>2</m:mn>
+   <m:mi>k</m:mi>
+  </m:msup>
+  </m:mrow>
+</m:math>
+	</entry>
+<entry>	8	</entry>
+<entry>	16	</entry>
+<entry>	32	</entry>
+<entry>	64	</entry>
+<entry>	128	</entry>
+<entry>	256	</entry>
+<entry>	512	</entry>
+<entry>	1024	</entry>
+
+  </row>
+</tbody>
+
+</tgroup>
+</table><para id="eip-6">From previous example, n = 25 so we use 5 classes since 2<sup>5</sup> = 32 &gt; 25.
+<newline/>
+For n = 30, we see that 2<sup>5</sup> = 32 &gt; 30, so we still use 5 classes.
+<newline/>
+For n = 95, 2<sup>7</sup> = 128 &gt; 95, so we use 7 classes.
+</para><para id="eip-504"><emphasis>Step 2: </emphasis> Determine the class width.</para><equation id="eip-906"><m:math display="block">
+ <m:mrow>
+  <m:mtext>class width = </m:mtext><m:mfrac>
+   <m:mrow>
+    <m:mtext>highest value - lowest value</m:mtext></m:mrow>
+   <m:mrow>
+    <m:mtext>number of classes</m:mtext></m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math>
+</equation><para id="eip-729">Round up the result to the next higher integer to ensure that all of the data will be included in the frequency table. If the range of the data is large, a multiple of 5 is more convenient to use.
+From the given data, highest value = 56, lowest value =12, number of classes = 5.
+So the class width is (56 – 12)/5 = 44/5 = 8.8.  Rounding this to the next integer gives 9. However,  a class width of 10 is used because a multiple of 5 more convenient.
+</para><para id="eip-580"><emphasis>Step 3: </emphasis> Set the lower limit of the first class to the minimum value in the data set or a more convenient value smaller than the minimum. Then add the class width to the first lower limit to obtain the lower limit of the second class, then again for the third, and so on. The upper limits are now obvious.</para><example id="eip-921"><title>Years of Service</title><para id="eip-757">The following data represents the years of service of a sample of management employees:
+<newline/>
+<newline/>
+35, 28, 32, 33.5, 31, 33, 34, 32, 30, 23.5, 16, 23, 19, 35, 21, 26, 31.5, 11.5, 28, 37.5<newline/>
+28, 22, 19, 23, 29, 29, 28, 19, 13, 15, 12, 30, 15, 15, 26, 20, 15, 19.5, 22, 32
+<newline/><newline/>
+Use the steps described above to construct a frequency distribution for the data.</para><para id="eip-837"><title>Solution</title><emphasis>Step 1: Finding the number of classes. </emphasis>	
+<newline/>
+From the given data, n = 40. We use the 2<sup>k</sup> &gt; n rule
+<newline/>
+Since 2<sup>5</sup>= 32 &lt; 40 and 2<sup>6</sup> = 64 &gt; 40, we use <emphasis>6 classes</emphasis>.
+
+<newline/>
+<newline/>
+ <emphasis>	Step 2: 	Finding the class width</emphasis>	
+<newline/>
+Highest value = 37.5	<newline/>	
+Lowest Value = 11.5	<newline/>	
+Number of classes = 6 <newline/>
+
+<m:math>
+ <m:mrow>
+  <m:mtext>class width </m:mtext><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>37.5</m:mn><m:mo>−</m:mo><m:mn>11.5</m:mn></m:mrow>
+   <m:mn>6</m:mn>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>4.33</m:mn><m:mo>≈</m:mo><m:mn>5</m:mn><m:mtext> </m:mtext><m:mtext> </m:mtext><m:mtext>(rounded up to a convenient value)</m:mtext></m:mrow>
+</m:math>
+
+<newline/>
+<newline/>
+ <emphasis>Step 3: 	Construct the table </emphasis><newline/>
+Minimum value = 11.5  → Convenient Lower Limit of first class = 10.<newline/>
+Since the class width is 5, we have the following frequency distribution table.
+ </para><table id="eip-406" summary="Table for Years of Service">
+<tgroup cols="2" align="center"><colspec colnum="1" colname="header_c1"/>
+<thead>				
+<row>	<entry>	Years	</entry>	<entry>	Frequency	</entry></row>
+</thead>
+<tfoot>
+<row>	<entry>	Total	</entry>	<entry>	40	</entry></row>
+</tfoot>
+
+<tbody>	
+<row>	<entry>	10 to under 15	</entry>	<entry>	4	</entry></row>
+<row>	<entry>	15 to under 20	</entry>	<entry>	8	</entry></row>
+<row>	<entry>	20 to under 25	</entry>	<entry>	7	</entry></row>
+<row>	<entry>	25 to under 30	</entry>	<entry>	8	</entry></row>
+<row>	<entry>	30 to under 35	</entry>	<entry>	10	</entry></row>
+<row>	<entry>	35 to under 40	</entry>	<entry>	3	</entry></row>
+</tbody>						
+
+</tgroup>
+</table></example></section><section id="eip-328"><title>Graphical Representation of Quantitative Data </title><para id="eip-346"><emphasis>HISTOGRAM: </emphasis>A histogram is a graph that displays interval data by using adjacent vertical bars to represent the frequencies. There are no spaces between the bars of a histogram unless a class frequency is zero. The frequency histogram for the Age data in <link target-id="eip-977"/>  is shown below.
+</para><figure id="eip-id1170112695535">
+<media id="eip-id1170112680713" alt="This is a histogram for Ages.">
+<image src="../../media/03Hist.png" mime-type="image/png" width="400" print-width="4.5in"/>
+</media>
+</figure>
+
+
+
+
+<para id="eip-id1170112547536"><emphasis>FREQUENCY POLYGON: </emphasis>a line plot of class frequencies against their respective class <emphasis>midpoints</emphasis>.
+The frequency polygon for the Age data in <link target-id="eip-977"/>  is shown below.
+</para><figure id="eip-id6168706">
+<media id="eip-id1170389172684" alt="This is a frequency polygon for Ages.">
+<image src="../../media/04pol.png" mime-type="image/png" width="400" print-width="4.5in"/>
+</media>
+</figure>
+</section><section id="eip-513"><title>Cumulative Frequency Distribution </title><para id="eip-961">A <emphasis>cumulative frequency distribution</emphasis> shows the number (or percent) of observations that are less than or equal to each class interval. The cumulative frequency for each interval is the sum of the frequencies for that class and all previous classes. The following table shows the cumulative frequencies and relative cumulative frequencies for the Age data in <link target-id="eip-977"/>.
+</para><table id="eip-124" summary="Cumulative frequency distribution">
+<tgroup cols="4" align="center"><colspec colnum="1" colname="header_c1"/>
+<thead>
+<row><entry>Class Interval</entry><entry>Frequency</entry><entry>Cumulative Frequency</entry><entry>Cumulative Relative Frequency</entry></row>
+</thead>
+
+<tbody>
+<row><entry>10 to under 20</entry><entry>2</entry><entry>2</entry><entry>2/25 = 8%</entry></row>
+<row><entry>20 to under 30</entry><entry>5</entry><entry>5 + 2 = 7</entry><entry>7/25 = 28%</entry></row>
+<row><entry>30 to under 40</entry><entry>5</entry><entry>5 + 7 = 12</entry><entry>12/25 = 48%</entry></row>
+<row><entry>40 to under 50</entry><entry>4</entry><entry>4 + 12 = 16</entry><entry>16/25 = 64%</entry></row>
+<row><entry>50 to under 60</entry><entry>9</entry><entry>9 + 16 = 25</entry><entry>25/25 = 100%</entry></row>
+<row><entry>Total</entry><entry>n = 25</entry><entry/><entry/></row>
+</tbody>
+
+
+
+</tgroup>
+</table><para id="eip-438">The table shows that 28% of the patients are under 30 years old while 64% are under 50 years old.</para><para id="eip-604"><title>Cumulative Frequency Graph (Ogive)</title>An <emphasis>Ogive</emphasis> (pronounced <emphasis effect="italics">oh-jive</emphasis>) is a graphical representation of a cumulative frequency distribution. On an ogive, cumulative frequencies are plotted against class upper limits. The ogive for the preceding <link target-id="eip-124">table</link> is shown below.
+
+<figure id="eip-id1475057"><media id="eip-id1475059" alt="This is an ogive for Ages.">
+<image src="../../media/05cum.png" mime-type="image/png" width="420" print-width="4.5in"/>
+</media>
+</figure>
+
+It can be seen on the ogive that about 40% of the patients are under 35 years old.</para></section><section id="eip-80"><title>References</title><para id="eip-251">NHL 2015-2016 Standings (League). Available online at https://www.nhl.com/standings (accessed September 2, 2016).
+</para></section><section id="eip-609"><title>Homework</title><exercise id="eip-954"><title>Lost Games</title><problem id="eip-429">
+  <para id="eip-458">Canadian teams in the NHL performed poorly during the 2015-2016 season. No Canadian team made the playoffs that season. The bar graph below shows the number of regulation losses each team had.
+
+  <figure id="eip-id1170797463206"><media id="eip-id1170797463208" alt="This is a vertical bar chart showing games lost by Canadian teams in 2015-2016 NHL season.">
+<image print-width="5.5in" width="600" mime-type="image/png" src="../../media/06ex1.png"/>
+</media>
+</figure>
+<newline/>
+a)	Which team lost the highest number of games in regulation?<newline/>
+b)	Which team lost the least number of games in regulation?<newline/>
+c)	How many games were lost in total by the teams?<newline/>
+d)	What is the relative frequency of the games lost by Calgary?<newline/>
+e)	Which of the Canadian teams performed best during the 2015-2016 season? 
+</para></problem>
+
+<solution id="eip-387">
+  <para id="eip-592">a)	Edmonton <newline/>
+b)	Ottawa <newline/>
+c)	42+39+38+38+40+35+43 = 275 <newline/>
+d)	40/275 = 14.55% <newline/>
+e)	Ottawa <newline/>
+</para></solution>
+</exercise><exercise id="eip-845"><title>Music Type</title><problem id="eip-330">
+  <para id="eip-118">Some psychologists believe that the type of music you enjoy listening to tells a lot about your personality. The following pie chart shows the music preference of students at a postsecondary institution.
+
+  <figure id="eip-id1170799870326"><media id="eip-id1170793722017" alt="This is a pie chart showing students, music preference.">
+<image print-width="3.5in" width="300" mime-type="image/png" src="../../media/07ex2.png"/>
+</media>
+</figure>
+a) 	What percent of students that preferred Pop or Jazz?<newline/>
+b)	If 32 students preferred Reggae, how many students were sampled? <newline/>
+c)	Suppose 600 students were sampled, how many preferred Country?<newline/>
+d)	Suppose 90 students preferred Pop, how many preferred Rock?<newline/>
+e)	What is the size of the angle (degrees) representing the Classical sector?
+
+
+
+
+  </para></problem>
+
+<solution id="eip-792">
+  <para id="eip-210">a)	18+9 = <emphasis>27</emphasis><newline/>
+b) 	32/0.08 = <emphasis>400</emphasis><newline/>
+c) 	0.12*600 = <emphasis>72</emphasis><newline/>
+d)	90/0.18*0.13 = <emphasis>65</emphasis><newline/>
+e) 	0.11*360 = <emphasis>39.6<sup>o</sup> </emphasis>
+
+  </para></solution>
+</exercise><exercise id="eip-616"><title>Exercise Hours</title><problem id="eip-817">
+  <para id="eip-909">It is generally believed that physical exercises help prevent excess weight gain, help prevent diseases, and so on. To understand the state of physical activities of his students, a fitness instructor collected data on the number of hours per week her students exercise. The data are summarized in the histogram below.
+    
+<figure id="eip-id1171956"><media id="eip-id1171957" alt="This is a histogram showing students' exercise hours.">
+<image print-width="5in" width="500" mime-type="image/png" src="../../media/08ex3.png"/>
+</media>
+</figure>
+
+<newline/>
+a)	The fitness instructor collected data from how many students?                   
+<newline/>
+b)	How many class intervals were used?                       
+<newline/>
+c)	Based on the 2<sup>k</sup> rule, are the number of classes appropriate? Explain.
+<newline/>
+d)	What is the width of each class interval?                 
+<newline/>
+e)	How many students exercise for less than 4 hours per week? 
+<newline/>
+f)	What percent of the students exercise between 4 and 10 hours per week?          
+<newline/>
+g)	What is the class midpoint for those that exercise from 6 to under 8 hours?               
+</para></problem>
+
+<solution id="eip-386">
+  <para id="eip-602">a)	18+15+22+13+10+8+4 = 90<newline/>
+b)	7<newline/>
+c)	Yes. 2<sup>7</sup> = 128 &gt; 90<newline/>
+d)	2<newline/>
+e)	18+15 = 33
+<newline/>
+f)	(22+13+10)/90 = 50%
+<newline/>
+g)	(6 + 8)/2 = 7 hours
+</para></solution>
+</exercise></section></content>
+
+</document>

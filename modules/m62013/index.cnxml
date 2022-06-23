@@ -1,0 +1,102 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Regression Analysis with the BAII Plus Calculator</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m62013</md:content-id>
+  <md:title>Regression Analysis with the BAII Plus Calculator</md:title>
+  <md:abstract>This module shows how to use the BAII Plus calculator to obtain the correlation and regression coefficients.</md:abstract>
+  <md:uuid>d799b2aa-74af-41e5-b149-873fa1603564</md:uuid>
+</metadata>
+
+<content>
+  <para id="delete_me">The following video posted on YouTube by Professor Joshua Emmanuel demonstrates how to find the correlation and regression coefficients of the regression equation using the BAII Plus calculator: <newline/><link url="https://www.youtube.com/watch?v=NVc3RZHyzaA" window="new">https://www.youtube.com/watch?v=NVc3RZHyzaA</link>
+
+</para><para id="eip-652"><link target-id="eip-637"/> shows the data set referenced in the video.  You may wish to follow along with your own calculator as you watch the video and work through the steps listed below.</para><table id="eip-637" summary="The data set that is used in the video referenced in this section">
+<tgroup cols="2"><thead>
+  <row>
+    <entry align="center">x</entry>
+    <entry align="center">y</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry align="center">5</entry>
+    <entry align="center">10</entry>
+  </row>
+  <row>
+    <entry align="center">9</entry>
+    <entry align="center">35</entry>
+  </row>
+  <row>
+    <entry align="center">13</entry>
+    <entry align="center">30</entry>
+  </row>
+  <row>
+    <entry align="center">7</entry>
+    <entry align="center">15</entry>
+  </row>
+</tbody>
+
+
+
+
+
+
+
+
+
+</tgroup>
+</table><list id="eip-936" list-type="enumerated" number-style="arabic"><title>Here are the steps that are outlined in the video:</title><item>Clear any old data  <newline/>
+
+         Press 2nd→Data, then 2nd→Clr Work
+</item>
+<item>Enter your data <newline/>
+
+	Press 2nd→Data <newline/>
+	- Your first x value will go in X01<newline/>
+	- Type it in and press enter<newline/>
+	- Press the ↓ arrow<newline/>
+	- You will see Y01.  Enter the first y value and press enter<newline/>
+	- Repeat until all data has been entered<newline/>
+	- Press ↑ and ↓ arrows to review your data<newline/>
+
+
+
+</item>
+<item>Choose your calculation method <newline/>
+We would like the calculator to say LIN.  If it does not, we will change it to this mode.<newline/>
+	Press 2nd→Stat and then press 2nd→Set repeatedly until you see LIN<newline/>
+
+</item>
+
+<item>
+
+View the output <newline/>
+	While you are in the LIN STAT mode
+	-  Press ↑ and ↓ arrows to view the output <newline/>
+	- You will see 
+<m:math>
+ <m:mrow>
+  <m:mi>n</m:mi><m:mo>,</m:mo><m:mi>a</m:mi><m:mo>,</m:mo><m:mi>b</m:mi><m:mo>,</m:mo><m:mi>r</m:mi><m:mo>,</m:mo><m:mi>Σ</m:mi><m:mi>X</m:mi><m:mo>,</m:mo><m:mi>Σ</m:mi><m:msup>
+   <m:mi>X</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>,</m:mo><m:mi>Σ</m:mi><m:mi>Y</m:mi><m:mo>,</m:mo><m:mi>Σ</m:mi><m:msup>
+   <m:mi>Y</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>,</m:mo><m:mi>Σ</m:mi><m:mi>X</m:mi><m:mi>Y</m:mi><m:mo>,</m:mo></m:mrow>
+</m:math>
+ along with other information <newline/>
+
+
+
+</item></list><para id="eip-668"><title>Regression coefficients, <m:math><m:mi>a</m:mi></m:math> and <m:math><m:mi>b</m:mi></m:math></title>The regression equation is given by
+<m:math><m:mover><m:mi>y</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi></m:math>.  
+ The coefficients <m:math><m:mi>a</m:mi></m:math> and  <m:math><m:mi>b</m:mi></m:math> can be read directly from the calculator.  In this example, <m:math><m:mi>a</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>571</m:mn></m:math> and <m:math><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>.</m:mo><m:mn>714</m:mn></m:math>.
+Thus, the regression equation is
+<m:math><m:mover><m:mi>y</m:mi><m:mo>^</m:mo></m:mover><m:mo>=</m:mo><m:mo> </m:mo><m:mo>-</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>571</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>.</m:mo><m:mn>714</m:mn><m:mi>x</m:mi></m:math>.  <newline/>
+
+</para><para id="eip-356"><title>Coefficient of correlation, <m:math><m:mi>r</m:mi></m:math></title>The coefficient of correlation, <m:math><m:mi>r</m:mi></m:math>, can be read directly from the calculator.  In our example, the coefficient of correlation, <m:math><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>7789</m:mn></m:math>. <newline/></para><para id="eip-738"><title>Finding the coefficient of determination, <m:math><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:math></title>To find the coefficient of determination, simply square the <m:math><m:mi>r</m:mi></m:math> value.   If  <m:math><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>7789</m:mn></m:math>, then <m:math><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>6067</m:mn></m:math>.  </para></content>
+
+</document>

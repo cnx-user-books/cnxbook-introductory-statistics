@@ -1,0 +1,875 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<title>Using the Normal Distribution --  BSTA 200 -- Humber College -- Version 2016RevA</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m62555</md:content-id>
+  <md:title>Using the Normal Distribution --  BSTA 200 -- Humber College -- Version 2016RevA</md:title>
+  <md:abstract>This module shows how to find z-scores, probabilities, and x-values using the standard normal distribution tables and Excel.</md:abstract>
+  <md:uuid>cb7cdacd-5244-4845-a725-b7c10a1c2b90</md:uuid>
+</metadata>
+
+<content>
+<section id="eip-125"><title>The Standard Normal Distribution Tables </title><para id="eip-430">The Standard Normal Distribution Tables (shown below) provide the probability that <emphasis effect="italics">Z</emphasis>, the Standard Normal Variable, is <emphasis>less than</emphasis> a certain value <emphasis effect="italics">z</emphasis>. <emphasis effect="italics">z</emphasis> values (values in the left column and on the top row) are points on the horizontal scale while areas or probabilities (values in the body of the table) are the regions bounded by the normal curve and the horizontal scale.</para><figure id="eip-id1171152522105"><title>Table of Standard Normal Probabilities for Negative z-scores</title><media id="eip-id1171152063394" alt="Table of Standard Normal Probabilities for Negative z-scores">
+      <image mime-type="image/jpeg" src="../../media/UNneg-z.png" width="800"/>
+   </media>
+   
+<caption>Table of Standard Normal Probabilities for Negative z-scores. Table entries are "less than" areas.</caption></figure><figure id="eip-id1171366142219"><title>Table of Standard Normal Probabilities for Positive z-scores</title><media id="eip-id1171365634191" alt="Table of Standard Normal Probabilities for  Positive z-scores">
+      <image mime-type="image/jpeg" src="../../media/UNpos-z.png" width="800"/>
+   </media>
+   
+<caption>Table of Standard Normal Probabilities for Positive z-scores. Table entries are "less than" areas.</caption></figure></section><para id="fs-idm68176912" class="finger">The shaded area in the following graph indicates the area to the left of <emphasis effect="italics">z</emphasis><sub>1</sub>. This area is represented by the probability <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">z</emphasis> &lt; <emphasis effect="italics">z</emphasis><sub>1</sub>).  </para><figure id="fs-idm109348848"><media id="fs-idm158141984" alt="This is a normal distribution curve. A value, z, is labeled on the horizontal axis, Z. A vertical line extends from point z to the curve, and the area under the curve to the left of z is shaded. The area of this shaded section represents the probability that a value of the variable is less than z.">
+<image mime-type="image/jpg" src="../../media/N0-1.png" width="400" print-width="3in"/>
+</media>
+</figure><note id="eip-748"><para id="eip-id3470799"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">z</emphasis> &lt; <emphasis effect="italics">z</emphasis><sub>1</sub>) = <term>Area to the left</term> of the vertical line through <emphasis effect="italics">z</emphasis><sub>1</sub>. <newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">z</emphasis> &gt; <emphasis effect="italics">z</emphasis><sub>1</sub>) = 1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">z</emphasis> &lt; <emphasis effect="italics">z</emphasis><sub>1</sub>) = <term>Area to the right</term> of the vertical line through <emphasis effect="italics">z</emphasis><sub>1</sub>. <newline/><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">z</emphasis> &lt; <emphasis effect="italics">z</emphasis><sub>1</sub>) is the same as <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">z</emphasis> ≤ <emphasis effect="italics">z</emphasis><sub>1</sub>) and <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">z</emphasis> &gt; <emphasis effect="italics">z</emphasis><sub>1</sub>) is the same as <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">z</emphasis> ≥ <emphasis effect="italics">z</emphasis><sub>1</sub>) for continuous distributions.</para></note><para id="eip-195">To locate the area less than z = 1.43 on the table, for example, locate the row for 1.4 and the column for 0.03 (<link target-id="z1.43"/>). The intersection of the row and column gives 0.9236. Hence P(<emphasis effect="italics">z</emphasis> &lt; 1.43) = 0.9236.  Consequently, P(<emphasis effect="italics">z</emphasis> &gt; 1.43) = 1 - P(<emphasis effect="italics">z</emphasis> &lt;1.43) = 1 - 0.9236 = 0.0764.
+
+<figure id="z1.43"><media id="eip-id1172327150500" alt="This is a normal distribution curve and an abbreviated normal distribution table for z = 1.43.">
+<image src="../../media/N0-2.png" mime-type="image/png" width="700" print-width="5.5in"/>
+</media>
+</figure></para><section id="fs-idm123993536" class="finger">
+<title>Calculations of Probabilities</title>
+<example id="eip-598"><para id="eip-190">Use the standard normal tables to find the following areas/probabilities: </para><exercise id="eip-id1171423905819">
+<problem id="eip-id1171425709465">
+<para id="eip-id1171423935723">a. Area to the left of <emphasis effect="italics">z</emphasis> = 1.36: 
+<m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>z</m:mi><m:mo>&lt;</m:mo><m:mn>1.36</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+</m:math>
+</para></problem>
+
+<solution id="eip-id1171446597554">
+<para id="eip-id1171422338532">a. <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>z</m:mi><m:mo>&lt;</m:mo><m:mn>1.36</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0.9131</m:mn></m:mrow>
+</m:math>
+</para></solution>
+</exercise>
+
+
+<exercise id="eip-id1171421685031">
+<problem id="eip-id7907759">
+<para id="eip-id1171423465675">b. Area to the left of <emphasis effect="italics">z</emphasis>  = -0.60: 
+<m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>z</m:mi><m:mo>&lt;</m:mo><m:mo>−</m:mo><m:mn>0.60</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math>
+</para></problem>
+
+<solution id="eip-id1171429562140">
+<para id="eip-id1171423598151">b. <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>z</m:mi><m:mo>&lt;</m:mo><m:mo>−</m:mo><m:mn>0.60</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0.2743</m:mn></m:mrow>
+</m:math>
+</para></solution>
+</exercise>
+
+<exercise id="eip-id1164429372769">
+<problem id="eip-id1164431515540">
+<para id="eip-id1164427969705">c. Area to the right of z = 1.47: 
+<m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>z</m:mi><m:mo>&gt;</m:mo><m:mn>1.47</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math>
+</para></problem>
+
+<solution id="eip-id1164427974198">
+<para id="eip-id1164427996320">c. <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>z</m:mi><m:mo>&gt;</m:mo><m:mn>1.47</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>z</m:mi><m:mo>&lt;</m:mo><m:mn>1.47</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>0.9292</m:mn><m:mo>=</m:mo><m:mn>0.0708</m:mn></m:mrow>
+</m:math>
+</para></solution>
+</exercise>
+
+
+<exercise id="eip-id1164427973307">
+<problem id="eip-id1164427975204">
+<para id="eip-id1164427905026">d. Area to the right of <emphasis effect="italics">z</emphasis> = -0.33: <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>z</m:mi><m:mo>&gt;</m:mo><m:mo>−</m:mo><m:mn>0.33</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math>.
+</para></problem>
+
+<solution id="eip-id1164427990303">
+<para id="eip-id1164428032973">d. <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>z</m:mi><m:mo>&gt;</m:mo><m:mo>−</m:mo><m:mn>0.33</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>z</m:mi><m:mo>&lt;</m:mo><m:mo>−</m:mo><m:mn>0.33</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>0.3707</m:mn><m:mo>=</m:mo><m:mn>0.6293</m:mn></m:mrow>
+</m:math>
+</para></solution>
+</exercise>
+
+<exercise id="eip-id1164427970142">
+<problem id="eip-id1164427993968">
+<para id="eip-id1164427991426">e. Area between <emphasis effect="italics">z</emphasis> = -2.16 and <emphasis effect="italics">z</emphasis> = 0.45: 
+<m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>2.16</m:mn><m:mo>&lt;</m:mo><m:mi>z</m:mi><m:mo>&lt;</m:mo><m:mo>−</m:mo><m:mn>0.33</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math>
+</para></problem>
+
+<solution id="eip-id1164427893991">
+<para id="eip-id1164427985649">e. <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mo>−</m:mo><m:mn>2.16</m:mn><m:mo>&lt;</m:mo><m:mi>z</m:mi><m:mo>&lt;</m:mo><m:mo>−</m:mo><m:mn>0.33</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mtext> </m:mtext><m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>z</m:mi><m:mo>&lt;</m:mo><m:mn>0.45</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>z</m:mi><m:mo>&lt;</m:mo><m:mo>−</m:mo><m:mn>2.16</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0.6736</m:mn><m:mo>−</m:mo><m:mn>0.0154</m:mn><m:mo>=</m:mo><m:mn>0.6582</m:mn></m:mrow>
+</m:math>
+</para></solution>
+</exercise>
+
+
+<exercise id="eip-id1164428007306">
+<problem id="eip-id1164427988570">
+<para id="eip-id1164427980034">f. Area between <emphasis effect="italics">z</emphasis> = 1.13 and <emphasis effect="italics">z</emphasis> = 3.10: 
+<m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>1.13</m:mn><m:mo>&lt;</m:mo><m:mi>z</m:mi><m:mo>&lt;</m:mo><m:mn>3.10</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow></m:mrow>
+</m:math>
+</para></problem>
+
+<solution id="eip-id1164427995393">
+<para id="eip-id1164427981587">f. <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>1.13</m:mn><m:mo>&lt;</m:mo><m:mi>z</m:mi><m:mo>&lt;</m:mo><m:mn>3.10</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>z</m:mi><m:mo>&lt;</m:mo><m:mtext> </m:mtext><m:mn>3.10</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>−</m:mo><m:mi>P</m:mi><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>z</m:mi><m:mo>&lt;</m:mo><m:mtext> </m:mtext><m:mn>1.13</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>0.9990</m:mn><m:mo>−</m:mo><m:mn>0.8708</m:mn><m:mo>=</m:mo><m:mn>0.1282</m:mn></m:mrow>
+</m:math>
+</para></solution>
+</exercise></example><example id="eip-60"><para id="eip-id3059999">The final exam scores in a statistics class were normally distributed with a mean of 63 and a standard deviation of 5.</para>
+<exercise id="eip-id2484765">
+<problem id="eip-id2677221">
+<para id="eip-id3007728">a. Find the probability that a randomly selected student scored less than 65 on the exam.</para></problem>
+
+<solution id="eip-id2522817">
+<para id="eip-id1642138">a. Let <emphasis effect="italics">X</emphasis> = score on the final exam. <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(63, 5) where <emphasis effect="italics">μ</emphasis> = 63 and <emphasis effect="italics">σ</emphasis> = 5. We begin by calculating the z-score for 65, using the formula
+<equation id="eip-id1171450110326"><m:math><m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mi>μ</m:mi></m:mrow><m:mi>σ</m:mi></m:mfrac><m:mi>.</m:mi></m:math>
+</equation></para>
+<para id="eip-id3009109">For x = 65, the corresponding z-score is
+<equation id="eip-id1166769306830">
+<m:math><m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>65</m:mn><m:mo>-</m:mo><m:mn>63</m:mn></m:mrow><m:mn>5</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>4</m:mn></m:math>
+</equation></para>
+<para id="eip-id1951091">From the <emphasis effect="italics">z</emphasis>-tables, the area corresponding to <emphasis effect="italics">z</emphasis> = 0.40 is 0.6554. That is,
+<equation id="eip-id1163840396228">
+<m:math><m:mo> </m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo> </m:mo><m:mo>&lt;</m:mo><m:mo> </m:mo><m:mn>65</m:mn><m:mo>)</m:mo><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>z</m:mi><m:mo> </m:mo><m:mo>&lt;</m:mo><m:mo> </m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>40</m:mn><m:mo>)</m:mo><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>6554</m:mn></m:math>
+</equation></para>
+
+<figure id="eip-id1661234"><media id="eip-id2897836" alt="This is a normal distribution curve. The peak of the curve coincides with the point 63 on the horizontal axis. The value 65 is also labeled on the x-axis. A vertical line extends from 65 to the curve. The area below the line is shaded.">
+<image src="../../media/N0-3.png" mime-type="image/png" width="700" print-width="5.5in"/>
+</media>
+</figure><para id="eip-id3718515">The probability that any student selected at random scores less than 65 is 0.6554.<newline/><emphasis>Interpretation</emphasis>: About 65.54% of students who took the test scored below 65.</para></solution>
+</exercise>
+
+<exercise id="eip-id1165150130878"><problem id="eip-id1165150327030">
+<para id="eip-id1165150158890">b. Find the probability that a randomly selected student scored more than 57 on the exam.</para></problem>
+
+<solution id="eip-id1165150029668">
+
+<para id="eip-id1457883">b. For x = 57 (<emphasis effect="italics">μ</emphasis> = 63 and <emphasis effect="italics">σ</emphasis> = 5), the corresponding z-score is
+<equation id="eip-id1165149781019"><m:math><m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mi>μ</m:mi></m:mrow><m:mi>σ</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>57</m:mn><m:mo>-</m:mo><m:mn>63</m:mn></m:mrow><m:mn>5</m:mn></m:mfrac><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>20</m:mn></m:math></equation></para><para id="eip-id1165149737948">From the <emphasis effect="italics">z</emphasis>-tables, the area below <emphasis effect="italics">z</emphasis> = -1.20 is 0.1151. Therefore,
+<equation id="eip-id1165150782438"><m:math><m:mi>P</m:mi><m:mfenced><m:mrow><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>57</m:mn></m:mrow></m:mfenced><m:mo>=</m:mo><m:mi>P</m:mi><m:mfenced><m:mrow><m:mi>z</m:mi><m:mo>&gt;</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>20</m:mn></m:mrow></m:mfenced><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:mi>P</m:mi><m:mfenced><m:mrow><m:mi>z</m:mi><m:mo>&lt;</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>20</m:mn></m:mrow></m:mfenced><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>1151</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>8849</m:mn></m:math>
+</equation></para><figure id="eip-id1165151406498"><media id="eip-id1165150009540" alt="This is a normal distribution curve. The peak of the curve coincides with the point 63 on the horizontal axis. The value 65 is also labeled on the x-axis. A vertical line extends from 65 to the curve. The area below the line is shaded.">
+<image src="../../media/N0-4.png" mime-type="image/png" width="700" print-width="5.5in"/>
+</media>
+</figure><para id="eip-id1165149720099">The probability that any student selected at random scored more than 57 is 0.8849. 
+<newline/><emphasis>Interpretation</emphasis>: 88.49% of students scored above 57 on this test. </para></solution>
+</exercise><exercise id="eip-id1171452027800"><problem id="eip-id1171453169751">
+<para id="eip-id2492993">c. Find the probability that a randomly selected student scored between 55 and 70.</para></problem>
+
+<solution id="eip-id1171452217556">
+<para id="eip-id1171449417190">c. The z-scores for x = 55 and x = 70 are calculated as follows:
+
+<equation id="eip-id1171453170394"><m:math><m:mi>x</m:mi><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mn>55</m:mn><m:mo>;</m:mo><m:mo> </m:mo><m:mo> </m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mi>μ</m:mi></m:mrow><m:mi>σ</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>55</m:mn><m:mo>-</m:mo><m:mn>63</m:mn></m:mrow><m:mn>5</m:mn></m:mfrac><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>60</m:mn></m:math></equation>
+
+<equation id="eip-id1170276172829">
+<m:math><m:mi>x</m:mi><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mn>70</m:mn><m:mo>;</m:mo><m:mo> </m:mo><m:mo> </m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mi>μ</m:mi></m:mrow><m:mi>σ</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>70</m:mn><m:mo>-</m:mo><m:mn>63</m:mn></m:mrow><m:mn>5</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>40</m:mn></m:math></equation></para><para id="eip-id1171449422031">From the <emphasis effect="italics">z</emphasis>-tables, the areas less than <emphasis effect="italics">z</emphasis> = -1.60 and <emphasis effect="italics">z</emphasis> = 1.40 are 0.0548 and 0.9192 respectively. Therefore,
+<equation id="eip-id8963820"><m:math><m:mi>P</m:mi><m:mfenced><m:mrow><m:mn>55</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>70</m:mn></m:mrow></m:mfenced><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mi>P</m:mi><m:mfenced><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>60</m:mn><m:mo>&lt;</m:mo><m:mi>z</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>40</m:mn></m:mrow></m:mfenced><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>9192</m:mn><m:mo>-</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>0548</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>8644</m:mn></m:math></equation>
+
+<figure id="eip-id1163840991729"><media id="eip-id1163839370035" alt="This is a normal distribution curve. The peak of the curve coincides with the point 63 on the horizontal axis. The value 65 is also labeled on the x-axis. A vertical line extends from 65 to the curve. The area below the line is shaded.">
+<image src="../../media/N0-5.png" mime-type="image/png" width="700" print-width="5.5in"/>
+</media>
+</figure><newline/><emphasis>Interpretation</emphasis>: 86.44% of the students who took the exam scored between 50 and 70.
+</para></solution>
+</exercise></example><note id="fs-idm83435856" class="statistics try">
+<label/>
+<title>Try It</title>
+<exercise id="fs-idm160100784"><problem id="fs-idm31461824">
+<para id="fs-idm14759824">The golf scores for a school team were normally distributed with a mean of 68 and a standard deviation of three. Find the probability that a randomly selected golfer scored more than 63.</para></problem>
+<solution id="eip-id4048720">
+
+<para id="eip-id3911233">For x = 63 (<emphasis effect="italics">μ</emphasis> = 68 and <emphasis effect="italics">σ</emphasis> = 3), the corresponding z-score is
+<equation id="eip-id2415480"><m:math><m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mi>μ</m:mi></m:mrow><m:mi>σ</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>63</m:mn><m:mo>-</m:mo><m:mn>68</m:mn></m:mrow><m:mn>3</m:mn></m:mfrac><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>67</m:mn></m:math></equation>
+
+From the <emphasis effect="italics">z</emphasis>-tables, the area below <emphasis effect="italics">z</emphasis> = 1.67 is 0.9525. Therefore,
+<equation id="eip-id1167106339076"><m:math><m:mi>P</m:mi><m:mfenced><m:mrow><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>63</m:mn></m:mrow></m:mfenced><m:mo>=</m:mo><m:mi>P</m:mi><m:mfenced><m:mrow><m:mi>z</m:mi><m:mo>&gt;</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>67</m:mn></m:mrow></m:mfenced><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:mi>P</m:mi><m:mfenced><m:mrow><m:mi>z</m:mi><m:mo>&lt;</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>67</m:mn></m:mrow></m:mfenced><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>-</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>0475</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>9525</m:mn></m:math></equation>
+The probability that a randomly selected golfer scored more than 63 is 0.9525.</para></solution></exercise></note>
+
+<example id="element-32">
+<para id="element-190">A personal computer is used for office work at home, research, communication, personal finances, education, entertainment, social networking, and a myriad of other things. Suppose that the average number of hours a household personal computer is used for entertainment is two hours per day. Assume the times for entertainment are normally distributed and the standard deviation for the times is half an hour.</para><exercise id="element-496">
+<problem id="id1168986736072">
+<para id="element-723">a. Find the probability that a household personal computer is used for entertainment between 1.31 and 1.83 hours per day.</para></problem>
+<solution id="id1168986736088">
+<para id="element-150">a. Let <emphasis effect="italics">X</emphasis> = the amount of time (in hours) a household personal computer is used for entertainment. <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(2, 0.5) where <emphasis effect="italics">μ</emphasis> = 2 and <emphasis effect="italics">σ</emphasis> = 0.5.
+
+We need to find <emphasis effect="italics">P</emphasis>(1.31 &lt; <emphasis effect="italics">x</emphasis> &lt; 1.83). The z-scores for x = 1.31 and x = 1.83 are calculated as follows:
+
+<equation id="eip-id1169634518529"><m:math><m:mi>x</m:mi><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>31</m:mn><m:mo>;</m:mo><m:mo> </m:mo><m:mo> </m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mi>μ</m:mi></m:mrow><m:mi>σ</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>31</m:mn><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>38</m:mn></m:math></equation><equation id="eip-id1169636250868"><m:math><m:mi>x</m:mi><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>83</m:mn><m:mo>;</m:mo><m:mo> </m:mo><m:mo> </m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mi>μ</m:mi></m:mrow><m:mi>σ</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>83</m:mn><m:mo>-</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>34</m:mn></m:math></equation><equation id="eip-id1165141486338">
+<m:math><m:mi>P</m:mi><m:mfenced><m:mrow><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>31</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>83</m:mn></m:mrow></m:mfenced><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mi>P</m:mi><m:mfenced><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>38</m:mn><m:mo>&lt;</m:mo><m:mi>z</m:mi><m:mo>&lt;</m:mo><m:mo>-</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>34</m:mn></m:mrow></m:mfenced><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>3669</m:mn><m:mo>-</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>0838</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>2381</m:mn></m:math>
+</equation>
+
+<figure id="eip-id1166342001592"><media id="eip-id1166343914978" alt="This is a normal distribution curve. The values 1.31 and 1.83 are also labeled on the x-axis. Vertical lines extend from 1.8 and 2.75 to the curve. The area between the lines is shaded.">
+<image src="../../media/N0-6.png" mime-type="image/png" width="700" print-width="5.5in"/>
+</media>
+</figure><newline/><emphasis>Interpretation</emphasis>: A household personal computer is used for entertainment between 1.31 and 1.83 hours per day 23.81% of the time.</para></solution>
+</exercise>
+
+<exercise id="element-423">
+<problem id="id1168986736344">
+<para id="element-72">b. What percent of household personal computers are used for entertainment for less than 1.31 hours or for more than 1.83 hours per day.</para></problem>
+
+<solution id="id1168986736360">
+<para id="element-958">The probability that a household personal computer is used for entertainment for “less than 1.31 hours or for more than 1.83 hours” per day is the <emphasis>complement (or opposite)</emphasis> of “between 1.31 and 1.83 hours”.
+From part a), <emphasis effect="italics">P</emphasis>(1.31 &lt; <emphasis effect="italics">x</emphasis> &lt; 1.83) = 0.2381. Therefore,  
+<equation id="eip-id2832027"><m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>31</m:mn><m:mo> </m:mo><m:mi>or</m:mi><m:mo> </m:mo><m:mi>x</m:mi><m:mo>&gt;</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>83</m:mn><m:mo>)</m:mo><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mn>1</m:mn><m:mo> </m:mo><m:mo>–</m:mo><m:mo> </m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>31</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>83</m:mn><m:mo>)</m:mo><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mn>1</m:mn><m:mo> </m:mo><m:mo>-</m:mo><m:mo> </m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>2381</m:mn><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>7619</m:mn></m:math></equation></para><figure id="fs-idm66393568"><media id="eip-id1165139695431" alt="This is a normal distribution curve. The values 1.31 and 1.83 are also labeled on the x-axis. Vertical lines extend from 1.31 and 1.83 to the curve. The area below 1.31 and 1.83 are shaded.">
+<image src="../../media/N0-7.png" mime-type="image/png" width="700" print-width="5.5in"/>
+</media>
+</figure><para id="element-344"><newline/><emphasis>Interpretation</emphasis>: 76.19% of household personal computers are used for entertainment for less than 1.31 hours or for more than 1.83 hours per day</para></solution>
+</exercise>
+
+
+</example>
+
+<note id="fs-idm101393328" class="statistics try"><label/>
+<title>Try It</title>
+<exercise id="fs-idm193708112"><problem id="fs-idm168992208">
+<para id="fs-idm120157248">The golf scores for a school team were normally distributed with a mean of 68 and a standard deviation of three. Find the probability that a golfer scored between 64 and 70.</para></problem>
+<solution id="fs-idm95163136">
+<label/>
+
+<para id="eip-id1167938919718">For <emphasis effect="italics">x</emphasis> = 64 and <emphasis effect="italics">x</emphasis> = 70 (<emphasis effect="italics">μ</emphasis> = 68 and <emphasis effect="italics">σ</emphasis> = 3), the corresponding z-scores are
+<equation id="eip-id1167938724910"><m:math><m:mi>x</m:mi><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mn>64</m:mn><m:mo>;</m:mo><m:mo> </m:mo><m:mo> </m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mi>μ</m:mi></m:mrow><m:mi>σ</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>64</m:mn><m:mo> </m:mo><m:mo>-</m:mo><m:mn>68</m:mn></m:mrow><m:mn>3</m:mn></m:mfrac><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>33</m:mn></m:math></equation>
+
+<equation id="eip-id1165141590423">
+<m:math><m:mi>x</m:mi><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mn>70</m:mn><m:mo>;</m:mo><m:mo> </m:mo><m:mo> </m:mo><m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mi>μ</m:mi></m:mrow><m:mi>σ</m:mi></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>70</m:mn><m:mo> </m:mo><m:mo>-</m:mo><m:mn>68</m:mn></m:mrow><m:mn>3</m:mn></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>67</m:mn></m:math>
+</equation>
+ 
+<equation id="eip-id1167941828426"><m:math><m:mi>P</m:mi><m:mfenced><m:mrow><m:mn>64</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>70</m:mn></m:mrow></m:mfenced><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mi>P</m:mi><m:mfenced><m:mrow><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>33</m:mn><m:mo>&lt;</m:mo><m:mi>z</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>67</m:mn></m:mrow></m:mfenced><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>7486</m:mn><m:mo>-</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>0918</m:mn><m:mo>=</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>6568</m:mn></m:math></equation>
+
+
+The probability that a randomly selected golfer scored between 64 and 70 is 0.6568.</para></solution>
+</exercise></note>
+
+</section>
+
+<section id="eip-762"><title>Calculating Scores</title><para id="eip-327">We are sometimes faced with the problem of finding a score (z or x), rather than probability (or area). That is, we are provided with the probability (or area) in a region and are required to find the corresponding z-score and/or x value. This reverse lookup process is shown in the following examples.
+</para><example id="eip-377"><exercise id="eip-id1165684143923">
+<problem id="eip-id2993189">
+<para id="eip-id1165684145241">a. Find the value of z<sub>1</sub> in the figure below. The area to the left of z<sub>1</sub> is 0.0485 or <m:math>
+ <m:mrow>
+  <m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>z</m:mi><m:mo>&lt;</m:mo><m:msub>
+   <m:mi>z</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0.0485</m:mn></m:mrow>
+</m:math>.
+<figure id="eip-id1170290301089"><media id="eip-id1170270389092" alt="This is a normal distribution curve. A vertical line is drawn from a point z1 on the horizontal scale to the the curve. The area to the left of z1 is 0.0485 and is shaded.">
+<image mime-type="jpg/png" src="../../media/N0-8.png" print-width="3in" width="420"/>
+</media>
+</figure></para></problem>
+<solution id="eip-id1165684699056">
+<para id="eip-id1165683716945">a. The area less than z<sub>1</sub> is 0.0485. Since this area is less than 0.5, it can be found on the negative z-score table. Looking 0.0485 up in the <emphasis>area</emphasis> section of the z-table, we see that the corresponding  <emphasis effect="italics">z</emphasis>-score is <emphasis>-1.66</emphasis>. 
+<figure id="eip-id1169633158291"><media id="eip-id1169633134234" alt="This is an abbreviated normal distribution table. The table shows that the corresponding z-score to an area of 0.0485 is -1.6 on the leftmost column and 0.06 in the top row.">
+<image mime-type="jpg/png" src="../../media/N0-9.png" print-width="3in" width="300"/>
+</media>
+</figure><equation id="eip-id1165142966088"><m:math><m:msub><m:mi>z</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>66</m:mn><m:mo>;</m:mo><m:mo> </m:mo><m:mo> </m:mo><m:mo> </m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>0485</m:mn><m:mo>=</m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>z</m:mi><m:mo>&lt;</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>66</m:mn><m:mo>)</m:mo></m:math></equation></para></solution>
+</exercise>
+
+<exercise id="eip-id1168686363007">
+<problem id="eip-id1168686363009">
+<para id="eip-id1168686363011">b. Find the value of z<sub>2</sub> in the figure below.
+<figure id="eip-id1168686363017"><media id="eip-id1168686363018" alt="This is a normal distribution curve. A vertical line is drawn from a point z2 on the horizontal scale to the the curve. The area to the left of z2 is 0.9224 and is shaded.">
+<image mime-type="jpg/png" src="../../media/N0-10.png" print-width="3in" width="420"/>
+</media>
+</figure></para></problem>
+<solution id="eip-id1168686363035">
+<para id="eip-id1168686363037">b. The area less than z<sub>2</sub> is 0.9224. Since this area is greater than 0.5, it can be found on the positive z-score table. Looking up 0.9224 in the <emphasis>area</emphasis> section of the z-table, we find that the closest value to 0.9224 is 0.9222, corresponding to a <emphasis effect="italics">z</emphasis>-score of <emphasis>1.42</emphasis>.
+  
+<figure id="eip-id1168268850676"><media id="eip-id1168270359198" alt="This is an abbreviated normal distribution table. The table shows that the closest area area to 0.9222 is 0.9224. It also shows that the corresponding z-score with 1.4 on the leftmost column and 0.02 in the top row.">
+<image mime-type="jpg/png" src="../../media/N0-11.png" print-width="3in" width="300"/>
+</media>
+</figure><equation id="eip-id1771507"><m:math><m:msub><m:mi>z</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>42</m:mn><m:mo>;</m:mo><m:mo> </m:mo><m:mo> </m:mo><m:mo> </m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>9224</m:mn><m:mo> </m:mo><m:mo>≈</m:mo><m:mo> </m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>z</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>42</m:mn><m:mo>)</m:mo></m:math></equation></para></solution>
+</exercise>
+
+<exercise id="eip-id1170269108629">
+<problem id="eip-id1170270478755">
+<para id="eip-id1170270431696">c. Find the z-score above which lies 20% of scores in the normal distribution.
+</para></problem>
+<solution id="eip-id1170276023800">
+<para id="eip-id1170290425385">c. The right tail area is 20%, but our <emphasis effect="italics">z</emphasis>-tables only contain left tail (less than) areas. We therefore subtract 20% from 100% to find the left tail area of 80% or 0.8. From the body of the <emphasis effect="italics">z</emphasis>-table, we find the closest value to 0.8 to be 0.7995, corresponding to a z-score of <emphasis>0.84</emphasis>.
+<figure id="eip-id1170286112770"><media id="eip-id1170276004469" alt="This is a normal distribution curve and an abbreviated normal table showing that the z-score corresponding to a 20% area in the upper tail is 0.84.">
+<image mime-type="jpg/png" src="../../media/N0-12.png" print-width="5.5in" width="700"/>
+</media>
+</figure><equation id="eip-id1170288382888"><m:math><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>z</m:mi><m:mo>&gt;</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>84</m:mn><m:mo>)</m:mo><m:mo>≈</m:mo><m:mo> </m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>2</m:mn></m:math></equation></para></solution>
+</exercise>
+<exercise id="eip-id2263069">
+<problem id="eip-id2263074">
+<para id="eip-id2263105">d. Find <emphasis effect="italics">b</emphasis> such that P(z &gt; <emphasis effect="italics">b</emphasis>) = 0. 9121
+</para></problem>
+<solution id="eip-id2263145">
+<para id="eip-id2263176">d. P(z &gt; <emphasis effect="italics">b</emphasis>) = 0. 9121 implies that the area to the right of <emphasis effect="italics">b</emphasis> is 0.9121. Since this area is on the right, and the normal tables we have only provide areas on the left, we subtract 0.9121 from 1, so that the "less than area" is 0.0879. The closest area in the table is 0.0885, corresponding to a <emphasis effect="italics">z</emphasis>-score is -1.35.  
+
+<figure id="eip-id2263326"><media id="eip-id2263331" alt="This is a normal distribution curve and an abbreviated normal table showing that the area below z=-1.35 is 0.0885.">
+<image mime-type="jpg/png" src="../../media/N0-13.png" print-width="5.5in" width="700"/>
+</media>
+</figure><equation id="eip-id2263514"><m:math><m:mi>b</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>35</m:mn><m:mo>;</m:mo><m:mo> </m:mo><m:mo> </m:mo><m:mo> </m:mo><m:mi>P</m:mi><m:mo>(</m:mo><m:mi>z</m:mi><m:mo>&gt;</m:mo><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>35</m:mn><m:mo>)</m:mo><m:mo>≈</m:mo><m:mo> </m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>9121</m:mn></m:math></equation></para></solution>
+</exercise></example><para id="eip-870"><title>Calculating x-values</title>Starting with the z-formula, we can solve for x as follows:
+<equation id="eip-id1171440903097"><m:math>
+ <m:mrow>
+  <m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mi>x</m:mi><m:mo>−</m:mo><m:mi>μ</m:mi></m:mrow>
+   <m:mi>σ</m:mi>
+  </m:mfrac>
+  <m:mtext> </m:mtext><m:mo>⇒</m:mo><m:mtext> </m:mtext><m:mi>z</m:mi><m:mi>σ</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>μ</m:mi><m:mtext> </m:mtext><m:mo>⇒</m:mo><m:mtext> </m:mtext><m:mi>μ</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mi>σ</m:mi><m:mo>=</m:mo><m:mi>x</m:mi></m:mrow>
+</m:math>
+</equation><equation id="revx"><m:math>
+<m:mstyle mathvariant="bold-italic" mathsize="1.2">
+<m:mi>x</m:mi><m:mo>=</m:mo><m:mi>μ</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mi>σ</m:mi>
+</m:mstyle>
+</m:math></equation></para><example id="eip-298"><para id="eip-531">Suppose the highway fuel consumption of cars sold in a city follows a normal distribution with a mean of 8.7 L/100km and a standard deviation of 2.5 L/100km. 
+</para><exercise id="eip-id1167912413574">
+<problem id="eip-id1167911544495">
+<para id="eip-id4895311">a. What fuel consumption rate represents the third quartile?
+</para></problem>
+<solution id="eip-id7934968">
+<para id="eip-id1167911688010">a.  Let <emphasis effect="italics">X</emphasis> = car fuel consumption. <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(8.7, 2.5) where <emphasis effect="italics">μ</emphasis> = 8.7 and <emphasis effect="italics">σ</emphasis> = 2.5. The area below the 3rd quartile (75th percentile) is 0.75. Since we already have <emphasis effect="italics">μ</emphasis> and <emphasis effect="italics">σ</emphasis>, we simply need to find the <emphasis effect="italics">z</emphasis>-score corresponding to the lower area of 0.75 in the table.
+The closest area to 0.75 in the standard normal table is  0.7486 and this corresponds to <emphasis effect="italics">z</emphasis> = 0.67. Therefore,
+<equation id="eip-id7890143"><m:math><m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mi>μ</m:mi></m:mrow><m:mi>σ</m:mi></m:mfrac><m:mo> </m:mo><m:mo> </m:mo><m:mo> </m:mo><m:mi>b</m:mi><m:mi>e</m:mi><m:mi>c</m:mi><m:mi>o</m:mi><m:mi>m</m:mi><m:mi>e</m:mi><m:mi>s</m:mi><m:mo> </m:mo><m:mo> </m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>67</m:mn><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mn>8</m:mn><m:mo>.</m:mo><m:mn>7</m:mn></m:mrow><m:mrow><m:mn>2</m:mn><m:mo>.</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac></m:math>
+</equation>
+<equation id="eip-id1170282893894"><m:math>
+ <m:mrow>
+  <m:mn>0.67</m:mn><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>2.5</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8.7</m:mn><m:mtext> </m:mtext><m:mo>⇒</m:mo><m:mtext> </m:mtext><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>8.7</m:mn><m:mo>+</m:mo><m:mn>0.67</m:mn><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>2.5</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>10.375</m:mn></m:mrow>
+</m:math>
+</equation>
+Or we can simply use the <link target-id="revx"><emphasis effect="italics">x</emphasis> transformation</link> formula obtained earlier:
+<equation id="eip-id7398456"><m:math><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>μ</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mi>σ</m:mi><m:mo>=</m:mo><m:mn>8</m:mn><m:mo>.</m:mo><m:mn>7</m:mn><m:mo>+</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>67</m:mn><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>.</m:mo><m:mn>5</m:mn><m:mo>)</m:mo><m:mo> </m:mo><m:mo>=</m:mo><m:mn>10</m:mn><m:mo>.</m:mo><m:mn>375</m:mn></m:math>
+</equation>
+<figure id="eip-id1167911606866"><media id="eip-id5190066" alt="This is a normal distribution curve and an abbreviated normal table showing that the z-score corresponding to the third quartile is 0.67.">
+<image mime-type="jpg/png" src="../../media/N0-14.png" print-width="5in" width="700"/>
+</media>
+</figure>
+
+The fuel consumption rate representing the third quartile is 10.375 L/100km.</para></solution>
+</exercise>
+
+<exercise id="eip-id1165143101831">
+<problem id="eip-id5338050">
+<para id="eip-id1165137577107">b. Determine the fuel consumption rate above which 90% of the cars will fall.
+</para></problem>
+<solution id="eip-id1165142949753">
+<para id="eip-id1165140775092">b. If the fuel consumption rate has 90% higher than it, then it has 10% lower. We then search for the closest <emphasis effect="italics">z</emphasis>-score to 0.1. The closest area to 0.1 is 0.1003, corresponding to a z-score of -1.28. Therefore,
+<equation id="eip-id1165144342026"><m:math><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>μ</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mi>σ</m:mi><m:mo>=</m:mo><m:mn>8</m:mn><m:mo>.</m:mo><m:mn>7</m:mn><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>28</m:mn><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>.</m:mo><m:mn>5</m:mn><m:mo>)</m:mo><m:mo> </m:mo><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>.</m:mo><m:mn>5</m:mn></m:math></equation>
+<figure id="eip-id1165141769374"><media id="eip-id1165142517562" alt="This is a normal distribution curve and an abbreviated normal table showing that the z-score corresponding to the top 90% is -1.28.">
+<image mime-type="jpg/png" src="../../media/N0-15.png" print-width="5in" width="700"/>
+</media>
+</figure>
+The fuel consumption rate above which 90% of the cars will fall is 5.5L/100km. This is the 10th percentile rate. That is, only 10% of the cars have consumption rate of 5.5L/km or better.
+</para></solution>
+</exercise>
+
+
+<exercise id="eip-id1165142138728">
+<problem id="eip-id1165140735951">
+<para id="eip-id1165146821018">c. What is the fuel consumption rate of the least efficient 20% of the cars?
+</para></problem>
+<solution id="eip-id1165140066556">
+<para id="eip-id1165142857342">c. The least efficient 20% of the cars will have the worst fuel consumption rates, and thus the highest 20% L/100km values. As a result, the required rate will separate the top 20% of the rates from bottom 80%. Searching for the closest area to 0.8 we find 0.7995 which corresponds to a z-score of 0.84. The required consumption rate is  
+<equation id="eip-id5459871"><m:math><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>μ</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mi>σ</m:mi><m:mo>=</m:mo><m:mn>8</m:mn><m:mo>.</m:mo><m:mn>7</m:mn><m:mo>+</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>84</m:mn><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>.</m:mo><m:mn>5</m:mn><m:mo>)</m:mo><m:mo> </m:mo><m:mo>=</m:mo><m:mn>10</m:mn><m:mo>.</m:mo><m:mn>8</m:mn></m:math>
+</equation>
+<figure id="eip-id1165142984526"><media id="eip-id5203216" alt="This is a normal distribution curve and an abbreviated normal table showing that the z-score corresponding to a 20% area in the upper tail is 0.84.">
+<image mime-type="jpg/png" src="../../media/N0-12.png" print-width="5.5in" width="700"/>
+</media>
+</figure>
+The fuel consumption rate of the least efficient 20% of the cars is 10.8 L/100km.
+</para></solution>
+</exercise>
+
+
+<exercise id="eip-id1165148526259">
+<problem id="eip-id1165148227667">
+<para id="eip-id1165141719670">d. What is the minimum and the maximum fuel consumption rate of the middle 95% of the cars?
+</para></problem>
+<solution id="eip-id1165141337461">
+<para id="eip-id1165144462702">d. For the middle 95% of the rates, we have 5% of the rates divided equally into the two tails (2.5% each). See <link target-id="conf95"/> below. We will refer to the minimum and maximum z-scores as z<sub>1</sub> and z<sub>2</sub> respectively, and their corresponding consumption rates as x<sub>1</sub> and x<sub>2</sub>.
+<newline/>
+<newline/>
+The area to the left of z<sub>1</sub> is 0.025. So by reverse lookup, we see that z<sub>1</sub> = -1.96.
+<newline/>
+The area to the left of z<sub>2</sub> is 0.975 (0.95+0.025). And by reverse lookup, we see that z<sub>2</sub> = 1.96 (It is expected that z<sub>1</sub> and z<sub>2</sub> will only differ in sign because the standard normal distribution is symmetric about 0).
+
+<figure id="conf95"><media id="z-1.96" alt="This is a normal distribution curve and an abbreviated normal table showing that the z-score corresponding to the third quartile is 0.67.">
+<image mime-type="jpg/png" src="../../media/N0-16.png" print-width="5.5in" width="700"/>
+</media>
+</figure><equation id="eip-id1165142901635"><m:math><m:mi>M</m:mi><m:mi>i</m:mi><m:mi>n</m:mi><m:mi>i</m:mi><m:mi>m</m:mi><m:mi>u</m:mi><m:mi>m</m:mi><m:mo>:</m:mo><m:mo> </m:mo><m:mo> </m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>μ</m:mi><m:mo>+</m:mo><m:msub><m:mi>z</m:mi><m:mn>1</m:mn></m:msub><m:mi>σ</m:mi><m:mo>=</m:mo><m:mn>8</m:mn><m:mo>.</m:mo><m:mn>7</m:mn><m:mo>-</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>96</m:mn><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>.</m:mo><m:mn>5</m:mn><m:mo>)</m:mo><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mn>3</m:mn><m:mo>.</m:mo><m:mn>8</m:mn></m:math></equation>
+<equation id="eip-id1431396">
+<m:math><m:mi>M</m:mi><m:mi>a</m:mi><m:mi>x</m:mi><m:mi>i</m:mi><m:mi>m</m:mi><m:mi>u</m:mi><m:mi>m</m:mi><m:mo>:</m:mo><m:mo> </m:mo><m:mo> </m:mo><m:msub><m:mi>x</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mi>μ</m:mi><m:mo>+</m:mo><m:msub><m:mi>z</m:mi><m:mn>2</m:mn></m:msub><m:mi>σ</m:mi><m:mo>=</m:mo><m:mn>8</m:mn><m:mo>.</m:mo><m:mn>7</m:mn><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>96</m:mn><m:mo>(</m:mo><m:mn>2</m:mn><m:mo>.</m:mo><m:mn>5</m:mn><m:mo>)</m:mo><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mn>13</m:mn><m:mo>.</m:mo><m:mn>6</m:mn></m:math>
+</equation>
+The consumption rates of the middle 95% of the cars are between 3.8 L/100km and 13.6 L/100km. That is, only 2.5% of the cars have fuel consumption rates less than 3.8 L/100km and only 2.5% have rates above 13.6 L/100km.</para></solution>
+</exercise>
+
+</example><note id="eip-120"><label/><title>Try It</title>
+
+<exercise id="fs-idm64657232">
+<problem id="fs-idm78477504">
+<para id="fs-idm49674336">The scores on an exam have an approximate normal distribution with a mean <emphasis effect="italics">μ</emphasis> = 81 points and standard deviation <emphasis effect="italics">σ</emphasis> = 15 points.</para><list id="fs-idm139136192" list-type="enumerated" number-style="lower-alpha"><item>Calculate the minimum score of the top 15% students on this exam.</item>
+<item>Calculate the first- and third-quartile scores for this exam.</item>
+<item>The middle 50% of the exam scores are between what two values?</item>
+</list></problem>
+<solution id="fs-idm52546464">
+<list id="fs-idm17269824" list-type="enumerated" number-style="lower-alpha"><item>The minimum of the top 15% scores has 85% of the scores below it. The area to closest to 0.85 from the normal tables is 0.8508, corresponding to a z-score of 1.04. As a result, the minimum top 15% score is
+<equation id="eip-id8176423"><m:math><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>μ</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mi>σ</m:mi><m:mo>=</m:mo><m:mn>81</m:mn><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>.</m:mo><m:mn>04</m:mn><m:mfenced><m:mn>15</m:mn></m:mfenced><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mn>96</m:mn><m:mo>.</m:mo><m:mn>6</m:mn></m:math></equation></item>
+<item>
+Since 25% of the scores are less than the first quartile, <emphasis effect="italics">Q</emphasis><sub>1</sub>, the area to the left of Q1 is 0.25 and that corresponds to a z-score of -0.67 in the tables. Similarly, 25% of the scores are greater than the third quartile, <emphasis effect="italics">Q</emphasis><sub>3</sub>, so the z-score will be positive 0.67 (due to symmetry). The first and third quartiles therefore calculated as follows.
+<equation id="eip-id1171637152189"><m:math><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub><m:mo>:</m:mo><m:mo> </m:mo><m:mo> </m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>μ</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mi>σ</m:mi><m:mo>=</m:mo><m:mn>81</m:mn><m:mo>-</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>67</m:mn><m:mfenced><m:mn>15</m:mn></m:mfenced><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mn>70</m:mn><m:mo>.</m:mo><m:mn>95</m:mn></m:math>
+</equation>
+<equation id="eip-id1171435480540">
+<m:math><m:msub><m:mi>Q</m:mi><m:mn>3</m:mn></m:msub><m:mo>:</m:mo><m:mo> </m:mo><m:mo> </m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>μ</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mi>σ</m:mi><m:mo>=</m:mo><m:mn>81</m:mn><m:mo>+</m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>67</m:mn><m:mfenced><m:mn>15</m:mn></m:mfenced><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mn>91</m:mn><m:mo>.</m:mo><m:mn>05</m:mn></m:math>
+</equation>
+</item>
+<item>Since the middle 50% of all scores are between <emphasis effect="italics">Q</emphasis><sub>1</sub> and <emphasis effect="italics">Q</emphasis><sub>3</sub>, the middle 50% of the scores are between 70.95 and 91.05.</item></list></solution>
+</exercise></note></section><section id="eip-948"><title>Using Excel for Normal Probabilities</title><para id="eip-674">Excel can be used to obtain probabilities and z-values by using the following built-in functions.</para><para id="eip-288">1. <emphasis><code>NORM.DIST(x, mean, standard_dev, cumulative)</code></emphasis>   or  <code>NORM.DIST(x, µ, σ, cumulative)</code>
+<newline/>
+This function is used to calculate the probability of obtaining values less than x, given µ and σ. We will always set cumulative to <emphasis>TRUE</emphasis> to obtain cumulative probabilities.</para><example id="eip-974"><para id="eip-513">Suppose X ~ N(8, 1.5) where μ = 8 and σ = 1.5.
+<newline/>P(x &lt; 6.5) can be found using  <code>=NORM.DIST(6.5, 8, 1.5, TRUE)</code> which will result in 0.1587.
+<newline/>P(x &gt; 5.6) can also be found using  <code>=1-NORM.DIST(5.6, 8, 1.5, TRUE)</code> which gives 0.9452.</para></example><note id="eip-769">Results obtained using Excel may be slightly different from those from tables because of rounding.</note><para id="eip-704">2. <emphasis><code>NORM.S.DIST(z, cumulative)</code></emphasis>
+<newline/>
+This function is used to find the probability of obtaining values less than a standard normal value z. Again, <code>cumulative = TRUE</code>.</para><example id="eip-229"><para id="eip-id4895977">We can find the probability that z is less than 0.54, and that z is greater than 1.28 respectively as follows:
+<newline/>P(z &lt; 0.54) <code>=NORM.S.DIST(0.54, TRUE)</code>  which gives 0.7054.
+<newline/>P(z &gt; 1.28) <code>=1-NORM.S.DIST(1.28, TRUE)</code> which equals 0.1003.
+</para></example><para id="eip-90">3. <emphasis><code>NORM.INV(probability, mean, standard_dev)</code></emphasis>
+
+<newline/>
+This function is used to obtain the value x, given the “less than” probability, µ, and σ.   
+</para><example id="eip-267"><para id="eip-225">Suppose X ~ N(8, 1.5) where μ = 8 and σ = 1.5. 
+<newline/>Then the score corresponding to the 10th percentile can be obtained by <code>=NORM.INV(0.1, 8, 1.5)</code> = 6.08.
+<newline/>The minimum score of the top 30% of the scores can also be obtained by <code>=NORM.INV(1-0.3, 8, 1.5)</code> = 8.79.
+</para></example><para id="eip-169">4. <emphasis><code>NORM.S.INV(probability)</code></emphasis>
+<newline/>
+This function is used to obtain a standard normal score z corresponding to a specified “less than” probability.
+
+
+</para><example id="eip-899"><para id="eip-503">The z-score corresponding to the 37th percentile can be obtained by <code>=NORM.S.INV(0.37)</code> = -0.33
+<newline/>The z-score that has 7.5% of the area above it can be obtained by <code>=NORM.S.INV(1-0.075)</code> = 1.44
+</para></example></section><section id="fs-idm101453488" class="references"><title>References</title><para id="fs-idm202298288">“Naegele’s rule.” Wikipedia. Available online at http://en.wikipedia.org/wiki/Naegele's_rule (accessed June 23, 2016).</para><para id="fs-idm133443328">“403: NUMMI.” Chicago Public Media &amp; Ira Glass, 2013. Available online at http://www.thisamericanlife.org/radio-archives/episode/403/nummi (accessed June 23, 2016).</para><para id="fs-idm165219840">“Facebook Statistics.” Statistics Brain. Available online at http://www.statisticbrain.com/facebook-statistics/(June 23, 2016).</para></section><section id="eip-424" class="summary">
+<title>Chapter Review</title>
+<para id="eip-960">The normal distribution, which is continuous, is the most important of all the probability distributions. Its graph is bell-shaped. This bell-shaped curve is used in almost all disciplines. Since it is a continuous distribution, the total area under the curve is one.  The parameters of the normal are the mean <emphasis effect="italics">µ</emphasis> and the standard deviation <emphasis effect="italics">σ</emphasis>. A special normal distribution, called the standard normal distribution is the distribution of <emphasis effect="italics">z</emphasis>-scores. Its mean is zero, and its standard deviation is one.</para></section>
+
+<section id="eip-108" class="formula-review">
+<title>Formula Review</title>
+<para id="eip-790">Normal Distribution: <emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(<emphasis effect="italics">µ</emphasis>, <emphasis effect="italics">σ</emphasis>) where <emphasis effect="italics">µ</emphasis> is the mean and <emphasis effect="italics">σ</emphasis> is the standard deviation.</para>
+
+<para id="eip-idm32653056">Standard Normal Distribution: <emphasis effect="italics">Z</emphasis> ~ <emphasis effect="italics">N</emphasis>(0, 1).</para>
+
+
+<para id="eip-30">Formula for calculating z-socres:
+ <m:math><m:mi>z</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo>-</m:mo><m:mi>μ</m:mi></m:mrow><m:mi>σ</m:mi></m:mfrac></m:math>
+</para><para id="fs-idm55516128">Formula for finding x: <m:math><m:mi>x</m:mi><m:mo>=</m:mo><m:mi>μ</m:mi><m:mo>+</m:mo><m:mi>z</m:mi><m:mi>σ</m:mi></m:math></para></section>
+
+<section id="eip-527" class="practice">
+<exercise id="fs-idp83652864">
+<problem id="fs-idp3823216">
+<para id="fs-idp81012528">How would you represent the area to the left of one in a probability statement?</para>
+<figure id="eip-idp74682384">
+<media id="fs-idp31643648" alt="">
+<image mime-type="image/jpg" print-width="3in" src="../../media/CNX_Stats_C06_M04_item001.jpg"/>
+</media>
+</figure>
+</problem>
+<solution id="fs-idp124208464">
+<para id="fs-idp142221328">
+<emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 1)</para>
+</solution>
+</exercise>
+
+<exercise id="fs-idm18365728"><problem id="fs-idp30641696">
+<para id="fs-idp68913872">What is the area to the right of one?</para>
+<figure id="eip-idm26567824">
+<media id="fs-idp76787840" alt="" display="block">
+<image mime-type="image/jpg" print-width="3in" src="../../media/CNX_Stats_C06_M04_item001.jpg"/>
+</media></figure>
+</problem>
+<!-- <solution id="fs-idp151140256">
+<para id="fs-idp77511872">1 &#8211; <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 1) or <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 1)</para>
+</solution> -->
+</exercise><exercise id="fs-idp76730048">
+<problem id="fs-idp98636864">
+<para id="fs-idm16173600">Is <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 1) equal to <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> ≤ 1)? Why?</para>
+</problem>
+<solution id="fs-idp26550912">
+<para id="fs-idp101468880">Yes, because they are the same in a continuous distribution: <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> = 1) = 0</para>
+</solution>
+</exercise>
+
+<exercise id="fs-idp16475344"><problem id="fs-idm13017216">
+<para id="fs-idp83647168">How would you represent the area to the left of three in a probability statement?</para>
+<figure id="eip-idm45345808"><media id="fs-idp128136336" alt="">
+<image mime-type="image/jpg" print-width="3in" src="../../media/CNX_Stats_C06_M04_item002.jpg"/>
+</media></figure>
+</problem>
+
+<!-- <solution id="fs-idp146985792">
+<para id="fs-idp60178064"><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 3)</para>
+</solution> -->
+</exercise><exercise id="fs-idp103778720">
+<problem id="fs-idp147171280">
+<para id="fs-idp41528880">What is the area to the right of three?</para>
+<figure id="eip-idp19359872"><media id="fs-idp2060576" alt="">
+<image mime-type="image/jpg" print-width="3in" src="../../media/CNX_Stats_C06_M04_item002.jpg"/>
+</media></figure>
+</problem>
+<solution id="fs-idp5045104">
+<para id="fs-idp110734480">1 – <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &lt; 3) or <emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &gt; 3)</para></solution>
+</exercise><exercise id="fs-idp880816"><problem id="fs-idp154035488">
+<para id="fs-idm221600">If the area to the left of <emphasis effect="italics">x</emphasis> in a normal distribution is 0.123, what is the area to the right of <emphasis effect="italics">x</emphasis>?</para></problem>
+
+<!-- <solution id="fs-idm19166096">
+<para id="fs-idp102316448">1 &#8211; 0.123 = 0.877</para></solution> -->
+</exercise><exercise id="fs-idm33682096">
+<problem id="fs-idp53588304">
+<para id="fs-idp142371360">If the area to the right of <emphasis effect="italics">x</emphasis> in a normal distribution is 0.543, what is the area to the left of <emphasis effect="italics">x</emphasis>?</para></problem>
+<solution id="fs-idp148923888">
+<para id="fs-idp70427440">1 – 0.543 = 0.457</para></solution>
+</exercise>
+
+<para id="eip-410"><emphasis effect="italics">Use the following information to answer the next four exercises:</emphasis></para>
+
+<para id="eip-926"><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(54, 8)</para>
+
+<exercise id="fs-idp83610000"><problem id="fs-idp149250384">
+<para id="fs-idp151137280">Find the probability that <emphasis effect="italics">x</emphasis> &gt; 56.</para></problem>
+
+<!-- <solution id="fs-idp74510448">
+<para id="fs-idp25510144">0.4013</para>
+</solution> -->
+</exercise><exercise id="fs-idp105059184">
+<problem id="fs-idm2106864">
+<para id="fs-idp88634736">Find the probability that <emphasis effect="italics">x</emphasis> &lt; 30.</para></problem>
+<solution id="fs-idp52756064">
+<para id="fs-idp81762128">0.0013</para>
+</solution>
+</exercise>
+
+<exercise id="fs-idp153118944"><problem id="fs-idp69518640">
+<para id="fs-idm17533616">Find the 80<sup>th</sup> percentile.</para>
+</problem>
+
+<!-- <solution id="fs-idp144265408">
+<para id="fs-idp42005696">60.73</para>
+</solution> -->
+</exercise><exercise id="fs-idp49095264">
+<problem id="fs-idp140530032">
+<para id="fs-idp130860384">Find the 60<sup>th</sup> percentile.</para></problem>
+<solution id="fs-idp150532688">
+<para id="fs-idp96792864">56.03</para>
+</solution>
+</exercise>
+
+<exercise id="fs-idp65259648"><problem id="fs-idp122477920">
+<para id="fs-idp107088272"><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(6, 2)</para><para id="fs-idp45580384">Find the probability that <emphasis effect="italics">x</emphasis> is between three and nine.</para></problem>
+
+<!-- <solution id="fs-idp53207040">
+<para id="fs-idp127782224">0.8664</para>
+</solution> -->
+</exercise><exercise id="fs-idp152542352">
+<problem id="fs-idp77204752">
+<para id="fs-idp25172544"><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(–3, 4)</para><para id="fs-idp101237440">Find the probability that <emphasis effect="italics">x</emphasis> is between one and four.</para></problem>
+<solution id="fs-idm11629600">
+<para id="fs-idp146932464">0.1186</para>
+</solution>
+</exercise>
+
+<exercise id="fs-idp153143568"><problem id="fs-idp121093952">
+<para id="fs-idp152391232"><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(4, 5)</para><para id="fs-idm90444112">Find the maximum of <emphasis effect="italics">x</emphasis> in the bottom quartile.</para></problem>
+
+<!-- <solution id="fs-idp30677232">
+<para id="fs-idp151050720">0.6276</para>
+</solution> -->
+</exercise></section>
+
+<section id="eip-866" class="free-response"><title>Homework</title><para id="eip-idp18302448"><emphasis effect="italics">Use the following information to answer the next two exercises:</emphasis> The patient recovery time from a particular surgical procedure is normally distributed with a mean of 5.3 days and a standard deviation of 2.1 days.</para>
+
+<exercise id="eip-181"><problem id="id3435957">
+<para id="element-6">What is the probability of spending more than two days in recovery?</para>
+<list id="yep" list-type="enumerated" number-style="lower-alpha"><item>0.0580</item> 
+<item>0.8447</item>
+<item>0.0553</item> 
+<item>0.9420</item>
+</list></problem>
+
+<!-- <solution id="id12741946">
+<para id="element-646">d</para>
+</solution> --></exercise><exercise id="eip-318"><problem id="id17871945">
+<para id="element-160">The 90<sup>th</sup> percentile for recovery times is?</para>
+<list id="yop" list-type="enumerated" number-style="lower-alpha"><item>8.89</item> 
+<item>7.07</item>
+<item>7.99</item> 
+<item>4.32</item>
+</list></problem>
+<solution id="id10286094">
+<para id="element-553">c</para>
+</solution></exercise>
+<para id="eip-164"><emphasis effect="italics">Use the following information to answer the next three exercises:</emphasis> The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes.</para>
+<exercise id="eip-486"><problem id="id20620841">
+<para id="element-349">Based upon the given information and numerically justified, would you be surprised if it took less than one minute to find a parking space?</para>
+<list id="yap" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>Yes</item> 
+<item>No</item>
+<item>Unable to determine</item> 
+</list></problem>
+
+<!-- <solution id="id15290500">
+<para id="element-245">a</para>
+</solution> --></exercise><exercise id="eip-231"><problem id="id4498978">
+<para id="element-560">Find the probability that it takes at least eight minutes to find a parking space.</para>
+<list id="element-298s" list-type="enumerated" number-style="lower-alpha"><item>0.0001</item>
+<item>0.9270</item>
+<item>0.1862</item>
+<item>0.0668</item>
+</list></problem>
+<solution id="id9734192">
+<para id="element-481">d</para>
+</solution></exercise><exercise id="eip-295"><problem id="id25388640">
+<para id="element-930">Seventy percent of the time, it takes more than how many minutes to find a parking space?</para>
+<list id="element-143" list-type="enumerated" number-style="lower-alpha"><item>1.24</item>
+<item>2.41</item>
+<item>3.95</item>
+<item>6.05</item>
+</list></problem>
+
+<!-- <solution id="id16763246">
+<para id="element-722">c</para>
+</solution> --></exercise><exercise id="eip-581"><problem id="id20593649">
+<para id="element-232">According to a study done by De Anza students, the height for Asian adult males is normally distributed with an average of 66 inches and a standard deviation of 2.5 inches.  Suppose one Asian adult male is randomly chosen.  Let <emphasis effect="italics">X</emphasis> = height of the individual.</para>
+<list id="element-602" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> ~ _____(_____,_____)</item>
+<item>Find the probability that the person is between 65 and 69 inches.  Include a sketch of the graph, and write a probability statement.</item>
+<item>Would you expect to meet many Asian adult males over 72 inches? Explain why or why not,
+and justify your answer numerically.</item>
+<item>The middle 40% of heights fall between what two values? Sketch the graph, and write the
+probability statement.</item>
+</list></problem>
+<solution id="fs-idp83361824">
+<list id="element-18" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(66, 2.5)</item>
+<item>0.5404</item>
+<item>No, the probability that an Asian male is over 72 inches tall is 0.0082</item>
+</list></solution></exercise><exercise id="eip-563"><problem id="id21466710">
+<para id="element-861">IQ is normally distributed with a mean of 100 and a standard deviation of 15.  Suppose one individual is randomly chosen.  Let <emphasis effect="italics">X</emphasis> =  IQ of an individual.</para>
+<list id="element-932" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> ~ _____(_____,_____)</item>
+<item>Find the probability that the person has an IQ greater than 120. Include a sketch of the graph, and write a probability statement.</item>
+<item>MENSA is an organization whose members have the top 2% of all IQs. Find the minimum IQ needed to qualify for the MENSA organization. Sketch the graph, and write the probability statement.</item>
+<item>The middle 50% of IQs fall between what two values? Sketch the graph and write the probability statement.</item>
+</list></problem>
+
+<!-- <solution id="eip-idp25493760">
+<list id="element-932s" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">N</emphasis>(100, 15)</item>
+<item>The probability that a person has an IQ greater than 120 is 0.0918.</item>
+<item>A person has to have an IQ over 130 to qualify for MENSA.</item>
+<item>The middle 50% of IQ scores falls between 89.95 and 110.05.</item>
+</list></solution> --></exercise><exercise id="eip-516"><problem id="id25415343">
+<para id="element-811">The percent of fat calories that a person in America consumes each day is normally distributed with a mean of about 36 and a standard deviation of 10.  Suppose that one individual is randomly chosen. Let <emphasis effect="italics">X</emphasis> = percent of fat calories.</para>
+<list id="element-993" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> ~ _____(_____,_____)</item>
+<item>Find the probability that the percent of fat calories a person consumes is more than 40. Graph the situation. Shade in the area to be determined.</item>
+<item>Find the maximum number for the lower quarter of percent of fat calories. Sketch the graph and write the probability statement.</item>
+</list></problem>
+<solution id="eip-idp2232784">
+<list id="element-993s" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(36, 10)</item>
+<item>The probability that a person consumes more than 40% of their calories as fat is 0.3446.</item>
+<item>Approximately 25% of people consume less than 29.26% of their calories as fat.</item>
+</list></solution></exercise><exercise id="eip-967"><problem id="id18000241">
+<para id="element-313">Suppose that the distance of fly balls hit to the outfield (in baseball) is normally distributed with a mean of 250 feet and a standard deviation of 50 feet.</para>
+<list id="element-107" list-type="enumerated" number-style="lower-alpha"><item>If <emphasis effect="italics">X</emphasis> = distance in feet for a fly ball, then <emphasis effect="italics">X</emphasis> ~ _____(_____,_____)</item>
+<item>If one fly ball is randomly chosen from this distribution, what is the probability that this ball traveled fewer than 220 feet? Sketch the graph. Scale the horizontal axis <emphasis effect="italics">X</emphasis>. Shade the region corresponding to the probability. Find the probability.</item>
+<item>Find the 80<sup>th</sup> percentile of the distribution of fly balls.  Sketch the graph, and write the probability statement.</item>
+</list></problem>
+
+<!-- <solution id="eip-idp105794048">
+<list id="element-107s" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(250, 50)</item>
+<item>The probability that a fly ball travels less than 220 feet is 0.2743.</item>
+<item>Eighty percent of the fly balls will travel less than 292 feet.</item>
+</list></solution> --></exercise><exercise id="eip-930"><problem id="id16003321">
+<para id="element-842">In China, four-year-olds average three hours a day unsupervised.  Most of the unsupervised children live in rural areas, considered safe.  Suppose that the standard deviation is 1.5 hours and the amount of time spent alone is normally distributed.  We randomly select one Chinese four-year-old living in a rural area. We are interested in the amount of time the child spends alone per day.</para><list id="element-265" list-type="enumerated" number-style="lower-alpha"><item>In words, define the random variable <emphasis effect="italics">X</emphasis>.</item>
+<item><emphasis effect="italics">X</emphasis> ~ _____(_____,_____)</item>
+<item>Find the probability that the child spends less than one hour per day unsupervised. Sketch the graph, and write the probability statement.</item>
+<item>What percent of the children spend over ten hours per day unsupervised?</item>
+<item>Seventy percent of the children spend at least how long per day unsupervised?</item>
+</list></problem>
+<solution id="fs-idp38795616">
+<list id="element-760" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> = number of hours that a Chinese four-year-old in a rural area is unsupervised during the day.</item>
+<item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(3, 1.5)</item>
+<item>The probability that the child spends less than one hour a day unsupervised is 0.0918.</item>
+<item>The probability that a child spends over ten hours a day unsupervised is less than 0.0001.</item>
+<item>2.21 hours</item>
+</list></solution></exercise><exercise id="eip-698"><problem id="id19993022">
+<para id="element-366">In the 1992 presidential election, Alaska’s 40 election districts averaged 1,956.8 votes per district for President Clinton.  The standard deviation was  572.3.  (There are only 40 election districts in Alaska.)  The distribution of the votes per district for President Clinton was bell-shaped.  Let <emphasis effect="italics">X</emphasis> = number of votes for President Clinton for an election district. </para>
+<list id="element-780" list-type="enumerated" number-style="lower-alpha"><item>State the approximate distribution of <emphasis effect="italics">X</emphasis>.</item>
+<item>Is 1,956.8 a population mean or a sample mean? How do you know?</item>
+<item>Find the probability that a randomly selected district had fewer than 1,600 votes for President Clinton. Sketch the graph and write the probability statement.</item>
+<item>Find the probability that a randomly selected district had between 1,800 and 2,000 votes for President Clinton.</item>
+<item>Find the third quartile for votes for President Clinton.</item>
+</list></problem>
+
+<!-- <solution id="eip-idp28319056">
+<list id="element-780s" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(1956.8, 572.3)</item>
+<item>This is a population mean, because all election districts are included.</item>
+<item>The probability that a district had less than 1,600 votes for President Clinton is 0.2676.</item>
+<item>0.3798</item>
+<item>Seventy-five percent of the districts had fewer than 2,340 votes for President Clinton.</item>
+</list></solution> --></exercise><exercise id="eip-838"><problem id="id18019640">
+<para id="element-883">Suppose that the duration of a particular type of criminal trial is known to be normally distributed with a mean of 21 days and a standard deviation of  seven days.</para>
+<list id="element-720" list-type="enumerated" number-style="lower-alpha"><item>In words, define the random variable <emphasis effect="italics">X</emphasis>.</item>
+<item><emphasis effect="italics">X</emphasis> ~ _____(_____,_____)</item>
+<item>If one of the trials is randomly chosen, find the probability that it lasted at least 24 days. Sketch the graph and write the probability statement.</item>
+<item>Sixty percent of all trials of this type are completed within how many days?</item>
+</list></problem>
+<solution id="id20218475">
+<list id="element-705" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> = the distribution of the number of days a particular type of criminal trial will take</item>
+<item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(21, 7)</item>
+<item>The probability that a randomly selected trial will last more than 24 days is 0.3336.</item>
+<item>22.77</item>
+</list></solution></exercise>
+
+<exercise id="eip-335"><problem id="id24511113">
+<para id="element-695">Terri Vogel, an amateur motorcycle racer, averages 129.71 seconds per 2.5 mile lap (in a seven-lap race) with a standard deviation of 2.28 seconds. The distribution of her race times is normally distributed.  We are interested in one of her randomly selected laps. </para>
+<list id="element-598" list-type="enumerated" number-style="lower-alpha"><item>In words, define the random variable <emphasis effect="italics">X</emphasis>.</item>
+<item><emphasis effect="italics">X</emphasis> ~ _____(_____,_____)</item>
+<item>Find the percent of her laps that are completed in less than 130 seconds.</item>
+<item>The fastest 3% of her laps are under _____.</item>
+<item>The middle 80% of her laps are from _______ seconds to _______ seconds.</item>
+</list></problem>
+
+<!-- <solution id="eip-idp63928720">
+<list id="element-598s" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">X</emphasis> = the distribution of race times that Terry Vogel produces</item>
+<item><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(129.71, 2.28)</item>
+<item>Terri completes 55.17% of her laps in less than 130 seconds.</item>
+<item>Terri completes 55.17% of her laps in less than 130 seconds.</item>
+<item>124.4 and 135.02</item>
+</list></solution> --></exercise><exercise id="eip-24"><problem id="id14371352">
+<para id="element-897">Suppose that Ricardo and Anita attend different colleges.  Ricardo’s GPA is the same as the average GPA at his school.  Anita’s GPA is 0.70 standard deviations above her school average. In complete sentences, explain why each of the following statements may be false.</para>
+<list id="element-264" list-type="enumerated" number-style="lower-alpha">
+<item>Ricardo’s actual GPA is lower than Anita’s actual GPA.</item>
+<item>Ricardo is not passing because his <emphasis effect="italics">z</emphasis>-score is zero.</item>
+<item>Anita is in the 70<sup>th</sup> percentile of students at her college.</item> 
+</list></problem>
+
+<!-- <solution id="eip-idp7493680">
+<list id="element-264s" list-type="enumerated" number-style="lower-alpha"><item>If the average GPA is less at Anita&#8217;s school than it is at Ricardo&#8217;s, then Ricardo&#8217;s actual score could be higher.</item>
+<item>Passing can be defined differently at different schools. Also, since Ricardo&#8217;s <emphasis effect="italics">z</emphasis>-score is 0, his GPA is actually
+the average for his school, which is typically a passing GPA.</item>
+<item>Anita&#8217;s percentile is higher than the 70<sup>th</sup> percentile.</item>
+</list></solution> --></exercise><exercise id="eip-406"><problem id="eip-308">
+<para id="eip-309">An expert witness for a paternity lawsuit testifies that the length of a pregnancy is normally distributed with a mean of 280 days and a standard deviation of 13 days. An alleged father was out of the country from 240 to 306 days before the birth of the child, so the pregnancy would have been less than 240 days or more than 306 days long if he was the father.  The birth was uncomplicated, and the child needed no medical intervention.  What is the probability that he was NOT the father?  What is the probability that he could be the father?  Calculate the <emphasis effect="italics">z</emphasis>-scores first, and then use those to calculate the probability.</para></problem>
+
+<!-- <solution id="eip-102">
+<list id="fs-idp65442944" list-type="labeled-item"><item>For <emphasis effect="italics">x</emphasis> = 240, <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mi>X</m:mi><m:mo>&#8722;</m:mo><m:mi>&#956;</m:mi>
+   </m:mrow>
+   <m:mi>&#963;</m:mi>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math> = <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>240</m:mn><m:mo>&#8722;</m:mo><m:mn>280</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>13</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mo>&#8722;</m:mo><m:mn>3.0769</m:mn><m:mo>&#160;</m:mo>
+ </m:mrow>
+</m:math></item>
+<item>For <emphasis effect="italics">x</emphasis> = 306, <m:math>
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>306</m:mn><m:mo>&#8722;</m:mo><m:mn>280</m:mn>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>13</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>2</m:mn>
+ </m:mrow>
+</m:math></item>
+<item><emphasis effect="italics">P</emphasis>(240 &lt; <emphasis effect="italics">x</emphasis> &lt; 306) = <emphasis effect="italics">P</emphasis>(&#8211;3.0769 &lt; <emphasis effect="italics">z</emphasis> &lt; 2) = normalcdf(&#8211;3.0769,2,0,1) = 0.9762.</item>
+</list><para id="fs-idm15286272">According to the scenario given, this means that there is a 97.62% chance that he is not the father.</para>
+<para id="fs-idp166170256">To answer the second part of the question, there is a 1 &#8211; 0.9762 = 0.0238 = 2.38% chance that he is the father.</para></solution> --></exercise><exercise id="eip-291"><problem id="eip-455">
+<para id="eip-630">Facebook provides a variety of statistics on its Web site that detail the growth and popularity of the site.</para>
+<para id="eip-idp26662736">On average,  28 percent of 18 to 34 year olds check their Facebook profiles before getting out of bed in the morning.  Suppose this percentage follows a normal distribution with a standard deviation of five percent.</para>
+<list id="eip-idp160307472" list-type="enumerated" number-style="lower-alpha"><item>Find the probability that the percent of 18 to 34-year-olds who check Facebook before getting out of bed in the morning is at least 30.</item>
+<item>Find the 95<sup>th</sup> percentile,  and express it in a sentence.</item>
+</list></problem>
+
+<!-- <solution id="eip-11">
+<para id="eip-360"><emphasis effect="italics">X</emphasis> = the percent of 18 to 34-year-olds who check Facebook before getting out of bed in the morning.</para>
+<para id="eip-idp16494464"><emphasis effect="italics">X</emphasis> ~ <emphasis effect="italics">N</emphasis>(28, 5)</para>
+<list id="eip-idp160307472s" list-type="enumerated" number-style="lower-alpha"><item><emphasis effect="italics">P</emphasis>(<emphasis effect="italics">x</emphasis> &#8805; 30) = 0.3446; normalcdf(30,1EE99,28,5) = 0.3446</item>
+<item>
+<para id="eip-idm3944144">invNorm(0.95,0.28,0.05) = 0.3622.</para><para id="eip-idm3943760">95% of the percent of 18 to 34 year olds who check Facebook before getting out of bed in the morning is at most 36.22%.</para></item>
+<item><para id="eip-idm7864096"><emphasis effect="italics">P</emphasis>(25 &lt; <emphasis effect="italics">x</emphasis> &lt; 55).</para>
+<para id="eip-idm16259024"><emphasis effect="italics">P</emphasis>(25 &lt; <emphasis effect="italics">x</emphasis> &lt; 55) = normalcdf(25,55,28,5) = 0.7257(0.7257)(400) = 290.28</para></item>
+</list></solution> -->
+</exercise></section></content>
+</document>

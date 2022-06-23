@@ -1,0 +1,1209 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Measures of the Location of the Data -  BSTA 200 -- Humber College -- Version 2016RevA</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m62377</md:content-id>
+  <md:title>Measures of the Location of the Data -  BSTA 200 -- Humber College -- Version 2016RevA</md:title>
+  <md:abstract/>
+  <md:uuid>6b73999a-df52-47dc-9455-981d9871ac5b</md:uuid>
+</metadata>
+
+<content>
+
+<section id="eip-206"><title>Percentiles</title><para id="eip-617">Percentiles divide ordered data into hundredths. That is, 100 equal parts. There are 99 percentiles, which we denote by <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>P</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>,</m:mo><m:msub>
+   <m:mi>P</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>,</m:mo><m:msub>
+   <m:mi>P</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+  <m:mo>,</m:mo><m:mo>…</m:mo><m:mo>,</m:mo><m:msub>
+   <m:mi>P</m:mi>
+   <m:mrow>
+    <m:mn>99</m:mn></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math>.
+ To score in the 90<sup>th</sup> percentile of an exam does not mean that you received 90% on a test. It means that 90% of test scores are less than your score and 10% of the test scores are greater than your test score.
+</para><para id="eip-275">Percentiles are useful for comparing values. For this reason, universities and colleges use percentiles extensively. One instance in which colleges and universities use percentiles is when SAT results are used to determine a minimum testing score that will be used as an acceptance factor. For example, suppose Duke accepts SAT scores at or above the 75<sup>th</sup> percentile. That translates into a score of at least 1220.</para><para id="eip-660">Percentiles are mostly used with very large populations. Therefore, if you were to say that 90% of the test scores are less (and not the same or less) than your score, it would be acceptable because removing one particular data value is not significant. </para></section><section id="fs-idm21580416"><title>A Formula for Finding the <emphasis effect="italics">p</emphasis>th Percentile</title><para id="fs-idp1786064">Suppose we would like to find the <m:math><m:mi>p</m:mi></m:math>th percentile.  We must first find the <emphasis> location </emphasis> of the <m:math><m:mi>p</m:mi></m:math>th percentile.</para><equation id="eip-604"><title>Location of a Percentile</title><m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>L</m:mi>
+   <m:mi>p</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mfrac>
+   <m:mi>p</m:mi>
+   <m:mrow>
+    <m:mn>100</m:mn></m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math></equation><para id="eip-79">where <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>L</m:mi>
+   <m:mi>p</m:mi>
+  </m:msub>
+  </m:mrow>
+</m:math>
+ is the location of the <m:math><m:mi>p</m:mi></m:math>th percentile when the data is ordered from <emphasis> smallest to largest</emphasis>, and <m:math><m:mi>n</m:mi></m:math> is the total number of observations.</para><list id="fs-idm9831088" list-type="bulleted"><title>To find the <m:math><m:mi>p</m:mi></m:math>th percentile</title><item>Order the data from smallest to largest.</item>
+<item>Calculate <m:math><m:msub><m:mi>L</m:mi><m:mi>p</m:mi></m:msub></m:math></item>
+<item>If <m:math><m:msub><m:mi>L</m:mi><m:mi>p</m:mi></m:msub></m:math> is an integer, then the <m:math><m:mi>p</m:mi></m:math>th percentile is the data value in the <m:math><m:msub><m:mi>L</m:mi><m:mi>p</m:mi></m:msub></m:math> position in the ordered set of data.</item>
+<item>If <m:math><m:msub><m:mi>L</m:mi><m:mi>p</m:mi></m:msub></m:math> is not an integer, then we must calculate the <m:math><m:mi>p</m:mi></m:math>th percentile as outlined in the examples below.</item>
+</list><example id="fs-idm4569232"><exercise id="fs-idm105708208"><problem id="fs-idm3783968">
+<para id="fs-idp1509664">Listed are 29 ages for Academy Award winning best actors <emphasis effect="italics">in order from smallest to largest.</emphasis>
+<newline/>18; 21; 22; 25; 26; 27; 29; 30; 31; 33; 36; 37; 41; 42; 47; 52; 55; 57; 58; 62; 64; 67; 69; 71; 72; 73; 74; 76; 77
+<newline/>
+<newline/>
+a. Find the 70<sup>th</sup> percentile.
+<newline/>
+b. Find the 83<sup>rd</sup> percentile.</para>
+
+</problem>
+<solution id="fs-idp40713040"><para id="eip-id1172612783459">a. <m:math>
+ <m:mi>p</m:mi><m:mo>=</m:mo><m:mn>70</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>29</m:mn>
+</m:math>. The percentile locator formula is
+
+<m:math display="block">
+ <m:msub>
+  <m:mi>L</m:mi>
+  <m:mi>p</m:mi>
+ </m:msub>
+ <m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mfrac>
+  <m:mi>p</m:mi>
+  <m:mrow>
+   <m:mn>100</m:mn></m:mrow>
+ </m:mfrac>
+ 
+</m:math>
+The locator for the 70<sup>th</sup> percentile is
+<equation id="eip-id1170121389311"><m:math>
+ <m:msub>
+  <m:mi>L</m:mi>
+  <m:mrow>
+   <m:mn>70</m:mn></m:mrow>
+ </m:msub>
+ <m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+  <m:mrow>
+   <m:mn>29</m:mn><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow>
+ <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+  <m:mrow>
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>70</m:mn></m:mrow>
+    <m:mrow>
+     <m:mn>100</m:mn></m:mrow>
+   </m:mfrac>
+   </m:mrow>
+ <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>21</m:mn>
+</m:math>
+</equation>
+Since 21 is an integer, and the data value in the 21<sup>st</sup> position in the ordered data set is 64, the 70<sup>th</sup> percentile is 64 years. Or 
+<m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>P</m:mi>
+   <m:mrow>
+    <m:mn>70</m:mn></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>64</m:mn></m:mrow>
+</m:math>.
+<newline/>  
+<newline/>  
+b. <m:math>
+ <m:mi>p</m:mi><m:mo>=</m:mo><m:mn>83</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>29</m:mn>
+</m:math>. The locator for the 83<sup>rd</sup> percentile is
+
+<equation id="eip-id3322929">
+<m:math><m:msub><m:mi>L</m:mi><m:mn>83</m:mn></m:msub><m:mo>=</m:mo><m:mfenced><m:mrow><m:mn>29</m:mn><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:mfenced><m:mfenced><m:mfrac><m:mn>83</m:mn><m:mn>100</m:mn></m:mfrac></m:mfenced><m:mo>=</m:mo><m:mn>24</m:mn><m:mo>.</m:mo><m:mn>9</m:mn></m:math>
+</equation>
+Since 24.9 is NOT an integer, the 83<sup>rd</sup> percentile is 0.9 (90%) of the distance between 24<sup>th</sup> position and the 25<sup>th</sup> position. <newline/>
+
+The age in the 24<sup>th</sup> position is 71 and the age in the 25<sup>th</sup> position is 72. <newline/>Find the <emphasis>difference</emphasis> between these two values: <emphasis>72 - 71 = 1</emphasis>.  <newline/>
+<emphasis>Multiply</emphasis> the difference by the decimal part of the location:  <emphasis>0.9(1) = 0.9</emphasis>.  <newline/>
+<emphasis>Add</emphasis> this result to the smaller value (in the 24<sup>th</sup> position): <emphasis>71 + 0.9 = 71.9</emphasis>.<newline/>  
+
+The 83<sup>rd</sup> percentile is 71.9 years. That is, <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>P</m:mi>
+   <m:mrow>
+    <m:mn>83</m:mn></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>71.9</m:mn></m:mrow>
+</m:math>.
+</para></solution>
+</exercise></example><note id="fs-idm16529696" class="statistics try"><label/><title>Try It</title>
+<exercise id="fs-idm3894192">
+<problem id="fs-idp25866864">
+<para id="fs-idp25866992">Listed are 29 ages for Academy Award winning best actors <emphasis effect="italics">in order from smallest to largest.</emphasis></para>
+<para id="fs-idm19734064">18; 21; 22; 25; 26; 27; 29; 30; 31; 33; 36; 37; 41; 42; 47; 52; 55; 57; 58; 62; 64; 67; 69; 71; 72; 73; 74; 76; 77
+<newline/>
+<newline/>a. Calculate the 20<sup>th</sup> percentile.
+
+<newline/>b. Calculate the 55<sup>th</sup> percentile.</para></problem>
+<solution id="fs-idp26576896">
+<label/>
+<para id="fs-idp26577152">a. <m:math>
+ <m:mi>p</m:mi><m:mo>=</m:mo><m:mn>20</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>29</m:mn>
+</m:math>. The locator for the 20<sup>th</sup> percentile is
+
+<m:math display="block"><m:msub><m:mi>L</m:mi><m:mn>20</m:mn></m:msub><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mfenced><m:mrow><m:mn>29</m:mn><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:mfenced><m:mfenced><m:mfrac><m:mn>20</m:mn><m:mn>100</m:mn></m:mfrac></m:mfenced><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mn>6</m:mn></m:math>
+
+The age in the sixth position is 27. The 20<sup>th</sup> percentile is 27 years. Or, <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>P</m:mi>
+   <m:mrow>
+    <m:mn>20</m:mn></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>27</m:mn></m:mrow>
+</m:math>.</para><para id="fs-idm12885232">b. <m:math>
+ <m:mi>p</m:mi><m:mo>=</m:mo><m:mn>55</m:mn><m:mo>,</m:mo><m:mtext> </m:mtext><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>29</m:mn>
+</m:math>. The locator for the 55<sup>th</sup> percentile is
+
+<m:math display="block"><m:msub><m:mi>L</m:mi><m:mi>55</m:mi></m:msub><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mfenced><m:mrow><m:mn>29</m:mn><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:mfenced><m:mfenced><m:mfrac><m:mn>55</m:mn><m:mn>100</m:mn></m:mfrac></m:mfenced><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mn>16</m:mn><m:mo>.</m:mo><m:mn>5</m:mn></m:math>
+The age in the 16<sup>th</sup> position is 52 and the age in the 17<sup>th </sup>position is 55. The 55th percentile is 0.5 (50%) of the distance between 52 and 55.<newline/><newline/>
+
+ The distance between the 16<sup>th</sup> and 17<sup>th</sup> position is <m:math>
+ <m:mn>55</m:mn><m:mo>−</m:mo><m:mn>52</m:mn><m:mo>=</m:mo><m:mn>3</m:mn>
+</m:math>.
+<newline/>0.5 of the distance between the 16<sup>th</sup> and 17<sup>th</sup> position is <m:math>
+ <m:mn>0.5</m:mn><m:mrow><m:mo>(</m:mo>
+  <m:mn>3</m:mn>
+ <m:mo>)</m:mo></m:mrow><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mn>1.5</m:mn>
+</m:math>.
+<newline/>The 55th percentile is therefore <m:math>
+ <m:mrow>
+  <m:mn>52</m:mn><m:mo>+</m:mo><m:mn>1.5</m:mn><m:mo> </m:mo><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mn>53.5</m:mn><m:mtext>​</m:mtext></m:mrow>
+</m:math>.
+<newline/>
+
+The 55<sup>th</sup> percentile is <emphasis>53.5 years</emphasis>.</para></solution>
+</exercise></note></section>
+<para id="fs-idp16986528"><title>Quartiles</title>Quartiles are special percentiles. The first quartile, <emphasis effect="italics">Q</emphasis><sub>1</sub>, is the same as the 25<sup>th</sup> percentile, and the third quartile, <emphasis effect="italics">Q</emphasis><sub>3</sub>, is the same as the 75<sup>th</sup> percentile. The median, <emphasis effect="italics">M</emphasis>, is called both the second quartile, <emphasis effect="italics">Q</emphasis><sub>2</sub>, and the 50<sup>th</sup> percentile.</para><para id="element-105">To calculate quartiles, the data must be ordered from smallest to largest. Quartiles divide ordered data into four equal parts. </para><para id="element-681">The <term>median</term> is a number that measures the "center" of the data. You can think of the median as the "middle value," but it does not actually have to be one of the observed values. It is a number that separates ordered data into halves. Half the values are the same number or smaller than the median, and half the values are the same number or larger. For example, consider the following data.
+<newline/>1; 11.5; 6; 7.2; 4; 8; 9; 10; 6.8; 8.3; 2; 2; 10; 1
+<newline/>Ordered from smallest to largest:
+<newline/>1; 1; 2; 2; 4; 6; 6.8; 7.2; 8; 8.3; 9; 10; 10; 11.5</para><para id="element-546">Since there are 14 observations, the median is between the seventh value, 6.8, and the eighth value, 7.2. To find the median, add the two values together and divide by two.</para><equation id="element-293"><m:math display="block">
+ <m:mrow>
+  <m:mi>M</m:mi><m:mi>e</m:mi><m:mi>d</m:mi><m:mi>i</m:mi><m:mi>a</m:mi><m:mi>n</m:mi><m:mo>=</m:mo><m:mtext> </m:mtext><m:msub>
+   <m:mi>Q</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>6.8</m:mn><m:mo>+</m:mo><m:mn>7.2</m:mn></m:mrow>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>7</m:mn></m:mrow>
+</m:math>
+</equation><para id="element-995">The median or <emphasis>second quartile</emphasis> is seven. Half of the values are smaller than seven and half of the values are larger than seven.</para><para id="eip-866">To find the <emphasis>first quartile</emphasis>, we use our location of a percentile formula.
+
+The first quartile <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>P</m:mi>
+   <m:mrow>
+    <m:mn>25</m:mn></m:mrow>
+  </m:msub>
+  </m:mrow>
+</m:math>, so we find <m:math><m:msub><m:mi>L</m:mi><m:mn>25</m:mn></m:msub></m:math>.
+
+<equation id="eip-id2351888"><m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>L</m:mi>
+   <m:mrow>
+    <m:mn>25</m:mn></m:mrow>
+  </m:msub>
+  <m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>14</m:mn><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>25</m:mn></m:mrow>
+     <m:mrow>
+      <m:mn>100</m:mn></m:mrow>
+    </m:mfrac>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3.75</m:mn></m:mrow>
+</m:math>
+</equation>
+
+The first quartile falls between the 3<sup>rd</sup> and 4<sup>th</sup> sorted values. The 3<sup>rd</sup> value is 2 and the 4<sup>th</sup> value is also 2.  Since these are the same value, we do not need to perform any calculations.<newline/>
+
+The first quartile <m:math><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>2</m:mn><m:mspace linebreak="newline"/></m:math>.</para><para id="eip-595">The <emphasis>third</emphasis> quartile <m:math><m:msub><m:mi>Q</m:mi><m:mn>3</m:mn></m:msub><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:msub><m:mi>P</m:mi><m:mn>75</m:mn></m:msub><m:mspace linebreak="newline"/></m:math>, so we find <m:math><m:msub><m:mi>L</m:mi><m:mn>75</m:mn></m:msub>
+</m:math>.
+
+<equation id="eip-id1169613062873"><m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>L</m:mi>
+   <m:mrow>
+    <m:mn>75</m:mn></m:mrow>
+  </m:msub>
+  <m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>14</m:mn><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>75</m:mn></m:mrow>
+     <m:mrow>
+      <m:mn>100</m:mn></m:mrow>
+    </m:mfrac>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>11.25</m:mn></m:mrow>
+</m:math>
+</equation>
+
+The first quartile is therefore between the 11<sup>th</sup> and 12<sup>th</sup> sorted values. The 11<sup>th</sup> value is 9 and the 12<sup>th</sup> value is 10.  <newline/>
+ 
+The distance between the 11<sup>th</sup> and 12<sup>th</sup> values is <m:math>
+ <m:mn>10</m:mn><m:mo>−</m:mo><m:mn>9</m:mn><m:mo>=</m:mo><m:mn>1</m:mn>
+</m:math>.
+ <newline/>
+0.25 of the distance is <m:math>
+ <m:mn>0.25</m:mn><m:mrow><m:mo>(</m:mo>
+  <m:mn>1</m:mn>
+ <m:mo>)</m:mo></m:mrow><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mn>0.25</m:mn>
+</m:math>.
+ <newline/>
+
+The third quartile <m:math><m:msub><m:mi>Q</m:mi><m:mn>3</m:mn></m:msub><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mn>9</m:mn><m:mo>.</m:mo><m:mn>25</m:mn></m:math>.</para><para id="eip-122">The <emphasis>interquartile range</emphasis> <m:math>
+ <m:mrow>
+  <m:mi>I</m:mi><m:mi>Q</m:mi><m:mi>R</m:mi></m:mrow>
+</m:math>
+ is a number that indicates the spread of the middle half or the middle 50% of the data. It is the difference between the third quartile <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+  <m:mtext>​</m:mtext></m:mrow>
+</m:math>, and the first quartile <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mtext>​</m:mtext></m:mrow>
+</m:math>. From the preceding example, <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mtext>​</m:mtext><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow>
+</m:math>
+and <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+  <m:mtext>​</m:mtext><m:mo>=</m:mo><m:mn>9.25</m:mn></m:mrow>
+</m:math>.
+<newline/>
+Therefore,</para><para id="eip-505"><equation id="eip-id6828152">
+<m:math><m:mi>I</m:mi><m:mi>Q</m:mi><m:mi>R</m:mi><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:msub><m:mi>Q</m:mi><m:mn>3</m:mn></m:msub><m:mo>-</m:mo><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub><m:mo> </m:mo><m:mspace linebreak="newline"/><m:mo> </m:mo><m:mo> </m:mo><m:mo> </m:mo><m:mo> </m:mo><m:mo> </m:mo><m:mo> </m:mo><m:mo> </m:mo><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mn>9</m:mn><m:mo>.</m:mo><m:mn>25</m:mn><m:mo> </m:mo><m:mo>-</m:mo><m:mo> </m:mo><m:mn>2</m:mn><m:mo> </m:mo><m:mspace linebreak="newline"/><m:mo> </m:mo><m:mo> </m:mo><m:mo> </m:mo><m:mo> </m:mo><m:mo> </m:mo><m:mo> </m:mo><m:mo> </m:mo><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mn>7</m:mn><m:mo>.</m:mo><m:mn>25</m:mn></m:math>
+</equation>
+The range of the middle 50% of the values is 7.25.</para><example id="element-826">
+<exercise id="exer5">
+<problem id="id45036025">
+<para id="element-720">For the following 13 real estate prices, find the quartiles and calculate the <emphasis effect="italics">IQR</emphasis>.
+<newline/>389,950; 230,500; 158,000; 479,000; 639,000; 114,950; 5,500,000; 387,000; 659,000; 529,000; 575,000; 488,800; 1,095,000</para></problem>
+<solution id="id45746296">
+<para id="element-939">Order the data from smallest to largest.
+<newline/>114,950; 158,000; 230,500; 387,000; 389,950; 479,000; 488,800; 529,000; 575,000; 639,000; 659,000; 1,095,000; 5,500,000 <newline/><newline/>
+
+There are 13 data points.</para><para id="element-170">Since there are 13 observations, the median is the 7th (middle) value in the sorted data. 
+<newline/>
+<m:math display="block">
+ <m:mrow>
+  <m:mi>M</m:mi><m:mi>e</m:mi><m:mi>d</m:mi><m:mi>i</m:mi><m:mi>a</m:mi><m:mi>n</m:mi><m:mo>=</m:mo><m:mo> </m:mo><m:msub>
+   <m:mi>Q</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo> </m:mo><m:mo>=</m:mo><m:mn>488</m:mn><m:mo>,</m:mo><m:mn>800</m:mn></m:mrow>
+</m:math></para><para id="element-563">For the first quartile, the locator is
+
+<m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>L</m:mi>
+   <m:mrow>
+    <m:mn>25</m:mn></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>13</m:mn><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>25</m:mn></m:mrow>
+     <m:mrow>
+      <m:mn>100</m:mn></m:mrow>
+    </m:mfrac>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3.5.</m:mn></m:mrow>
+</m:math>
+
+ 
+The first quartile is 0.5 (midway) of the distance between the 3rd and 4th sorted values.
+<newline/>
+The distance between the 3rd and 4th values is <m:math>
+ <m:mn>387</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mo>−</m:mo><m:mn>230</m:mn><m:mo>,</m:mo><m:mn>500</m:mn><m:mo>=</m:mo><m:mn>156</m:mn><m:mo>,</m:mo><m:mn>500</m:mn><m:mtext>​</m:mtext>
+</m:math>.
+
+<newline/>
+0.5 of the distance gives  <m:math>
+ <m:mn>0.5</m:mn><m:mrow><m:mo>(</m:mo>
+  <m:mrow>
+   <m:mn>156</m:mn><m:mo>,</m:mo><m:mn>500</m:mn></m:mrow>
+ <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>78</m:mn><m:mo>,</m:mo><m:mn>250</m:mn>
+</m:math>.
+
+
+<newline/>
+So the value midway the 3rd and 4th values is <m:math>
+ <m:mn>230</m:mn><m:mo>,</m:mo><m:mn>500</m:mn><m:mo>+</m:mo><m:mn>78</m:mn><m:mo>,</m:mo><m:mn>250</m:mn><m:mo>=</m:mo><m:mn>308</m:mn><m:mo>,</m:mo><m:mn>750</m:mn>
+</m:math>.
+
+
+
+ 
+<newline/><newline/>  The first quartile 
+<m:math><m:msub><m:mi>Q</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>308</m:mn><m:mo>,</m:mo><m:mn>750</m:mn></m:math>.</para><para id="element-756">For the third quartile, the percentile locator is
+
+<m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>L</m:mi>
+   <m:mrow>
+    <m:mn>75</m:mn><m:mo> </m:mo></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>13</m:mn><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>75</m:mn></m:mrow>
+     <m:mrow>
+      <m:mn>100</m:mn></m:mrow>
+    </m:mfrac>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mn>10.5.</m:mn></m:mrow>
+</m:math>
+
+
+
+The distance between the 10th and 11th values is <m:math>
+ <m:mn>659</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mo>−</m:mo><m:mn>639</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mo>=</m:mo><m:mn>20</m:mn><m:mo>,</m:mo><m:mn>000</m:mn>
+</m:math>.
+
+<newline/>
+0.5 of the distance gives  <m:math>
+ <m:mtext>​</m:mtext><m:mn>0.5</m:mn><m:mrow><m:mo>(</m:mo>
+  <m:mrow>
+   <m:mn>20</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow>
+ <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>10</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mtext>​</m:mtext>
+</m:math>.
+
+<newline/>
+
+The third quartile <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>639</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mo>+</m:mo><m:mn>10</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mo>=</m:mo><m:mn>649</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow>
+</m:math>.</para><para id="element-290">The interquartile range
+<m:math display="block">
+ <m:mrow>
+  <m:mi>I</m:mi><m:mi>Q</m:mi><m:mi>R</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>Q</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>−</m:mo><m:msub>
+   <m:mi>Q</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>649</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mo>-</m:mo><m:mn>308</m:mn><m:mo>,</m:mo><m:mn>750</m:mn><m:mo>=</m:mo><m:mn>340</m:mn><m:mo>,</m:mo><m:mn>250.</m:mn></m:mrow>
+</m:math>
+</para></solution>
+</exercise>
+</example>
+
+<note id="eip-344"><label/><title>Try It</title>
+<exercise id="fs-idp23368176"><problem id="fs-idp23368304">
+<para id="fs-idp5269648">Find the interquartile range for the following two data sets and compare them.</para>
+<para id="fs-idp4060048"><emphasis>Test Scores for Class A</emphasis>
+<newline/>69; 96; 81; 79; 65; 76; 83; 99; 89; 67; 90; 77; 85; 98; 66; 91; 77; 69; 80; 94
+<newline/><emphasis>Test Scores for Class B</emphasis>
+<newline/>90; 72; 80; 92; 90; 97; 92; 75; 79; 68; 70; 80; 99; 95; 78; 73; 71; 68; 95; 100</para></problem>
+<solution id="fs-idp63726608">
+<label/> 
+<para id="fs-idp53256560"><title>Class A</title>Data sorted from smallest to largest:</para><para id="fs-idp38926352"><list list-type="labeled-item" display="inline">
+<item>65</item> <item>66</item> <item>67</item> <item>69</item> <item>69</item>
+<item>76</item> <item>77</item> <item>77</item> <item>79</item> <item>80</item>
+<item>81</item> <item>83</item> <item>85</item> <item>89</item> <item>90</item>
+<item>91</item> <item>94</item> <item>96</item> <item>98</item> <item>99.</item>
+</list>
+<newline/>
+There are 20 data points.
+<newline/><newline/></para><para id="fs-idp50017136"><title>First Quartile</title>Locator for the first quartile:
+<m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>L</m:mi>
+   <m:mrow>
+    <m:mn>25</m:mn></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>20</m:mn><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>25</m:mn></m:mrow>
+     <m:mrow>
+      <m:mn>100</m:mn></m:mrow>
+    </m:mfrac>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>5.25</m:mn></m:mrow>
+</m:math>.
+<newline/>
+The first quartile is 0.25 of the distance between the 5th and 6th data points.
+<m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>P</m:mi>
+   <m:mrow>
+    <m:mn>25</m:mn></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>69</m:mn><m:mo>+</m:mo><m:mn>0.25</m:mn><m:mo stretchy="false">(</m:mo><m:mn>76</m:mn><m:mo>−</m:mo><m:mn>69</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>70.75</m:mn></m:mrow>
+</m:math>
+
+
+</para><para id="fs-idm32802448"><title>Median</title>Since there are 20 data points, the median is the between the 10th and 11th data points. The 10th is 80 and the 11th is 81. Therefore, the median is <m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>80</m:mn><m:mo>+</m:mo><m:mn>81</m:mn></m:mrow>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>80.5.</m:mn></m:mrow>
+</m:math>
+</para><para id="fs-idp42558208"><title>Third Quartile</title>Locator for the third quartile: <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>L</m:mi>
+   <m:mrow>
+    <m:mn>75</m:mn></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>20</m:mn><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>75</m:mn></m:mrow>
+     <m:mrow>
+      <m:mn>100</m:mn></m:mrow>
+    </m:mfrac>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>15.75.</m:mn></m:mrow>
+</m:math>
+
+<newline/>
+The third quartile is 0.75 of the distance between the 15th and 16th data points.
+<m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>P</m:mi>
+   <m:mrow>
+    <m:mn>75</m:mn></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>90</m:mn><m:mo>+</m:mo><m:mn>0.75</m:mn><m:mo stretchy="false">(</m:mo><m:mn>91</m:mn><m:mo>−</m:mo><m:mn>90</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>90.75</m:mn></m:mrow>
+</m:math>
+</para><para id="fs-idp22958256"><title>The Interquartile Range</title><m:math display="block">
+ <m:mrow>
+  <m:mi>I</m:mi><m:mi>Q</m:mi><m:mi>R</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>Q</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+  <m:mo>−</m:mo><m:msub>
+   <m:mi>Q</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>90.75</m:mn><m:mo>−</m:mo><m:mn>70.75</m:mn><m:mo>=</m:mo><m:mn>20</m:mn></m:mrow>
+</m:math>
+
+
+<newline/>
+<newline/>
+</para><para id="fs-idp45382448"><title>Class B</title>Order the data from smallest to largest. n = 20.</para><para id="fs-idp18144128"><list list-type="labeled-item" display="inline">
+<item>68</item> <item>68</item> <item>70</item> <item>71</item> <item>72</item>
+<item>73</item> <item>75</item> <item>78</item> <item>79</item> <item>80</item>
+<item>80</item> <item>90</item> <item>90</item> <item>92</item> <item>92</item>
+<item>95</item> <item>95</item> <item>97</item> <item>99</item> <item>100</item>
+</list></para>
+<para id="fs-idm24597200"><title>First Quartile</title>Locator for the first quartile:
+<m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>L</m:mi>
+   <m:mrow>
+    <m:mn>25</m:mn></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>20</m:mn><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>25</m:mn></m:mrow>
+     <m:mrow>
+      <m:mn>100</m:mn></m:mrow>
+    </m:mfrac>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>5.25</m:mn></m:mrow>
+</m:math>.
+<newline/>
+The first quartile is 0.25 of the distance between the 5th and 6th data points.
+<m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>P</m:mi>
+   <m:mrow>
+    <m:mn>25</m:mn></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>72</m:mn><m:mo>+</m:mo><m:mn>0.25</m:mn><m:mo stretchy="false">(</m:mo><m:mn>73</m:mn><m:mo>−</m:mo><m:mn>72</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>72.25</m:mn></m:mrow>
+</m:math>
+</para><para id="fs-idp5078928"><title>Median</title>Both the 10th and 11th values are 80.<m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>80</m:mn><m:mo>+</m:mo><m:mn>80</m:mn></m:mrow>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mn>80</m:mn></m:mrow>
+</m:math>
+</para><para id="fs-idp22083392"><title>Third Quartile</title>Locator for the third quartile: <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>L</m:mi>
+   <m:mrow>
+    <m:mn>75</m:mn></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>20</m:mn><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>75</m:mn></m:mrow>
+     <m:mrow>
+      <m:mn>100</m:mn></m:mrow>
+    </m:mfrac>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>15.75.</m:mn></m:mrow>
+</m:math>
+
+<m:math display="block">
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:msub>
+   <m:mi>P</m:mi>
+   <m:mrow>
+    <m:mn>75</m:mn></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>92</m:mn><m:mo>+</m:mo><m:mn>0.75</m:mn><m:mo stretchy="false">(</m:mo><m:mn>92</m:mn><m:mo>−</m:mo><m:mn>95</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>94.25</m:mn></m:mrow>
+</m:math>
+</para><para id="fs-idp41882032"><title>The Interquartile Range</title><m:math display="block">
+ <m:mrow>
+  <m:mi>I</m:mi><m:mi>Q</m:mi><m:mi>R</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>Q</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+  <m:mo>−</m:mo><m:msub>
+   <m:mi>Q</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>94.25</m:mn><m:mo>−</m:mo><m:mn>72.25</m:mn><m:mo>=</m:mo><m:mn>22</m:mn></m:mrow>
+</m:math>
+</para><para id="fs-idm11417392">The data for Class <emphasis effect="italics">B</emphasis> has a larger <emphasis effect="italics">IQR</emphasis>, so the scores between <emphasis effect="italics">Q</emphasis><sub>3</sub> and <emphasis effect="italics">Q</emphasis><sub>1</sub> (middle 50%) for the data for Class <emphasis effect="italics">B</emphasis> are more spread out and not clustered about the median.</para></solution>
+</exercise></note>
+<note id="eip-726"><label/><title>Video</title>Watch a video on calculating Percentiles and Quartiles <link url="https://youtu.be/tXGcs02y9r4">here</link>: <link url="https://youtu.be/tXGcs02y9r4" window="new">https://youtu.be/tXGcs02y9r4</link></note><para id="aelement-847"><title>Outliers</title>The <emphasis effect="italics">IQR</emphasis> can help to determine potential <emphasis>outliers</emphasis>. <emphasis>A value is suspected to be a potential outlier if it is less than (1.5)(<emphasis effect="italics">IQR</emphasis>) below the first quartile or more than (1.5)(<emphasis effect="italics">IQR</emphasis>) above the third quartile</emphasis>. Potential outliers always require further investigation.</para><para id="eip-838">Potential outliers are values below <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>−</m:mo><m:mn>1.5</m:mn><m:mo stretchy="false">(</m:mo><m:mi>I</m:mi><m:mi>Q</m:mi><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+</m:math>
+ or above <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:mn>1.5</m:mn><m:mo stretchy="false">(</m:mo><m:mi>I</m:mi><m:mi>Q</m:mi><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+</m:math>.</para><note id="afs-idm10803744"><label/><title>NOTE</title>
+<para id="afs-idp4345696">A potential outlier is a data point that is significantly different from the other data points. These special data points may be errors or some kind of abnormality or they may be a key to understanding the data.</para></note>
+
+<example id="aelement-826">
+<exercise id="aexer5"><problem id="aid45036025">
+<para id="aelement-720">Calculate the IQR and determine if there are potential outliers for the following 11 scores.<newline/>
+20 ; 6 ; 15 ; 10 ; 45 ; 18 ; 25 ; 22 ; 19 ; 37 ; 13
+
+
+<newline/></para></problem>
+<solution id="aid45746296">
+<para id="aelement-939">Order the data from smallest to largest.
+<newline/>6 ; 10 ; 13 ; 15 ; 18 ; 19 ; 20 ; 22 ; 25 ; 37 ; 45</para>
+<para id="eip-id1984835"><equation id="eip-id7563746"><m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>L</m:mi>
+   <m:mrow>
+    <m:mn>25</m:mn></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>11</m:mn><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>25</m:mn></m:mrow>
+     <m:mrow>
+      <m:mn>100</m:mn></m:mrow>
+    </m:mfrac>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>r</m:mi><m:mi>d</m:mi><m:mtext> </m:mtext><m:mo>→</m:mo><m:mtext> </m:mtext><m:msub>
+   <m:mi>Q</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>13</m:mn></m:mrow>
+</m:math>
+</equation>
+<equation id="eip-id7496221"><m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>L</m:mi>
+   <m:mrow>
+    <m:mn>75</m:mn></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>11</m:mn><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>75</m:mn></m:mrow>
+     <m:mrow>
+      <m:mn>100</m:mn></m:mrow>
+    </m:mfrac>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>9</m:mn><m:mi>t</m:mi><m:mi>h</m:mi><m:mtext> </m:mtext><m:mo>→</m:mo><m:mtext> </m:mtext><m:msub>
+   <m:mi>Q</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>25</m:mn></m:mrow>
+</m:math>
+</equation>
+<equation id="eip-id6311212"><m:math>
+ <m:mrow>
+  <m:mi>I</m:mi><m:mi>Q</m:mi><m:mi>R</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mi>Q</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+  <m:mo>−</m:mo><m:msub>
+   <m:mi>Q</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>25</m:mn><m:mo>−</m:mo><m:mn>13</m:mn><m:mo>=</m:mo><m:mn>12</m:mn></m:mrow>
+</m:math>
+</equation>
+<equation id="eip-id8736509"><m:math>
+ <m:mrow>
+  <m:mn>1.5</m:mn><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>I</m:mi><m:mi>Q</m:mi><m:mi>R</m:mi></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>1.5</m:mn><m:mo>×</m:mo><m:mn>12</m:mn><m:mo>=</m:mo><m:mn>18</m:mn></m:mrow>
+</m:math>
+</equation>
+<equation id="eip-id8205454"><m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>−</m:mo><m:mn>1.5</m:mn><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>I</m:mi><m:mi>Q</m:mi><m:mi>R</m:mi></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>13</m:mn><m:mo>−</m:mo><m:mn>18</m:mn><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow>
+</m:math>
+</equation>
+
+<equation id="eip-id1172571286974">
+<m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>Q</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+  <m:mo>+</m:mo><m:mn>1.5</m:mn><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mi>I</m:mi><m:mi>Q</m:mi><m:mi>R</m:mi></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>25</m:mn><m:mo>+</m:mo><m:mn>18</m:mn><m:mo>=</m:mo><m:mn>43</m:mn></m:mrow>
+</m:math>
+
+</equation>
+
+</para><para id="aelement-109">No score is less than –5. However, 45 is more than 43. Therefore, 45 is a potential <term>outlier</term>.</para></solution>
+</exercise></example>
+
+<section id="fs-idp45793312">
+<title>Interpreting Percentiles, Quartiles, and Median</title>
+<para id="eip-400">A percentile indicates the relative standing of a data value when data are sorted into numerical order from smallest to largest. Percentages of data values are less than or equal to the pth percentile. For example, 15% of data values are less than or equal to the 15<sup>th</sup> percentile.</para>
+<list id="eip-id1164310609380" list-type="bulleted" bullet-style="bullet"><item>Low percentiles always correspond to lower data values.</item>
+<item>High percentiles always correspond to higher data values.</item>
+</list><para id="fs-idp44902944">A percentile may or may not correspond to a value judgment about whether it is "good" or "bad." The interpretation of whether a certain percentile is "good" or "bad" depends on the context of the situation to which the data applies. In some situations, a low percentile would be considered "good;" in other contexts a high percentile might be considered "good". In many situations, there is no value judgment that applies.</para>
+<para id="fs-idm23920480">Understanding how to interpret percentiles properly is important not only when describing data, but also when calculating probabilities in later chapters of this text.</para> 
+</section>
+
+<note id="fs-idm106923680">
+<label/>
+<title>Guideline</title>
+<para id="fs-idm20251376">When writing the interpretation of a percentile in the context of the given data, the sentence should contain the following information.</para>
+<list id="eip-id1168197264788" list-type="bulleted">
+<item>information about the context of the situation being considered</item>
+<item>the data value (value of the variable) that represents the percentile</item>
+<item>the percent of individuals or items with data values below the percentile</item>
+<item>the percent of individuals or items with data values above the percentile.</item>
+</list>
+</note>
+
+<example id="eip-id1170215995305">
+<exercise id="fs-idm91768592">
+<problem id="fs-idm91768464">
+<para id="eip-id1170184310084">On a timed math test, the first quartile for time it took to finish the exam was 35 minutes. Interpret the first quartile in the context of this situation.</para></problem>
+<solution id="fs-idm53128368">
+<list id="eip-id1170179452695" list-type="bulleted"><item>Twenty-five percent of students finished the exam under 35 minutes. </item>
+<item>Seventy-five percent of students finished the exam in over 35 minutes.</item>
+<item>A low percentile could be considered good, as finishing more quickly on a timed exam is desirable. (If you take too long, you might not be able to finish.)</item>
+</list></solution>
+</exercise>
+</example>
+
+<example id="eip-id1170441826663">
+<exercise id="fs-idm148596320">
+<problem id="fs-idm170402432"><para id="eip-id1170436117670">On a 20 question math test, the 70<sup>th</sup> percentile for number of correct answers was 16. Interpret the 70<sup>th</sup> percentile in the context of this situation.</para></problem>
+<solution id="fs-idm129791472"><list id="element-616" list-type="bulleted"><item>Seventy percent of students answered less than 16 questions correctly.</item>
+<item>Thirty percent of students answered more than 16 questions correctly.</item>
+<item>A higher percentile could be considered good, as answering more questions correctly is desirable.</item>
+</list></solution></exercise>
+</example>
+
+<note id="fs-idp77029680" class="statistics try">
+<label/><title>Try It</title>
+<exercise id="fs-idp34034288">
+<problem id="fs-idp48692144">
+<para id="fs-idp55037680">On a 60 point written assignment, the 80<sup>th</sup> percentile for the number of points earned was 49. Interpret the 80<sup>th</sup> percentile in the context of this situation.</para>
+</problem>
+<solution id="fs-idp89340800">
+<label/>
+<para id="fs-idp75133760">Eighty percent of students earned less than 49 points. Twenty percent of students earned more than 49 points. A higher percentile is good because getting more points on an assignment is desirable.</para></solution>
+</exercise>
+</note>
+
+<example id="eip-id7060500">
+<exercise id="fs-idm205091056">
+<problem id="fs-idm15124096">
+<para id="eip-id1170610063171">At a community college, it was found that the 30<sup>th</sup> percentile of credit units that students are enrolled for is seven units. Interpret the 30<sup>th</sup> percentile in the context of this situation.</para>
+</problem>
+<solution id="fs-idm167613888">
+<list id="element-410" list-type="bulleted"><item>Thirty percent of students are enrolled in seven or fewer credit units.</item>
+<item>Seventy percent of students are enrolled in seven or more credit units.</item>
+<item>In this example, there is no "good" or "bad" value judgment associated with a higher or lower percentile. Students attend community college for varied reasons and needs, and their course load varies according to their needs.</item>
+</list></solution>
+</exercise>
+</example>
+
+<section id="eip-132"><title>Boxplot and the 5-Number Summary</title><para id="eip-244">A <term>boxplot</term>  is a graphical display, based on quartiles, that helps picture the distribution of a data set.
+The following values are needed to construct a box plot. They are also referred to as the <term> 5-number summary</term> .
+</para><list id="eip-11" list-type="enumerated" number-style="arabic"><item>Minimum value (lowest value)<newline/></item>
+<item>First quartile (Q<sub>1</sub>)<newline/></item>
+<item>Median (Q<sub>2</sub>)<newline/></item>
+<item>Third quartile (Q<sub>3</sub>)<newline/></item>
+<item>Maximum value (highest value)</item>
+ </list><para id="eip-933">A boxplot divides data into quartiles (see figure below). It consists of a rectangle in the middle, bounded on the left (bottom) by the first quartile (Q<sub>1</sub>), and on the right (top) by the third quartile (Q<sub>3</sub>). A vertical line is also drawn within the box representing the median.
+Two horizontal lines, called whiskers, extend from the bottom and top of the box. The bottom whisker extends from Q<sub>1</sub> to the smallest non-outlier in the data set, and the top whisker extends from Q<sub>3</sub> to the largest non-outlier. Outliers (if they exist) are plotted separately as points (or asteriks) on the chart. </para><para id="eip-569"><figure id="eip-id4787521"><media id="box1" alt="This is a boxplot showing the box, whiskers, and outliers. Min, Q1, median, Q3, and max are labelled.">
+<image src="../../media/box1.png" mime-type="image/png" width="640" print-width="6in"/>
+</media>
+<caption>Boxplot</caption></figure></para></section><example id="eip-536"><exercise id="eip-id1165031863367"><problem id="eip-id1165031859599">
+<para id="eip-id1165029589931">Sharpe Middle School is applying for a grant that will be used to add fitness equipment to the gym. The principal surveyed 15 anonymous students to determine how many minutes a day the students spend exercising. The number of exercise minutes from the 15 anonymous students are shown below.
+<newline/><newline/>
+50 ; 10 ; 45 ; 90 ; 0 ; 100 ; 20 ; 30 ; 30 ; 40 ; 0 ; 60 ; 120 ; 70 ; 30
+<newline/><newline/>
+Determine the 5-number summary and construct a boxplot for the data.</para>
+</problem>
+<solution id="eip-id1165032405269">
+
+<para id="eip-id1165031880734"><equation id="eip-id6973298">
+<m:math display="block">
+ <m:mrow>
+  <m:mi>M</m:mi><m:mi>i</m:mi><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow>
+</m:math>
+</equation>
+
+<equation id="eip-id6648543"><m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>L</m:mi>
+   <m:mrow>
+    <m:mn>25</m:mn></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>15</m:mn><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>25</m:mn></m:mrow>
+     <m:mrow>
+      <m:mn>100</m:mn></m:mrow>
+    </m:mfrac>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>t</m:mi><m:mi>h</m:mi><m:mtext> </m:mtext><m:mo>→</m:mo><m:mtext> </m:mtext><m:msub>
+   <m:mi>Q</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>20</m:mn></m:mrow>
+</m:math>
+</equation>
+
+<equation id="eip-id2223664"><m:math>
+ <m:mrow>
+  <m:mi>M</m:mi><m:mi>e</m:mi><m:mi>d</m:mi><m:mi>i</m:mi><m:mi>a</m:mi><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>40</m:mn></m:mrow>
+</m:math>
+</equation>
+<equation id="eip-id1860811"><m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>L</m:mi>
+   <m:mrow>
+    <m:mn>75</m:mn></m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mn>15</m:mn><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>75</m:mn></m:mrow>
+     <m:mrow>
+      <m:mn>100</m:mn></m:mrow>
+    </m:mfrac>
+    </m:mrow>
+  <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>12</m:mn><m:mi>t</m:mi><m:mi>h</m:mi><m:mtext> </m:mtext><m:mo>→</m:mo><m:mtext> </m:mtext><m:msub>
+   <m:mi>Q</m:mi>
+   <m:mn>3</m:mn>
+  </m:msub>
+  <m:mo>=</m:mo><m:mn>70</m:mn></m:mrow>
+</m:math>
+</equation>
+
+<equation id="eip-id1165035487728"><m:math display="block">
+ <m:mrow>
+  <m:mi>M</m:mi><m:mi>a</m:mi><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>120</m:mn></m:mrow>
+</m:math>
+</equation>
+<figure id="eip-id1168043222512"><title>Boxplot for Exercise Minutes Data</title><media id="box2" alt="This is a boxplot with min=0, Q1=20, median=40, Q3=70, max=120.">
+<image src="../../media/box2.png" mime-type="image/png" width="600" print-width="5in"/>
+</media>
+</figure><newline/>Since 75% of the students exercise for 70 minutes or less daily, and since the <emphasis effect="italics">IQR</emphasis> is 50 minutes (70 – 20 = 50), we know that half of the students surveyed exercise between 20 minutes and 70 minutes daily. This seems a reasonable amount of time spent exercising, so the principal would be justified in purchasing the new equipment.
+</para></solution>
+</exercise></example><section id="fs-idm63224784" class="references"><title>References</title><para id="fs-idm63224288">Cauchon, Dennis, Paul Overberg. “Census data shows minorities now a majority of U.S. births.” USA Today, 2012. Available online at http://usatoday30.usatoday.com/news/nation/story/2012-05-17/minority-birthscensus/55029100/1 (accessed April 3, 2013).</para>
+<para id="fs-idm76887104">Data from the United States Department of Commerce: United States Census Bureau. Available online at http://www.census.gov/ (accessed April 3, 2013).</para>
+<para id="fs-idm76886560">“1990 Census.” United States Department of Commerce: United States Census Bureau. Available online at http://www.census.gov/main/www/cen1990.html (accessed April 3, 2013).</para>
+<para id="fs-idm76885984">Data from <emphasis effect="italics">San Jose Mercury News</emphasis>.</para><para id="fs-idm76885600">Data from <emphasis effect="italics">Time Magazine</emphasis>; survey by Yankelovich Partners, Inc.</para></section><section id="fs-idm13790128" class="summary">
+<title>Chapter Review</title><para id="fs-idp1397504">The values that divide a rank-ordered set of data into 100 equal parts are called percentiles. Percentiles are used to compare and interpret data. For example, an observation at the 50<sup>th</sup> percentile would be greater than 50 percent of the other obeservations in the set. Quartiles divide data into quarters. The first quartile (<emphasis effect="italics">Q</emphasis><sub>1</sub>) is the 25<sup>th</sup> percentile,the second quartile (<emphasis effect="italics">Q</emphasis><sub>2</sub> or median) is 50<sup>th</sup> percentile, and the third quartile (<emphasis effect="italics">Q</emphasis><sub>3</sub>) is the the 75<sup>th</sup> percentile. The interquartile range, or <emphasis effect="italics">IQR</emphasis>, is the range of the middle 50 percent of the data values. The <emphasis effect="italics">IQR</emphasis> is found by subtracting <emphasis effect="italics">Q</emphasis><sub>1</sub> from <emphasis effect="italics">Q</emphasis><sub>3</sub>, and can help determine outliers by using the following two expressions.</para><list id="fs-idp12766560" list-type="bulleted"><item><emphasis effect="italics">Q</emphasis><sub>3</sub> + <emphasis effect="italics">IQR</emphasis>(1.5)</item>
+<item><emphasis effect="italics">Q</emphasis><sub>1</sub> – <emphasis effect="italics">IQR</emphasis>(1.5)</item>
+</list></section>
+
+<section id="fs-idm202752" class="formula-review">
+<title>Formula Review</title>
+<para id="fs-idp5126816"><m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mi>L</m:mi>
+   <m:mi>p</m:mi>
+  </m:msub>
+  <m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mfrac>
+   <m:mi>p</m:mi>
+   <m:mrow>
+    <m:mn>100</m:mn></m:mrow>
+  </m:mfrac>
+  </m:mrow>
+</m:math></para><para id="fs-idp706784">where <emphasis effect="italics">L</emphasis>p = the ranking or position of a data value,</para><para id="fs-idm55046864"><emphasis effect="italics">p</emphasis> = the pth percentile,</para><para id="fs-idm5691392"><emphasis effect="italics">n</emphasis> = total number of data</para>
+</section>
+
+<section id="fs-idp40431760" class="practice">
+<exercise id="fs-idm1110784">
+<problem id="fs-idm38839376">
+<para id="fs-idm38839120">Listed are 29 ages for Academy Award winning best actors <emphasis effect="italics">in order from smallest to largest.</emphasis></para>
+<para id="fs-idm6939584">18; 21; 22; 25; 26; 27; 29; 30; 31; 33; 36; 37; 41; 42; 47; 52; 55; 57; 58; 62; 64; 67; 69; 71; 72; 73; 74; 76; 77</para>
+<list id="fs-idp12728784" list-type="enumerated" number-style="lower-alpha">
+<item>Find the 40<sup>th</sup> percentile.</item>
+<item>Find the 78<sup>th</sup> percentile.</item>
+</list>
+</problem>
+<solution id="fs-idm60642032">
+<list id="fs-idp34749472" list-type="enumerated" number-style="lower-alpha"><item>The 40<sup>th</sup> percentile is 37 years.</item>
+<item>The 78<sup>th</sup> percentile is 69.8 years.</item>
+</list></solution>
+</exercise>
+
+<exercise id="fs-idm4719584">
+<problem id="fs-idm4719328">
+<para id="fs-idp14289472">Listed are 32 ages for Academy Award winning best actors <emphasis effect="italics">in order from smallest to largest.</emphasis></para>
+<para id="fs-idm62636912">18; 18; 21; 22; 25; 26; 27; 29; 30; 31; 31; 33; 36; 37; 37; 41; 42; 47; 52; 55; 57; 58; 62; 64; 67; 69; 71; 72; 73; 74; 76; 77</para>
+<list id="fs-idm82651968" list-type="enumerated" number-style="lower-alpha">
+<item>Find the percentile of 37.</item>
+<item>Find the percentile of 72.</item>
+</list>
+</problem>
+</exercise>
+
+<exercise id="fs-idp30887728">
+<problem id="fs-idp30887984">
+<para id="fs-idp30888240">Jesse was ranked 37<sup>th</sup> in his graduating class of 180 students. At what percentile is Jesse’s ranking?</para>
+</problem>
+<solution id="fs-idm44160976">
+<para id="fs-idm44160720">Jesse graduated 37<sup>th</sup> out of a class of 180 students. This puts Jesse at spot 144 counting from the lowest grade.</para><para id="fs-idm80018544"><m:math><m:mn>144</m:mn><m:mo>=</m:mo><m:mo> </m:mo><m:mo>(</m:mo><m:mn>180</m:mn><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>)</m:mo><m:mfenced><m:mfrac><m:mi>p</m:mi><m:mn>100</m:mn></m:mfrac></m:mfenced><m:mspace linebreak="newline"/><m:mi>p</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>144</m:mn><m:mo>(</m:mo><m:mn>100</m:mn><m:mo>)</m:mo></m:mrow><m:mn>181</m:mn></m:mfrac><m:mo> </m:mo><m:mspace linebreak="newline"/><m:mi>p</m:mi><m:mo>=</m:mo><m:mo> </m:mo><m:mn>79</m:mn><m:mo>.</m:mo><m:mn>56</m:mn></m:math><newline/>
+
+ Jesse’s rank of 37 puts him at approximately the 80th percentile.</para></solution>
+</exercise>
+
+<exercise id="eip-id1168182229232">
+<problem id="eip-id1168183555687">
+<list id="eip-id1168185190290" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>For runners in a race, a low time means a faster run. The winners in a race have the shortest running times. Is it more desirable to have a finish time with a high or a low percentile when running a race?</item>
+<item>The 20<sup>th</sup> percentile of run times in a particular race is 5.2 minutes. Write a sentence interpreting the 20<sup>th</sup> percentile in the context of the situation.</item>
+<item>A bicyclist in the 90<sup>th</sup> percentile of a bicycle race completed the race in 1 hour and 12 minutes. Is he among the fastest or slowest cyclists in the race? Write a sentence interpreting the 90<sup>th</sup> percentile in the context of the situation.</item>
+</list></problem>
+</exercise>
+
+<exercise id="eip-id1168182273864">
+<problem id="eip-id1168191796049">
+<list id="eip-id5724192" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>For runners in a race, a higher speed means a faster run. Is it more desirable to have a speed with a high or a low percentile when running a race?</item>
+<item>The 40<sup>th</sup> percentile of speeds in a particular race is 7.5 miles per hour. Write a sentence interpreting the 40<sup>th</sup> percentile in the context of the situation.</item>
+</list></problem>
+<solution id="eip-id1168199883378">
+<list id="eip-id1168196369910" mark-suffix="." list-type="enumerated" number-style="lower-alpha"><item>For runners in a race it is more desirable to have a high percentile for speed. A high percentile means a higher speed which is faster.</item>
+<item>40% of runners ran at speeds of 7.5 miles per hour or less (slower). 60% of runners ran at speeds of 7.5 miles per hour or more (faster).</item>
+</list></solution>
+</exercise>
+
+<exercise id="eip-id1168217995987">
+<problem id="eip-id1168183864592">
+<para id="eip-id1168226425380">On an exam, would it be more desirable to earn a grade with a high or low percentile? Explain.</para>
+</problem>
+</exercise>
+
+<exercise id="eip-id1168183173702">
+<problem id="eip-id1168227404691">
+<para id="eip-id1168230025239">Mina is waiting in line at the Department of Motor Vehicles (DMV). Her wait time of 32 minutes is the 85<sup>th</sup> percentile of wait times. Is that good or bad? Write a sentence interpreting the 85<sup>th</sup> percentile in the context of this situation.</para>
+</problem>
+<solution id="eip-id7704128">
+<para id="eip-id1168214950316">When waiting in line at the DMV, the 85<sup>th</sup> percentile would be a long wait time compared to the other people waiting. 85% of people had shorter wait times than Mina. In this context, Mina would prefer a wait time corresponding to a lower percentile. 85% of people at the DMV waited 32 minutes or less. 15% of people at the DMV waited 32 minutes or longer.</para>
+</solution>
+</exercise>
+
+<exercise id="eip-id1168213546999">
+<problem id="eip-id1168188876815">
+<para id="eip-id7349223">In a survey collecting data about the salaries earned by recent college graduates, Li found that her salary was in the 78<sup>th</sup> percentile. Should Li be pleased or upset by this result? Explain.</para>
+</problem>
+</exercise>
+
+<exercise id="eip-id1168214876383">
+<problem id="eip-id7327842">
+<para id="eip-id1168230657040">In a study collecting data about the repair costs of damage to automobiles in a certain type of crash tests, a certain model of car had $1,700 in damage and was in the 90<sup>th</sup> percentile. Should the manufacturer and the consumer be pleased or upset by this result? Explain and write a sentence that interprets the 90<sup>th</sup> percentile in the context of this problem.</para>
+</problem>
+<solution id="eip-id1168214946038">
+<para id="eip-id1168234799988">The manufacturer and the consumer would be upset. This is a large repair cost for the damages, compared to the other cars in the sample. INTERPRETATION: 90% of the crash tested cars had damage repair costs of $1700 or less; only 10% had damage repair costs of $1700 or more.</para>
+</solution>
+</exercise>
+
+<exercise id="eip-id1168195852900"><problem id="eip-id1168225195383">
+<para id="eip-idm9549040">The University of California has two criteria used to set admission standards for freshman to be admitted to a college in the UC system:</para>
+<list id="eip-id1168211096380" mark-suffix="" list-type="enumerated" number-style="lower-alpha"><item>Students' GPAs and scores on standardized tests (SATs and ACTs) are entered into a formula that calculates an "admissions index" score. The admissions index score is used to set eligibility standards intended to meet the goal of admitting the top 12% of high school students in the state. In this context, what percentile does the top 12% represent?</item>
+<item>Students whose GPAs are at or above the 96<sup>th</sup> percentile of all students at their high school are eligible (called eligible in the local context), even if they are not in the top 12% of all students in the state. What percentage of students from each high school are "eligible in the local context"?</item>
+</list></problem>
+</exercise>
+
+<exercise id="eip-id1168223160542">
+<problem id="eip-id7507305">
+<para id="eip-id1168211272126">Suppose that you are buying a house. You and your realtor have determined that the most expensive house you can afford is the 34<sup>th</sup> percentile. The 34<sup>th</sup> percentile of housing prices is $240,000 in the town you want to move to. In this town, can you afford 34% of the houses or 66% of the houses?</para>
+</problem>
+<solution id="eip-id1168213876148">
+<para id="eip-id1168225765198">You can afford 34% of houses. 66% of the houses are too expensive for your budget. INTERPRETATION: 34% of houses cost $240,000 or less. 66% of houses cost $240,000 or more.</para>
+</solution>
+</exercise>
+
+</section>
+
+<section id="fs-idm1839472" class="free-response">
+<title>Homework</title>
+<exercise id="fs-idp61512400">
+<problem id="fs-idp61512656">
+<para id="fs-idm5042080">The median age for U.S. blacks currently is 30.9 years; for U.S. whites it is 42.3 years.
+<list id="fs-idm33581296" list-type="enumerated" number-style="lower-alpha">
+<item>Based upon this information, give two reasons why the black median age could be lower than the white median age.</item>
+<item>Does the lower median age for blacks necessarily mean that blacks die younger than whites? Why or why not?</item>
+<item>How might it be possible for blacks and whites to die at approximately the same age, but for the median age for whites to be higher?</item>
+</list></para>
+</problem>
+</exercise>
+
+<exercise id="element-927"><problem id="id3483376">
+<para id="element-746">Six hundred adult Americans were asked by telephone poll, "What do you think constitutes a middle-class income?" The results are in <link target-id="element-588"/>. Also, include left endpoint, but not the right endpoint.</para><table id="element-588" summary="This table presents the results from a poll on what Americans thought constituted middle class. The first column lists the salary and the second column lists the relative frequency. There are 8 rows.">
+<tgroup cols="2">
+<colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<thead>
+<row>
+<entry>Salary ($)</entry>
+<entry>Relative Frequency</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>&lt; 20,000</entry>
+<entry>0.02</entry>
+</row>
+<row>
+<entry>20,000–25,000</entry>
+<entry>0.09</entry>
+</row>
+<row>
+<entry>25,000–30,000</entry>
+<entry>0.19</entry>
+</row>
+<row>
+<entry>30,000–40,000</entry>
+<entry>0.26</entry>
+</row>
+<row>
+<entry>40,000–50,000</entry>
+<entry>0.18</entry>
+</row>
+<row>
+<entry>50,000–75,000</entry>
+<entry>0.17</entry>
+</row>
+<row>
+<entry>75,000–99,999</entry>
+<entry>0.02</entry>
+</row>
+<row>
+<entry>100,000+</entry>
+<entry>0.01</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<list id="element-295" list-type="enumerated" number-style="lower-alpha">
+<item>What percentage of the survey answered "not sure"?</item>
+<item>What percentage think that middle-class is from $25,000 to $50,000?</item>
+<item>Construct a histogram of the data.
+<list id="nestlist3" mark-suffix="." list-type="enumerated" number-style="lower-roman"><item>Should all bars have the same width, based on the data? Why or why not?</item>
+<item>How should the &lt;20,000 and the 100,000+ intervals be handled? Why?</item>
+</list></item>
+<item>Find the 40<sup>th</sup> and 80<sup>th</sup> percentiles</item>
+<item>Construct a bar graph of the data</item></list></problem>
+
+<solution id="eip-idp78472880">
+<list id="element-295a" list-type="enumerated" number-style="lower-alpha">
+<item>1 – (0.02+0.09+0.19+0.26+0.18+0.17+0.02+0.01) = 0.06</item>
+<item>0.19+0.26+0.18 = 0.63</item>
+<item>Check student’s solution.</item>
+<item><para id="eip-idp139654864">40<sup>th</sup> percentile will fall between 30,000 and 40,000</para>
+<para id="eip-idp139655632">80<sup>th</sup> percentile will fall between 50,000 and 75,000</para></item>
+<item>Check student’s solution.</item>
+</list>
+</solution></exercise>
+
+</section>
+
+</content>
+
+<glossary>
+<definition id="iqr">
+<term>Interquartile Range</term>
+<meaning id="id15896860"> or <emphasis effect="italics">IQR</emphasis>, is the range of the middle 50 percent of the data values; the
+<emphasis effect="italics">IQR</emphasis> is found by subtracting the first quartile from the third quartile.</meaning>
+</definition>
+<definition id="outlier">
+<term>Outlier</term>
+<meaning id="id1171166689919"> an observation that does not fit the rest of the data</meaning>
+</definition>
+<definition id="percentile">
+<term>Percentile</term>
+<meaning id="id19436015"> a number that divides ordered data into hundredths; percentiles may or may not be part of the data. The median of the data is the second quartile and the 50<sup>th</sup> percentile. The first and third quartiles are the 25<sup>th</sup> and the 75<sup>th</sup> percentiles, respectively.</meaning>
+</definition>
+<definition id="quartiles">
+<term>Quartiles</term>
+<meaning id="id1164416504778"> the numbers that separate the data into quarters; quartiles may or may not be part of the data. The second quartile is the median of the data.</meaning>
+</definition>
+</glossary>
+</document>

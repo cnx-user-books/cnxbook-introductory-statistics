@@ -1,0 +1,874 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Appendix: Principles of Counting - Humber College -Version 2016RevA</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m62099</md:content-id>
+  <md:title>Appendix: Principles of Counting - Humber College -Version 2016RevA</md:title>
+  <md:abstract>This short section describes the basic principles of counting, including the fundamental counting rule, permutations, and combination formula.Illustrative examples and practice exercises are provided.</md:abstract>
+  <md:uuid>3451693f-7cb4-40f5-b35d-60bece30c3f4</md:uuid>
+</metadata>
+
+<content>
+    <section id="cid1"><title>Principles of Counting</title><para id="id130911">In an equally likely outcome experiment, computing probabilities means
+counting the number of all possible outcomes that make up the entire
+sample space as well as counting the number of outcomes in which an
+event may occur. In many experiments when listing all the possible
+outcomes or drawing the probability tree is cumbersome, the following
+counting rules may come handy.</para>
+      <para id="id130918"><emphasis effect="bold">Fundamental Counting Rule or the Multiplication Rule:</emphasis> For a
+sequence of two events <m:math overflow="scroll"><m:mi>A</m:mi></m:math> and <m:math overflow="scroll"><m:mi>B</m:mi></m:math>, in which the 1<sup>st</sup> event <m:math overflow="scroll"><m:mi>A</m:mi></m:math>
+can occur in <m:math overflow="scroll"><m:mi>m</m:mi></m:math> ways and the 2<sup>nd</sup> event <m:math overflow="scroll"><m:mi>B</m:mi></m:math> can occur in <m:math overflow="scroll"><m:mi>n</m:mi></m:math>
+ways, the events together can occur a total of <m:math overflow="scroll"><m:mrow><m:mi>m</m:mi><m:mo>×</m:mo><m:mi>n</m:mi></m:mrow></m:math> ways.</para>
+      <para id="id131335">To use this counting rule, think of each choice as a slot, or
+position, to fill.</para>
+      <para id="id131339"><emphasis effect="bold">Example 1</emphasis> An experiment consists of tossing a fair coin twice
+and recording the side that lands face-up on each toss. How many
+combinations of heads and tails is possible?</para>
+      <para id="id131352"><emphasis effect="bold">Solution</emphasis> The number of combinations is</para>
+      <para id="id131360">2 (number or choices for the 1<sup>st</sup> toss) x 2 (number or choices for the 2<sup>nd</sup> toss)= 4.</para>
+      <!--empty paragraphs get left behind.-->
+      <para id="id131379">
+        <emphasis effect="bold">Notation:</emphasis>
+      </para>
+      <list id="id131386" display="block" list-type="bulleted">
+        <item id="uid2">We write <m:math overflow="scroll"><m:mrow><m:mi>N</m:mi><m:mo>(</m:mo><m:mi>S</m:mi><m:mo>)</m:mo></m:mrow></m:math> for the total number of outcomes (size of a sample space).
+</item>
+        <item id="uid3"><m:math overflow="scroll"><m:mrow><m:mi>N</m:mi><m:mo>(</m:mo><m:mi>A</m:mi><m:mo>)</m:mo></m:mrow></m:math> denotes the number of outcomes in event <m:math overflow="scroll"><m:mi>A</m:mi></m:math>.
+</item>
+      </list>
+      <para id="id131450"><emphasis effect="bold">Example 2</emphasis> An experiment consists of tossing a fair coin once
+and then rolling a fair six-sided die and recording the sides that
+land face up. Find the size of the sample space <m:math overflow="scroll"><m:mrow><m:mi>N</m:mi><m:mo>(</m:mo><m:mi>S</m:mi><m:mo>)</m:mo></m:mrow></m:math>. Illustrate your
+answer by drawing a probability tree diagram.</para>
+      <para id="id131479"><emphasis effect="bold">Solution</emphasis> The size of the sample space is <m:math overflow="scroll"><m:mrow><m:mi>N</m:mi><m:mo>(</m:mo><m:mi>S</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>×</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>12</m:mn></m:mrow></m:math>.</para>
+      <para id="id130854"><emphasis>The fundamental principle of counting may be extended to any number of
+ordered independent events.</emphasis></para><para id="id130858"><emphasis effect="bold">Example 3</emphasis> A bank summer associate outfit consists of a pair of
+pants, a shirt, and a tie. Suppose he can choose from among four pairs
+of pants, six shirts, and three ties. How many different outfits are
+possible?</para>
+      <para id="id130871"><emphasis effect="bold">Solution</emphasis> Using the counting principle, there are <m:math overflow="scroll"><m:mrow><m:mi>N</m:mi><m:mo>(</m:mo><m:mi>S</m:mi><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>×</m:mo><m:mn>6</m:mn><m:mo>×</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>72</m:mn></m:mrow></m:math> outfits.</para>
+      <para id="id131751"><emphasis effect="bold">Example 4</emphasis> (Traveling Salesmen problem)
+A franchise supervisor
+must visit eight different locations around the country. She can visit
+them in any order, but wishes to find the most convenient
+sequence. How many sequences are possible?</para>
+      <para id="id131765"><emphasis effect="bold">Solution</emphasis> We think of each location as a slot that can be filled
+with a number of choices:</para>
+      <table id="id131773" summary="">
+        <tgroup cols="9">
+          <tbody>
+            <row>
+              <entry>Number of choices available</entry>
+              <entry>8</entry>
+              <entry>7</entry>
+              <entry>6</entry>
+              <entry>5</entry>
+              <entry>4</entry>
+              <entry>3</entry>
+              <entry>2</entry>
+              <entry>1</entry>
+            </row>
+            <row>
+              <entry>Location</entry>
+              <entry>1st</entry>
+              <entry>2nd</entry>
+              <entry>3rd</entry>
+              <entry>4th</entry>
+              <entry>5th</entry>
+              <entry>6th</entry>
+              <entry>7th</entry>
+              <entry>8th</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="id131919">Then, by extended multiplication rule, the total number of sequences is</para>
+      <equation id="id131923">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mn>8</m:mn>
+            <m:mo>×</m:mo>
+            <m:mn>7</m:mn>
+            <m:mo>×</m:mo>
+            <m:mn>6</m:mn>
+            <m:mo>×</m:mo>
+            <m:mn>5</m:mn>
+            <m:mo>×</m:mo>
+            <m:mn>4</m:mn>
+            <m:mo>×</m:mo>
+            <m:mn>3</m:mn>
+            <m:mo>×</m:mo>
+            <m:mn>2</m:mn>
+            <m:mo>×</m:mo>
+            <m:mn>1</m:mn>
+            <m:mo>=</m:mo>
+            <m:mn>8</m:mn>
+            <m:mo>!</m:mo>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id131970">The notation (above read "eight factorial") is a shorthand for the product
+of all the integers from 1 to 8.</para>
+      <para id="id131974">
+        <emphasis effect="bold">Factorial Notation:</emphasis>
+      </para>
+      <equation id="id131980">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mi>n</m:mi>
+            <m:mo>!</m:mo>
+            <m:mo>=</m:mo>
+            <m:mn>1</m:mn>
+            <m:mo>×</m:mo>
+            <m:mn>2</m:mn>
+            <m:mo>×</m:mo>
+            <m:mn>3</m:mn>
+            <m:mo>×</m:mo>
+            <m:mn>4</m:mn>
+            <m:mo>×</m:mo>
+            <m:mo>⋯</m:mo>
+            <m:mo>×</m:mo>
+            <m:mo>(</m:mo>
+            <m:mi>n</m:mi>
+            <m:mo>-</m:mo>
+            <m:mn>1</m:mn>
+            <m:mo>)</m:mo>
+            <m:mo>×</m:mo>
+            <m:mi>n</m:mi>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <equation id="id132032">
+        <m:math overflow="scroll" mode="display">
+          <m:mrow>
+            <m:mn>0</m:mn>
+            <m:mo>!</m:mo>
+            <m:mo>=</m:mo>
+            <m:mn>1</m:mn>
+            <m:mspace width="0.277778em"/>
+            <m:mspace width="0.277778em"/>
+            <m:mspace width="0.277778em"/>
+            <m:mn>1</m:mn>
+            <m:mo>!</m:mo>
+            <m:mo>=</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:math>
+      </equation>
+      <para id="id132067">
+        <emphasis effect="bold">Factorial Rule:</emphasis>
+      </para>
+      <para id="id132073">A collection of <m:math overflow="scroll"><m:mi>n</m:mi></m:math> different items can be arranged in <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>!</m:mo></m:mrow></m:math> different ways.</para>
+      <para id="id132097"><emphasis effect="bold">Example 5</emphasis> In how many ways the letters of the word "MATH" can
+be arranged?</para>
+      <para id="id132109"><emphasis effect="bold">Solution</emphasis> The word contains four different items. It can
+thus be arranged in <m:math overflow="scroll"><m:mrow><m:mn>4</m:mn><m:mo>!</m:mo><m:mo>=</m:mo><m:mn>24</m:mn></m:mrow></m:math> ways.</para>
+      <para id="id132133"><emphasis effect="italics">Note:</emphasis>
+Factorial calculations (for relatively small numbers) can
+be done using the factorial key on the calculator.</para>
+      <section id="uid8">
+        <title>Permutations</title>
+        <para id="id132149">The word <emphasis effect="italics">permutation</emphasis> means an arrangement or a sequence and
+implies that the ORDER of items is IMPORTANT.</para>
+        <para id="id132158"><emphasis effect="bold">Example 6</emphasis> Given three letters A B C, how many different
+arrangements are possible?</para>
+        <para id="id132171"><emphasis effect="bold">Solution</emphasis> By the factorial rule there are <m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:mo>!</m:mo><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math> ways to arrange three
+different letters:</para>
+        <equation id="id132194">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mi>A</m:mi>
+              <m:mi>B</m:mi>
+              <m:mi>C</m:mi>
+              <m:mspace width="0.277778em"/>
+              <m:mspace width="0.277778em"/>
+              <m:mi>C</m:mi>
+              <m:mi>A</m:mi>
+              <m:mi>B</m:mi>
+              <m:mspace width="0.277778em"/>
+              <m:mspace width="0.277778em"/>
+              <m:mi>B</m:mi>
+              <m:mi>C</m:mi>
+              <m:mi>A</m:mi>
+              <m:mspace width="0.277778em"/>
+              <m:mspace width="0.277778em"/>
+              <m:mi>A</m:mi>
+              <m:mi>C</m:mi>
+              <m:mi>B</m:mi>
+              <m:mspace width="0.277778em"/>
+              <m:mspace width="0.277778em"/>
+              <m:mi>C</m:mi>
+              <m:mi>B</m:mi>
+              <m:mi>A</m:mi>
+              <m:mspace width="0.277778em"/>
+              <m:mspace width="0.277778em"/>
+              <m:mi>B</m:mi>
+              <m:mi>A</m:mi>
+              <m:mi>C</m:mi>
+              <m:mo>,</m:mo>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id132274">forming six different sequences as long as ORDER matters.</para>
+        <para id="id132280"><emphasis effect="bold">Permutations Rule:</emphasis> (When items are all different)
+The number of permutations (or sequences) of <m:math overflow="scroll"><m:mi>r</m:mi></m:math> items selected from <m:math overflow="scroll"><m:mi>n</m:mi></m:math> available items
+(not allowing repetition) is</para><equation id="id132304">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:msub>
+                <m:mrow/>
+                <m:mi>n</m:mi>
+              </m:msub>
+              <m:msub>
+                <m:mi>P</m:mi>
+                <m:mi>r</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mi>n</m:mi>
+                  <m:mo>!</m:mo>
+                </m:mrow>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>n</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:mi>r</m:mi>
+                  <m:mo>)</m:mo>
+                  <m:mo>!</m:mo>
+                </m:mrow>
+              </m:mfrac>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id132350">It is important to recognize that the permutations rule requires the following conditions:</para>
+        <list id="id132354" display="block" list-type="bulleted">
+          <item id="uid10">There are a total <m:math overflow="scroll"><m:mi>n</m:mi></m:math> different items available. (This rule does not apply if some of the items are identical to others.)
+</item>
+          <item id="uid11">We select <m:math overflow="scroll"><m:mi>r</m:mi></m:math> of the <m:math overflow="scroll"><m:mi>n</m:mi></m:math> items (without repetition).
+</item>
+          <item id="uid12">We consider rearrangements of the same items to be different sequences.
+</item>
+        </list>
+        <para id="id132418"><emphasis effect="bold">Example 7</emphasis> In how many ways could a president and vice-president
+for a college club be chosen from a group of 30 students?</para>
+        <para id="id132430"><emphasis effect="bold">Solution</emphasis> The number of different items available is <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>30</m:mn></m:mrow></m:math>. The number of items to be
+selected is <m:math overflow="scroll"><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>. Note the order is important. So by the permutation rule, we calculate:</para>
+        <equation id="id132466">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:msub>
+                <m:mrow/>
+                <m:mi>n</m:mi>
+              </m:msub>
+              <m:msub>
+                <m:mi>P</m:mi>
+                <m:mi>r</m:mi>
+              </m:msub>
+              <m:msub>
+                <m:mo>=</m:mo>
+                <m:mn>30</m:mn>
+              </m:msub>
+              <m:msub>
+                <m:mi>P</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mn>30</m:mn>
+                  <m:mo>!</m:mo>
+                </m:mrow>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mn>30</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mo>)</m:mo>
+                  <m:mo>!</m:mo>
+                </m:mrow>
+              </m:mfrac>
+              <m:mo>=</m:mo>
+              <m:mn>870</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id132531">Note, this calculation can be done using the respective button on the calculator.</para>
+        <para id="id132535"><emphasis effect="bold">Example 8</emphasis> In a renting house with 13 students-roommates, three
+of the students are selected at random every week to clean up the
+common areas. The first one selected washes all the dishes, the second
+one cleans the bathroom, and the third one vacuums the living
+room. How many different "cleaning crews" are possible?</para>
+        <para id="id132549"><emphasis effect="bold">Solution</emphasis> We compute <m:math overflow="scroll"><m:mrow><m:msub><m:mrow/><m:mn>13</m:mn></m:msub><m:msub><m:mi>P</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>1716</m:mn></m:mrow></m:math>.</para>
+        <para id="id132581"><emphasis effect="bold">Permutations Rule:</emphasis> (When some items are identical to others)</para>
+        <para id="id132589">If there are <m:math overflow="scroll"><m:mi>n</m:mi></m:math> items wit <m:math overflow="scroll"><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:math> alike, <m:math overflow="scroll"><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub></m:math> alike, <m:math overflow="scroll"><m:mo>⋯</m:mo></m:math>, <m:math overflow="scroll"><m:msub><m:mi>n</m:mi><m:mi>k</m:mi></m:msub></m:math>
+alike, such that <m:math overflow="scroll"><m:mi>n</m:mi><m:mo>=</m:mo><m:msub><m:mi>n</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:msub><m:mi>n</m:mi><m:mn>2</m:mn></m:msub><m:mo>+</m:mo><m:mo>⋯</m:mo><m:mo>+</m:mo><m:msub><m:mi>n</m:mi><m:mi>k</m:mi></m:msub></m:math>, then the number of permutations of all <m:math overflow="scroll"><m:mi>n</m:mi></m:math> items is:</para><equation id="id132697">
+          <m:math overflow="scroll" mode="display">
+            <m:mfrac>
+              <m:mrow>
+                <m:mi>n</m:mi>
+                <m:mo>!</m:mo>
+              </m:mrow>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>n</m:mi>
+                  <m:mn>1</m:mn>
+                </m:msub>
+                <m:mo>!</m:mo>
+                <m:msub>
+                  <m:mi>n</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msub>
+                <m:mo>!</m:mo>
+                <m:mo>⋯</m:mo>
+                <m:msub>
+                  <m:mi>n</m:mi>
+                  <m:mi>k</m:mi>
+                </m:msub>
+                <m:mo>!</m:mo>
+              </m:mrow>
+            </m:mfrac>
+          </m:math>
+        </equation>
+        <para id="id132744"><emphasis effect="bold">Example 9</emphasis> In how many ways the letters of the word "STATISTICS" can be rearranged?</para>
+        <para id="id132756"><emphasis effect="bold">Solution</emphasis> There are total of <m:math overflow="scroll"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>10</m:mn></m:mrow></m:math> items=letters, but some of them are
+identical: the letter “S” repeats 3 times, the letter “T” 3 times, letter “I” 2
+times, and the letters “A” and “C” do not repeat (appear only once). Applying the formula yields:</para><equation id="id132781">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mn>10</m:mn>
+                  <m:mo>!</m:mo>
+                </m:mrow>
+                <m:mrow>
+                  <m:mn>3</m:mn>
+                  <m:mo>!</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mo>!</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mo>!</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>!</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>!</m:mo>
+                </m:mrow>
+              </m:mfrac>
+              <m:mo>=</m:mo>
+              <m:mn>50400</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+      </section>
+      <section id="uid16">
+        <title>The Combination Formula</title>
+        <para id="id132835">If the order of the selected items is NOT important, any selection is
+called a <emphasis effect="italics">combination</emphasis>, that is, an unordered arrangement.</para>
+        <para id="id132844">Recall in Example 5, the collection of three letters A, B, C provides
+for six permutations but only one combination.</para>
+        <para id="id132849">The number of combinations of <m:math overflow="scroll"><m:mi>n</m:mi></m:math> items taken <m:math overflow="scroll"><m:mi>r</m:mi></m:math> at a time, is given by</para>
+        <equation id="id132871">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:msub>
+                <m:mrow/>
+                <m:mi>n</m:mi>
+              </m:msub>
+              <m:msub>
+                <m:mi>C</m:mi>
+                <m:mi>r</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mi>n</m:mi>
+                  <m:mo>!</m:mo>
+                </m:mrow>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mi>n</m:mi>
+                  <m:mo>-</m:mo>
+                  <m:mi>r</m:mi>
+                  <m:mo>)</m:mo>
+                  <m:mo>!</m:mo>
+                  <m:mi>r</m:mi>
+                  <m:mo>!</m:mo>
+                </m:mrow>
+              </m:mfrac>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id132922">It is important to recognize that in applying the combinations rule, the following conditions apply:</para>
+        <list id="id132926" display="block" list-type="bulleted">
+          <item id="uid17">There are a total <m:math overflow="scroll"><m:mi>n</m:mi></m:math> different items available.
+</item>
+          <item id="uid18">We select <m:math overflow="scroll"><m:mi>r</m:mi></m:math> of the <m:math overflow="scroll"><m:mi>n</m:mi></m:math> items (without repetition).
+</item>
+          <item id="uid19">We consider rearrangements of the same items to be the same grouping.
+</item>
+        </list>
+        <para id="id132994"><emphasis effect="bold">Example 10</emphasis> The manufacturing process requires selecting 4 items
+from a batch of 50 for inspection. In how many ways it can be done?</para>
+        <para id="id133007"><emphasis effect="bold">Solution</emphasis> In this case we compute:</para>
+        <equation id="id133015">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:msub>
+                <m:mrow/>
+                <m:mi>n</m:mi>
+              </m:msub>
+              <m:msub>
+                <m:mi>C</m:mi>
+                <m:mi>r</m:mi>
+              </m:msub>
+              <m:msub>
+                <m:mo>=</m:mo>
+                <m:mn>50</m:mn>
+              </m:msub>
+              <m:msub>
+                <m:mi>C</m:mi>
+                <m:mn>4</m:mn>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mn>50</m:mn>
+                  <m:mo>!</m:mo>
+                </m:mrow>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mn>50</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mn>4</m:mn>
+                  <m:mo>)</m:mo>
+                  <m:mo>!</m:mo>
+                  <m:mn>4</m:mn>
+                  <m:mo>!</m:mo>
+                </m:mrow>
+              </m:mfrac>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mn>50</m:mn>
+                  <m:mo>×</m:mo>
+                  <m:mn>49</m:mn>
+                  <m:mo>×</m:mo>
+                  <m:mn>48</m:mn>
+                  <m:mo>×</m:mo>
+                  <m:mn>47</m:mn>
+                </m:mrow>
+                <m:mn>24</m:mn>
+              </m:mfrac>
+              <m:mo>=</m:mo>
+              <m:mn>230</m:mn>
+              <m:mo>,</m:mo>
+              <m:mn>300</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+        <para id="id133113">Note that <m:math overflow="scroll"><m:mrow><m:mn>50</m:mn><m:mo>!</m:mo></m:mrow></m:math> is already a huge number in your calculator, but doing
+a simplification first yields a much easier calculation.</para>
+        <para id="id133131"><emphasis effect="bold">Example 10.</emphasis>
+How many sets of 12 questions for an online quiz can
+be chosen from a pool of 23 questions?</para><para id="id133139"><emphasis effect="bold">Solution</emphasis> We compute:</para>
+        <equation id="id133147">
+          <m:math overflow="scroll" mode="display">
+            <m:mrow>
+              <m:msub>
+                <m:mrow/>
+                <m:mi>n</m:mi>
+              </m:msub>
+              <m:msub>
+                <m:mi>C</m:mi>
+                <m:mi>r</m:mi>
+              </m:msub>
+              <m:msub>
+                <m:mo>=</m:mo>
+                <m:mn>23</m:mn>
+              </m:msub>
+              <m:msub>
+                <m:mi>C</m:mi>
+                <m:mn>12</m:mn>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mn>23</m:mn>
+                  <m:mo>!</m:mo>
+                </m:mrow>
+                <m:mrow>
+                  <m:mo>(</m:mo>
+                  <m:mn>23</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mn>12</m:mn>
+                  <m:mo>)</m:mo>
+                  <m:mo>!</m:mo>
+                  <m:mn>12</m:mn>
+                  <m:mo>!</m:mo>
+                </m:mrow>
+              </m:mfrac>
+              <m:mo>=</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo>,</m:mo>
+              <m:mn>352</m:mn>
+              <m:mo>,</m:mo>
+              <m:mn>078</m:mn>
+            </m:mrow>
+          </m:math>
+        </equation>
+      </section>
+      <section id="uid21"><title>Using a Spreadsheet for Calculations</title><para id="id133236">The common spreadsheets (LibreOffice (free), Microsoft Excel,..) offer common functions, inclduing a permutation function with the syntax <m:math overflow="scroll"><m:mrow><m:mi>P</m:mi><m:mi>E</m:mi><m:mi>R</m:mi><m:mi>M</m:mi><m:mi>U</m:mi><m:mi>T</m:mi><m:mo>(</m:mo><m:mi>n</m:mi><m:mo>,</m:mo><m:mi>r</m:mi><m:mo>)</m:mo></m:mrow></m:math> and combination function with the syntax <m:math overflow="scroll"><m:mrow><m:mi>C</m:mi><m:mi>O</m:mi><m:mi>M</m:mi><m:mi>B</m:mi><m:mi>I</m:mi><m:mi>N</m:mi><m:mo>(</m:mo><m:mi>n</m:mi><m:mo>,</m:mo><m:mi>r</m:mi><m:mo>)</m:mo></m:mrow></m:math>. The
+built-in factorial function is used as <m:math overflow="scroll"><m:mrow><m:mi>F</m:mi><m:mi>A</m:mi><m:mi>C</m:mi><m:mi>T</m:mi><m:mo>(</m:mo><m:mi>n</m:mi><m:mo>)</m:mo></m:mrow></m:math>.</para>
+        <para id="id133328"><emphasis effect="bold">Example 11</emphasis> Using a spreadsheet we obtain:</para>
+        <table id="id133340" summary="Using Spreadsheet for Counting">
+<tgroup cols="4"><thead>
+              <row>
+                <entry>Counting Rule</entry>
+                <entry>Excel Formula</entry>
+                <entry>Example</entry>
+                <entry>Excel Input</entry>
+              </row>
+  </thead>
+<tbody>
+              <row>
+                <entry>Factorial</entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mo>=</m:mo>
+                      <m:mi>F</m:mi>
+                      <m:mi>A</m:mi>
+                      <m:mi>C</m:mi>
+                      <m:mi>T</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:mi>n</m:mi>
+                      <m:mi>u</m:mi>
+                      <m:mi>m</m:mi>
+                      <m:mi>b</m:mi>
+                      <m:mi>e</m:mi>
+                      <m:mi>r</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mn>8</m:mn>
+                      <m:mo>!</m:mo>
+                      <m:mo>=</m:mo>
+                      <m:mn>40320</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mo>=</m:mo>
+                      <m:mi>F</m:mi>
+                      <m:mi>A</m:mi>
+                      <m:mi>C</m:mi>
+                      <m:mi>T</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:mn>8</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>Permutation</entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mo>=</m:mo>
+                      <m:mi>P</m:mi>
+                      <m:mi>E</m:mi>
+                      <m:mi>R</m:mi>
+                      <m:mi>M</m:mi>
+                      <m:mi>U</m:mi>
+                      <m:mi>T</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:mi>n</m:mi>
+                      <m:mi>u</m:mi>
+                      <m:mi>m</m:mi>
+                      <m:mi>b</m:mi>
+                      <m:mi>e</m:mi>
+                      <m:mi>r</m:mi>
+                      <m:mo>,</m:mo>
+                      <m:mi>n</m:mi>
+                      <m:mi>u</m:mi>
+                      <m:mi>m</m:mi>
+                      <m:mi>b</m:mi>
+                      <m:mi>e</m:mi>
+                      <m:mi>r</m:mi>
+                      <m:mi>c</m:mi>
+                      <m:mi>h</m:mi>
+                      <m:mi>o</m:mi>
+                      <m:mi>s</m:mi>
+                      <m:mi>e</m:mi>
+                      <m:mi>n</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mrow/>
+                        <m:mn>7</m:mn>
+                      </m:msub>
+                      <m:msub>
+                        <m:mi>P</m:mi>
+                        <m:mn>3</m:mn>
+                      </m:msub>
+                      <m:mo>=</m:mo>
+                      <m:mn>210</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mo>=</m:mo>
+                      <m:mi>P</m:mi>
+                      <m:mi>E</m:mi>
+                      <m:mi>R</m:mi>
+                      <m:mi>M</m:mi>
+                      <m:mi>U</m:mi>
+                      <m:mi>T</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:mn>7</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:mn>3</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry>Combination</entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mo>=</m:mo>
+                      <m:mi>C</m:mi>
+                      <m:mi>O</m:mi>
+                      <m:mi>M</m:mi>
+                      <m:mi>B</m:mi>
+                      <m:mi>I</m:mi>
+                      <m:mi>N</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:mi>n</m:mi>
+                      <m:mi>u</m:mi>
+                      <m:mi>m</m:mi>
+                      <m:mi>b</m:mi>
+                      <m:mi>e</m:mi>
+                      <m:mi>r</m:mi>
+                      <m:mo>,</m:mo>
+                      <m:mi>n</m:mi>
+                      <m:mi>u</m:mi>
+                      <m:mi>m</m:mi>
+                      <m:mi>b</m:mi>
+                      <m:mi>e</m:mi>
+                      <m:mi>r</m:mi>
+                      <m:mi>c</m:mi>
+                      <m:mi>h</m:mi>
+                      <m:mi>o</m:mi>
+                      <m:mi>s</m:mi>
+                      <m:mi>e</m:mi>
+                      <m:mi>n</m:mi>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mrow/>
+                        <m:mn>12</m:mn>
+                      </m:msub>
+                      <m:msub>
+                        <m:mi>C</m:mi>
+                        <m:mn>4</m:mn>
+                      </m:msub>
+                      <m:mo>=</m:mo>
+                      <m:mn>495</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math overflow="scroll">
+                    <m:mrow>
+                      <m:mo>=</m:mo>
+                      <m:mi>C</m:mi>
+                      <m:mi>O</m:mi>
+                      <m:mi>M</m:mi>
+                      <m:mi>B</m:mi>
+                      <m:mi>I</m:mi>
+                      <m:mi>N</m:mi>
+                      <m:mo>(</m:mo>
+                      <m:mn>12</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:mn>4</m:mn>
+                      <m:mo>)</m:mo>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+              </row>
+            </tbody>
+          
+</tgroup>
+</table></section></section><section id="eip-970"><title>Homework</title><exercise id="eip-338"><problem id="eip-750">
+  <para id="eip-680">
+    How many blood types are possible in total if blood can be Rh+ or Rh-
+and belong to one of four blood groups A, B, AB, O?
+  </para>
+</problem>
+
+<solution id="eip-395">
+  <para id="eip-596">8
+  </para></solution>
+</exercise><exercise id="eip-200"><problem id="eip-238">
+  <para id="eip-984">
+    A marketing consultant typically tailors her sales scripts to the
+target audience. For these purposes the potential consumers are
+divided by gender (male, female), by age (into 5 groups) and by the
+level of household income (into 3 groups). How many different scripts
+are necessary to prepare?
+  </para>
+</problem>
+
+<solution id="eip-769">
+  <para id="eip-630">
+    30
+  </para>
+</solution>
+</exercise><exercise id="eip-976"><problem id="eip-438">
+  <para id="eip-415">
+   If a monkey typed four strokes on
+a keyboard and each stroke was a different letter of the alphabet,
+what is the probability that the monkey typed the word "MATH"?
+  </para>
+</problem>
+
+<solution id="eip-885">
+  <para id="eip-79">
+    1/358800
+  </para>
+</solution>
+</exercise><exercise id="eip-362"><problem id="eip-40">
+  <para id="eip-348">There are staff cutbacks in the 
+department. There are five people
+eligible to stay on staff, but only three positions that can be
+maintained. In how many ways can the three positions be filled?
+Assume that the position ranks are different.</para></problem>
+
+<solution id="eip-191">
+  <para id="eip-378"><m:math><m:mmultiscripts><m:mi>P</m:mi><m:mn>3</m:mn><m:none/><m:mprescripts/><m:mn>5</m:mn><m:none/></m:mmultiscripts><m:mo>=</m:mo><m:mn>60</m:mn></m:math>
+  </para></solution>
+</exercise><exercise id="eip-419"><problem id="eip-628">
+  <para id="eip-89">a) Alice has 15 favorite songs to choose from. If she needs 7 songs in a specific order to choose for her half hour workout, how many different playlists are possible?
+<newline/>
+b) Sobia, Alice's friend, likes the same 15 songs and uses iTunes
+shuffle, which randomly selects songs from the list, to make her 7
+song workout playlist. How many different playlists are possible for
+Sobia?
+  </para></problem>
+
+<solution id="eip-686">
+  <para id="eip-383">a) 32,432,400
+<newline/>
+b) 6,435
+  </para></solution>
+</exercise><exercise id="eip-902"><problem id="eip-824">
+  <para id="eip-570">
+    A baby is given the letters O, T, O, T, 
+
+N, R, O. Find the probability
+that he spells the word “TORONTO” on the first try.
+  </para>
+</problem>
+
+<solution id="eip-723">
+  <para id="eip-394">
+   1/420
+  </para>
+</solution>
+</exercise><exercise id="eip-384"><problem id="eip-296">
+  <para id="eip-156">Assume that boys and girls are equally likely to be born for a specific couple.
+<newline/>
+a) Find the probability that a couple with three children will have exactly two boys. 
+<newline/>
+b) Find the probability that a couple with 8 children will have exactly 5 boys and 3 girls.
+  </para></problem>
+
+<solution id="eip-94">
+  <para id="eip-141">a) 3/8
+<newline/>
+b) 56/256
+  </para></solution>
+</exercise><exercise id="eip-228"><problem id="eip-856">
+  <para id="eip-4">
+    A telephone number consists of seven 
+
+digits, the
+first three representing the exchange. How many different telephone
+numbers are possible within the 647 exchange?
+  </para>
+</problem>
+
+<solution id="eip-812">
+  <para id="eip-507"><m:math><m:msup><m:mn>10</m:mn><m:mn>4</m:mn></m:msup><m:mo>=</m:mo><m:mn>10000</m:mn></m:math>
+  </para></solution>
+</exercise><exercise id="eip-276"><problem id="eip-55">
+  <para id="eip-792">
+    There are six vacancies in an office: 
+
+four for technical support and
+two for marketing analysts. Find the number of ways of filling the
+vacancies if after the first round of interviews 15 people were
+selected for technical support positions, and 10 people were 
+
+selected
+for marketing analysts' positions.
+  </para>
+</problem>
+
+<solution id="eip-330">
+  <para id="eip-557"><m:math overflow="scroll"><m:mrow><m:msub><m:mrow/><m:mn>15</m:mn></m:msub><m:msub><m:mi>C</m:mi><m:mn>4</m:mn></m:msub><m:msub><m:mo>×</m:mo><m:mn>10</m:mn></m:msub><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>61</m:mn><m:mo>,</m:mo><m:mn>425</m:mn></m:mrow></m:math>
+  </para></solution>
+</exercise><exercise id="eip-57"><problem id="eip-602">
+  <para id="eip-846">The access code for a home security 
+
+system consists of four digits from
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9. How many access codes are possible if
+<newline/>
+a) each digit can be used only once and not repeated? 
+<newline/>
+b) each digit can be repeated? 
+<newline/>
+c) each digit cannot be repeated and the first digit must be 1, 2, or 3? 
+<newline/>
+d) each digit can be repeated but the first digit cannot be 1,2, or 3? 
+<newline/>
+e) only a group of 4 numbers is required (rearrangements do not matter)? 
+  </para></problem>
+
+<solution id="eip-581">
+  <para id="eip-229">a) <m:math overflow="scroll"><m:mrow><m:mn>10</m:mn><m:mo>×</m:mo><m:mn>9</m:mn><m:mo>×</m:mo><m:mn>8</m:mn><m:mo>×</m:mo><m:mn>7</m:mn><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>040</m:mn></m:mrow></m:math>
+<newline/>
+<newline/>
+b) <m:math overflow="scroll"><m:msup><m:mn>10</m:mn><m:mn>4</m:mn></m:msup><m:mo>=</m:mo><m:mn>10</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:math>
+<newline/>
+<newline/>
+c) <m:math overflow="scroll"><m:mrow><m:mn>3</m:mn><m:mo>×</m:mo><m:mn>9</m:mn><m:mo>×</m:mo><m:mn>8</m:mn><m:mo>×</m:mo><m:mn>7</m:mn><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>512</m:mn></m:mrow></m:math>
+<newline/>
+<newline/>
+d) <m:math overflow="scroll"><m:mn>7</m:mn><m:mo>×</m:mo><m:mn>10</m:mn><m:mo>×</m:mo><m:mn>10</m:mn><m:mo>×</m:mo><m:mn>10</m:mn><m:mo>=</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:math>
+<newline/>
+<newline/>
+e) <m:math overflow="scroll"><m:mrow><m:msub><m:mrow/><m:mn>10</m:mn></m:msub><m:msub><m:mi>C</m:mi><m:mn>4</m:mn></m:msub><m:mo>=</m:mo><m:mn>210</m:mn></m:mrow></m:math>.</para></solution>
+</exercise></section></content>
+</document>

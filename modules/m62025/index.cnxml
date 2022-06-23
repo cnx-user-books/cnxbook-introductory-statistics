@@ -1,0 +1,150 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>How to Use Excel for Regression Analysis -- BSTA 200 -- Humber College -- Version 2016RevA</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m62025</md:content-id>
+  <md:title>How to Use Excel for Regression Analysis -- BSTA 200 -- Humber College -- Version 2016RevA</md:title>
+  <md:abstract/>
+  <md:uuid>079bddd8-e525-4322-9769-857e75ccdd63</md:uuid>
+</metadata>
+
+<content>
+  <para id="delete_me">This section of this chapter is here in recognition that what we are now asking requires much more than a quick calculation of a ratio or a square root.  Indeed, the use of regression analysis was almost non- existent before the middle of the last century and did not really become a widely used tool until perhaps the late 1960’s and early 1970’s. Even then the computational ability of even the largest IBM machines is laughable by today’s standards. In the early days programs were developed by the researchers and shared. There was no market for something called “software” and certainly nothing called “apps”, an entrant into the market only a few years old.</para><para id="eip-210">With the advent of the personal computer and the explosion of a vital software market we have a number of regression and statistical analysis packages to choose from. Each has its merits. We have chosen Microsoft Excel because of the wide-spread availability both on college campuses and in the post-college market place. Stata is an alternative and has features that will be important for more advanced econometrics study if you choose to follow this path. Even more advanced packages exist, but typically require the analyst to do some significant amount of programing to conduct their analysis. The goal of this section is to demonstrate how to use Excel to run a regression and then to do so with an example of a simple version of a demand curve.</para><para id="eip-412">The first step to doing a regression using Excel is to load the program into your computer. If you have Excel you have the Analysis ToolPak although you may not have it activated. The program calls upon a significant amount of space so is not loaded automatically. </para><para id="eip-123">To activate the Analysis ToolPak follow these steps:  </para><para id="eip-891">Click “File” &gt; “Options” &gt; “Add-ins” to bring up a menu of the add-in “ToolPaks”. Select “Analysis ToolPak” and click “GO” next to “Manage: excel add-ins” near the bottom of the window. This will open a new window where you click “Analysis ToolPak” (make sure there is a green check mark in the box) and then click “OK”. Now there should be an Analysis tab under the data menu. These steps are presented in the following screen shots. </para>
+<figure id="fs-id1168942298489"><media id="fs-id1168960455349" alt="..."><image mime-type="image/jpeg" src="../../media/Chapter 13 Text Screen Shots B.jpg" print-width="3.5in" width="500"/></media></figure><para id="eip-978"><figure id="eip-id8178849"><media id="eip-id8191624" alt="..."><image mime-type="image/jpeg" src="../../media/Chapter 13 Text Screen Shots C.jpg" print-width="3.5in" width="500"/></media></figure><figure id="esr"><media id="eip-id1171421073930" alt="..."><image src="../../media/Chapter 13 Text Screen Shots D.jpg" mime-type="image/jpeg" print-width="3in" width="500"/></media></figure></para><para id="eip-69">Click “Data” then “Data Analysis” and then click “Regression” and “OK”. Congratulations, you have made it to the regression window. The window asks for your inputs. Clicking the box next to the Y and X ranges will allow you to use the click and drag feature of Excel to select your input ranges. Excel has one odd quirk and that is the click and drop feature requires that the independent variables, the X variables, are all together, meaning that they form a single matrix. If your data are set up with the Y variable between two columns of X variables Excel will not allow you to use click and drag. As an example, say Column A and Column C are independent variables and Column B is the Y variable, the dependent variable. Excel will not allow you to click and drop the data ranges. The solution is to move the column with the Y variable to column A and then you can click and drag. The same problem arises again if you want to run the regression with only some of the X variables. You will need to set up the matrix so all the X variables you wish to regress are in a tightly formed matrix. These steps are presented in the following scene shots.</para><figure id="eip-id1171421774447"><media id="eip-id1171422440810" alt="..."><image src="../../media/Chapter 13 Text Screen Shots E.jpg" mime-type="image/jpeg" print-width="3in" width="500"/></media></figure><figure id="eip-id1171422144108"><media id="eip-id1171424731137" alt="..."><image src="../../media/Chapter 13 Text Screen Shots F.jpg" mime-type="image/jpeg" print-width="3in" width="500"/></media></figure><para id="eip-639">Once you have selected the data for your regression analysis and told Excel which one is the dependent variable (Y) and which ones are the independent valuables (X‘s), you have several choices as to the parameters and how the output will be displayed. Refer to screen shot <link target-id="eip-id1171422144108"/> under “Input” section.  If you check the “labels” box the program will place the entry in the first column of each variable as its name in the output. You can enter an actual name, such as price or income in a demand analysis, in row one of the Excel spreadsheet for each variable and it will be displayed in the output. </para><para id="eip-162">The level of confidence can also be set by the analyst. This will not change the calculated t statistic, called t stat, but will alter the p value for the calculated t statistic. It will also alter the boundaries of the confidence intervals for the coefficients. A 95 percent confidence interval is always presented, but with a change in this you will also get other levels of confidence for the intervals. </para><para id="eip-667">Excel also will allow you to suppress the intercept. This forces the regression program to minimize the residual sum of squares under the condition that the estimated line must go through the origin. This is done in cases where there is no meaning in the model at some value other than zero, zero for the start of the line. An example is an economic production function that is a relationship between the number of units of an input, say hours of labor, and output. There is no meaning of positive output with zero workers. </para><para id="eip-501">Once the data are entered and the choices are made click OK and the results will be sent to a separate new worksheet by default. The output from Excel is presented in a way typical of other regression package programs. The first block of information gives the overall statistics of the regression: Multiple R, R Squared, and the R squared adjusted for degrees of freedom, which is the one you want to report. You also get the Standard error (of the estimate) and the number of observations in the regression.</para><para id="eip-832">The second block of information is titled ANOVA which stands for Analysis of Variance. Our interest in this section is the column marked F. This is the calculated F statistics for the null hypothesis that all of the coefficients are equal to zero verse the alternative that at least one of the coefficients are not equal to zero. This hypothesis test was presented in 13.4 under “How Good is the Equation?” The next column gives the p value for this test under the title “Significance F”. If the p value is less than say 0.05 (the calculated F statistic is in the tail) we can say with 90 % confidence that we cannot accept the null hypotheses that all the coefficients are equal to zero. This is a good thing: it means that at least one of the coefficients is significantly different from zero thus do have an effect on the value of Y. </para><para id="eip-707">The last block of information contains the hypothesis tests for the individual coefficient. The estimated coefficients, the intercept and the slopes, are first listed and then each standard error (of the estimated coefficient) followed by the t stat (calculated student’s t statistic for the null hypothesis that the coefficient is equal to zero). We compare the t stat and the critical value of the student’s t, dependent on the degrees of freedom, and determine if we have enough evidence to reject the null that the variable has no effect on Y. Remember that we have set up the null hypothesis as the status quo and our claim that we know what caused the Y to change is in the alternative hypothesis. We want to reject the status quo and substitute our version of the world, the alternative hypothesis. The next column contains the p values for this hypothesis test followed by the estimated upper and lower bound of the confidence interval of the estimated slope parameter for various levels of confidence set by us at the beginning.  </para><section id="eip-418"><title>Example - Predicting the final exam score</title><para id="eip-504">A professor teaching a second year statistics class is interested in determining if he can use the score on the third test to predict the score on the final exam.  A random sample of 11 statistics students produced the following data, where the third test score is recorded as a mark out of 80 and the final exam score is recorded as a mark out of 200.
+</para><table id="eip-766" summary="Table showing the scores on the final exam (out of 200) based on scores from the third test (out of 80).">
+<tgroup cols="2"><thead>
+  <row>
+    <entry>Third Test Score</entry>
+    <entry>Final Exam Score</entry>
+  </row>
+</thead>
+<tbody>
+  <row>
+    <entry align="center">65</entry>
+    <entry align="center">175</entry>
+  </row>
+  <row>
+    <entry align="center">67</entry>
+    <entry align="center">133</entry>
+  </row>
+  <row>
+    <entry align="center">71</entry>
+    <entry align="center">185</entry>
+  </row>
+  <row>
+    <entry align="center">71</entry>
+    <entry align="center">163</entry>
+  </row>
+  <row>
+    <entry align="center">66</entry>
+    <entry align="center">126</entry>
+  </row>
+  <row>
+    <entry align="center">75</entry>
+    <entry align="center">198</entry>
+  </row>
+  <row>
+    <entry align="center">67</entry>
+    <entry align="center">153</entry>
+  </row>
+  <row>
+    <entry align="center">70</entry>
+    <entry align="center">163</entry>
+  </row>
+  <row>
+    <entry align="center">71</entry>
+    <entry align="center">159</entry>
+  </row>
+  <row>
+    <entry align="center">69</entry>
+    <entry align="center">151</entry>
+  </row>
+  <row>
+    <entry align="center">69</entry>
+    <entry align="center">159</entry>
+  </row>
+</tbody>
+
+
+
+
+
+
+</tgroup><caption>Table showing the scores on the final exam (out of 200) based on scores from the third test (out of 80).</caption>
+</table><para id="eip-265">We will use Excel to investigate the relationship between the final exam score and the score on the third test.  Begin by copying the data from the table into a blank workbook in Excel.</para><para id="eip-750">Since we would like to know if we can predict the final exam score based on the third test score, the final exam score will be our dependent, <m:math><m:mi>y</m:mi></m:math>, variable, and the third test score will be the independent, <m:math><m:mi>x</m:mi></m:math>, variable.</para><para id="eip-922">To perform the regression analysis in Excel:<newline/><newline/>
+
+1)	Ensure that your data is entered in columns in Excel. Then, navigate to Data, Data Analysis, Regression.  Press OK. <newline/><newline/>
+
+2)	Input your Y Range and X Range (careful of order!).  Press OK. <newline/><newline/>
+If you have included the headings in the data,check off the "labels" box. 
+</para><para id="eip-880"><figure id="eip-id2853037"><media id="eip-id6558633" alt="..."><image src="../../media/regression1.PNG" mime-type="image/jpeg" print-width="4in" width="500"/></media> </figure></para><para id="eip-521">Your output will appear in a separate Excel tab and will look like this:</para><para id="eip-740"><figure id="eip-id1165110694338"><media id="eip-id1169634493156" alt="..."><image src="../../media/regression3.PNG" mime-type="image/jpeg" print-width="6in" width="600"/></media></figure></para><para id="eip-65">This gives us several pieces of important information. <newline/><newline/>
+
+First, let's focus on the "Coefficients" column. <newline/><newline/>
+
+The "Intercept" coefficient gives us the <m:math><m:mi>y</m:mi></m:math>-intecept, which is <m:math><m:mi>a</m:mi></m:math> from the regression equation.<newline/><newline/>
+
+The "Third test score" coefficient tells us the coefficient in front of the <m:math><m:mi>x</m:mi></m:math> variable, which is <m:math><m:mi>b</m:mi></m:math> from the regression equation.</para><para id="eip-126">Using the above output, the regression equation that relations the final exam score to the third test score is</para><equation id="eip-444"><m:math><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>173</m:mn><m:mo>.</m:mo><m:mn>513</m:mn><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>.</m:mo><m:mn>827</m:mn><m:mi>x</m:mi></m:math></equation><para id="eip-295">Now, look at "Multiple R" from the output.  This output gives us the coefficient of correlation, <m:math><m:mi>r</m:mi></m:math>.  Excel will always give a positive value for "Multiple R".  To decide if <m:math><m:mi>r</m:mi></m:math> is positive or negative, we look at the slope of the line.  In this case, our slope (<m:math><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mo>.</m:mo><m:mn>827</m:mn></m:math>) is positive, which means that <m:math><m:mi>r</m:mi></m:math> is also positive.  If the <m:math><m:mi>b</m:mi></m:math> were a negative number, <m:math><m:mi>r</m:mi></m:math> would be negative. <newline/> <newline/>
+
+In our example,</para><equation id="eip-249"><m:math><m:mi>r</m:mi><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>663</m:mn></m:math></equation><para id="eip-429">This indicates that there is a moderate, positive relationship between the score on the final exam and the score on the third test.</para><para id="eip-272">We also see R Square in the output.  In this example,</para><equation id="eip-688"><m:math><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup><m:mo> </m:mo><m:mo>=</m:mo><m:mo> </m:mo><m:mn>0</m:mn><m:mo>.</m:mo><m:mn>440</m:mn></m:math></equation><para id="eip-846">telling us that 44.0% of the variation in final exam score is due to the variation in the third test score.</para></section><section id="eip-398"><title>Estimating the Demand for Bricks - A Multiple Regression Example</title><para id="eip-358">Here is an example of using the Excel program to run a regression for a particular specific case: estimating the demand for bricks. These data can be found in the provided Excel file.  Begin by downloading these data into an Excel spreadsheet. Because of the quirky way Excel allows the data to be entered into the regression package it is best to have the independent variables, price of bricks and income next to each other as it is here.  
+</para><para id="eip-701">Once your data are entered into the spreadsheet it is always good to look at the data. Examine the range, the means and the standard deviations. Use your understanding of descriptive statistics from the very first part of this course. In large data sets you will not be able to “scan” the data. The Analysis ToolPac makes it easy to get the range, mean and standard deviations. You can also quickly get correlations among the variables. Examine for outliers. In this example if you had a year where the price of bricks was $9.00 or $2.00 we should be suspicious. These values are several standard deviations from the mean and thus have a very low probability of coming from this distribution. Review the history. Did something happen? Was here a labor strike, change in import fees, something that makes these unusual conditions? Do not take the data without question. There may have been a typo somewhere, who knows without review.</para><para id="eip-592">The data gathered was determined by the model that is being tested. This should always be the case. One is not doing inferential statistics by throwing a mountain of data into a computer and asking the machine for a theory. Theory first, tests follow. In this case the theory of consumer demand posits that the quantity of a good demanded is inversely related to its price and is positively related to income. These data are national average prices and income is the nation’s per capita income. Consumption is national demand for bricks. These are time series data; we are tracking the brick market for the United States from 1982-2010. </para><para id="eip-703">We are trying to create a demand curve, which we know from economic theory shows how variables effect how much of a good gets consumed. We expect to see a negative relationship between price and quantity, i.e. as price increases then quantity demanded decreases. Similarly, we expect to see a positive relationship between income and quantity demanded. We expect these results because that is what is predicted by a hundred years of economic theory and research. Essentially we are testing this century-old hypothesis. Quantity demanded will be our Y variable, and Income and Price will be our two X variables. </para><para id="eip-62">Go to the regression window, enter the data and select 95% confidence level and click “OK”. You can include the labels in the input range but be sure to click the “labels” box on the main regression page if you do.</para><para id="eip-163">The output should show up automatically on a new worksheet.</para>
+
+<figure id="asasdasdasd"><media id="asdf" alt="..."><image mime-type="image/jpeg" src="../../media/Chapter 13 Text Screen Shots G-2.jpg" print-width="3in" width="500"/></media></figure><para id="eip-18">Titled as “Summary of Output”, the R-Square is the strength of the correlation between Y and X<sub>1</sub> and X<sub>2</sub> taken as a group. Our R-square, adjusted for degrees of freedom, of 0.699 means that 70% of the variation in Y, demand for bricks, can be explained by variations in X<sub>1</sub> and X<sub>2</sub>, Price and Income. Considering that bricks are an input in construction, omitted variables that are related to construction might explain the other 30% of the variation. This is a possible research topic. </para><para id="eip-74">Looking at the third panel of output we can write the equation as:</para><equation id="eip-259"><m:math>
+<m:mi>Y</m:mi>
+<m:mo>=</m:mo>
+<m:msub><m:mi>b</m:mi><m:mn>0</m:mn></m:msub>
+<m:mo>+</m:mo>
+<m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub><m:msub><m:mi>X</m:mi><m:mn>1</m:mn></m:msub>
+<m:mo>+</m:mo>
+<m:msub><m:mi>b</m:mi><m:mn>2</m:mn></m:msub><m:msub><m:mi>X</m:mi><m:mn>2</m:mn></m:msub>
+<m:mo>+</m:mo>
+<m:mi>e</m:mi>
+</m:math> </equation><para id="eip-717">where b<sub>0</sub> is the intercept, b<sub>1</sub> is the estimated coefficient on price, and b<sub>2</sub> is the estimated coefficient on income and e is the error term. The equation is written in Roman letters indicating that these are the estimated values and not the population parameters, β’s.</para><para id="eip-106">Our estimated equation is: </para><equation id="eip-20"><m:math>
+<m:mtext>Tons of Bricks</m:mtext>
+<m:mo>=</m:mo>
+<m:mn>91.73</m:mn>
+<m:mo>−</m:mo>
+<m:mn>3.22</m:mn><m:mtext>(Price)</m:mtext>
+<m:mo>+</m:mo>
+<m:mn>0.0000167</m:mn><m:mtext>(Income)</m:mtext>
+</m:math></equation><para id="eip-715">In other words, increasing the price by one dollar will lead to a 3.22-ton reduction in bricks purchased. Similarly, increasing per capita national income by one thousand  dollars will lead to a 0.0167 ton increase in bricks consumed. This should make intuitive sense from economic theory, as price increases lead to less quantity demanded as people substitute away from bricks as a building material. As income increases the quantity demanded increases as people build more houses and office buildings and need more bricks. It is important to have a theory first that predicts the significance or at least the direction of the coefficients. Without a theory to test, this research tool is not much more helpful than the correlation coefficient we learned about earlier. </para><para id="eip-601">We cannot stop there. We need to first check whether our coefficients are statistically significant from zero. We set up a hypothesis of:</para><equation id="eip-241"><m:math>
+<m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub>
+<m:mo>:</m:mo>
+<m:msub><m:mi>β</m:mi><m:mn>1</m:mn></m:msub>
+<m:mo>=</m:mo>
+<m:mn>0</m:mn>
+</m:math> </equation><equation id="eip-764"><m:math>
+<m:msub><m:mi>H</m:mi><m:mn>a</m:mn></m:msub>
+<m:mo>:</m:mo>
+<m:msub><m:mi>β</m:mi><m:mn>1</m:mn></m:msub>
+<m:mo>≠</m:mo>
+<m:mn>0</m:mn>
+</m:math> </equation><para id="eip-209">for both coefficients. Recall from earlier that we will not be able to definitively say that our estimated b<sub>1</sub> is the actual real population β<sub>1</sub> , but rather that with 1-α % confidence we cannot reject the null hypothesis that our calculated b<sub>1</sub> is the true β<sub>1</sub> significantly different from zero. The analyst is making a claim that the price causes an impact on quantity demanded. The claim is therefore in the alternative hypothesis. It will take a very small probability, 0.05 in this case, of being wrong, to overthrow the null hypothesis, the status quo, that β= 0. In all regression hypothesis tests the claim is in the alternative and the claim is that the theory has found a variable that has a significant impact on the Y variable. </para><para id="eip-712">The test statistic follows the standardizing formula:</para><equation id="eip-735"><m:math>
+<m:msub><m:mi>t</m:mi><m:mi>c</m:mi></m:msub>
+<m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub>
+<m:mo>−</m:mo>
+<m:msub><m:mi>β</m:mi><m:mn>0</m:mn></m:msub>
+</m:mrow>
+<m:msub><m:mi>S</m:mi><m:mrow><m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:msub>
+</m:mfrac>
+</m:math>
+</equation><para id="eip-372">The computer calculates this test statistic and presents it as “t stat”. You can find this value to the right of the standard error of the coefficient estimate. To reach a conclusion we compare this test statistic with the critical value of the student’s t at degrees of freedom n-2-1 = 16, and alpha=0.025 (95% confidence for a two-tailed test). Our t stat for b1 is -3.54 which is greater than 2.12 (the value you looked up in the t table), so we cannot accept our null hypothesis of no effect. We conclude that Price has a significant effect on Y because the calculated t value is in the tail. You can conduct the same test for b2.  This time the calculated t statistic of the coefficient for the per capita income is not in the tail; t stat of 0.145. A t stat of 0.145 says that the estimated coefficient is only a very small number of standard deviations away from zero. We cannot reject the null hypothesis of no relationship; with these data we do not find that per capita income has a significant effect on the demand for bricks. </para><para id="eip-353">These tests tell us whether or not an individual coefficient is significantly different from zero, but does not address the overall quality of the model. We have seen that the R squared adjusted for degrees of freedom indicates this model with these two variable explains 70% of the variation in quantity of bricks demanded. We can also conduct a second test of the model taken as a whole. This is the F test presented in section 13.4 of this chapter. Because this is a multiple regression (more than one X), we use the F-test to determine if our coefficients collectively affect Y. The hypothesis is:</para><equation id="eip-534"><m:math>
+<m:msub><m:mi>H</m:mi><m:mn>0</m:mn></m:msub>
+<m:mo>:</m:mo>
+<m:msub><m:mi>β</m:mi><m:mn>1</m:mn></m:msub>
+<m:mo>=</m:mo>
+<m:msub><m:mi>β</m:mi><m:mn>2</m:mn></m:msub>
+<m:mo>=</m:mo>
+<m:mn>0</m:mn>
+</m:math></equation><equation id="eip-97"><m:math>
+<m:msub><m:mi>H</m:mi><m:mn>a</m:mn></m:msub>
+<m:mo>:</m:mo>
+<m:mtext>"at least one of the</m:mtext><m:mspace width="0.1em"/>
+<m:msub><m:mi>β</m:mi><m:mn>i</m:mn></m:msub><m:mspace width="0.1em"/>
+<m:mtext> is not equal to 0"</m:mtext>
+</m:math>
+ </equation><para id="eip-80">Under the ANOVA section of the output we find the calculated F statistic for this hypothesis. For this example the F statistic is 21.9. Again, comparing the calculated F statistic with the critical value given our desired level of confidence and the degrees of freedom will allow us to reach a conclusion.  The critical value can be found in an F Table knowing that we have (n-3)=16 degrees of freedom and setting α/2 = 0.025 (95% confidence). The critical value is determined to be 2.12 and therefore we cannot accept the null hypotheses because the calculated F is in the tail. By not being able to accept the null hypotheses we conclude that this specification of this model has validity because at least one of the estimated coefficients is significantly different from zero.  Since F-calculated is greater than F-critical, we can reject H<sub>0</sub>, meaning that X<sub>1</sub> and X<sub>2</sub> <emphasis effect="italics">together</emphasis> has a significant effect on Y. </para><para id="eip-148">An alternative way to reach this conclusion is to use the p-value comparison rule. The p-value is the area in the tail, given the calculated F statistic. In essence, the computer is finding the F value in the table for us. Under “significance F” is this probability. For this example it is calculated to be 2.6 x 10<sup>-5</sup>, or 2.6 then moving the decimal five places to the left. (.000026) This is an almost infinitesimal level of probability and is certainly less than our alpha level at 95% confidence. Again we concluded that we cannot accept the null hypothesis.</para><para id="eip-392">The development of computing machinery and the software useful for academic and business research has made it possible to answer questions that just a few years ago we could not even formulate. Data is available in electronic format and can be moved into place for analysis in ways and at speeds that were unimaginable a decade ago. The sheer magnitude of data sets that can today be used for research and analysis gives us a higher quality of results than in days past. Even with only an Excel spreadsheet we can conduct very high level research. This section gives you the tools to conduct some of this very interesting research with the only limit being your imagination.</para></section></content>
+
+</document>
