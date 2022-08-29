@@ -1,12 +1,13 @@
-<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">
+<?xml version="1.0"?>
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en" authors="OpenStax Business Statistics">
   <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
     <md:content-id>col11991</md:content-id>
     <md:title>Introductory Statistics --  Lethbridge College STS2250 -- Version 2016 Revision A</md:title>
     <md:language>en</md:language>
     <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</md:license>
     <md:uuid>a49ba8e2-1f94-4a2b-9469-521c15d6e9b7</md:uuid>
-<md:slug>introductory-statistics-lethbridge-college-sts2250-version-2016-revision-a</md:slug>
-</metadata>
+    <md:slug>introductory-statistics-lethbridge-college-sts2250-version-2016-revision-a</md:slug>
+  </metadata>
   <col:content>
     <col:module document="m53808"/>
     <col:subcollection>
